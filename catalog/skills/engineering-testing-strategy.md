@@ -36,9 +36,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [engineering:system-design](engineering-system-design.md) - Design systems, services, and architectures. Trigger with "design a system for", "how should we architect", "s
+- [anthropics/knowledge-work-plugins:user-research](anthropics-knowledge-work-plugins-user-research.md) - Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability 
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
-- [operations:compliance-tracking](operations-compliance-tracking.md) - Track compliance requirements and audit readiness. Trigger with "compliance", "audit prep", "SOC 2", "ISO 2700
-- [anthropic-skills:skill-creator](anthropic-skills-skill-creator.md) - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to c
+- [openai/skills:figma-create-new-file](openai-skills-figma-create-new-file.md) - Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when yo
 
 ## Invoke / install
 

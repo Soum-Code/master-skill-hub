@@ -42,6 +42,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [anthropics/skills:academy-guide](anthropics-skills-academy-guide.md) - Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product
 - [skill-hub:ml-interview-prep](skill-hub-ml-interview-prep.md) - Interview preparation for ML engineer, AI engineer, MLOps, data scientist and applied-LLM roles. Use for "prep
 
 ## Invoke / install

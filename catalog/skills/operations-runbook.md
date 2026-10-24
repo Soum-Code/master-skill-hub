@@ -38,6 +38,7 @@ The skill's own section headings, in order:
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
 - [anthropic-skills:schedule](anthropic-skills-schedule.md) - Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "ea
 - [operations:change-request](operations-change-request.md) - Create a change management request with impact analysis and rollback plan. Use when proposing a system or proc
+- [anthropics/claude-code:Writing Hookify Rules](anthropics-claude-code-writing-hookify-rules.md) - This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hooki
 
 ## Invoke / install
 

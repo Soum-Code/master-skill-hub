@@ -44,6 +44,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [bm:thread](bm-thread.md) - Manage persistent context threads for cross-session work
+- [openai/skills:playwright-interactive](openai-skills-playwright-interactive.md) - Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.
 
 ## Invoke / install
 

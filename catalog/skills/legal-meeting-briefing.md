@@ -52,6 +52,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [legal:brief](legal-brief.md) - Generate contextual briefings for legal work — daily summary, topic research, or incident response. Use when s
+- [openai/skills:notion-meeting-intelligence](openai-skills-notion-meeting-intelligence.md) - Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas
 - [operations:compliance-tracking](operations-compliance-tracking.md) - Track compliance requirements and audit readiness. Trigger with "compliance", "audit prep", "SOC 2", "ISO 2700
 
 ## Invoke / install

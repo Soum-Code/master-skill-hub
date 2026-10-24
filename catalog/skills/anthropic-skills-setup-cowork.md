@@ -42,7 +42,7 @@ The skill's own section headings, in order:
 - [anthropic-skills:setup-claude](anthropic-skills-setup-claude.md) - Guided setup — install role-matched plugins, connect your tools, try a skill.
 - [cowork-plugin-management:cowork-plugin-customizer](cowork-plugin-management-cowork-plugin-customizer.md) - Customize a Claude Code plugin for a specific organization's tools and workflows. Use when: customize plugin, 
 - [bm:version](bm-version.md) - Print the installed GSD plugin version and check online for updates
-- [cowork-plugin-management:create-cowork-plugin](cowork-plugin-management-create-cowork-plugin.md) - Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a pl
+- [anthropics/knowledge-work-plugins:start](anthropics-knowledge-work-plugins-start.md) - Set up your bio-research environment and explore available tools. Use when first getting oriented with the plu
 
 ## Invoke / install
 

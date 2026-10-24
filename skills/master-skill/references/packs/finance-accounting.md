@@ -7,3 +7,4 @@
 - `finance:journal-entry-prep` - Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset depreciation, payroll entr
 - `finance:reconciliation` - Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data. Use when performing bank reconciliations, GL-to-subledger recs, intercompany reconciliations,
 - `finance:sox-testing` - Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample for a control (revenue, P2P, ITGC, close)
+- `microsoft/skills:cost-governance` - Govern Azure costs with budgets, alerts, tags, and policy restrictions. WHEN: "Azure budget health", "configured budget overrun", "list Azure budgets", "create Azure budget", "budget alerts"

@@ -38,9 +38,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [schedule](schedule.md) - Create, update, list or run scheduled cloud agents (routines) on a cron schedule. Use for recurring cloud agen
+- [openai/skills:linear](openai-skills-linear.md) - Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets
 - [anthropic-skills:morning](anthropic-skills-morning.md) - Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only 
 - [anthropic-skills:explain-usage](anthropic-skills-explain-usage.md) - Explain where this session's tokens went, with one simple chart in plain language. Use when the user says thin
-- [operations:runbook](operations-runbook.md) - Create or update an operational runbook for a recurring task or procedure. Use when documenting a task that on
 
 ## Invoke / install
 

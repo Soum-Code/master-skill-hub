@@ -5,29 +5,29 @@ One skill that picks the right skill. It knows 200+ skills grouped by industry a
 Works in **Claude Code** (global, all projects) and **claude.ai** (upload a zip).
 
 <!-- STATS:START -->
-**211 skills** in 19 packs - 0 candidates awaiting approval - 0 quarantined. Registry updated 2026-10-24.
+**389 skills** in 19 packs - 400 candidates awaiting approval - 29 quarantined. Registry updated 2026-10-24.
 
 | Pack | Skills |
 |---|---|
-| [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 55 |
-| [Software Development](catalog/packs/software-dev.md) | 24 |
-| [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 19 |
-| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 19 |
-| [Productivity & Automation](catalog/packs/productivity-automation.md) | 13 |
+| [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 59 |
+| [Software Development](catalog/packs/software-dev.md) | 38 |
+| [AI / ML Engineering](catalog/packs/ai-ml.md) | 37 |
+| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 36 |
+| [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 35 |
+| [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 34 |
+| [Documents, Writing & Content](catalog/packs/docs-content.md) | 20 |
+| [Data & Analytics](catalog/packs/data-analytics.md) | 17 |
+| [Browser & Web Automation](catalog/packs/browser-automation.md) | 16 |
+| [Productivity & Automation](catalog/packs/productivity-automation.md) | 15 |
+| [Communication & Collaboration](catalog/packs/communication-collab.md) | 14 |
+| [Product Management](catalog/packs/product-mgmt.md) | 12 |
 | [Legal & Compliance](catalog/packs/legal-compliance.md) | 10 |
-| [Communication & Collaboration](catalog/packs/communication-collab.md) | 9 |
-| [Documents, Writing & Content](catalog/packs/docs-content.md) | 8 |
-| [Finance & Accounting](catalog/packs/finance-accounting.md) | 7 |
-| [Browser & Web Automation](catalog/packs/browser-automation.md) | 6 |
-| [Operations & Business](catalog/packs/operations-business.md) | 6 |
-| [Creative & Media](catalog/packs/creative-media.md) | 5 |
-| [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 5 |
-| [Product Management](catalog/packs/product-mgmt.md) | 5 |
-| [Research & Learning](catalog/packs/research-learning.md) | 5 |
-| [AI / ML Engineering](catalog/packs/ai-ml.md) | 4 |
-| [Careers, Jobs & Hiring](catalog/packs/careers-jobs.md) | 4 |
-| [Data & Analytics](catalog/packs/data-analytics.md) | 4 |
-| [Security & Privacy](catalog/packs/security.md) | 3 |
+| [Operations & Business](catalog/packs/operations-business.md) | 9 |
+| [Research & Learning](catalog/packs/research-learning.md) | 9 |
+| [Creative & Media](catalog/packs/creative-media.md) | 8 |
+| [Finance & Accounting](catalog/packs/finance-accounting.md) | 8 |
+| [Careers, Jobs & Hiring](catalog/packs/careers-jobs.md) | 6 |
+| [Security & Privacy](catalog/packs/security.md) | 6 |
 <!-- STATS:END -->
 
 ## Install

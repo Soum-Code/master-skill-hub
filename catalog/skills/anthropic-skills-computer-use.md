@@ -47,7 +47,7 @@ The skill's own section headings, in order:
 - [anthropic-skills:built-in-browser](anthropic-skills-built-in-browser.md) - Read this skill before the first step that uses the built-in browser, the browser pane inside the Claude deskt
 - [anthropic-skills:chrome-browser](anthropic-skills-chrome-browser.md) - Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named 
 - [anthropic-skills:docs](anthropic-skills-docs.md) - docs (editable docs people share and comment on; the default for any document, named as a doc or not: a docume
-- [agent-browser](agent-browser.md) - Fast browser automation CLI for AI agents (vercel-labs/agent-browser). Use when the user asks to interact with
+- [vercel-labs/agent-browser:agent-browser](vercel-labs-agent-browser-agent-browser.md) - Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating 
 
 ## Invoke / install
 

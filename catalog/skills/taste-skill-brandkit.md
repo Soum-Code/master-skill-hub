@@ -58,6 +58,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [taste-skill:imagegen-frontend-mobile](taste-skill-imagegen-frontend-mobile.md) - Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed f
+- [openai/skills:imagegen](openai-skills-imagegen.md) - Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrat
 
 ## Invoke / install
 

@@ -31,9 +31,9 @@
 ## Related skills
 
 - [bm:ai-integration-phase](bm-ai-integration-phase.md) - Generate AI design contract (AI-SPEC.md) for phases that involve building AI systems — framework selection, im
+- [openai/skills:figma-implement-design](openai-skills-figma-implement-design.md) - Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementin
 - [bm:plan-phase](bm-plan-phase.md) - Create detailed phase plan (PLAN.md) with verification loop
 - [bm:ui-review](bm-ui-review.md) - Retroactive 6-pillar visual audit of implemented frontend code
-- [bm:analyze-dependencies](bm-analyze-dependencies.md) - Analyze phase dependencies and suggest Depends on entries for ROADMAP.md
 
 ## Invoke / install
 

@@ -33,6 +33,7 @@
 - [init](init.md) - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
 - [bm:new-milestone](bm-new-milestone.md) - Start a new milestone cycle — update PROJECT.md and route to requirements
 - [bm:progress](bm-progress.md) - Check project progress, show context, and route to next action (execute or plan). Use --forensic to append a 6
+- [openai/skills:notion-meeting-intelligence](openai-skills-notion-meeting-intelligence.md) - Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas
 
 ## Invoke / install
 

@@ -40,6 +40,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [openai/skills:security-best-practices](openai-skills-security-best-practices.md) - Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only 
+
 ## Invoke / install
 
 - Invoke: `/modern-web-guidance:modern-web-guidance`  (Skill tool: `modern-web-guidance:modern-web-guidance`)

@@ -1,5 +1,10 @@
 # Web, Frontend & UI Design
 
+- `anthropics/claude-plugins-official:example-command` - An example user-invoked skill that demonstrates frontmatter options and the skills//SKILL.md layout
+- `anthropics/claude-plugins-official:playground` - Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when 
+- `anthropics/knowledge-work-plugins:accessibility-review` - Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with "audit accessibility", "check a11y", "is this accessible?", or when reviewing a design for color contrast, keyboard na
+- `anthropics/knowledge-work-plugins:design-critique` - Get structured design feedback on usability, hierarchy, and consistency. Trigger with "review this design", "critique this mockup", "what do you think of this screen?", or when sharing a Fig
+- `anthropics/knowledge-work-plugins:design-handoff` - Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sheet covering layout, design tokens, component props, interaction states, respons
 - `bm:sketch` - Sketch UI/design ideas with throwaway HTML mockups, or propose what to sketch next (frontier mode)
 - `bm:ui-phase` - Generate UI design contract (UI-SPEC.md) for frontend phases
 - `bm:ui-review` - Retroactive 6-pillar visual audit of implemented frontend code
@@ -10,6 +15,14 @@
 - `example-skills:web-artifacts-builder` - Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring s
 - `frontend-design:frontend-design` - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templ
 - `impeccable:impeccable` - Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface.
+- `openai/skills:figma` - Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, n
+- `openai/skills:figma-code-connect-components` - Connects Figma design components to code components using Code Connect mapping tools. Use when user says "code connect", "connect this component to code", "map this component", "link compone
+- `openai/skills:figma-create-new-file` - Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami i
+- `openai/skills:figma-generate-design` - Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 
+- `openai/skills:figma-generate-library` - Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes),
+- `openai/skills:figma-implement-design` - Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions "implement design", "generate cod
+- `openai/skills:hatch-pet` - Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual referen
+- `openai/skills:notion-knowledge-capture` - Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.
 - `taste-skill:brutalist-skill` - Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-
 - `taste-skill:gpt-tasteskill` - Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless
 - `taste-skill:imagegen-frontend-web` - Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A la
@@ -19,3 +32,7 @@
 - `taste-skill:stitch-skill` - Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric lay
 - `taste-skill:taste-skill` - Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real des
 - `taste-skill:taste-skill-v1` - The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use thi
+- `vercel-labs/agent-skills:vercel-composition-patterns` - React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks i
+- `vercel-labs/agent-skills:vercel-react-best-practices` - React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performa
+- `vercel-labs/agent-skills:vercel-react-native-skills` - React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with nat
+- `vercel-labs/agent-skills:vercel-react-view-transitions` - Guide for implementing smooth, native-feeling animations using React's View Transition API (`` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenev

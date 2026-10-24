@@ -41,7 +41,7 @@ The skill's own section headings, in order:
 - [engineering:testing-strategy](engineering-testing-strategy.md) - Design test strategies and test plans. Trigger with "how should we test", "test strategy for", "write tests fo
 - [engineering:system-design](engineering-system-design.md) - Design systems, services, and architectures. Trigger with "design a system for", "how should we architect", "s
 - [example-skills:doc-coauthoring](example-skills-doc-coauthoring.md) - Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documen
-- [operations:runbook](operations-runbook.md) - Create or update an operational runbook for a recurring task or procedure. Use when documenting a task that on
+- [anthropics/claude-code:Writing Hookify Rules](anthropics-claude-code-writing-hookify-rules.md) - This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hooki
 
 ## Invoke / install
 

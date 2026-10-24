@@ -2,7 +2,7 @@
 
 Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods.
 
-19 skill(s). Back to the [catalog](../README.md).
+34 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -10,6 +10,18 @@ Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, 
 | [`anthropic-skills:setup-claude`](../skills/anthropic-skills-setup-claude.md) | Guided setup — install role-matched plugins, connect your tools, try a skill. | installed |
 | [`anthropic-skills:setup-cowork`](../skills/anthropic-skills-setup-cowork.md) | Guided setup — install role-matched plugins, connect your tools, try a skill. | installed |
 | [`anthropic-skills:skill-creator`](../skills/anthropic-skills-skill-creator.md) | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing sk | installed |
+| [`anthropics/claude-code:Command Development`](../skills/anthropics-claude-code-command-development.md) | This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command", "define command arguments", "use command frontmatter" | verified |
+| [`anthropics/claude-code:MCP Integration`](../skills/anthropics-claude-code-mcp-integration.md) | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context Protocol", "connect e | verified |
+| [`anthropics/claude-code:Plugin Settings`](../skills/anthropics-claude-code-plugin-settings.md) | This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurable plugin", ".local.md files", "plugin state files", " | verified |
+| [`anthropics/claude-code:Skill Development`](../skills/anthropics-claude-code-skill-development.md) | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organize skill content", or | verified |
+| [`anthropics/claude-plugins-official:build-mcpb`](../skills/anthropics-claude-plugins-official-build-mcpb.md) | This skill should be used when the user wants to "package an MCP server", "bundle an MCP", "make an MCPB", "ship a local MCP server", "distribute a local MCP", discusses  | verified |
+| [`anthropics/claude-plugins-official:cardputer-buddy`](../skills/anthropics-claude-plugins-official-cardputer-buddy.md) | Iterate on the Cardputer-Adv MicroPython app bundle (Claude Buddy, Snake, Hello) after the device is already provisioned via m5-onboard. Use when the user wants to add a  | verified |
+| [`anthropics/claude-plugins-official:claude-md-improver`](../skills/anthropics-claude-plugins-official-claude-md-improver.md) | Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix CLAUDE.md files. Scans for all CLAUDE.md files, evaluates q | verified |
+| [`anthropics/claude-plugins-official:command-development`](../skills/anthropics-claude-plugins-official-command-development.md) | This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command", "define command arguments", "use command frontmatter" | verified |
+| [`anthropics/claude-plugins-official:example-skill`](../skills/anthropics-claude-plugins-official-example-skill.md) | This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill template", or discusses skill development patterns. Provides a  | verified |
+| [`anthropics/claude-plugins-official:mcp-integration`](../skills/anthropics-claude-plugins-official-mcp-integration.md) | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context Protocol", "connect e | verified |
+| [`anthropics/claude-plugins-official:plugin-settings`](../skills/anthropics-claude-plugins-official-plugin-settings.md) | This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurable plugin", ".local.md files", "plugin state files", " | verified |
+| [`anthropics/claude-plugins-official:skill-development`](../skills/anthropics-claude-plugins-official-skill-development.md) | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organize skill content", or | verified |
 | [`bm:profile-user`](../skills/bm-profile-user.md) | Generate developer behavioral profile and create Claude-discoverable artifacts | installed |
 | [`bm:settings`](../skills/bm-settings.md) | Configure GSD workflow toggles and model profile | installed |
 | [`bm:update`](../skills/bm-update.md) | Update GSD to latest version with changelog display | installed |
@@ -19,9 +31,12 @@ Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, 
 | [`cowork-plugin-management:create-cowork-plugin`](../skills/cowork-plugin-management-create-cowork-plugin.md) | Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a plugin, build a plugin, make a new plugin, develop a plugin, s | installed |
 | [`example-skills:skill-creator`](../skills/example-skills-skill-creator.md) | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing sk | installed |
 | [`fewer-permission-prompts`](../skills/fewer-permission-prompts.md) | Scan transcripts for common read-only Bash and MCP tool calls and add a prioritized allowlist to project settings to reduce permission prompts. | installed |
+| [`huggingface/skills:hf-cloud-python-env-setup`](../skills/huggingface-skills-hf-cloud-python-env-setup.md) | Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for  | verified |
 | [`keybindings-help`](../skills/keybindings-help.md) | Customize keyboard shortcuts, rebind keys, add chord bindings or edit ~/.claude/keybindings.json. | installed |
+| [`microsoft/skills:skill-creator`](../skills/microsoft-skills-skill-creator.md) | Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills. | verified |
 | [`plugin-authoring`](../skills/plugin-authoring.md) | Make a mod - a change to Claude's own interface or behaviour such as a panel, status line, toast, slash command or hook on tool calls. | installed |
 | [`skill-hub:master-skill`](../skills/skill-hub-master-skill.md) | Router for every other skill. Use at the start of any non-trivial request, and whenever it is unclear which skill, plugin or workflow fits - "which skill should I use", " | verified |
 | [`skill-hub:skill-vetter`](../skills/skill-hub-skill-vetter.md) | Security-vet an Agent Skill, plugin folder or a GitHub repo of skills before installing or sharing it. Use whenever the user is about to install, copy, or enable a third- | verified |
 | [`update-config`](../skills/update-config.md) | Configure the Claude Code harness via settings.json - hooks, permissions, environment variables and other automated behaviours. | installed |
+| [`vercel-labs/skills:find-skills`](../skills/vercel-labs-skills-find-skills.md) | Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in e | verified |
 | [`workflow-authoring`](../skills/workflow-authoring.md) | Reference for writing a Workflow tool script that orchestrates multiple subagents - script API, resume, quality patterns, worked examples. | installed |

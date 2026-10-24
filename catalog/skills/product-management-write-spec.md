@@ -63,6 +63,12 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [openai/skills:notion-spec-to-implementation](openai-skills-notion-spec-to-implementation.md) - Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature 
+- [openai/skills:define-goal](openai-skills-define-goal.md) - Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goa
+- [anthropics/knowledge-work-plugins:scientific-problem-selection](anthropics-knowledge-work-plugins-scientific-problem-selection.md) - This skill should be used when scientists need help with research problem selection, project ideation, trouble
+
 ## Invoke / install
 
 - Invoke: `/product-management:write-spec`  (Skill tool: `product-management:write-spec`)

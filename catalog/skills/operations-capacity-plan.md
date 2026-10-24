@@ -40,6 +40,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [microsoft/skills:cost-estimation](microsoft-skills-cost-estimation.md) - Forecast Azure spend and price planned resources or workloads. WHEN: "forecast Azure spending", "project next 
+
 ## Invoke / install
 
 - Invoke: `/operations:capacity-plan`  (Skill tool: `operations:capacity-plan`)

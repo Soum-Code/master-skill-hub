@@ -43,6 +43,7 @@ The skill's own section headings, in order:
 
 - [legal:meeting-briefing](legal-meeting-briefing.md) - Prepare structured briefings for meetings with legal relevance and track resulting action items. Use when prep
 - [legal:legal-response](legal-legal-response.md) - Generate a response to a common legal inquiry using configured templates, with built-in escalation checks for 
+- [anthropics/knowledge-work-plugins:customer-research](anthropics-knowledge-work-plugins-customer-research.md) - Multi-source research on a customer question or topic with source attribution. Use when a customer asks someth
 
 ## Invoke / install
 

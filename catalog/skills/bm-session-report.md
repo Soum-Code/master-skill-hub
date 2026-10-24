@@ -30,10 +30,10 @@
 
 ## Related skills
 
+- [anthropics/claude-plugins-official:session-report](anthropics-claude-plugins-official-session-report.md) - Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive p
 - [bm:resume-work](bm-resume-work.md) - Resume work from previous session with full context restoration
 - [bm:thread](bm-thread.md) - Manage persistent context threads for cross-session work
 - [anthropic-skills:explain-usage](anthropic-skills-explain-usage.md) - Explain where this session's tokens went, with one simple chart in plain language. Use when the user says thin
-- [bm:milestone-summary](bm-milestone-summary.md) - Generate a comprehensive project summary from milestone artifacts for team onboarding and review
 
 ## Invoke / install
 

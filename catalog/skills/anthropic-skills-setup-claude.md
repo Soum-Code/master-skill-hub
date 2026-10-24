@@ -41,8 +41,8 @@ The skill's own section headings, in order:
 
 - [anthropic-skills:setup-cowork](anthropic-skills-setup-cowork.md) - Guided setup — install role-matched plugins, connect your tools, try a skill.
 - [cowork-plugin-management:cowork-plugin-customizer](cowork-plugin-management-cowork-plugin-customizer.md) - Customize a Claude Code plugin for a specific organization's tools and workflows. Use when: customize plugin, 
-- [claude-code-setup:claude-automation-recommender](claude-code-setup-claude-automation-recommender.md) - Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use
-- [bm:version](bm-version.md) - Print the installed GSD plugin version and check online for updates
+- [anthropics/claude-code:MCP Integration](anthropics-claude-code-mcp-integration.md) - This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", 
+- [anthropics/claude-plugins-official:mcp-integration](anthropics-claude-plugins-official-mcp-integration.md) - This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", 
 
 ## Invoke / install
 

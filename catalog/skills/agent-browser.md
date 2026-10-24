@@ -27,8 +27,9 @@
 ## Related skills
 
 - [playwright-cli](playwright-cli.md) - Official Microsoft browser automation CLI (@playwright/cli). Use when the user asks to automate browser intera
-- [example-skills:webapp-testing](example-skills-webapp-testing.md) - Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend 
-- [anthropic-skills:computer-use](anthropic-skills-computer-use.md) - Read this skill before the first step of any request to do something in an app on the person's own computer (N
+- [vercel-labs/agent-browser:agent-browser](vercel-labs-agent-browser-agent-browser.md) - Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating 
+- [vercel-labs/agent-browser:electron](vercel-labs-agent-browser-electron.md) - Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via
+- [openai/skills:playwright](openai-skills-playwright.md) - Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, s
 
 ## Invoke / install
 

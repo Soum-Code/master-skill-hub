@@ -49,6 +49,7 @@ The skill's own section headings, in order:
 
 - [bm:list-workspaces](bm-list-workspaces.md) - List active GSD workspaces and their status
 - [finance:close-management](finance-close-management.md) - Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning 
+- [openai/skills:linear](openai-skills-linear.md) - Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets
 
 ## Invoke / install
 

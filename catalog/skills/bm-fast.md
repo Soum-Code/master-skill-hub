@@ -33,6 +33,7 @@
 - [bm:execute-phase](bm-execute-phase.md) - Execute all plans in a phase with wave-based parallelization
 - [bm:autonomous](bm-autonomous.md) - Run all remaining phases autonomously — discuss→plan→execute per phase
 - [bm:quick](bm-quick.md) - Execute a quick task with GSD guarantees (atomic commits, state tracking) but skip optional agents
+- [openai/skills:notion-spec-to-implementation](openai-skills-notion-spec-to-implementation.md) - Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature 
 
 ## Invoke / install
 

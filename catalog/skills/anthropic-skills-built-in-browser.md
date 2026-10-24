@@ -45,6 +45,7 @@ The skill's own section headings, in order:
 
 - [anthropic-skills:chrome-browser](anthropic-skills-chrome-browser.md) - Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named 
 - [anthropic-skills:computer-use](anthropic-skills-computer-use.md) - Read this skill before the first step of any request to do something in an app on the person's own computer (N
+- [vercel-labs/agent-browser:agent-browser](vercel-labs-agent-browser-agent-browser.md) - Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating 
 - [anthropic-skills:docs](anthropic-skills-docs.md) - docs (editable docs people share and comment on; the default for any document, named as a doc or not: a docume
 
 ## Invoke / install

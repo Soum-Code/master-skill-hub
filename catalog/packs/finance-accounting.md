@@ -2,7 +2,7 @@
 
 Journal entries, reconciliations, close, financial statements, audit support, SOX, variance analysis.
 
-7 skill(s). Back to the [catalog](../README.md).
+8 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -13,3 +13,4 @@ Journal entries, reconciliations, close, financial statements, audit support, SO
 | [`finance:journal-entry-prep`](../skills/finance-journal-entry-prep.md) | Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset deprec | installed |
 | [`finance:reconciliation`](../skills/finance-reconciliation.md) | Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data. Use when performing bank reconciliations, GL-to-subledger recs, intercomp | installed |
 | [`finance:sox-testing`](../skills/finance-sox-testing.md) | Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample for a control (revenu | installed |
+| [`microsoft/skills:cost-governance`](../skills/microsoft-skills-cost-governance.md) | Govern Azure costs with budgets, alerts, tags, and policy restrictions. WHEN: "Azure budget health", "configured budget overrun", "list Azure budgets", "create Azure budg | verified |

@@ -38,6 +38,8 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [anthropics/claude-plugins-official:session-report](anthropics-claude-plugins-official-session-report.md) - Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive p
+- [anthropics/claude-plugins-official:claude-md-improver](anthropics-claude-plugins-official-claude-md-improver.md) - Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix
 - [operations:status-report](operations-status-report.md) - Generate a status report with KPIs, risks, and action items. Use when writing a weekly or monthly update for l
 
 ## Invoke / install

@@ -66,6 +66,8 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [taste-skill:imagegen-frontend-mobile](taste-skill-imagegen-frontend-mobile.md) - Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed f
+- [openai/skills:figma-generate-design](openai-skills-figma-generate-design.md) - Use this skill alongside figma-use when the task involves translating an application page, view, or multi-sect
+- [openai/skills:figma-implement-design](openai-skills-figma-implement-design.md) - Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementin
 - [taste-skill:imagegen-frontend-web](taste-skill-imagegen-frontend-web.md) - Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITI
 
 ## Invoke / install

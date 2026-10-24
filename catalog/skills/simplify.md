@@ -28,6 +28,7 @@
 
 - [bm:code-review](bm-code-review.md) - Review source files changed during a phase for bugs, security issues, and code quality problems
 - [code-review](code-review.md) - Review the current diff or a PR number, branch or path for correctness bugs at a chosen effort level; optional
+- [openai/skills:security-best-practices](openai-skills-security-best-practices.md) - Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only 
 
 ## Invoke / install
 

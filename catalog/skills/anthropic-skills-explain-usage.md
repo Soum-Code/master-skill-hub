@@ -28,7 +28,8 @@
 
 - [bm:session-report](bm-session-report.md) - Generate a session report with token usage estimates, work summary, and outcomes
 - [anthropic-skills:schedule](anthropic-skills-schedule.md) - Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "ea
-- [productivity:task-management](productivity-task-management.md) - Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, want
+- [anthropics/claude-plugins-official:configure](anthropics-claude-plugins-official-configure.md) - Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord b
+- [anthropics/claude-plugins-official:session-report](anthropics-claude-plugins-official-session-report.md) - Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive p
 
 ## Invoke / install
 

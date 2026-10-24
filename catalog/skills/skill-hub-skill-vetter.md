@@ -38,6 +38,11 @@ The skill's own section headings, in order:
 - Declares no pre-approved tools; Claude asks as usual.
 - Ships executable scripts. Review them before trusting the skill outside its trusted source.
 
+## Related skills
+
+- [anthropics/claude-plugins-official:claude-md-improver](anthropics-claude-plugins-official-claude-md-improver.md) - Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix
+- [anthropics/claude-plugins-official:claude-security](anthropics-claude-plugins-official-claude-security.md) - Claude Security: scan the codebase (the whole repository or a scoped part of it), scan changes (this branch's 
+
 ## Invoke / install
 
 - Invoke: `/skill-hub:skill-vetter`

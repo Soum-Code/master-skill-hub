@@ -26,6 +26,7 @@
 
 ## Related skills
 
+- [anthropics/claude-plugins-official:example-skill](anthropics-claude-plugins-official-example-skill.md) - This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill tem
 - [bm:resume-work](bm-resume-work.md) - Resume work from previous session with full context restoration
 
 ## Invoke / install

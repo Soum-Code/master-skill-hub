@@ -32,6 +32,7 @@
 
 - [init](init.md) - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
 - [claude-code-setup:claude-automation-recommender](claude-code-setup-claude-automation-recommender.md) - Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use
+- [openai/skills:gh-address-comments](openai-skills-gh-address-comments.md) - Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth f
 
 ## Invoke / install
 

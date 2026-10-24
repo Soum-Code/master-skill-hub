@@ -2,10 +2,12 @@
 
 Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style).
 
-55 skill(s). Back to the [catalog](../README.md).
+59 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`anthropics/claude-plugins-official:math-olympiad`](../skills/anthropics-claude-plugins-official-math-olympiad.md) | Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates when asked to 'solve  | verified |
+| [`anthropics/claude-plugins-official:project-artifact`](../skills/anthropics-claude-plugins-official-project-artifact.md) | Generate and publish a project status artifact — an opinionated, tabbed status page for a project too big for one update (overview & success criteria, the workstream sequ | verified |
 | [`bm:add-backlog`](../skills/bm-add-backlog.md) | Add an idea to the backlog parking lot (999.x numbering) | installed |
 | [`bm:add-phase`](../skills/bm-add-phase.md) | Add phase to end of current milestone in roadmap | installed |
 | [`bm:analyze-dependencies`](../skills/bm-analyze-dependencies.md) | Analyze phase dependencies and suggest Depends on entries for ROADMAP.md | installed |
@@ -60,4 +62,6 @@ Phase/milestone based project execution - plan, discuss, execute, verify, ship (
 | [`bm:validate-phase`](../skills/bm-validate-phase.md) | Retroactively audit and fill Nyquist validation gaps for a completed phase | installed |
 | [`bm:verify-work`](../skills/bm-verify-work.md) | Validate built features through conversational UAT | installed |
 | [`bm:workstreams`](../skills/bm-workstreams.md) | Manage parallel workstreams — list, create, switch, status, progress, complete, and resume | installed |
+| [`microsoft/skills:cost-estimation`](../skills/microsoft-skills-cost-estimation.md) | Forecast Azure spend and price planned resources or workloads. WHEN: "forecast Azure spending", "project next month cost", "compare forecast to my planning target", "how  | verified |
+| [`openai/skills:define-goal`](../skills/openai-skills-define-goal.md) | Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success cri | verified |
 | [`product-management:sprint-planning`](../skills/product-management-sprint-planning.md) | Plan a sprint — scope work, estimate capacity, set goals, and draft a sprint plan. Use when kicking off a new sprint, sizing a backlog against team availability (accounti | installed |

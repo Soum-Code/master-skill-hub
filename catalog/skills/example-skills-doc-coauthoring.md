@@ -59,6 +59,8 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
+- [microsoft/skills:microsoft-docs](microsoft-skills-microsoft-docs.md) - Understand Microsoft technologies by querying official documentation. Use whenever the user asks how something
+- [anthropics/skills:docx](anthropics-skills-docx.md) - Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Wo
 - [bm:new-ddd](bm-new-ddd.md) - Initialize a new project using Documentation-Driven Development. Research, then write user-facing docs (SPEC.m
 
 ## Invoke / install

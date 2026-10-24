@@ -63,6 +63,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [anthropics/knowledge-work-plugins:analyze](anthropics-knowledge-work-plugins-analyze.md) - Answer data questions -- from quick lookups to full analyses. Use when looking up a single metric, investigati
+
 ## Invoke / install
 
 - Invoke: `/product-management:metrics-review`  (Skill tool: `product-management:metrics-review`)

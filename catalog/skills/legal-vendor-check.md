@@ -42,6 +42,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [anthropics/knowledge-work-plugins:design-system](anthropics-knowledge-work-plugins-design-system.md) - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded value
+
 ## Invoke / install
 
 - Invoke: `/legal:vendor-check`  (Skill tool: `legal:vendor-check`)

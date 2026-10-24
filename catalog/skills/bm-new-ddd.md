@@ -30,10 +30,10 @@
 
 ## Related skills
 
+- [openai/skills:cli-creator](openai-skills-cli-creator.md) - Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
-- [bm:ai-integration-phase](bm-ai-integration-phase.md) - Generate AI design contract (AI-SPEC.md) for phases that involve building AI systems — framework selection, im
-- [bm:docs-update](bm-docs-update.md) - Generate or update project documentation verified against the codebase
-- [example-skills:doc-coauthoring](example-skills-doc-coauthoring.md) - Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documen
+- [anthropics/claude-code:Agent Development](anthropics-claude-code-agent-development.md) - This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent 
+- [anthropics/claude-plugins-official:agent-development](anthropics-claude-plugins-official-agent-development.md) - This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent 
 
 ## Invoke / install
 

@@ -44,10 +44,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [anthropics/skills:docx](anthropics-skills-docx.md) - Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Wo
 - [anthropic-skills:google-workspace](anthropic-skills-google-workspace.md) - Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or ch
 - [anthropic-skills:pptx](anthropic-skills-pptx.md) - Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This include
 - [anthropic-skills:docs](anthropic-skills-docs.md) - docs (editable docs people share and comment on; the default for any document, named as a doc or not: a docume
-- [anthropic-skills:xlsx](anthropic-skills-xlsx.md) - Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user 
 
 ## Invoke / install
 

@@ -64,6 +64,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [anthropics/knowledge-work-plugins:draft-response](anthropics-knowledge-work-plugins-draft-response.md) - Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a
 - [legal:brief](legal-brief.md) - Generate contextual briefings for legal work — daily summary, topic research, or incident response. Use when s
 
 ## Invoke / install

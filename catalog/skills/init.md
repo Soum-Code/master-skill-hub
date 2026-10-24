@@ -29,7 +29,7 @@
 - [bm:new-project](bm-new-project.md) - Initialize a new project with deep context gathering and PROJECT.md
 - [bm:docs-update](bm-docs-update.md) - Generate or update project documentation verified against the codebase
 - [bm:map-codebase](bm-map-codebase.md) - Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents
-- [bm:new-milestone](bm-new-milestone.md) - Start a new milestone cycle — update PROJECT.md and route to requirements
+- [anthropics/claude-plugins-official:session-report](anthropics-claude-plugins-official-session-report.md) - Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive p
 
 ## Invoke / install
 

@@ -46,6 +46,13 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [microsoft/skills:microsoft-docs](microsoft-skills-microsoft-docs.md) - Understand Microsoft technologies by querying official documentation. Use whenever the user asks how something
+- [anthropics/claude-code:MCP Integration](anthropics-claude-code-mcp-integration.md) - This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", 
+- [anthropics/claude-plugins-official:mcp-integration](anthropics-claude-plugins-official-mcp-integration.md) - This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", 
+- [vercel-labs/agent-skills:vercel-react-view-transitions](vercel-labs-agent-skills-vercel-react-view-transitions.md) - Guide for implementing smooth, native-feeling animations using React's View Transition API (`` component, `add
+
 ## Invoke / install
 
 - Invoke: `/modern-web-guidance:chrome-extensions`  (Skill tool: `modern-web-guidance:chrome-extensions`)

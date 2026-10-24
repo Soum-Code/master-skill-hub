@@ -45,6 +45,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [example-skills:algorithmic-art](example-skills-algorithmic-art.md) - Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this wh
+- [anthropics/claude-plugins-official:playground](anthropics-claude-plugins-official-playground.md) - Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something
+- [openai/skills:figma-implement-design](openai-skills-figma-implement-design.md) - Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementin
+- [openai/skills:figma-code-connect-components](openai-skills-figma-code-connect-components.md) - Connects Figma design components to code components using Code Connect mapping tools. Use when user says "code
 
 ## Invoke / install
 

@@ -1,0 +1,609 @@
+{
+  "items": [
+    {
+      "commit": "e24fcf6d371bcfa529bc110bacb1bb43de1b8d33",
+      "first_seen": "2026-10-24",
+      "id": "Egonex-AI/Understand-Anything:understand-domain",
+      "repo": "Egonex-AI/Understand-Anything",
+      "top_findings": [
+        {
+          "file": "extract-domain-context.py",
+          "line": 106,
+          "rule": "persistence",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+      "first_seen": "2026-10-24",
+      "id": "addyosmani/agent-skills:source-driven-development",
+      "repo": "addyosmani/agent-skills",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 110,
+          "rule": "inj-override",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
+      "first_seen": "2026-10-24",
+      "id": "anthropics/claude-code:Plugin Structure",
+      "repo": "anthropics/claude-code",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 383,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "58267944f92187b7d6a1c822165c96c81c864806",
+      "first_seen": "2026-10-24",
+      "id": "anthropics/claude-plugins-official:plugin-structure",
+      "repo": "anthropics/claude-plugins-official",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 383,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "58267944f92187b7d6a1c822165c96c81c864806",
+      "first_seen": "2026-10-24",
+      "id": "anthropics/claude-plugins-official:receipts",
+      "repo": "anthropics/claude-plugins-official",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 142,
+          "rule": "inj-override",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/mine-transcripts.mjs",
+          "line": 347,
+          "rule": "inj-override",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "first_seen": "2026-10-24",
+      "id": "anthropics/knowledge-work-plugins:nextflow-development",
+      "repo": "anthropics/knowledge-work-plugins",
+      "top_findings": [
+        {
+          "file": "scripts/check_environment.py",
+          "line": 120,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "first_seen": "2026-10-24",
+      "id": "anthropics/skills:claude-api",
+      "repo": "anthropics/skills",
+      "top_findings": [
+        {
+          "file": "shared/evals/report/build-report-lite.mjs",
+          "line": 28,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": "shared/evals/report/runner-scaffold.mjs",
+          "line": 112,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": "shared/model-migration.md",
+          "line": 863,
+          "rule": "inj-override",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "first_seen": "2026-10-24",
+      "id": "code-yeongyu/oh-my-openagent:data-scientist",
+      "repo": "code-yeongyu/oh-my-openagent",
+      "top_findings": [
+        {
+          "file": "scripts/setup-uv.ps1",
+          "line": 28,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/setup-uv.sh",
+          "line": 39,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/setup-uv.sh",
+          "line": 41,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "first_seen": "2026-10-24",
+      "id": "code-yeongyu/oh-my-openagent:frontend",
+      "repo": "code-yeongyu/oh-my-openagent",
+      "top_findings": [
+        {
+          "file": "scripts/perfection/lighthouse-audit.py",
+          "line": 13,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "first_seen": "2026-10-24",
+      "id": "code-yeongyu/oh-my-openagent:programming",
+      "repo": "code-yeongyu/oh-my-openagent",
+      "top_findings": [
+        {
+          "file": "scripts/go/new-project.py",
+          "line": 12,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/python/new-project.py",
+          "line": 12,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/python/new-script.py",
+          "line": 12,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/python/new-script.py",
+          "line": 54,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/rust/new-project.py",
+          "line": 12,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "first_seen": "2026-10-24",
+      "id": "code-yeongyu/oh-my-openagent:ultimate-browsing",
+      "repo": "code-yeongyu/oh-my-openagent",
+      "top_findings": [
+        {
+          "file": "references/insane-search/jina.md",
+          "line": 66,
+          "rule": "inj-secret-exfil",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "first_seen": "2026-10-24",
+      "id": "coreyhaines31/marketingskills:directory-submissions",
+      "repo": "coreyhaines31/marketingskills",
+      "top_findings": [
+        {
+          "file": "references/submission-tracker-template.csv",
+          "line": 158,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "first_seen": "2026-10-24",
+      "id": "coreyhaines31/marketingskills:lead-magnets",
+      "repo": "coreyhaines31/marketingskills",
+      "top_findings": [
+        {
+          "file": "evals/evals.json",
+          "line": 100,
+          "rule": "inj-override",
+          "severity": "high"
+        },
+        {
+          "file": "references/content-to-skill-corpus-design.md",
+          "line": 42,
+          "rule": "inj-override",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "6f7488a70f23bc71745bde704eda98033cc33bfa",
+      "first_seen": "2026-10-24",
+      "id": "garrytan/gstack:benchmark-models",
+      "repo": "garrytan/gstack",
+      "top_findings": [
+        {
+          "file": "SKILL.md.tmpl",
+          "line": 94,
+          "rule": "cred-paths",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "6f7488a70f23bc71745bde704eda98033cc33bfa",
+      "first_seen": "2026-10-24",
+      "id": "garrytan/gstack:browse",
+      "repo": "garrytan/gstack",
+      "top_findings": [
+        {
+          "file": "src/cli.ts",
+          "line": 1299,
+          "rule": "inj-override",
+          "severity": "high"
+        },
+        {
+          "file": "src/content-security.ts",
+          "line": 325,
+          "rule": "exfil-sink",
+          "severity": "high"
+        },
+        {
+          "file": "src/content-security.ts",
+          "line": 327,
+          "rule": "exfil-sink",
+          "severity": "high"
+        },
+        {
+          "file": "src/content-security.ts",
+          "line": 330,
+          "rule": "exfil-sink",
+          "severity": "high"
+        },
+        {
+          "file": "src/content-security.ts",
+          "line": 331,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "6f7488a70f23bc71745bde704eda98033cc33bfa",
+      "first_seen": "2026-10-24",
+      "id": "garrytan/gstack:careful",
+      "repo": "garrytan/gstack",
+      "top_findings": [
+        {
+          "file": "SKILL.md.tmpl",
+          "line": 67,
+          "rule": "destructive",
+          "severity": "high"
+        },
+        {
+          "file": "SKILL.md.tmpl",
+          "line": 69,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "bin/check-careful.sh",
+          "line": 36,
+          "rule": "destructive",
+          "severity": "high"
+        },
+        {
+          "file": "bin/check-careful.sh",
+          "line": 37,
+          "rule": "destructive",
+          "severity": "high"
+        },
+        {
+          "file": "bin/check-careful.sh",
+          "line": 38,
+          "rule": "destructive",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "6f7488a70f23bc71745bde704eda98033cc33bfa",
+      "first_seen": "2026-10-24",
+      "id": "garrytan/gstack:gstack",
+      "repo": "garrytan/gstack",
+      "top_findings": [
+        {
+          "file": ".github/docker/Dockerfile.ci",
+          "line": 102,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": ".github/scripts/dia-gui-readiness.c",
+          "line": 76,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": ".github/scripts/qualify-dia-macos.ts",
+          "line": 1014,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "line": 11994,
+          "rule": "exfil-sink",
+          "severity": "high"
+        },
+        {
+          "file": "benchmark-models/SKILL.md.tmpl",
+          "line": 94,
+          "rule": "cred-paths",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "6f7488a70f23bc71745bde704eda98033cc33bfa",
+      "first_seen": "2026-10-24",
+      "id": "garrytan/gstack:gstack-upgrade",
+      "repo": "garrytan/gstack",
+      "top_findings": [
+        {
+          "file": "SKILL.md.tmpl",
+          "line": 178,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "e03d5c23f308c39f4de7c057568df66c29a84385",
+      "first_seen": "2026-10-24",
+      "id": "nexu-io/open-design:docs-page",
+      "repo": "nexu-io/open-design",
+      "top_findings": [
+        {
+          "file": "example.html",
+          "line": 83,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "first_seen": "2026-10-24",
+      "id": "openai/skills:cloudflare-deploy",
+      "repo": "openai/skills",
+      "top_findings": [
+        {
+          "file": "references/pages-functions/patterns.md",
+          "line": 14,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "first_seen": "2026-10-24",
+      "id": "openai/skills:screenshot",
+      "repo": "openai/skills",
+      "top_findings": [
+        {
+          "file": "scripts/take_screenshot.py",
+          "line": 27,
+          "rule": "exec-obfuscated",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "first_seen": "2026-10-24",
+      "id": "sickn33/agentic-awesome-skills:007",
+      "repo": "sickn33/agentic-awesome-skills",
+      "top_findings": [
+        {
+          "file": "references/ai-agent-security.md",
+          "line": 18,
+          "rule": "inj-override",
+          "severity": "high"
+        },
+        {
+          "file": "references/ai-agent-security.md",
+          "line": 18,
+          "rule": "inj-roleplay",
+          "severity": "high"
+        },
+        {
+          "file": "references/ai-agent-security.md",
+          "line": 410,
+          "rule": "inj-override",
+          "severity": "high"
+        },
+        {
+          "file": "references/ai-agent-security.md",
+          "line": 411,
+          "rule": "inj-roleplay",
+          "severity": "high"
+        },
+        {
+          "file": "references/ai-agent-security.md",
+          "line": 429,
+          "rule": "inj-override",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "first_seen": "2026-10-24",
+      "id": "sickn33/agentic-awesome-skills:2slides-ppt-generator",
+      "repo": "sickn33/agentic-awesome-skills",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 37,
+          "rule": "inj-secret-exfil",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "first_seen": "2026-10-24",
+      "id": "sickn33/agentic-awesome-skills:agent-evals",
+      "repo": "sickn33/agentic-awesome-skills",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 163,
+          "rule": "inj-override",
+          "severity": "high"
+        },
+        {
+          "file": "SKILL.md",
+          "line": 164,
+          "rule": "inj-roleplay",
+          "severity": "high"
+        },
+        {
+          "file": "SKILL.md",
+          "line": 267,
+          "rule": "inj-override",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "first_seen": "2026-10-24",
+      "id": "sickn33/agentic-awesome-skills:agent-evaluation",
+      "repo": "sickn33/agentic-awesome-skills",
+      "top_findings": [
+        {
+          "file": "references/architecture-sketches.md",
+          "line": 392,
+          "rule": "inj-override",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "first_seen": "2026-10-24",
+      "id": "thedotmack/claude-mem:Agent Cost Report",
+      "repo": "thedotmack/claude-mem",
+      "top_findings": [
+        {
+          "file": "scripts/tests/test_render.py",
+          "line": 168,
+          "rule": "cred-paths",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "first_seen": "2026-10-24",
+      "id": "thedotmack/claude-mem:do",
+      "repo": "thedotmack/claude-mem",
+      "top_findings": [
+        {
+          "file": "",
+          "line": 0,
+          "rule": "no-skill-md",
+          "severity": "high"
+        },
+        {
+          "file": "SKILL.md",
+          "line": 0,
+          "rule": "symlink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "first_seen": "2026-10-24",
+      "id": "thedotmack/claude-mem:mode-creator",
+      "repo": "thedotmack/claude-mem",
+      "top_findings": [
+        {
+          "file": "scripts/configure-telegram.mjs",
+          "line": 107,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "first_seen": "2026-10-24",
+      "id": "thedotmack/claude-mem:openclaw",
+      "repo": "thedotmack/claude-mem",
+      "top_findings": [
+        {
+          "file": "install.sh",
+          "line": 419,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "install.sh",
+          "line": 422,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "install.sh",
+          "line": 479,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "install.sh",
+          "line": 482,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "install.sh",
+          "line": 1491,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    }
+  ],
+  "updated": "2026-10-24T03:26:43Z"
+}

@@ -1,5 +1,7 @@
 # Spec-driven Dev Workflow
 
+- `anthropics/claude-plugins-official:math-olympiad` - Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates when asked to 'solve this IMO problem', '
+- `anthropics/claude-plugins-official:project-artifact` - Generate and publish a project status artifact — an opinionated, tabbed status page for a project too big for one update (overview & success criteria, the workstream sequence, next steps, pl
 - `bm:add-backlog` - Add an idea to the backlog parking lot (999.x numbering)
 - `bm:add-phase` - Add phase to end of current milestone in roadmap
 - `bm:analyze-dependencies` - Analyze phase dependencies and suggest Depends on entries for ROADMAP.md
@@ -54,4 +56,6 @@
 - `bm:validate-phase` - Retroactively audit and fill Nyquist validation gaps for a completed phase
 - `bm:verify-work` - Validate built features through conversational UAT
 - `bm:workstreams` - Manage parallel workstreams — list, create, switch, status, progress, complete, and resume
+- `microsoft/skills:cost-estimation` - Forecast Azure spend and price planned resources or workloads. WHEN: "forecast Azure spending", "project next month cost", "compare forecast to my planning target", "how much will Azure cost
+- `openai/skills:define-goal` - Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuz
 - `product-management:sprint-planning` - Plan a sprint — scope work, estimate capacity, set goals, and draft a sprint plan. Use when kicking off a new sprint, sizing a backlog against team availability (accounting for PTO and meeti

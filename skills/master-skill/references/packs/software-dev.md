@@ -1,5 +1,6 @@
 # Software Development
 
+- `anthropics/knowledge-work-plugins:design-system` - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's variants, states, a
 - `bm:add-tests` - Generate tests for a completed phase based on UAT criteria and implementation
 - `bm:code-review` - Review source files changed during a phase for bugs, security issues, and code quality problems
 - `bm:code-review-fix` - Auto-fix issues found by code review in REVIEW.md. Spawns fixer agent, commits each fix atomically, produces REVIEW-FIX.md summary.
@@ -18,9 +19,22 @@
 - `engineering:tech-debt` - Identify, categorize, and prioritize technical debt. Trigger with "tech debt", "technical debt audit", "what should we refactor", "code health", or when the user asks about code quality, ref
 - `engineering:testing-strategy` - Design test strategies and test plans. Trigger with "how should we test", "test strategy for", "write tests for", "test plan", "what tests do we need", or when the user needs help with testi
 - `example-skills:doc-coauthoring` - Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content
+- `google-gemini/gemini-skills:gemini-api-dev` - Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TTS), voice 
+- `google-gemini/gemini-skills:gemini-live-api-dev` - Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) to Gemini 3.8 Live. Covers WebSocket-base
 - `init` - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
 - `karpathy-guidelines` - Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define
+- `microsoft/skills:frontend-design-review` - Review and create distinctive, production-grade frontend interfaces with high design quality and design system compliance. Evaluates using three pillars: frictionless insight-to-action, qual
+- `microsoft/skills:microsoft-docs` - Understand Microsoft technologies by querying official documentation. Use whenever the user asks how something works, wants tutorials, needs configuration options, limits, quotas, or best pr
 - `modern-web-guidance:modern-web-guidance` - Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolve rapidly and training weights contain o
+- `openai/skills:aspnet-core` - Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal A
+- `openai/skills:chatgpt-apps` - Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP 
+- `openai/skills:cli-creator` - Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a comman
+- `openai/skills:figma-create-design-system-rules` - Generates custom design system rules for the user's codebase. Use when user says "create design system rules", "generate rules for my project", "set up design rules", "customize design syste
+- `openai/skills:security-best-practices` - Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security r
+- `openai/skills:winui-app` - Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and Com
 - `run` - Launch and drive this project's app to see a change working. Use when asked to run, start or screenshot the app or to confirm a change works end to end.
 - `simplify` - Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality only, not bug hunting.
 - `taste-skill:output-skill` - Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabr
+- `vercel-labs/agent-browser:dogfood` - Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to "dogfood", "QA", "exploratory test", "find issues", "bug hunt", "test this ap
+- `vercel-labs/agent-skills:web-design-guidelines` - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
+- `vercel-labs/skills:triage` - Identify focused, evidence-backed skills CLI bug fixes worth quuu's attention.

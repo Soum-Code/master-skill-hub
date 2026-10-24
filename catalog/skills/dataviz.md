@@ -24,6 +24,11 @@
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [anthropics/knowledge-work-plugins:data-visualization](anthropics-knowledge-work-plugins-data-visualization.md) - Create effective data visualizations with Python (matplotlib, seaborn, plotly). Use when building charts, choo
+- [anthropics/knowledge-work-plugins:create-viz](anthropics-knowledge-work-plugins-create-viz.md) - Create publication-quality visualizations with Python. Use when turning query results or a DataFrame into a ch
+
 ## Invoke / install
 
 - Invoke: `/dataviz`

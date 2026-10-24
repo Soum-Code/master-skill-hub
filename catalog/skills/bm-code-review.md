@@ -32,8 +32,8 @@
 
 - [simplify](simplify.md) - Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality
 - [bm:code-review-fix](bm-code-review-fix.md) - Auto-fix issues found by code review in REVIEW.md. Spawns fixer agent, commits each fix atomically, produces R
+- [vercel-labs/agent-browser:dogfood](vercel-labs-agent-browser-dogfood.md) - Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked 
 - [security-review](security-review.md) - Security review of the pending changes on the current branch.
-- [code-review](code-review.md) - Review the current diff or a PR number, branch or path for correctness bugs at a chosen effort level; optional
 
 ## Invoke / install
 

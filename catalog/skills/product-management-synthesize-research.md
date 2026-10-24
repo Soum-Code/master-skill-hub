@@ -63,6 +63,12 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [anthropics/knowledge-work-plugins:research-synthesis](anthropics-knowledge-work-plugins-research-synthesis.md) - Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, 
+- [anthropics/knowledge-work-plugins:user-research](anthropics-knowledge-work-plugins-user-research.md) - Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability 
+- [microsoft/skills:github-issue-creator](microsoft-skills-github-issue-creator.md) - Convert raw notes, error logs, voice dictation, or screenshots into crisp GitHub-flavored markdown issue repor
+
 ## Invoke / install
 
 - Invoke: `/product-management:synthesize-research`  (Skill tool: `product-management:synthesize-research`)

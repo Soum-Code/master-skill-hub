@@ -56,6 +56,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [openai/skills:notion-spec-to-implementation](openai-skills-notion-spec-to-implementation.md) - Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature 
 - [bm:workstreams](bm-workstreams.md) - Manage parallel workstreams — list, create, switch, status, progress, complete, and resume
 
 ## Invoke / install

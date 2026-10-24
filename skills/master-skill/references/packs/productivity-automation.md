@@ -4,10 +4,12 @@
 - `anthropic-skills:import-memory` - Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data.
 - `anthropic-skills:morning` - Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if 
 - `anthropic-skills:schedule` - Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "each morning", "remind me in an hour", "run this at noon", or wants to reschedule 
+- `anthropics/claude-plugins-official:solo` - Work on one hard mathematics problem in this session yourself, with no sub-agents: reason in stages, record each settled step in a notes file so that nothing written is lost if a response is
 - `bm:add-todo` - Capture idea or task as todo from current conversation context
 - `bm:health` - Diagnose planning directory health and optionally repair issues
 - `bm:note` - Zero-friction idea capture. Append, list, or promote notes to todos.
 - `bm:remember-access` - Capture or review how this project connects to external systems (GitHub, AWS, npm, SSH, etc.) so future sessions know the auth recipe. Auto-detection hook logs candidate captures to an inbox
+- `huggingface/skills:hf-mem` - Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub
 - `loop` - Run a prompt or slash command on a recurring interval, or let the model self-pace. Use when the user wants to poll for status or repeat something on a schedule.
 - `productivity:memory-management` - Two-tier memory system that makes Claude a true workplace collaborator. Decodes shorthand, acronyms, nicknames, and internal language so Claude understands requests like a colleague would. C
 - `productivity:start` - Initialize the productivity system and open the dashboard. Use when setting up the plugin for the first time, bootstrapping working memory from your existing task list, or decoding the short
