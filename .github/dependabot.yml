@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # Keeps the pinned action SHAs fresh (and counts as repository activity).
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

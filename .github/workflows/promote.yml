@@ -1,0 +1,57 @@
+name: Promote candidate
+
+# The human gate: approve a vetted candidate. Re-downloads it at the pinned commit, re-vets,
+# checks the tree hash, then marks it verified.
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Candidate id (owner/repo:skill) or owner/repo for all its skills"
+        required: true
+      accept_review:
+        description: "Accept a REVIEW verdict (medium findings) - only after reading them"
+        type: boolean
+        default: false
+      override_fail:
+        description: "Comma list of rule ids to accept despite a FAIL (owner only, recorded in the registry)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: registry-write
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml pytest
+      - name: Promote
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # inputs go through env vars, never interpolated into the shell script
+          CAND_ID: ${{ inputs.id }}
+          ACCEPT_REVIEW: ${{ inputs.accept_review }}
+          OVERRIDE_FAIL: ${{ inputs.override_fail }}
+        run: |
+          args=()
+          if [ "$ACCEPT_REVIEW" = "true" ]; then args+=(--accept-review); fi
+          python -m skillhub promote "$CAND_ID" "${args[@]}" --override-fail "$OVERRIDE_FAIL"
+      - name: Rebuild and validate
+        run: |
+          python -m skillhub build
+          python -m skillhub validate
+          python -m pytest -q
+      - name: Commit
+        run: |
+          git config user.name "skill-hub-bot"
+          git config user.email "skill-hub-bot@users.noreply.github.com"
+          git add -A registry catalog site skills/master-skill/references README.md
+          git diff --cached --quiet || { git commit -m "feat(registry): promote candidate [skip ci]"; git push; }

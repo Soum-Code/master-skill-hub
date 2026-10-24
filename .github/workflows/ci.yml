@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml pytest
+      - name: Unit tests
+        run: python -m pytest -q
+      - name: Registry and skills are consistent
+        run: python -m skillhub validate
+      - name: Generated files are up to date
+        run: |
+          python -m skillhub build --no-zip
+          git diff --exit-code -- . ':!dist' || { echo "::error::Generated files drifted. Run 'python -m skillhub build' and commit."; exit 1; }
+      - name: Hub skills pass their own scanner
+        run: |
+          python skills/skill-vetter/scripts/vet.py skills/master-skill
+          # the scanner's own source necessarily contains the patterns it searches for (see skillhub/validate.py SELF_EXEMPT)
+          python -m skillhub validate

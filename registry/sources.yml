@@ -1,0 +1,80 @@
+# Discovery configuration.
+#
+# TRUST MODEL
+#   * Every candidate is vetted (skill-vetter) at an exact commit SHA. Nothing is trusted blindly.
+#   * `trusted_owners` may be auto-promoted to "verified" when the vet verdict is PASS.
+#   * Everyone else stops at "candidate" and needs `promote` (a human click) even if the vet passes.
+#   * A vet FAIL goes to quarantine regardless of who owns the repo.
+trusted_owners:
+  # vendors / foundations
+  anthropics: {why: "Anthropic - makers of Claude"}
+  microsoft: {why: "Microsoft"}
+  vercel-labs: {why: "Vercel Labs"}
+  huggingface: {why: "Hugging Face"}
+  openai: {why: "OpenAI"}
+  google-gemini: {why: "Google Gemini"}
+  github: {why: "GitHub"}
+  modelcontextprotocol: {why: "MCP steering group"}
+  # sources the owner already chose to install
+  leonxlnx: {why: "installed by owner (taste-skill)"}
+  jnuyens: {why: "installed by owner (gsd-plugin)"}
+  pbakaus: {why: "installed by owner (impeccable)"}
+
+# Repos checked every week for NEW or CHANGED skills.
+watchlist:
+  - anthropics/skills
+  - anthropics/knowledge-work-plugins
+  - anthropics/claude-plugins-official
+  - vercel-labs/agent-skills
+  - vercel-labs/agent-browser
+  - microsoft/skills
+  - microsoft/playwright-cli
+  - huggingface/skills
+  - openai/skills
+  - google-gemini/gemini-skills
+  - leonxlnx/taste-skill
+  - jnuyens/gsd-plugin
+  - pbakaus/impeccable
+  - obra/superpowers
+  - K-Dense-AI/claude-scientific-skills
+
+# Link-collection repos: new GitHub links added to these become candidates.
+awesome_lists:
+  - VoltAgent/awesome-agent-skills
+  - heilcheng/awesome-agent-skills
+  - BehiSecc/awesome-claude-skills
+  - ComposioHQ/awesome-claude-skills
+  - travisvn/awesome-claude-skills
+  - hesreallyhim/awesome-claude-code
+  - rohitg00/awesome-claude-code-toolkit
+  - github/awesome-copilot
+
+# GitHub repository search. {since} = 14 days ago, {since90} = 90 days ago.
+github_search:
+  topics: [agent-skills, claude-skills, claude-code-skills, skill-md, ai-agent-skills, claude-code-plugin, claude-code-plugins]
+  # each topic is searched twice: rising (new + stars) and established (recently active + many stars)
+  rising: {created: "{since90}", min_stars: 15, per_topic: 15}
+  established: {pushed: "{since}", min_stars: 300, per_topic: 15}
+  max_total: 120
+
+# Repos younger than this or with fewer stars are never auto-verified even if trusted_owners matched by forks etc.
+min_repo_age_days: 14
+
+# Other places to look (each is best-effort; a failing source never fails the run).
+sources:
+  hackernews: {enabled: true, queries: ["claude skills", "agent skills SKILL.md", "claude code plugin", "mcp server skill"], days: 10}
+  devto: {enabled: true, tags: [claudecode, claude, aiagents, mcp], top_days: 7}
+  lobsters: {enabled: true, tags: [ai]}
+  mastodon: {enabled: true, instance: "https://mastodon.social", hashtags: [claudecode, claude, agentskills, mcp]}
+  npm: {enabled: true, keywords: ["agent-skills", "claude-skills", "claude-code-plugin"]}
+  reddit:
+    enabled: true            # needs REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET repo secrets; Reddit blocks anonymous cloud IPs
+    subreddits: [ClaudeAI, ClaudeCode, LocalLLaMA, mcp, AI_Agents]
+  bluesky:
+    enabled: true            # needs BSKY_HANDLE/BSKY_APP_PASSWORD repo secrets (free app password)
+    queries: ["claude skills", "agent skills", "claude code plugin"]
+  youtube:
+    enabled: true            # needs YOUTUBE_API_KEY repo secret (free quota)
+    queries: ["claude code skills", "claude agent skills tutorial"]
+  github_issues:
+    enabled: true            # `submit-skill` / `skill-request` issues on this repo (works for anything you spot anywhere, incl. Instagram reels)

@@ -1,0 +1,151 @@
+# Curated multi-skill workflows. The router prints a chain when the task matches its keywords.
+# Every skill id must exist in registry/skills.json (checked by `skillhub validate`).
+chains:
+  - id: job-application
+    title: Land a job - research, tailor, polish
+    pack: careers-jobs
+    keywords: [job application, apply job, resume, cv, cover letter, tailor resume, job description, recruiter]
+    steps:
+      - {skill: "anthropic-skills:deep-research", purpose: "Research the company, team and role requirements"}
+      - {skill: "skill-hub:job-search-copilot", purpose: "Decode the JD, map evidence, tailor resume and cover letter truthfully"}
+      - {skill: "anthropic-skills:docx", purpose: "Produce the resume / cover letter as a Word file"}
+      - {skill: "anthropic-skills:humanizer", purpose: "Strip AI tells so it reads like you"}
+      - {skill: "linkedin-profile-optimizer", purpose: "Align the LinkedIn profile with the same story"}
+  - id: interview-prep
+    title: Prepare for an ML / AI interview
+    pack: careers-jobs
+    keywords: [interview prep, ml interview, mock interview, system design interview, study plan, interview questions, llm interview]
+    steps:
+      - {skill: "anthropic-skills:deep-research", purpose: "Research the company, team and stack"}
+      - {skill: "skill-hub:ml-interview-prep", purpose: "Plan, drill, mock and debrief with a graded log"}
+      - {skill: "skill-hub:job-search-copilot", purpose: "Offer comparison and negotiation once offers arrive"}
+  - id: linkedin-presence
+    title: LinkedIn profile and posts
+    pack: careers-jobs
+    keywords: [linkedin, profile, headline, about section, linkedin post, personal brand]
+    steps:
+      - {skill: "linkedin-profile-optimizer", purpose: "Audit and rewrite headline, About, Experience"}
+      - {skill: "linkedin-humanizer", purpose: "Make posts and comments read human"}
+  - id: ai-app-build
+    title: Build and ship an LLM application
+    pack: ai-ml
+    keywords: [llm app, build agent, claude api, anthropic sdk, tool use, mcp server, rag app, chatbot]
+    steps:
+      - {skill: "claude-api", purpose: "Correct model ids, params, caching, tool use"}
+      - {skill: "example-skills:mcp-builder", purpose: "Wrap tools/data as an MCP server"}
+      - {skill: "engineering:testing-strategy", purpose: "Test plan incl. evals for non-deterministic output"}
+      - {skill: "engineering:deploy-checklist", purpose: "Pre-deploy checklist and rollback plan"}
+  - id: ai-eval
+    title: Plan and audit AI evaluation
+    pack: ai-ml
+    keywords: [eval, evaluation, llm eval, benchmark, guardrails, ai quality, rag eval]
+    steps:
+      - {skill: "bm:ai-integration-phase", purpose: "Pick framework, design eval strategy and guardrails"}
+      - {skill: "bm:eval-review", purpose: "Audit the implemented eval coverage"}
+  - id: project-delivery
+    title: Spec-driven delivery from idea to shipped PR
+    pack: dev-workflow
+    keywords: [new project, start project, plan phase, build feature end to end, ship feature, roadmap to code]
+    steps:
+      - {skill: "bm:new-project", purpose: "Capture goals, requirements and roadmap"}
+      - {skill: "bm:plan-phase", purpose: "Plan the next phase with goal-backward checks"}
+      - {skill: "bm:execute-phase", purpose: "Execute plans with atomic commits"}
+      - {skill: "bm:verify-work", purpose: "Verify the phase goal is actually met"}
+      - {skill: "bm:ship", purpose: "Open the PR"}
+  - id: debug-and-fix
+    title: Debug, fix, then lock it in with tests
+    pack: software-dev
+    keywords: [bug, debug, failing test, stack trace, exception, flaky, regression, crash]
+    steps:
+      - {skill: "engineering:debug", purpose: "Reproduce, isolate, find root cause"}
+      - {skill: "bm:add-tests", purpose: "Add regression tests"}
+      - {skill: "code-review", purpose: "Review the fix before merging"}
+  - id: code-quality-pass
+    title: Pre-merge quality pass
+    pack: software-dev
+    keywords: [review my code, pre merge, cleanup, refactor, quality pass, pull request review]
+    steps:
+      - {skill: "simplify", purpose: "Remove duplication, tighten code"}
+      - {skill: "code-review", purpose: "Find correctness bugs in the diff"}
+      - {skill: "security-review", purpose: "Check the change for security issues"}
+  - id: web-ui-build
+    title: Design and build a polished web UI
+    pack: web-frontend-design
+    keywords: [landing page, website, web ui, dashboard ui, redesign, frontend, design system]
+    steps:
+      - {skill: "impeccable:impeccable", purpose: "Shape the design direction and critique it"}
+      - {skill: "frontend-design:frontend-design", purpose: "Implement distinctive production-grade UI"}
+      - {skill: "example-skills:webapp-testing", purpose: "Drive the page with Playwright to verify it"}
+  - id: research-report
+    title: Researched report or briefing
+    pack: research-learning
+    keywords: [research report, market research, literature review, compare options, deep research, briefing]
+    steps:
+      - {skill: "anthropic-skills:deep-research", purpose: "Multi-source research with citations"}
+      - {skill: "anthropic-skills:docx", purpose: "Deliver as a Word document"}
+      - {skill: "anthropic-skills:humanizer", purpose: "Polish the prose"}
+  - id: slide-deck
+    title: Research-backed slide deck
+    pack: docs-content
+    keywords: [slide deck, presentation, pitch deck, powerpoint, pptx]
+    steps:
+      - {skill: "anthropic-skills:deep-research", purpose: "Gather the substance"}
+      - {skill: "anthropic-skills:pptx", purpose: "Build the deck"}
+  - id: data-report
+    title: Spreadsheet to insight
+    pack: data-analytics
+    keywords: [spreadsheet, excel, csv, data analysis, chart, kpi, dashboard, metrics report]
+    steps:
+      - {skill: "anthropic-skills:xlsx", purpose: "Clean and structure the data"}
+      - {skill: "dataviz", purpose: "Choose charts and colors that read clearly"}
+      - {skill: "product-management:metrics-review", purpose: "Interpret trends and call out actions"}
+  - id: incident-response
+    title: Production incident to postmortem
+    pack: mlops-devops
+    keywords: [incident, outage, production down, on call, postmortem, sev1]
+    steps:
+      - {skill: "engineering:incident-response", purpose: "Triage, communicate, mitigate"}
+      - {skill: "operations:runbook", purpose: "Turn the fix into a runbook"}
+      - {skill: "engineering:documentation", purpose: "Write the postmortem"}
+  - id: product-spec
+    title: Research to spec to stakeholder update
+    pack: product-mgmt
+    keywords: [prd, product spec, roadmap, user research, feature spec, stakeholder update]
+    steps:
+      - {skill: "product-management:synthesize-research", purpose: "Distill user research"}
+      - {skill: "product-management:write-spec", purpose: "Write the spec"}
+      - {skill: "product-management:roadmap-update", purpose: "Place it on the roadmap"}
+      - {skill: "product-management:stakeholder-update", purpose: "Tell stakeholders"}
+  - id: contract-review
+    title: Contract intake and review
+    pack: legal-compliance
+    keywords: [contract, nda, vendor agreement, redline, legal review, msa]
+    steps:
+      - {skill: "legal:triage-nda", purpose: "Fast green/yellow/red classification for NDAs"}
+      - {skill: "legal:review-contract", purpose: "Clause-by-clause review and redlines"}
+      - {skill: "legal:legal-risk-assessment", purpose: "Grade the risks"}
+      - {skill: "legal:signature-request", purpose: "Route for e-signature"}
+  - id: month-end-close
+    title: Month-end close
+    pack: finance-accounting
+    keywords: [month end, close books, journal entry, reconciliation, financial statements, variance]
+    steps:
+      - {skill: "finance:journal-entry", purpose: "Prepare journal entries"}
+      - {skill: "finance:reconciliation", purpose: "Reconcile accounts"}
+      - {skill: "finance:financial-statements", purpose: "Generate statements"}
+      - {skill: "finance:variance-analysis", purpose: "Explain the variances"}
+  - id: build-a-skill
+    title: Create a new skill safely
+    pack: meta-tooling
+    keywords: [create skill, new skill, write skill, skill authoring, package skill]
+    steps:
+      - {skill: "anthropic-skills:skill-creator", purpose: "Draft, test and tune the skill"}
+      - {skill: "skill-hub:skill-vetter", purpose: "Static security vet before sharing"}
+  - id: browser-task
+    title: Operate a website
+    pack: browser-automation
+    keywords: [fill form, click website, scrape page, screenshot site, log in website, automate browser]
+    steps:
+      - {skill: "anthropic-skills:built-in-browser", purpose: "Use the in-app browser pane first"}
+      - {skill: "agent-browser", purpose: "CLI automation for scripted flows"}
+      - {skill: "example-skills:webapp-testing", purpose: "Playwright for local web apps"}

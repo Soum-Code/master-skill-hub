@@ -1,0 +1,49 @@
+name: Submitted skill or request
+
+# Anything you spot anywhere (a reel, a tweet, a newsletter) can be filed as an issue.
+# The link is vetted like everything else; it is never executed. Only trusted authors trigger an
+# immediate run - other submissions are picked up by the weekly job.
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: registry-write
+  cancel-in-progress: false
+
+jobs:
+  vet:
+    if: >
+      (contains(github.event.issue.labels.*.name, 'submit-skill') || contains(github.event.issue.labels.*.name, 'skill-request')) &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Vet submissions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKILL_HUB_LLM: github-models
+        run: |
+          mkdir -p reports
+          python -m skillhub discover --sources issues --max-repos 10 --report reports/submission.md
+          python -m skillhub build --no-zip
+      - name: Commit and answer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "skill-hub-bot"
+          git config user.email "skill-hub-bot@users.noreply.github.com"
+          git add -A registry catalog site skills/master-skill/references README.md
+          git diff --cached --quiet || { git commit -m "chore(submit): vet submitted skill [skip ci]"; git push; }
+          head -c 12000 reports/submission.md > /tmp/answer.md
+          gh issue comment "$ISSUE_NUMBER" --body-file /tmp/answer.md

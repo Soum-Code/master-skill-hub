@@ -1,0 +1,98 @@
+name: Weekly discovery
+
+# Runs on GitHub's servers, so it works while your PC is off.
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays 03:17 UTC (08:47 IST)
+  workflow_dispatch:
+    inputs:
+      max_repos:
+        description: "Max repositories to vet this run"
+        default: "60"
+      sources:
+        description: "Comma list to restrict sources (empty = all)"
+        default: ""
+
+permissions:
+  contents: write     # commit registry/catalog updates and the heartbeat
+  issues: write       # post the weekly report
+  models: read        # free GitHub Models call for the optional AI second opinion
+
+concurrency:
+  group: weekly-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml pytest
+
+      - name: Discover and vet
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKILL_HUB_LLM: github-models                 # free; can only escalate risk, never approve
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}     # optional
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}               # optional
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}       # optional
+          MAX_REPOS: ${{ inputs.max_repos || '60' }}
+          ONLY_SOURCES: ${{ inputs.sources || '' }}
+        run: |
+          mkdir -p reports
+          python -m skillhub discover --max-repos "$MAX_REPOS" --sources "$ONLY_SOURCES" --report reports/latest.md
+
+      - name: Rebuild catalog, registry bundle and zips
+        run: python -m skillhub build
+
+      - name: Validate before publishing anything
+        run: |
+          python -m skillhub validate
+          python -m pytest -q
+
+      - name: Commit (always - the heartbeat keeps the schedule alive)
+        id: commit
+        run: |
+          git config user.name "skill-hub-bot"
+          git config user.email "skill-hub-bot@users.noreply.github.com"
+          git add -A registry catalog site skills/master-skill/references README.md reports
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m "chore(weekly): skill discovery $(date -u +%F) [skip ci]"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Post the weekly report as an issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create weekly-report --color 0E8A16 --description "Automated weekly skill discovery" 2>/dev/null || true
+          head -c 60000 reports/latest.md > /tmp/body.md
+          gh issue create --title "Weekly skill report $(date -u +%F)" --label weekly-report --body-file /tmp/body.md
+
+      - name: Publish the claude.ai-ready zips (rolling "latest" release)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh release view latest >/dev/null 2>&1; then
+            gh release create latest dist/*.zip --title "Latest build" --notes "Rolling build. Upload master-skill.zip / skill-vetter.zip in claude.ai: Settings > Capabilities > Skills." --target main
+          else
+            gh release upload latest dist/*.zip --clobber
+            gh release edit latest --notes "Rolling build, refreshed $(date -u +%F). Upload master-skill.zip / skill-vetter.zip in claude.ai: Settings > Capabilities > Skills."
+          fi
+
+  pages:
+    needs: discover
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

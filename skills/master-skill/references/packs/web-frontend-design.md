@@ -1,0 +1,21 @@
+# Web, Frontend & UI Design
+
+- `bm:sketch` - Sketch UI/design ideas with throwaway HTML mockups, or propose what to sketch next (frontier mode)
+- `bm:ui-phase` - Generate UI design contract (UI-SPEC.md) for frontend phases
+- `bm:ui-review` - Retroactive 6-pillar visual audit of implemented frontend code
+- `example-skills:brand-guidelines` - Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual 
+- `example-skills:canvas-design` - Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. 
+- `example-skills:frontend-design` - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templ
+- `example-skills:theme-factory` - Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any 
+- `example-skills:web-artifacts-builder` - Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring s
+- `frontend-design:frontend-design` - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templ
+- `impeccable:impeccable` - Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface.
+- `taste-skill:brutalist-skill` - Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-
+- `taste-skill:gpt-tasteskill` - Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless
+- `taste-skill:imagegen-frontend-web` - Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A la
+- `taste-skill:minimalist-skill` - Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
+- `taste-skill:redesign-skill` - Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works wit
+- `taste-skill:soft-skill` - Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults
+- `taste-skill:stitch-skill` - Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric lay
+- `taste-skill:taste-skill` - Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real des
+- `taste-skill:taste-skill-v1` - The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use thi

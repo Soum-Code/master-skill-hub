@@ -1,0 +1,13 @@
+name: Request a skill
+description: Tell the weekly search what you are missing. It searches for it first.
+title: "[request] "
+labels: ["skill-request"]
+body:
+  - type: input
+    id: need
+    attributes:
+      label: What do you need a skill for?
+      description: One line, as you would say it to Claude. The issue title is what gets searched.
+      placeholder: prep for ML system design interviews
+    validations:
+      required: true

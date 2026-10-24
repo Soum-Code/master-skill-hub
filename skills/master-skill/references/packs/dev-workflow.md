@@ -1,0 +1,57 @@
+# Spec-driven Dev Workflow
+
+- `bm:add-backlog` - Add an idea to the backlog parking lot (999.x numbering)
+- `bm:add-phase` - Add phase to end of current milestone in roadmap
+- `bm:analyze-dependencies` - Analyze phase dependencies and suggest Depends on entries for ROADMAP.md
+- `bm:audit-milestone` - Audit milestone completion against original intent before archiving
+- `bm:audit-uat` - Cross-phase audit of all outstanding UAT and verification items
+- `bm:autonomous` - Run all remaining phases autonomously — discuss→plan→execute per phase
+- `bm:check-todos` - List pending todos and select one to work on
+- `bm:cleanup` - Archive accumulated phase directories from completed milestones
+- `bm:complete-milestone` - Archive completed milestone and prepare for next version
+- `bm:discuss-phase` - Gather phase context through adaptive questioning before planning. Use --all to skip area selection and discuss all gray areas interactively. Use --auto to skip interactive questions (Claude
+- `bm:do` - Route freeform text to the right GSD command automatically
+- `bm:execute-phase` - Execute all plans in a phase with wave-based parallelization
+- `bm:extract_learnings` - Extract decisions, lessons, patterns, and surprises from completed phase artifacts
+- `bm:fast` - Execute a trivial task inline — no subagents, no planning overhead
+- `bm:forensics` - Post-mortem investigation for failed GSD workflows — analyzes git history, artifacts, and state to diagnose what went wrong
+- `bm:from-gsd2` - Import a GSD-2 (.gsd/) project back to GSD v1 (.planning/) format
+- `bm:graphify` - Build, query, and inspect the project knowledge graph in .planning/graphs/
+- `bm:help` - Show available GSD commands and usage guide
+- `bm:import` - Ingest external plans with conflict detection against project decisions before writing anything.
+- `bm:insert-phase` - Insert urgent work as decimal phase (e.g., 72.1) between existing phases
+- `bm:intel` - Query, inspect, or refresh codebase intelligence files in .planning/intel/
+- `bm:list-phase-assumptions` - Surface Claude's assumptions about a phase approach before planning
+- `bm:list-workspaces` - List active GSD workspaces and their status
+- `bm:manager` - Interactive command center for managing multiple phases from one terminal
+- `bm:milestone-summary` - Generate a comprehensive project summary from milestone artifacts for team onboarding and review
+- `bm:mvp-phase` - Plan an MVP-mode phase — captures an "As a / I want to / So that" user story, runs SPIDR splitting, then delegates to plan-phase
+- `bm:new-milestone` - Start a new milestone cycle — update PROJECT.md and route to requirements
+- `bm:new-project` - Initialize a new project with deep context gathering and PROJECT.md
+- `bm:new-workspace` - Create an isolated workspace with repo copies and independent .planning/
+- `bm:next` - Automatically advance to the next logical step in the GSD workflow
+- `bm:pause-work` - Create context handoff when pausing work mid-phase
+- `bm:plan-milestone-gaps` - Create phases to close all gaps identified by milestone audit
+- `bm:plan-phase` - Create detailed phase plan (PLAN.md) with verification loop
+- `bm:plant-seed` - Capture a forward-looking idea with trigger conditions — surfaces automatically at the right milestone
+- `bm:progress` - Check project progress, show context, and route to next action (execute or plan). Use --forensic to append a 6-check integrity audit after the standard report.
+- `bm:quick` - Execute a quick task with GSD guarantees (atomic commits, state tracking) but skip optional agents
+- `bm:remove-phase` - Remove a future phase from roadmap and renumber subsequent phases
+- `bm:remove-workspace` - Remove a GSD workspace and clean up worktrees
+- `bm:research-phase` - Research how to implement a phase (standalone - usually use /bm:plan-phase instead)
+- `bm:resume-at` - Schedule a future resume of work - e.g. '/bm:resume-at 09:00', '/bm:resume-at +2h', or '/bm:resume-at 04:00 --cmd /bm:execute-phase 9'
+- `bm:resume-work` - Resume work from previous session with full context restoration
+- `bm:review` - Request cross-AI peer review of phase plans from external AI CLIs
+- `bm:review-backlog` - Review and promote backlog items to active milestone
+- `bm:set-profile` - Switch model profile for GSD agents (quality/balanced/budget/inherit)
+- `bm:sketch-wrap-up` - Package sketch design findings into a persistent project skill for future build conversations
+- `bm:spec-phase` - Socratic spec refinement — clarify WHAT a phase delivers with ambiguity scoring before discuss-phase. Produces a SPEC.md with falsifiable requirements locked before implementation decisions 
+- `bm:spike-wrap-up` - Package spike findings into a persistent project skill for future build conversations
+- `bm:stats` - Display project statistics — phases, plans, requirements, git metrics, and timeline
+- `bm:thread` - Manage persistent context threads for cross-session work
+- `bm:ultraplan-phase` - [BETA] Offload plan phase to Claude Code's ultraplan cloud — drafts remotely while terminal stays free, review in browser with inline comments, import back via /bm:import. Claude Code only.
+- `bm:undo` - Safe git revert. Roll back phase or plan commits using the phase manifest with dependency checks.
+- `bm:validate-phase` - Retroactively audit and fill Nyquist validation gaps for a completed phase
+- `bm:verify-work` - Validate built features through conversational UAT
+- `bm:workstreams` - Manage parallel workstreams — list, create, switch, status, progress, complete, and resume
+- `product-management:sprint-planning` - Plan a sprint — scope work, estimate capacity, set goals, and draft a sprint plan. Use when kicking off a new sprint, sizing a backlog against team availability (accounting for PTO and meeti

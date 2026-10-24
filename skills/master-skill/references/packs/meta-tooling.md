@@ -1,0 +1,21 @@
+# Claude / Skills / Plugin Tooling
+
+- `anthropic-skills:computer-use` - Read this skill before the first step of any request to do something in an app on the person's own computer (Notes, Finder, System Settings, any desktop app), to look at their screen, or for
+- `anthropic-skills:setup-claude` - Guided setup — install role-matched plugins, connect your tools, try a skill.
+- `anthropic-skills:setup-cowork` - Guided setup — install role-matched plugins, connect your tools, try a skill.
+- `anthropic-skills:skill-creator` - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to te
+- `bm:profile-user` - Generate developer behavioral profile and create Claude-discoverable artifacts
+- `bm:settings` - Configure GSD workflow toggles and model profile
+- `bm:update` - Update GSD to latest version with changelog display
+- `bm:version` - Print the installed GSD plugin version and check online for updates
+- `claude-code-setup:claude-automation-recommender` - Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use when user asks for automation recommendations, wants to optimize their Claude C
+- `cowork-plugin-management:cowork-plugin-customizer` - Customize a Claude Code plugin for a specific organization's tools and workflows. Use when: customize plugin, set up plugin, configure plugin, tailor plugin, adjust plugin settings, customiz
+- `cowork-plugin-management:create-cowork-plugin` - Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a plugin, build a plugin, make a new plugin, develop a plugin, scaffold a plugin, st
+- `example-skills:skill-creator` - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to te
+- `fewer-permission-prompts` - Scan transcripts for common read-only Bash and MCP tool calls and add a prioritized allowlist to project settings to reduce permission prompts.
+- `keybindings-help` - Customize keyboard shortcuts, rebind keys, add chord bindings or edit ~/.claude/keybindings.json.
+- `plugin-authoring` - Make a mod - a change to Claude's own interface or behaviour such as a panel, status line, toast, slash command or hook on tool calls.
+- `skill-hub:master-skill` - Router for every other skill. Use at the start of any non-trivial request, and whenever it is unclear which skill, plugin or workflow fits - "which skill should I use", "best skill for this"
+- `skill-hub:skill-vetter` - Security-vet an Agent Skill, plugin folder or a GitHub repo of skills before installing or sharing it. Use whenever the user is about to install, copy, or enable a third-party skill; asks "i
+- `update-config` - Configure the Claude Code harness via settings.json - hooks, permissions, environment variables and other automated behaviours.
+- `workflow-authoring` - Reference for writing a Workflow tool script that orchestrates multiple subagents - script API, resume, quality patterns, worked examples.

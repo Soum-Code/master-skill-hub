@@ -1,0 +1,25 @@
+{
+  "name": "master-skill-hub",
+  "owner": {
+    "name": "Soum-Code",
+    "url": "https://github.com/Soum-Code"
+  },
+  "metadata": {
+    "description": "A router over 200+ skills grouped by industry, plus a vetter that checks third-party skills before you install them. Updated weekly by GitHub Actions.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skill-hub",
+      "description": "master-skill routes any task to the best skill from industry packs (AI/ML, MLOps, careers, dev, data, design, legal, finance...). skill-vetter security-vets third-party skills and installs them pinned to a commit. job-search-copilot and ml-interview-prep cover resumes, applications and ML/AI interview prep.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/master-skill",
+        "./skills/skill-vetter",
+        "./skills/job-search-copilot",
+        "./skills/ml-interview-prep"
+      ]
+    }
+  ]
+}

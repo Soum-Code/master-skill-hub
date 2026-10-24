@@ -1,0 +1,38 @@
+# Manual pack corrections where keyword scoring is wrong. Keep this list short.
+# id: {pack: <primary>, packs: [extra...]}
+overrides:
+  fewer-permission-prompts: {pack: meta-tooling}
+  init: {pack: software-dev}
+  run: {pack: software-dev}
+  schedule: {pack: productivity-automation, packs: [mlops-devops]}
+  loop: {pack: productivity-automation}
+  "anthropic-skills:schedule": {pack: productivity-automation}
+  "taste-skill:output-skill": {pack: software-dev}
+  "bm:ai-integration-phase": {pack: ai-ml, packs: [dev-workflow]}
+  "bm:eval-review": {pack: ai-ml, packs: [dev-workflow]}
+  "bm:secure-phase": {pack: security, packs: [dev-workflow]}
+  "bm:ui-phase": {pack: web-frontend-design, packs: [dev-workflow]}
+  "bm:ui-review": {pack: web-frontend-design, packs: [dev-workflow]}
+  "bm:code-review": {pack: software-dev, packs: [dev-workflow]}
+  "bm:code-review-fix": {pack: software-dev, packs: [dev-workflow]}
+  "bm:debug": {pack: software-dev, packs: [dev-workflow]}
+  "bm:add-tests": {pack: software-dev, packs: [dev-workflow]}
+  "bm:ship": {pack: mlops-devops, packs: [dev-workflow]}
+  "bm:pr-branch": {pack: mlops-devops, packs: [dev-workflow]}
+  "bm:help": {pack: dev-workflow}
+  "bm:do": {pack: dev-workflow}
+  "bm:verify-work": {pack: dev-workflow}
+  "linkedin-humanizer": {pack: careers-jobs, packs: [docs-content, communication-collab]}
+  "linkedin-profile-optimizer": {pack: careers-jobs}
+  "anthropic-skills:humanizer": {pack: docs-content}
+  "anthropic-skills:clean-user-facing-text": {pack: docs-content}
+  "karpathy-guidelines": {pack: software-dev, packs: [ai-ml]}
+  "reverse-engineer-anything": {pack: security, packs: [software-dev]}
+  "example-skills:mcp-builder": {pack: ai-ml, packs: [meta-tooling]}
+  "anthropic-skills:deep-research": {pack: research-learning}
+  "bm:set-profile": {pack: dev-workflow}
+  "dataviz": {pack: data-analytics, packs: [web-frontend-design]}
+  "bm:resume-work": {pack: dev-workflow, packs: [productivity-automation]}
+  "bm:resume-at": {pack: dev-workflow, packs: [productivity-automation]}
+  "skill-hub:job-search-copilot": {pack: careers-jobs, packs: [docs-content]}
+  "skill-hub:ml-interview-prep": {pack: careers-jobs, packs: [ai-ml]}

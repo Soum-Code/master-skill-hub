@@ -1,0 +1,101 @@
+# Industry / role packs.
+# Every skill is classified into one primary pack (+ extra packs) by keyword
+# scoring: a hit in the skill name counts 3x, in tags 2x, in the description 1x.
+# `keywords` are lowercase stems matched as whole words or word prefixes.
+# `queries` seed the weekly discovery (GitHub / HN / dev.to / ... searches).
+packs:
+  ai-ml:
+    title: AI / ML Engineering
+    summary: LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research.
+    keywords: [llm, ai, ml, machine, learning, model, prompt, agent, agents, rag, embedding, embeddings, eval, evals, evaluation, mcp, claude, anthropic, openai, huggingface, transformer, finetune, fine-tune, dataset, inference, notebook, pytorch, tensorflow, langchain, vector, token, tokens, benchmark, guardrail, copilot, autonomous]
+    queries: ["claude skill llm", "agent skill rag evaluation", "SKILL.md machine learning", "mcp server builder skill", "prompt engineering skill claude", "llm eval skill"]
+  mlops-devops:
+    title: MLOps / DevOps / Cloud
+    summary: CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management.
+    keywords: [mlops, devops, deploy, deployment, ci, cd, pipeline, docker, container, kubernetes, k8s, terraform, infra, infrastructure, cloud, aws, azure, gcp, vercel, monitoring, observability, incident, runbook, release, rollback, workflow, actions, github, git, ship, pr, branch, worktree, cron, schedule]
+    queries: ["claude skill mlops", "SKILL.md ci cd github actions", "claude skill kubernetes docker", "agent skill deployment checklist", "claude skill terraform"]
+  software-dev:
+    title: Software Development
+    summary: Writing, reviewing, debugging, testing and architecting code across languages.
+    keywords: [code, coding, review, debug, debugging, test, tests, testing, tdd, refactor, architecture, design, system, api, backend, frontend, typescript, javascript, python, rust, go, java, sql, database, bug, lint, performance, optimize, simplify, documentation, docs, repo, codebase, tech, debt, implement]
+    queries: ["claude skill code review", "SKILL.md debugging", "claude skill testing strategy", "agent skill refactoring", "claude skill python", "claude skill typescript"]
+  dev-workflow:
+    title: Spec-driven Dev Workflow
+    summary: Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style).
+    keywords: [phase, milestone, plan, planning, execute, execution, verify, verification, workstream, workspace, backlog, todo, spike, sketch, seed, thread, resume, pause, ship, uat, autonomous, gsd, buildomator, roadmap, wrap, discuss, assumption, assumptions, project, quick, fast, undo, forensics, walkthrough]
+    queries: ["claude code workflow plugin planning", "SKILL.md spec driven development", "claude skill project planning phases", "agentic coding workflow skill"]
+  web-frontend-design:
+    title: Web, Frontend & UI Design
+    summary: UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish.
+    keywords: [ui, ux, design, frontend, css, html, react, tailwind, layout, typography, font, color, colour, brand, theme, landing, page, website, visual, aesthetic, animation, motion, responsive, accessibility, a11y, component, mockup, figma, canvas, polish, brutalist, minimalist, taste, impeccable, artifact]
+    queries: ["claude skill frontend design", "SKILL.md ui ux", "claude skill tailwind react", "agent skill design system"]
+  browser-automation:
+    title: Browser & Web Automation
+    summary: Driving browsers, scraping, form filling, E2E tests, screenshots, web research.
+    keywords: [browser, playwright, puppeteer, selenium, scrape, scraping, crawl, automation, automate, click, form, screenshot, chrome, e2e, headless, webapp, navigate, web]
+    queries: ["claude skill playwright", "SKILL.md browser automation", "agent skill web scraping"]
+  careers-jobs:
+    title: Careers, Jobs & Hiring
+    summary: Resumes, CVs, cover letters, LinkedIn, interview prep, portfolios, job search, networking.
+    keywords: [resume, cv, curriculum, linkedin, interview, interviews, career, careers, job, jobs, hiring, recruiter, recruiting, cover, letter, portfolio, profile, headline, salary, negotiation, offer, apply, application, applications, networking, candidate, talent, onboarding]
+    queries: ["claude skill resume", "SKILL.md cover letter job application", "claude skill interview preparation", "claude skill linkedin", "agent skill job search", "claude skill portfolio"]
+  data-analytics:
+    title: Data & Analytics
+    summary: SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning.
+    keywords: [data, analytics, analysis, sql, spreadsheet, excel, xlsx, csv, chart, charts, dashboard, visualization, dataviz, metrics, kpi, statistics, pandas, bi, report, variance, forecast, reconciliation]
+    queries: ["claude skill data analysis", "SKILL.md sql", "claude skill excel spreadsheet", "claude skill data visualization"]
+  docs-content:
+    title: Documents, Writing & Content
+    summary: Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts.
+    keywords: [docx, word, pdf, pptx, powerpoint, slides, deck, document, documents, writing, write, writer, edit, editing, copy, copywriting, humanize, humanizer, prose, article, blog, post, newsletter, email, comms, communication, proofread, summary, summarize, report, markdown, content]
+    queries: ["claude skill writing", "SKILL.md docx pdf", "claude skill technical writing", "claude skill blog content", "claude skill presentation"]
+  product-mgmt:
+    title: Product Management
+    summary: PRDs, roadmaps, specs, sprint planning, stakeholder updates, user research synthesis.
+    keywords: [product, roadmap, prd, spec, specs, sprint, backlog, stakeholder, research, synthesis, competitive, metrics, okr, user, story, stories, brainstorm, strategy, launch, discovery]
+    queries: ["claude skill product management", "SKILL.md prd roadmap", "claude skill user research"]
+  finance-accounting:
+    title: Finance & Accounting
+    summary: Journal entries, reconciliations, close, financial statements, audit support, SOX, variance analysis.
+    keywords: [finance, financial, accounting, journal, ledger, reconciliation, close, audit, sox, variance, budget, forecast, invoice, tax, payroll, treasury, statements, gaap]
+    queries: ["claude skill accounting", "SKILL.md finance", "claude skill financial analysis"]
+  legal-compliance:
+    title: Legal & Compliance
+    summary: Contract review, NDAs, compliance checks, risk assessment, e-signature, privacy/DPA.
+    keywords: [legal, contract, contracts, nda, compliance, regulation, regulatory, gdpr, privacy, dpa, clause, redline, counsel, litigation, policy, risk, signature, esign, vendor, agreement]
+    queries: ["claude skill legal contract review", "SKILL.md compliance gdpr", "claude skill nda"]
+  operations-business:
+    title: Operations & Business
+    summary: Process design, capacity planning, vendor management, status reports, change management.
+    keywords: [operations, process, procedure, sop, vendor, capacity, workload, status, report, change, request, tracking, optimization, bottleneck, workflow, business, strategy, procurement]
+    queries: ["claude skill operations", "SKILL.md business process", "claude skill project management"]
+  security:
+    title: Security & Privacy
+    summary: Security review, vulnerability analysis, secrets hygiene, threat modelling, safe skill vetting.
+    keywords: [security, secure, vulnerability, vulnerabilities, threat, pentest, exploit, secrets, secret, auth, authentication, authorization, owasp, cve, audit, malware, sandbox, vet, vetting, supply, chain, injection]
+    queries: ["claude skill security review", "SKILL.md owasp", "claude skill threat modeling", "agent skill scanner"]
+  research-learning:
+    title: Research & Learning
+    summary: Deep research, literature review, brainstorming, explaining, study and teaching aids.
+    keywords: [research, deep, literature, paper, papers, arxiv, study, learn, learning, teach, tutor, explain, explainer, brainstorm, exploration, explore, spike, sketch, thinking, analysis, survey, insights]
+    queries: ["claude skill research", "SKILL.md deep research", "claude skill study learning", "claude skill arxiv papers"]
+  productivity-automation:
+    title: Productivity & Automation
+    summary: Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows.
+    keywords: [task, tasks, todo, productivity, memory, remember, schedule, scheduled, recurring, loop, reminder, inbox, notes, note, calendar, morning, brief, standup, status, planner, habit, session, pause, progress, stats, health]
+    queries: ["claude skill productivity", "SKILL.md task management", "claude skill scheduling automation", "claude skill daily brief"]
+  meta-tooling:
+    title: Claude / Skills / Plugin Tooling
+    summary: Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods.
+    keywords: [skill, skills, plugin, plugins, hook, hooks, settings, config, keybinding, keybindings, claude, mcp, marketplace, setup, install, customize, customizer, creator, authoring, mod, update, version, profile, workflow]
+    queries: ["claude skill creator", "SKILL.md plugin marketplace", "claude code hooks skill", "agent skills meta"]
+  creative-media:
+    title: Creative & Media
+    summary: Generative art, GIFs, imagery, themes, branding, video/audio helpers.
+    keywords: [art, algorithmic, creative, gif, image, images, imagegen, photo, video, audio, music, brandkit, logo, illustration, poster, canvas, animation, generative]
+    queries: ["claude skill image generation", "SKILL.md creative art", "claude skill video editing"]
+  communication-collab:
+    title: Communication & Collaboration
+    summary: Slack, email, meetings, standups, internal comms, stakeholder updates, briefings.
+    keywords: [slack, email, gmail, meeting, meetings, briefing, standup, comms, internal, update, newsletter, discord, telegram, teams, calendar, inbox, collaboration, stakeholder]
+    queries: ["claude skill slack", "SKILL.md meeting notes", "claude skill email drafting"]

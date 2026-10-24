@@ -1,0 +1,31 @@
+# Skills that ship inside Claude Code itself (no SKILL.md on disk), taken from the
+# skill listing of a live session. Kept short on purpose: descriptions are paraphrased.
+skills:
+  - name: loop
+    description: Run a prompt or slash command on a recurring interval, or let the model self-pace. Use when the user wants to poll for status or repeat something on a schedule.
+  - name: schedule
+    description: Create, update, list or run scheduled cloud agents (routines) on a cron schedule. Use for recurring cloud agents or one-time scheduled runs.
+  - name: claude-api
+    description: Reference for the Claude API and Anthropic SDKs - model ids, pricing, streaming, tool use, MCP, agents, prompt caching, token counting, model migration. Use whenever the task names Claude/Anthropic or is an LLM-shaped task with no provider stated.
+  - name: run
+    description: Launch and drive this project's app to see a change working. Use when asked to run, start or screenshot the app or to confirm a change works end to end.
+  - name: plugin-authoring
+    description: Make a mod - a change to Claude's own interface or behaviour such as a panel, status line, toast, slash command or hook on tool calls.
+  - name: init
+    description: Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
+  - name: security-review
+    description: Security review of the pending changes on the current branch.
+  - name: simplify
+    description: Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality only, not bug hunting.
+  - name: code-review
+    description: Review the current diff or a PR number, branch or path for correctness bugs at a chosen effort level; optionally post inline PR comments or apply fixes.
+  - name: fewer-permission-prompts
+    description: Scan transcripts for common read-only Bash and MCP tool calls and add a prioritized allowlist to project settings to reduce permission prompts.
+  - name: keybindings-help
+    description: Customize keyboard shortcuts, rebind keys, add chord bindings or edit ~/.claude/keybindings.json.
+  - name: update-config
+    description: Configure the Claude Code harness via settings.json - hooks, permissions, environment variables and other automated behaviours.
+  - name: dataviz
+    description: Create any chart, graph, plot, dashboard or data visualization in any medium (HTML/SVG artifact, matplotlib, plotly, d3). Read before choosing chart colors, stat tiles, KPI rows or dashboard layout.
+  - name: workflow-authoring
+    description: Reference for writing a Workflow tool script that orchestrates multiple subagents - script API, resume, quality patterns, worked examples.

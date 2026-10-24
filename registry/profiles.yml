@@ -1,0 +1,31 @@
+# Profiles boost the packs that matter for a person's work.
+# Weight 0..1 -> up to +40% score for that pack when routing (see route.py).
+# Pick one with SKILL_HUB_PROFILE=<id> or ~/.claude/skill-hub/profile.txt.
+profiles:
+  general:
+    title: General (no boost)
+    packs: {}
+  ai-engineer:
+    title: AI / ML / MLOps engineer (and student)
+    packs: {ai-ml: 1.0, mlops-devops: 0.9, software-dev: 0.8, research-learning: 0.7, careers-jobs: 0.6, data-analytics: 0.5, security: 0.4, meta-tooling: 0.4, docs-content: 0.3}
+  software-developer:
+    title: Software developer
+    packs: {software-dev: 1.0, mlops-devops: 0.8, web-frontend-design: 0.6, security: 0.6, browser-automation: 0.5, meta-tooling: 0.4, docs-content: 0.3}
+  data-scientist:
+    title: Data scientist / analyst
+    packs: {data-analytics: 1.0, ai-ml: 0.9, research-learning: 0.7, software-dev: 0.6, docs-content: 0.5, mlops-devops: 0.4}
+  job-seeker:
+    title: Job seeker / career switcher
+    packs: {careers-jobs: 1.0, docs-content: 0.8, communication-collab: 0.5, research-learning: 0.5, productivity-automation: 0.4}
+  designer:
+    title: Designer / frontend creative
+    packs: {web-frontend-design: 1.0, creative-media: 0.9, docs-content: 0.5, browser-automation: 0.4}
+  product-manager:
+    title: Product manager
+    packs: {product-mgmt: 1.0, docs-content: 0.7, data-analytics: 0.6, communication-collab: 0.6, research-learning: 0.5, operations-business: 0.4}
+  founder-operator:
+    title: Founder / operator
+    packs: {operations-business: 0.9, product-mgmt: 0.8, finance-accounting: 0.7, legal-compliance: 0.6, communication-collab: 0.6, productivity-automation: 0.5, docs-content: 0.5}
+  finance-legal:
+    title: Finance / legal professional
+    packs: {finance-accounting: 1.0, legal-compliance: 1.0, operations-business: 0.6, docs-content: 0.5, data-analytics: 0.5}

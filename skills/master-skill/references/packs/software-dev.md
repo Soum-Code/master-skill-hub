@@ -1,0 +1,26 @@
+# Software Development
+
+- `bm:add-tests` - Generate tests for a completed phase based on UAT criteria and implementation
+- `bm:code-review` - Review source files changed during a phase for bugs, security issues, and code quality problems
+- `bm:code-review-fix` - Auto-fix issues found by code review in REVIEW.md. Spawns fixer agent, commits each fix atomically, produces REVIEW-FIX.md summary.
+- `bm:debug` - Systematic debugging with persistent state across context resets
+- `bm:docs-update` - Generate or update project documentation verified against the codebase
+- `bm:ingest-docs` - Scan a repo for mixed ADRs, PRDs, SPECs, and DOCs and bootstrap or merge the full .planning/ setup from them. Classifies each doc in parallel, synthesizes a consolidated context with a confl
+- `bm:map-codebase` - Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents
+- `bm:new-ddd` - Initialize a new project using Documentation-Driven Development. Research, then write user-facing docs (SPEC.md) as the spec, then user validates docs, then phases derive from doc sections. 
+- `bm:scan` - Rapid codebase assessment — lightweight alternative to /bm:map-codebase
+- `code-review` - Review the current diff or a PR number, branch or path for correctness bugs at a chosen effort level; optionally post inline PR comments or apply fixes.
+- `engineering:architecture` - Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka vs SQS), documenting a design decision with trade-offs and consequences, reviewi
+- `engineering:code-review` - Review code changes for security, performance, and correctness. Trigger with a PR URL or diff, "review this before I merge", "is this code safe?", or when checking a change for N+1 queries, 
+- `engineering:debug` - Structured debugging session — reproduce, isolate, diagnose, and fix. Trigger with an error message or stack trace, "this works in staging but not prod", "something broke after the deploy", 
+- `engineering:documentation` - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README", "write a runbook", "onboarding guide", or when the user needs help with any for
+- `engineering:system-design` - Design systems, services, and architectures. Trigger with "design a system for", "how should we architect", "system design for", "what's the right architecture for", or when the user needs h
+- `engineering:tech-debt` - Identify, categorize, and prioritize technical debt. Trigger with "tech debt", "technical debt audit", "what should we refactor", "code health", or when the user asks about code quality, ref
+- `engineering:testing-strategy` - Design test strategies and test plans. Trigger with "how should we test", "test strategy for", "write tests for", "test plan", "what tests do we need", or when the user needs help with testi
+- `example-skills:doc-coauthoring` - Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content
+- `init` - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
+- `karpathy-guidelines` - Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define
+- `modern-web-guidance:modern-web-guidance` - Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolve rapidly and training weights contain o
+- `run` - Launch and drive this project's app to see a change working. Use when asked to run, start or screenshot the app or to confirm a change works end to end.
+- `simplify` - Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality only, not bug hunting.
+- `taste-skill:output-skill` - Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabr

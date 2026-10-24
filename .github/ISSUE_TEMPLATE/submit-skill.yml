@@ -1,0 +1,17 @@
+name: Submit a skill or repo
+description: Found a skill somewhere (GitHub, a reel, a newsletter, a thread)? Paste the link. It is vetted, never executed.
+title: "[submit] "
+labels: ["submit-skill"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: GitHub link
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Where did you see it, and why is it useful?
+      description: Optional. Helps ranking.
