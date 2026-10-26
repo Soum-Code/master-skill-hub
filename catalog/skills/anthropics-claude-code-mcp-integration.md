@@ -70,7 +70,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-code:MCP Integration`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/mcp-integration --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree 2b76c1654b5f97827d3b63ea79e97d5df5683d575a6b48f30856bc992b81237c --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/mcp-integration --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree 2b76c1654b5f97827d3b63ea79e97d5df5683d575a6b48f30856bc992b81237c --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

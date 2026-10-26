@@ -72,7 +72,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-code:Agent Development`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/agent-development --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree d7ff27a1505be385a44899b9dbf2c08e771e9e2049bd7a2831ecd271e3a7624b --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/agent-development --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree d7ff27a1505be385a44899b9dbf2c08e771e9e2049bd7a2831ecd271e3a7624b --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "commit": "e24fcf6d371bcfa529bc110bacb1bb43de1b8d33",
+      "commit": "4e6d3299017a7432da15957874992837a315c5b4",
       "first_seen": "2026-10-24",
       "id": "Egonex-AI/Understand-Anything:understand-domain",
       "repo": "Egonex-AI/Understand-Anything",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
+      "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
       "first_seen": "2026-10-24",
       "id": "anthropics/claude-code:Plugin Structure",
       "repo": "anthropics/claude-code",
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:data-scientist",
       "repo": "code-yeongyu/oh-my-openagent",
@@ -143,7 +143,7 @@
       ]
     },
     {
-      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:frontend",
       "repo": "code-yeongyu/oh-my-openagent",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:programming",
       "repo": "code-yeongyu/oh-my-openagent",
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "commit": "1a62c298d2556abf430db87c15c0c70d3348f2b9",
+      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:ultimate-browsing",
       "repo": "code-yeongyu/oh-my-openagent",
@@ -385,7 +385,121 @@
       ]
     },
     {
-      "commit": "e03d5c23f308c39f4de7c057568df66c29a84385",
+      "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280",
+      "first_seen": "2026-10-26",
+      "id": "nanocoai/nanoclaw:add-cursor",
+      "repo": "nanocoai/nanoclaw",
+      "top_findings": [
+        {
+          "file": "payload/container/agent-runner/src/providers/cursor.gateway-proxy.test.ts",
+          "line": 67,
+          "rule": "secret-material",
+          "severity": "high"
+        },
+        {
+          "file": "payload/container/agent-runner/src/providers/cursor.gateway-proxy.test.ts",
+          "line": 587,
+          "rule": "inj-secret-exfil",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280",
+      "first_seen": "2026-10-26",
+      "id": "nanocoai/nanoclaw:add-dashboard",
+      "repo": "nanocoai/nanoclaw",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 87,
+          "rule": "inj-secret-exfil",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280",
+      "first_seen": "2026-10-26",
+      "id": "nanocoai/nanoclaw:add-iron-proxy",
+      "repo": "nanocoai/nanoclaw",
+      "top_findings": [
+        {
+          "file": "scripts/install-claude.sh",
+          "line": 10,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/install-claude.sh",
+          "line": 34,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280",
+      "first_seen": "2026-10-26",
+      "id": "nanocoai/nanoclaw:add-onecli",
+      "repo": "nanocoai/nanoclaw",
+      "top_findings": [
+        {
+          "file": "scripts/install-claude.sh",
+          "line": 11,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/install-claude.sh",
+          "line": 32,
+          "rule": "exec-remote",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/register-claude-token.sh",
+          "line": 30,
+          "rule": "exec-remote",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280",
+      "first_seen": "2026-10-26",
+      "id": "nanocoai/nanoclaw:add-teams",
+      "repo": "nanocoai/nanoclaw",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 111,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280",
+      "first_seen": "2026-10-26",
+      "id": "nanocoai/nanoclaw:add-telegram",
+      "repo": "nanocoai/nanoclaw",
+      "top_findings": [
+        {
+          "file": "SKILL.md",
+          "line": 138,
+          "rule": "exfil-sink",
+          "severity": "high"
+        },
+        {
+          "file": "SKILL.md",
+          "line": 176,
+          "rule": "exfil-sink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "26d60298f8129e229a1c10aab4df7ca25b1e9ad3",
       "first_seen": "2026-10-24",
       "id": "nexu-io/open-design:docs-page",
       "repo": "nexu-io/open-design",
@@ -427,45 +541,45 @@
       ]
     },
     {
-      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:007",
       "repo": "sickn33/agentic-awesome-skills",
       "top_findings": [
         {
           "file": "references/ai-agent-security.md",
-          "line": 18,
+          "line": 20,
           "rule": "inj-override",
           "severity": "high"
         },
         {
           "file": "references/ai-agent-security.md",
-          "line": 18,
+          "line": 20,
           "rule": "inj-roleplay",
           "severity": "high"
         },
         {
           "file": "references/ai-agent-security.md",
-          "line": 410,
+          "line": 412,
           "rule": "inj-override",
           "severity": "high"
         },
         {
           "file": "references/ai-agent-security.md",
-          "line": 411,
+          "line": 413,
           "rule": "inj-roleplay",
           "severity": "high"
         },
         {
           "file": "references/ai-agent-security.md",
-          "line": 429,
+          "line": 431,
           "rule": "inj-override",
           "severity": "high"
         }
       ]
     },
     {
-      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:2slides-ppt-generator",
       "repo": "sickn33/agentic-awesome-skills",
@@ -479,7 +593,7 @@
       ]
     },
     {
-      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:agent-evals",
       "repo": "sickn33/agentic-awesome-skills",
@@ -505,7 +619,7 @@
       ]
     },
     {
-      "commit": "dda521de21f2cbcba0d8b8476e13f106fd7c3bdd",
+      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:agent-evaluation",
       "repo": "sickn33/agentic-awesome-skills",
@@ -519,7 +633,7 @@
       ]
     },
     {
-      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "commit": "d9b36b66dc68da92af9df238e4c4debab587ba62",
       "first_seen": "2026-10-24",
       "id": "thedotmack/claude-mem:Agent Cost Report",
       "repo": "thedotmack/claude-mem",
@@ -553,7 +667,7 @@
       ]
     },
     {
-      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "commit": "d9b36b66dc68da92af9df238e4c4debab587ba62",
       "first_seen": "2026-10-24",
       "id": "thedotmack/claude-mem:mode-creator",
       "repo": "thedotmack/claude-mem",
@@ -567,7 +681,7 @@
       ]
     },
     {
-      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "commit": "d9b36b66dc68da92af9df238e4c4debab587ba62",
       "first_seen": "2026-10-24",
       "id": "thedotmack/claude-mem:openclaw",
       "repo": "thedotmack/claude-mem",
@@ -603,7 +717,27 @@
           "severity": "high"
         }
       ]
+    },
+    {
+      "commit": "0afc45c29c360ba7bc8260f1bb0bf34e9155f4fa",
+      "first_seen": "2026-10-26",
+      "id": "titanwings/distilly:distilly",
+      "repo": "titanwings/distilly",
+      "top_findings": [
+        {
+          "file": "tools/dingtalk_auto_collector.py",
+          "line": 498,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": "tools/feishu_browser.py",
+          "line": 38,
+          "rule": "cred-paths",
+          "severity": "high"
+        }
+      ]
     }
   ],
-  "updated": "2026-10-24T03:26:43Z"
+  "updated": "2026-10-26T09:03:02Z"
 }

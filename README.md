@@ -5,7 +5,7 @@ One skill that picks the right skill. It knows 200+ skills grouped by industry a
 Works in **Claude Code** (global, all projects) and **claude.ai** (upload a zip).
 
 <!-- STATS:START -->
-**389 skills** in 19 packs - 400 candidates awaiting approval - 29 quarantined. Registry updated 2026-10-24.
+**389 skills** in 19 packs - 400 candidates awaiting approval - 36 quarantined. Registry updated 2026-10-26.
 
 | Pack | Skills |
 |---|---|

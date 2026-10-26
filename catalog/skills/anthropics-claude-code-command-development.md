@@ -70,7 +70,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-code:Command Development`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/command-development --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree 6f128f24f0a8064edb073e53b8132af704e178987e86527202e5dbff1f14b06f --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/command-development --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree 6f128f24f0a8064edb073e53b8132af704e178987e86527202e5dbff1f14b06f --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

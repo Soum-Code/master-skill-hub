@@ -55,7 +55,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:vercel-sandbox`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree 4428ac8f0e2afc17ffb8fe9898fb438c9000ae4340b4e06dd5edaa0c333876f5 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 4428ac8f0e2afc17ffb8fe9898fb438c9000ae4340b4e06dd5edaa0c333876f5 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

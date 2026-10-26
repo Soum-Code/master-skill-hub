@@ -66,7 +66,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:slack`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/slack --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/slack --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

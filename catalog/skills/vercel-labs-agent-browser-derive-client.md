@@ -43,7 +43,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:derive-client`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree b94eece089eea1db18670cb44e4b95db9f89e4e3b6ee6b1a7335cf3d3d545352 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree b94eece089eea1db18670cb44e4b95db9f89e4e3b6ee6b1a7335cf3d3d545352 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

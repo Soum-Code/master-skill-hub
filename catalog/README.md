@@ -50,7 +50,7 @@
 ## Pending review
 
 - [400 candidates](candidates.md) vetted and waiting for a human OK
-- [29 quarantined](quarantine.md) repos that failed vetting
+- [36 quarantined](quarantine.md) repos that failed vetting
 
 ## Everything, A to Z
 

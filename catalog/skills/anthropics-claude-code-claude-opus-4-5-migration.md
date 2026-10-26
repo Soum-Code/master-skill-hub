@@ -51,7 +51,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-code:claude-opus-4-5-migration`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree be905763352e50bbfcb6991c174b328ce47609e95a70098e2f9e08951e41109d --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree be905763352e50bbfcb6991c174b328ce47609e95a70098e2f9e08951e41109d --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

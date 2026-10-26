@@ -2033,17 +2033,17 @@
       ],
       "id": "anthropics/claude-code:Agent Development",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": null,
       "license_class": "unknown",
       "lines": 416,
       "llm": null,
       "name": "Agent Development",
-      "novelty": 0.848,
+      "novelty": 0.0,
       "pack": "ai-ml",
       "packs": [],
       "plugin": null,
-      "rank": 104.36,
+      "rank": 84.41,
       "references": [
         "references/agent-creation-system-prompt.md",
         "references/system-prompt-design.md",
@@ -2053,11 +2053,11 @@
         "scripts/validate-agent.sh"
       ],
       "source": {
-        "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/agent-development --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree d7ff27a1505be385a44899b9dbf2c08e771e9e2049bd7a2831ecd271e3a7624b --apply",
+        "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/agent-development --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree d7ff27a1505be385a44899b9dbf2c08e771e9e2049bd7a2831ecd271e3a7624b --apply",
         "path": "plugins/plugin-dev/skills/agent-development",
         "repo": "anthropics/claude-code",
-        "stars": 153185,
+        "stars": 153411,
         "tree_sha256": "d7ff27a1505be385a44899b9dbf2c08e771e9e2049bd7a2831ecd271e3a7624b",
         "type": "external"
       },
@@ -2073,7 +2073,7 @@
         "examples"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -2270,17 +2270,17 @@
       ],
       "id": "anthropics/claude-code:Command Development",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": null,
       "license_class": "unknown",
       "lines": 835,
       "llm": null,
       "name": "Command Development",
-      "novelty": 0.86,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 95.4,
+      "rank": 75.21,
       "references": [
         "references/advanced-workflows.md",
         "references/documentation-patterns.md",
@@ -2292,11 +2292,11 @@
       ],
       "scripts": [],
       "source": {
-        "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/command-development --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree 6f128f24f0a8064edb073e53b8132af704e178987e86527202e5dbff1f14b06f --apply",
+        "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/command-development --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree 6f128f24f0a8064edb073e53b8132af704e178987e86527202e5dbff1f14b06f --apply",
         "path": "plugins/plugin-dev/skills/command-development",
         "repo": "anthropics/claude-code",
-        "stars": 153185,
+        "stars": 153411,
         "tree_sha256": "6f128f24f0a8064edb073e53b8132af704e178987e86527202e5dbff1f14b06f",
         "type": "external"
       },
@@ -2312,7 +2312,7 @@
         "add"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -2505,19 +2505,19 @@
       ],
       "id": "anthropics/claude-code:MCP Integration",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": null,
       "license_class": "unknown",
       "lines": 555,
       "llm": null,
       "name": "MCP Integration",
-      "novelty": 0.816,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [
         "ai-ml"
       ],
       "plugin": null,
-      "rank": 100.72,
+      "rank": 81.41,
       "references": [
         "references/authentication.md",
         "references/server-types.md",
@@ -2525,11 +2525,11 @@
       ],
       "scripts": [],
       "source": {
-        "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/mcp-integration --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree 2b76c1654b5f97827d3b63ea79e97d5df5683d575a6b48f30856bc992b81237c --apply",
+        "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/mcp-integration --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree 2b76c1654b5f97827d3b63ea79e97d5df5683d575a6b48f30856bc992b81237c --apply",
         "path": "plugins/plugin-dev/skills/mcp-integration",
         "repo": "anthropics/claude-code",
-        "stars": 153185,
+        "stars": 153411,
         "tree_sha256": "2b76c1654b5f97827d3b63ea79e97d5df5683d575a6b48f30856bc992b81237c",
         "type": "external"
       },
@@ -2545,7 +2545,7 @@
         "external"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -2739,17 +2739,17 @@
       ],
       "id": "anthropics/claude-code:Plugin Settings",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": null,
       "license_class": "unknown",
       "lines": 545,
       "llm": null,
       "name": "Plugin Settings",
-      "novelty": 0.846,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 97.37,
+      "rank": 77.46,
       "references": [
         "references/parsing-techniques.md",
         "references/real-world-examples.md"
@@ -2760,11 +2760,11 @@
         "scripts/validate-settings.sh"
       ],
       "source": {
-        "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/plugin-settings --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree cdefba18ca4da8beb3e41beb9c445cb63d83b06c9535a3b8aff30d355ffcdd10 --apply",
+        "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/plugin-settings --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree cdefba18ca4da8beb3e41beb9c445cb63d83b06c9535a3b8aff30d355ffcdd10 --apply",
         "path": "plugins/plugin-dev/skills/plugin-settings",
         "repo": "anthropics/claude-code",
-        "stars": 153185,
+        "stars": 153411,
         "tree_sha256": "cdefba18ca4da8beb3e41beb9c445cb63d83b06c9535a3b8aff30d355ffcdd10",
         "type": "external"
       },
@@ -2780,7 +2780,7 @@
         "frontmatter"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -2968,27 +2968,27 @@
       ],
       "id": "anthropics/claude-code:Skill Development",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": null,
       "license_class": "unknown",
       "lines": 638,
       "llm": null,
       "name": "Skill Development",
-      "novelty": 0.854,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 93.03,
+      "rank": 72.96,
       "references": [
         "references/skill-creator-original.md"
       ],
       "scripts": [],
       "source": {
-        "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/skill-development --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree 1391c4f292cad2114cd28de751ed755e46fec9aa2e0bab4329c78d6f1696c7b9 --apply",
+        "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/plugin-dev/skills/skill-development --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree 1391c4f292cad2114cd28de751ed755e46fec9aa2e0bab4329c78d6f1696c7b9 --apply",
         "path": "plugins/plugin-dev/skills/skill-development",
         "repo": "anthropics/claude-code",
-        "stars": 153185,
+        "stars": 153411,
         "tree_sha256": "1391c4f292cad2114cd28de751ed755e46fec9aa2e0bab4329c78d6f1696c7b9",
         "type": "external"
       },
@@ -3004,7 +3004,7 @@
         "organize"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -3119,25 +3119,25 @@
       ],
       "id": "anthropics/claude-code:Writing Hookify Rules",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": null,
       "license_class": "unknown",
       "lines": 375,
       "llm": null,
       "name": "Writing Hookify Rules",
-      "novelty": 0.852,
+      "novelty": 0.0,
       "pack": "docs-content",
       "packs": [],
       "plugin": null,
-      "rank": 88.14,
+      "rank": 68.11,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/hookify/skills/writing-rules --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree 6f9cfd729fa47600e6c572a1df0342b9b8990942eade010a136dbbafe5432a5b --apply",
+        "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/hookify/skills/writing-rules --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree 6f9cfd729fa47600e6c572a1df0342b9b8990942eade010a136dbbafe5432a5b --apply",
         "path": "plugins/hookify/skills/writing-rules",
         "repo": "anthropics/claude-code",
-        "stars": 153185,
+        "stars": 153411,
         "tree_sha256": "6f9cfd729fa47600e6c572a1df0342b9b8990942eade010a136dbbafe5432a5b",
         "type": "external"
       },
@@ -3153,7 +3153,7 @@
         "add"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -3230,31 +3230,31 @@
       ],
       "id": "anthropics/claude-code:claude-opus-4-5-migration",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": null,
       "license_class": "unknown",
       "lines": 106,
       "llm": null,
       "name": "claude-opus-4-5-migration",
-      "novelty": 0.878,
+      "novelty": 0.0,
       "pack": "ai-ml",
       "packs": [
         "meta-tooling",
         "software-dev"
       ],
       "plugin": null,
-      "rank": 100.96,
+      "rank": 80.41,
       "references": [
         "references/effort.md",
         "references/prompt-snippets.md"
       ],
       "scripts": [],
       "source": {
-        "commit": "318b7e6ac4e726e88a4ad326214866a93c373b1b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration --commit 318b7e6ac4e726e88a4ad326214866a93c373b1b --expect-tree be905763352e50bbfcb6991c174b328ce47609e95a70098e2f9e08951e41109d --apply",
+        "commit": "2eff7a8d21c80be48904f62ebdea36d945d7b504",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-code --path plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration --commit 2eff7a8d21c80be48904f62ebdea36d945d7b504 --expect-tree be905763352e50bbfcb6991c174b328ce47609e95a70098e2f9e08951e41109d --apply",
         "path": "plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration",
         "repo": "anthropics/claude-code",
-        "stars": 153185,
+        "stars": 153411,
         "tree_sha256": "be905763352e50bbfcb6991c174b328ce47609e95a70098e2f9e08951e41109d",
         "type": "external"
       },
@@ -3270,7 +3270,7 @@
         "codebase"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -38368,25 +38368,25 @@
       ],
       "id": "vercel-labs/agent-browser:agent-browser",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 53,
       "llm": null,
       "name": "agent-browser",
-      "novelty": 0.718,
+      "novelty": 0.0,
       "pack": "browser-automation",
       "packs": [],
       "plugin": null,
-      "rank": 74.09,
+      "rank": 62.74,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree 0ff4721e9f83d3f2fc24beb55a978c54929f05e8eab219a58b44befaf90dcaf7 --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 0ff4721e9f83d3f2fc24beb55a978c54929f05e8eab219a58b44befaf90dcaf7 --apply",
         "path": "skills/agent-browser",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "0ff4721e9f83d3f2fc24beb55a978c54929f05e8eab219a58b44befaf90dcaf7",
         "type": "external"
       },
@@ -38403,7 +38403,7 @@
         "automating"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -38470,27 +38470,27 @@
       ],
       "id": "vercel-labs/agent-browser:agentcore",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 116,
       "llm": null,
       "name": "agentcore",
-      "novelty": 0.878,
+      "novelty": 0.0,
       "pack": "mlops-devops",
       "packs": [
         "browser-automation"
       ],
       "plugin": null,
-      "rank": 88.09,
+      "rank": 73.54,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/agentcore --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree a0a45d30f61ac972b940ca35246d8c6fcc8355c6b05ee21d708373967fbb8afc --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/agentcore --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree a0a45d30f61ac972b940ca35246d8c6fcc8355c6b05ee21d708373967fbb8afc --apply",
         "path": "skill-data/agentcore",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "a0a45d30f61ac972b940ca35246d8c6fcc8355c6b05ee21d708373967fbb8afc",
         "type": "external"
       },
@@ -38507,7 +38507,7 @@
         "browsers"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -38566,27 +38566,27 @@
       ],
       "id": "vercel-labs/agent-browser:derive-client",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 87,
       "llm": null,
       "name": "derive-client",
-      "novelty": 0.933,
+      "novelty": 0.0,
       "pack": "browser-automation",
       "packs": [
         "software-dev"
       ],
       "plugin": null,
-      "rank": 87.79,
+      "rank": 72.14,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree b94eece089eea1db18670cb44e4b95db9f89e4e3b6ee6b1a7335cf3d3d545352 --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree b94eece089eea1db18670cb44e4b95db9f89e4e3b6ee6b1a7335cf3d3d545352 --apply",
         "path": "skill-data/derive-client",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "b94eece089eea1db18670cb44e4b95db9f89e4e3b6ee6b1a7335cf3d3d545352",
         "type": "external"
       },
@@ -38603,7 +38603,7 @@
         "recording"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -38680,30 +38680,30 @@
       ],
       "id": "vercel-labs/agent-browser:dogfood",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 225,
       "llm": null,
       "name": "dogfood",
-      "novelty": 0.889,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [
         "browser-automation",
         "careers-jobs"
       ],
       "plugin": null,
-      "rank": 90.61,
+      "rank": 75.84,
       "references": [
         "references/issue-taxonomy.md"
       ],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/dogfood --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree 24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9 --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/dogfood --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9 --apply",
         "path": "skill-data/dogfood",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9",
         "type": "external"
       },
@@ -38720,7 +38720,7 @@
         "repro"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -38835,27 +38835,27 @@
       ],
       "id": "vercel-labs/agent-browser:electron",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 237,
       "llm": null,
       "name": "electron",
-      "novelty": 0.804,
+      "novelty": 0.0,
       "pack": "browser-automation",
       "packs": [
         "communication-collab"
       ],
       "plugin": null,
-      "rank": 75.81,
+      "rank": 62.74,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/electron --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree 29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/electron --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed --apply",
         "path": "skill-data/electron",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed",
         "type": "external"
       },
@@ -38872,7 +38872,7 @@
         "connect"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -38933,25 +38933,25 @@
       ],
       "id": "vercel-labs/agent-browser:protected-vercel-deployments",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 111,
       "llm": null,
       "name": "protected-vercel-deployments",
-      "novelty": 0.917,
+      "novelty": 0.0,
       "pack": "mlops-devops",
       "packs": [],
       "plugin": null,
-      "rank": 88.87,
+      "rank": 73.54,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/protected-vercel-deployments --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree 9e7e144a11eaf0fb4829bb18387ddeb7b1103a2933419d21ec172eb84b29920a --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/protected-vercel-deployments --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 9e7e144a11eaf0fb4829bb18387ddeb7b1103a2933419d21ec172eb84b29920a --apply",
         "path": "skill-data/protected-vercel-deployments",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "9e7e144a11eaf0fb4829bb18387ddeb7b1103a2933419d21ec172eb84b29920a",
         "type": "external"
       },
@@ -38968,7 +38968,7 @@
         "sso"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -39089,29 +39089,29 @@
       ],
       "id": "vercel-labs/agent-browser:slack",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 289,
       "llm": null,
       "name": "slack",
-      "novelty": 0.833,
+      "novelty": 0.0,
       "pack": "communication-collab",
       "packs": [
         "browser-automation"
       ],
       "plugin": null,
-      "rank": 79.89,
+      "rank": 66.24,
       "references": [
         "references/slack-tasks.md"
       ],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/slack --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0 --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/slack --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0 --apply",
         "path": "skill-data/slack",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0",
         "type": "external"
       },
@@ -39128,7 +39128,7 @@
         "interact"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -39203,28 +39203,28 @@
       ],
       "id": "vercel-labs/agent-browser:vercel-sandbox",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 220,
       "llm": null,
       "name": "vercel-sandbox",
-      "novelty": 0.855,
+      "novelty": 0.0,
       "pack": "browser-automation",
       "packs": [
         "mlops-devops",
         "security"
       ],
       "plugin": null,
-      "rank": 87.63,
+      "rank": 73.54,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree 4428ac8f0e2afc17ffb8fe9898fb438c9000ae4340b4e06dd5edaa0c333876f5 --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 4428ac8f0e2afc17ffb8fe9898fb438c9000ae4340b4e06dd5edaa0c333876f5 --apply",
         "path": "skill-data/vercel-sandbox",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "4428ac8f0e2afc17ffb8fe9898fb438c9000ae4340b4e06dd5edaa0c333876f5",
         "type": "external"
       },
@@ -39241,7 +39241,7 @@
         "inside"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -39286,27 +39286,27 @@
       ],
       "id": "vercel-labs/agent-browser:webmcp-gen",
       "kind": "skill",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-26",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 53,
       "llm": null,
       "name": "webmcp-gen",
-      "novelty": 0.918,
+      "novelty": 0.0,
       "pack": "browser-automation",
       "packs": [
         "web-frontend-design"
       ],
       "plugin": null,
-      "rank": 78.09,
+      "rank": 62.74,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/webmcp-gen --commit 372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb --expect-tree c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b --apply",
+        "commit": "04ba5264dade678062c3cdcce0f4f293e748249f",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/webmcp-gen --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b --apply",
         "path": "skill-data/webmcp-gen",
         "repo": "vercel-labs/agent-browser",
-        "stars": 44494,
+        "stars": 44605,
         "tree_sha256": "c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b",
         "type": "external"
       },
@@ -39323,7 +39323,7 @@
         "web"
       ],
       "vet": {
-        "date": "2026-10-24",
+        "date": "2026-10-26",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -40587,5 +40587,5 @@
       "when": ""
     }
   ],
-  "updated": "2026-10-24T03:26:43Z"
+  "updated": "2026-10-26T09:03:01Z"
 }
