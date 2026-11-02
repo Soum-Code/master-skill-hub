@@ -1,25 +1,25 @@
 # Skill catalog
 
-389 skills across 19 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
+394 skills across 19 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
 
 ## Packs (industries and roles)
 
 | Pack | Skills | What it covers |
 |---|---|---|
 | [Spec-driven Dev Workflow](packs/dev-workflow.md) | 59 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
+| [AI / ML Engineering](packs/ai-ml.md) | 39 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
 | [Software Development](packs/software-dev.md) | 38 | Writing, reviewing, debugging, testing and architecting code across languages. |
-| [AI / ML Engineering](packs/ai-ml.md) | 37 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
+| [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 36 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
 | [Web, Frontend & UI Design](packs/web-frontend-design.md) | 36 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
-| [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 35 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
 | [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 34 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
 | [Documents, Writing & Content](packs/docs-content.md) | 20 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
+| [Browser & Web Automation](packs/browser-automation.md) | 17 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | [Data & Analytics](packs/data-analytics.md) | 17 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
-| [Browser & Web Automation](packs/browser-automation.md) | 16 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | [Productivity & Automation](packs/productivity-automation.md) | 15 | Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows. |
 | [Communication & Collaboration](packs/communication-collab.md) | 14 | Slack, email, meetings, standups, internal comms, stakeholder updates, briefings. |
 | [Product Management](packs/product-mgmt.md) | 12 | PRDs, roadmaps, specs, sprint planning, stakeholder updates, user research synthesis. |
 | [Legal & Compliance](packs/legal-compliance.md) | 10 | Contract review, NDAs, compliance checks, risk assessment, e-signature, privacy/DPA. |
-| [Operations & Business](packs/operations-business.md) | 9 | Process design, capacity planning, vendor management, status reports, change management. |
+| [Operations & Business](packs/operations-business.md) | 10 | Process design, capacity planning, vendor management, status reports, change management. |
 | [Research & Learning](packs/research-learning.md) | 9 | Deep research, literature review, brainstorming, explaining, study and teaching aids. |
 | [Creative & Media](packs/creative-media.md) | 8 | Generative art, GIFs, imagery, themes, branding, video/audio helpers. |
 | [Finance & Accounting](packs/finance-accounting.md) | 8 | Journal entries, reconciliations, close, financial statements, audit support, SOX, variance analysis. |
@@ -50,7 +50,7 @@
 ## Pending review
 
 - [400 candidates](candidates.md) vetted and waiting for a human OK
-- [36 quarantined](quarantine.md) repos that failed vetting
+- [41 quarantined](quarantine.md) repos that failed vetting
 
 ## Everything, A to Z
 
@@ -303,6 +303,8 @@
 | [`loop`](skills/loop.md) | productivity-automation | Run a prompt or slash command on a recurring interval, or let the model self-pace. Use when the user wants to poll for status or repeat something on a |
 | [`microsoft/playwright-cli:dev`](skills/microsoft-playwright-cli-dev.md) | browser-automation | Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, releasing, or other repo maintenance tasks |
 | [`microsoft/playwright-cli:playwright-cli`](skills/microsoft-playwright-cli-playwright-cli.md) | browser-automation | Automate browser interactions, test web pages and work with Playwright tests. |
+| [`microsoft/playwright-cli:playwright-triage`](skills/microsoft-playwright-cli-playwright-triage.md) | browser-automation | Triage and fix one microsoft/playwright-cli issue, or do a maintainer's task, unattended inside the Issue triage GitHub Actions workflow (.github/work |
+| [`microsoft/skills:aks-cost-optimization`](skills/microsoft-skills-aks-cost-optimization.md) | operations-business | Analyze advanced AKS cost efficiency. WHEN: "AKS NAP readiness", "AKS bin packing", "AKS node scaling bottleneck", "AKS blocked scale-down", "AKS stor |
 | [`microsoft/skills:aks-gpu-inference`](skills/microsoft-skills-aks-gpu-inference.md) | ai-ml | Diagnose Day-2 AKS GPU and KAITO incidents using profile-aware, read-only evidence. WHEN: 'Insufficient nvidia.com/gpu', GPU pod Pending, model-load O |
 | [`microsoft/skills:aks-known-issues`](skills/microsoft-skills-aks-known-issues.md) | operations-business | Lookup documented AKS fixes only when the prompt includes an exact catalog signature and all of its qualifiers: VMCannotFitEphemeralOSDisk; NodePoolMc |
 | [`microsoft/skills:aks-network-capture`](skills/microsoft-skills-aks-network-capture.md) | careers-jobs | Collects bounded packet captures from AKS nodes and Azure network configuration for wire-level evidence. WHEN: "capture packets on an AKS node", "take |
@@ -342,6 +344,8 @@
 | [`microsoft/skills:microsoft-docs`](skills/microsoft-skills-microsoft-docs.md) | software-dev | Understand Microsoft technologies by querying official documentation. Use whenever the user asks how something works, wants tutorials, needs configura |
 | [`microsoft/skills:podcast-generation`](skills/microsoft-skills-podcast-generation.md) | ai-ml | Generate AI-powered podcast-style audio narratives using Azure OpenAI's GPT Realtime Mini model via WebSocket. Use when building text-to-speech featur |
 | [`microsoft/skills:skill-creator`](skills/microsoft-skills-skill-creator.md) | meta-tooling | Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updat |
+| [`modelcontextprotocol/specification:draft-sep`](skills/modelcontextprotocol-specification-draft-sep.md) | ai-ml | Research and draft a Specification Enhancement Proposal following the MCP SEP governance process |
+| [`modelcontextprotocol/specification:search-mcp-github`](skills/modelcontextprotocol-specification-search-mcp-github.md) | ai-ml | Search MCP PRs, issues, and discussions across the modelcontextprotocol GitHub org |
 | [`modern-web-guidance:chrome-extensions`](skills/modern-web-guidance-chrome-extensions.md) | browser-automation | Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create, modify, debug, or understand Ch |
 | [`modern-web-guidance:modern-web-guidance`](skills/modern-web-guidance-modern-web-guidance.md) | software-dev | Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolv |
 | [`openai/skills:aspnet-core`](skills/openai-skills-aspnet-core.md) | software-dev | Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blaz |
@@ -434,6 +438,7 @@
 | [`vercel-labs/agent-browser:slack`](skills/vercel-labs-agent-browser-slack.md) | communication-collab | Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data |
 | [`vercel-labs/agent-browser:vercel-sandbox`](skills/vercel-labs-agent-browser-vercel-sandbox.md) | browser-automation | Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automat |
 | [`vercel-labs/agent-browser:webmcp-gen`](skills/vercel-labs-agent-browser-webmcp-gen.md) | browser-automation | Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create |
+| [`vercel-labs/agent-skills:deploy-to-vercel`](skills/vercel-labs-agent-skills-deploy-to-vercel.md) | mlops-devops | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push t |
 | [`vercel-labs/agent-skills:vercel-cli-with-tokens`](skills/vercel-labs-agent-skills-vercel-cli-with-tokens.md) | mlops-devops | Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive lo |
 | [`vercel-labs/agent-skills:vercel-composition-patterns`](skills/vercel-labs-agent-skills-vercel-composition-patterns.md) | web-frontend-design | React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or desi |
 | [`vercel-labs/agent-skills:vercel-react-best-practices`](skills/vercel-labs-agent-skills-vercel-react-best-practices.md) | web-frontend-design | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React |

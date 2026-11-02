@@ -54,7 +54,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:scvi-tools`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path bio-research/skills/scvi-tools --commit 33d3dea41a341b341d4f5da2e8801ae0c89be2b8 --expect-tree d0c85df195b0e52b0c532958e0825cfb6842d7c1866cd87baa9bb3b2b3818bba --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path bio-research/skills/scvi-tools --commit 2574e29377c7173d0cecffef29a6ecbd7f8ccb5d --expect-tree d0c85df195b0e52b0c532958e0825cfb6842d7c1866cd87baa9bb3b2b3818bba --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

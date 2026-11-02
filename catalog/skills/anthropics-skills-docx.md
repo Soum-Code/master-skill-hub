@@ -52,7 +52,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/skills:docx`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/docx --commit dbd4588f9e1033efb41dad4bef2f7947c8993d44 --expect-tree 58130031b77f881105b11780d884d4147beae833c09a75531368eba155e5ea71 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/docx --commit ca45fc496a3436251f191354091d557da31c15b5 --expect-tree 58130031b77f881105b11780d884d4147beae833c09a75531368eba155e5ea71 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

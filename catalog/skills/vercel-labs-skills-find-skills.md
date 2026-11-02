@@ -55,7 +55,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/skills:find-skills`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path skills/find-skills --commit a80e4c9d12d607631249d4d7d059f835d4b2f13a --expect-tree 3345a412fa273126511a93c88265e62d62e2a21e808b99e83333cac20a96df79 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path skills/find-skills --commit 92a9a34ac3bf88e695e468b90c7bf32f163d32c8 --expect-tree 3345a412fa273126511a93c88265e62d62e2a21e808b99e83333cac20a96df79 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

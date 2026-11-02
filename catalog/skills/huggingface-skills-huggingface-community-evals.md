@@ -48,7 +48,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:huggingface-community-evals`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-community-evals --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 196abedecc0807880376765525f4821e37c532d22a4f77fce994e56174f7b2fb --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-community-evals --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 196abedecc0807880376765525f4821e37c532d22a4f77fce994e56174f7b2fb --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

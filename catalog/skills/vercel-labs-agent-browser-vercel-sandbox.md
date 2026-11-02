@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |
 | **License** | Apache-2.0 |
-| **Size** | 220 lines in SKILL.md, 1 file(s) |
+| **Size** | 238 lines in SKILL.md, 1 file(s) |
 
 ## When to use it
 
@@ -29,6 +29,7 @@ The skill's own section headings, in order:
 - Screenshot
 - Accessibility Snapshot
 - Multi-Step Workflows
+- MCP Server over stdin
 - Sandbox Snapshots (Fast Startup)
   - Creating a sandbox snapshot
 - Authentication
@@ -55,7 +56,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:vercel-sandbox`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 4428ac8f0e2afc17ffb8fe9898fb438c9000ae4340b4e06dd5edaa0c333876f5 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 5868f7c05020e047c00e68e4abf9253cce864f41 --expect-tree e1f2cdcbc9ad05b18da061c35d8a530d16b4e9ed437f449a7e1f79d81dc788b6 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

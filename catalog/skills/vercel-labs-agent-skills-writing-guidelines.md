@@ -42,7 +42,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-skills:writing-guidelines`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/writing-guidelines --commit 063bee94c3f4df8453406c830b0a7df0f2860278 --expect-tree 00dcab8d50a031076557176694377fe8fe49922c83afc85f792ce1fa2931e214 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/writing-guidelines --commit 1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62 --expect-tree 00dcab8d50a031076557176694377fe8fe49922c83afc85f792ce1fa2931e214 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

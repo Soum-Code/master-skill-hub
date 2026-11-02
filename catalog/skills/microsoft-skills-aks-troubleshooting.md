@@ -49,11 +49,12 @@ The skill's own section headings, in order:
 - [microsoft/skills:aks-gpu-inference](microsoft-skills-aks-gpu-inference.md) - Diagnose Day-2 AKS GPU and KAITO incidents using profile-aware, read-only evidence. WHEN: 'Insufficient nvidia
 - [microsoft/skills:aks-known-issues](microsoft-skills-aks-known-issues.md) - Lookup documented AKS fixes only when the prompt includes an exact catalog signature and all of its qualifiers
 - [microsoft/skills:aks-network-capture](microsoft-skills-aks-network-capture.md) - Collects bounded packet captures from AKS nodes and Azure network configuration for wire-level evidence. WHEN:
+- [microsoft/skills:aks-cost-optimization](microsoft-skills-aks-cost-optimization.md) - Analyze advanced AKS cost efficiency. WHEN: "AKS NAP readiness", "AKS bin packing", "AKS node scaling bottlene
 
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:aks-troubleshooting`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/aks-skills/skills/aks-troubleshooting --commit 2130750147dee0311215099ddf36647ba1e0f006 --expect-tree d6cf72df51daa6be4a865fc210132c87212a36ae6d95876534e99aed3a7a27d0 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/aks-skills/skills/aks-troubleshooting --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree d6cf72df51daa6be4a865fc210132c87212a36ae6d95876534e99aed3a7a27d0 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

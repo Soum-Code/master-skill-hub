@@ -15,7 +15,45 @@
       ]
     },
     {
-      "commit": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+      "commit": "0a27d7d40e79cfe42334e2e9130a1e41a499ca54",
+      "first_seen": "2026-11-02",
+      "id": "JimLiu/baoyu-skills:baoyu-post-to-wechat",
+      "repo": "JimLiu/baoyu-skills",
+      "top_findings": [
+        {
+          "file": "scripts/wechat-article.ts",
+          "line": 109,
+          "rule": "exfil-sink",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/wechat-extend-config.test.ts",
+          "line": 163,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/wechat-extend-config.test.ts",
+          "line": 164,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/wechat-extend-config.test.ts",
+          "line": 178,
+          "rule": "cred-paths",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/wechat-extend-config.test.ts",
+          "line": 179,
+          "rule": "cred-paths",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "301b02b12bff98e4688e6984af6556802322bbde",
       "first_seen": "2026-10-24",
       "id": "addyosmani/agent-skills:source-driven-development",
       "repo": "addyosmani/agent-skills",
@@ -43,7 +81,7 @@
       ]
     },
     {
-      "commit": "58267944f92187b7d6a1c822165c96c81c864806",
+      "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
       "first_seen": "2026-10-24",
       "id": "anthropics/claude-plugins-official:plugin-structure",
       "repo": "anthropics/claude-plugins-official",
@@ -57,7 +95,7 @@
       ]
     },
     {
-      "commit": "58267944f92187b7d6a1c822165c96c81c864806",
+      "commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
       "first_seen": "2026-10-24",
       "id": "anthropics/claude-plugins-official:receipts",
       "repo": "anthropics/claude-plugins-official",
@@ -77,7 +115,7 @@
       ]
     },
     {
-      "commit": "33d3dea41a341b341d4f5da2e8801ae0c89be2b8",
+      "commit": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
       "first_seen": "2026-10-24",
       "id": "anthropics/knowledge-work-plugins:nextflow-development",
       "repo": "anthropics/knowledge-work-plugins",
@@ -91,7 +129,7 @@
       ]
     },
     {
-      "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "commit": "ca45fc496a3436251f191354091d557da31c15b5",
       "first_seen": "2026-10-24",
       "id": "anthropics/skills:claude-api",
       "repo": "anthropics/skills",
@@ -117,7 +155,27 @@
       ]
     },
     {
-      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
+      "commit": "20b9fd3a9c86d28c847e021f4dbbe93ce9a39a00",
+      "first_seen": "2026-11-02",
+      "id": "career-ops-hq/career-ops:career-ops",
+      "repo": "career-ops-hq/career-ops",
+      "top_findings": [
+        {
+          "file": "",
+          "line": 0,
+          "rule": "no-skill-md",
+          "severity": "high"
+        },
+        {
+          "file": "SKILL.md",
+          "line": 0,
+          "rule": "symlink",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "7d4a61e0d8e139467299bf1935a0733f4989775a",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:data-scientist",
       "repo": "code-yeongyu/oh-my-openagent",
@@ -143,7 +201,7 @@
       ]
     },
     {
-      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
+      "commit": "7d4a61e0d8e139467299bf1935a0733f4989775a",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:frontend",
       "repo": "code-yeongyu/oh-my-openagent",
@@ -157,45 +215,45 @@
       ]
     },
     {
-      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
+      "commit": "7d4a61e0d8e139467299bf1935a0733f4989775a",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:programming",
       "repo": "code-yeongyu/oh-my-openagent",
       "top_findings": [
         {
-          "file": "scripts/go/new-project.py",
-          "line": 12,
+          "file": "scripts/go/new-project.ts",
+          "line": 8,
           "rule": "exec-remote",
           "severity": "high"
         },
         {
-          "file": "scripts/python/new-project.py",
-          "line": 12,
+          "file": "scripts/python/new-project.ts",
+          "line": 6,
           "rule": "exec-remote",
           "severity": "high"
         },
         {
-          "file": "scripts/python/new-script.py",
-          "line": 12,
+          "file": "scripts/python/new-project.ts",
+          "line": 7,
           "rule": "exec-remote",
           "severity": "high"
         },
         {
-          "file": "scripts/python/new-script.py",
-          "line": 54,
+          "file": "scripts/python/new-project.ts",
+          "line": 160,
           "rule": "exec-remote",
           "severity": "high"
         },
         {
-          "file": "scripts/rust/new-project.py",
-          "line": 12,
+          "file": "scripts/python/new-script.ts",
+          "line": 8,
           "rule": "exec-remote",
           "severity": "high"
         }
       ]
     },
     {
-      "commit": "d0e350c3f51ae8a29abb4292455168bd04a97dab",
+      "commit": "7d4a61e0d8e139467299bf1935a0733f4989775a",
       "first_seen": "2026-10-24",
       "id": "code-yeongyu/oh-my-openagent:ultimate-browsing",
       "repo": "code-yeongyu/oh-my-openagent",
@@ -209,7 +267,7 @@
       ]
     },
     {
-      "commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "commit": "88c79f6528a9347420e57ceb1fff9a60de651768",
       "first_seen": "2026-10-24",
       "id": "coreyhaines31/marketingskills:directory-submissions",
       "repo": "coreyhaines31/marketingskills",
@@ -223,7 +281,7 @@
       ]
     },
     {
-      "commit": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "commit": "88c79f6528a9347420e57ceb1fff9a60de651768",
       "first_seen": "2026-10-24",
       "id": "coreyhaines31/marketingskills:lead-magnets",
       "repo": "coreyhaines31/marketingskills",
@@ -385,6 +443,20 @@
       ]
     },
     {
+      "commit": "618c486734b3cbb697bd432bace7e9642e48b6be",
+      "first_seen": "2026-11-02",
+      "id": "heygen-com/hyperframes:frost-sequence-camera-orbit",
+      "repo": "heygen-com/hyperframes",
+      "top_findings": [
+        {
+          "file": "assets/frost.js",
+          "line": 1063,
+          "rule": "exec-obfuscated",
+          "severity": "high"
+        }
+      ]
+    },
+    {
       "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280",
       "first_seen": "2026-10-26",
       "id": "nanocoai/nanoclaw:add-cursor",
@@ -499,7 +571,7 @@
       ]
     },
     {
-      "commit": "26d60298f8129e229a1c10aab4df7ca25b1e9ad3",
+      "commit": "5a0c47777975ddb91d09c1c16b423a3ef74bf572",
       "first_seen": "2026-10-24",
       "id": "nexu-io/open-design:docs-page",
       "repo": "nexu-io/open-design",
@@ -541,7 +613,7 @@
       ]
     },
     {
-      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
+      "commit": "c5ddd3aa2cb381969af282e3088baae074131148",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:007",
       "repo": "sickn33/agentic-awesome-skills",
@@ -579,7 +651,7 @@
       ]
     },
     {
-      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
+      "commit": "c5ddd3aa2cb381969af282e3088baae074131148",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:2slides-ppt-generator",
       "repo": "sickn33/agentic-awesome-skills",
@@ -593,7 +665,7 @@
       ]
     },
     {
-      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
+      "commit": "c5ddd3aa2cb381969af282e3088baae074131148",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:agent-evals",
       "repo": "sickn33/agentic-awesome-skills",
@@ -619,7 +691,7 @@
       ]
     },
     {
-      "commit": "e8d346bcb691225fb6ae51a49c353bcedb2ef61d",
+      "commit": "c5ddd3aa2cb381969af282e3088baae074131148",
       "first_seen": "2026-10-24",
       "id": "sickn33/agentic-awesome-skills:agent-evaluation",
       "repo": "sickn33/agentic-awesome-skills",
@@ -633,7 +705,53 @@
       ]
     },
     {
-      "commit": "d9b36b66dc68da92af9df238e4c4debab587ba62",
+      "commit": "1c92b0ff8931aea0f29fc3cdca50a0f3e772c0dc",
+      "first_seen": "2026-11-02",
+      "id": "sno-ai/sno-station-skills:pl",
+      "repo": "sno-ai/sno-station-skills",
+      "top_findings": [
+        {
+          "file": "scripts/exec-trust.t",
+          "line": 89,
+          "rule": "cred-paths",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "1c92b0ff8931aea0f29fc3cdca50a0f3e772c0dc",
+      "first_seen": "2026-11-02",
+      "id": "sno-ai/sno-station-skills:rem-reflect",
+      "repo": "sno-ai/sno-station-skills",
+      "top_findings": [
+        {
+          "file": "scripts/journey-ops.test.ts",
+          "line": 2,
+          "rule": "persistence",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/journey-ops.test.ts",
+          "line": 83,
+          "rule": "persistence",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/journey-ops.test.ts",
+          "line": 84,
+          "rule": "persistence",
+          "severity": "high"
+        },
+        {
+          "file": "scripts/journey-ops.test.ts",
+          "line": 96,
+          "rule": "persistence",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
       "first_seen": "2026-10-24",
       "id": "thedotmack/claude-mem:Agent Cost Report",
       "repo": "thedotmack/claude-mem",
@@ -647,7 +765,7 @@
       ]
     },
     {
-      "commit": "c12d2dd58b9188dbe705f59d0e02e945f68df466",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
       "first_seen": "2026-10-24",
       "id": "thedotmack/claude-mem:do",
       "repo": "thedotmack/claude-mem",
@@ -667,21 +785,21 @@
       ]
     },
     {
-      "commit": "d9b36b66dc68da92af9df238e4c4debab587ba62",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
       "first_seen": "2026-10-24",
       "id": "thedotmack/claude-mem:mode-creator",
       "repo": "thedotmack/claude-mem",
       "top_findings": [
         {
           "file": "scripts/configure-telegram.mjs",
-          "line": 107,
+          "line": 108,
           "rule": "exfil-sink",
           "severity": "high"
         }
       ]
     },
     {
-      "commit": "d9b36b66dc68da92af9df238e4c4debab587ba62",
+      "commit": "26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a",
       "first_seen": "2026-10-24",
       "id": "thedotmack/claude-mem:openclaw",
       "repo": "thedotmack/claude-mem",
@@ -739,5 +857,5 @@
       ]
     }
   ],
-  "updated": "2026-10-26T09:03:02Z"
+  "updated": "2026-11-02T11:18:29Z"
 }

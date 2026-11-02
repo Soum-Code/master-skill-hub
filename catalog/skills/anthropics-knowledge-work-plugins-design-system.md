@@ -54,7 +54,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:design-system`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-system --commit 33d3dea41a341b341d4f5da2e8801ae0c89be2b8 --expect-tree c8ca8dcb903113e96d457dc22e6b1146d555ff49065dd7ff003ab04235c2ac1c --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-system --commit 2574e29377c7173d0cecffef29a6ecbd7f8ccb5d --expect-tree c8ca8dcb903113e96d457dc22e6b1146d555ff49065dd7ff003ab04235c2ac1c --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

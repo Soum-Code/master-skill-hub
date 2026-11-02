@@ -73,7 +73,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:huggingface-vision-trainer`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-vision-trainer --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 48f968b81e8a7b26023268a4943cc25ff83d03e0f8f9f25f9e28da3571864e95 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-vision-trainer --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 48f968b81e8a7b26023268a4943cc25ff83d03e0f8f9f25f9e28da3571864e95 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

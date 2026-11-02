@@ -62,7 +62,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/skills:pptx`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/pptx --commit dbd4588f9e1033efb41dad4bef2f7947c8993d44 --expect-tree 8f7defcfc4ff81052f2299f7ae529b49948c1cd10fd0832bb6d8435ba6187b18 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/pptx --commit ca45fc496a3436251f191354091d557da31c15b5 --expect-tree 8f7defcfc4ff81052f2299f7ae529b49948c1cd10fd0832bb6d8435ba6187b18 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

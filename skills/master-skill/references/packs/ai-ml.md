@@ -34,6 +34,8 @@
 - `microsoft/skills:copilot-sdk` - Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NET. Covers session ma
 - `microsoft/skills:entra-agent-id` - Microsoft Entra Agent ID (preview) for creating OAuth2-capable AI agent identities via Microsoft Graph beta API. Covers Agent Identity Blueprints, BlueprintPrincipals, Agent Identities, requ
 - `microsoft/skills:podcast-generation` - Generate AI-powered podcast-style audio narratives using Azure OpenAI's GPT Realtime Mini model via WebSocket. Use when building text-to-speech features, audio narrative generation, podcast 
+- `modelcontextprotocol/specification:draft-sep` - Research and draft a Specification Enhancement Proposal following the MCP SEP governance process
+- `modelcontextprotocol/specification:search-mcp-github` - Search MCP PRs, issues, and discussions across the modelcontextprotocol GitHub org
 - `openai/skills:jupyter-notebook` - Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_note
 - `openai/skills:openai-docs` - Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing th
 - `openai/skills:speech` - Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_

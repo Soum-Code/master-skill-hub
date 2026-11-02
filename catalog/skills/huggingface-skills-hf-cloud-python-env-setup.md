@@ -51,7 +51,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:hf-cloud-python-env-setup`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/hf-cloud-python-env-setup --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 877999d0bb95f6e32e6389cf97c5453d248059b4a22e8a5e9784f2daff9c7255 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/hf-cloud-python-env-setup --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 877999d0bb95f6e32e6389cf97c5453d248059b4a22e8a5e9784f2daff9c7255 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

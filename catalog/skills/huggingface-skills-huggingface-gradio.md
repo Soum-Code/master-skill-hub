@@ -63,7 +63,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:huggingface-gradio`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-gradio --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 214bf2cd5104ee4202b9084cbd780da062dd1a501fbd25c4905f1ebbb466d4dc --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-gradio --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 214bf2cd5104ee4202b9084cbd780da062dd1a501fbd25c4905f1ebbb466d4dc --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

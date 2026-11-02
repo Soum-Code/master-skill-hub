@@ -35,7 +35,7 @@
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:solo`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/math-proof/skills/solo --commit 58267944f92187b7d6a1c822165c96c81c864806 --expect-tree 3eecbb23f82abab4f715610ff1441d9957718d37d75dded7f48c6798beb9f4fa --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/math-proof/skills/solo --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree 3eecbb23f82abab4f715610ff1441d9957718d37d75dded7f48c6798beb9f4fa --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

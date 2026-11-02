@@ -43,11 +43,12 @@ The skill's own section headings, in order:
 - [microsoft/skills:cost-estimation](microsoft-skills-cost-estimation.md) - Forecast Azure spend and price planned resources or workloads. WHEN: "forecast Azure spending", "project next 
 - [microsoft/skills:cost-optimization](microsoft-skills-cost-optimization.md) - Optimize existing Azure resources and analyze Reservations or Savings Plans. WHEN: "optimize Azure costs", "re
 - [microsoft/skills:cost-governance](microsoft-skills-cost-governance.md) - Govern Azure costs with budgets, alerts, tags, and policy restrictions. WHEN: "Azure budget health", "configur
+- [microsoft/skills:aks-cost-optimization](microsoft-skills-aks-cost-optimization.md) - Analyze advanced AKS cost efficiency. WHEN: "AKS NAP readiness", "AKS bin packing", "AKS node scaling bottlene
 
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:cost-analysis`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-cost/skills/cost-analysis --commit 2130750147dee0311215099ddf36647ba1e0f006 --expect-tree c4e74832073378dcd84a634467c239992efcb710f6d2a3e5497da51c8d6dcd45 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-cost/skills/cost-analysis --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree a56f94887450703c90be65b31603c63330dba08eceec09b08aaac96ce4a87ff7 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

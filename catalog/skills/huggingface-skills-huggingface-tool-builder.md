@@ -50,7 +50,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:huggingface-tool-builder`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-tool-builder --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 982cf1bca604ef49c2823fd10260eecc34b8d08029525e7b95d6a82298a5ecfc --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-tool-builder --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 982cf1bca604ef49c2823fd10260eecc34b8d08029525e7b95d6a82298a5ecfc --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

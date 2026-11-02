@@ -46,7 +46,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:research-synthesis`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/research-synthesis --commit 33d3dea41a341b341d4f5da2e8801ae0c89be2b8 --expect-tree d287f9a5f46cf4a74cf9441d2272929a51e7a639c66a32e811e43f6f50ef241f --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/research-synthesis --commit 2574e29377c7173d0cecffef29a6ecbd7f8ccb5d --expect-tree d287f9a5f46cf4a74cf9441d2272929a51e7a639c66a32e811e43f6f50ef241f --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

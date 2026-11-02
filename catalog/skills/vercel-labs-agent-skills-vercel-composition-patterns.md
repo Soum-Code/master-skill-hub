@@ -53,7 +53,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-skills:vercel-composition-patterns`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/composition-patterns --commit 063bee94c3f4df8453406c830b0a7df0f2860278 --expect-tree c124390cc3441844903ada94cb5820b23d922f2d0ad34e01e029e410197c8a32 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/composition-patterns --commit 1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62 --expect-tree c124390cc3441844903ada94cb5820b23d922f2d0ad34e01e029e410197c8a32 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

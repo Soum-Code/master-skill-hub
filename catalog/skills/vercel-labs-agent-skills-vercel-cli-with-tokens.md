@@ -61,7 +61,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-skills:vercel-cli-with-tokens`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/vercel-cli-with-tokens --commit 063bee94c3f4df8453406c830b0a7df0f2860278 --expect-tree 84be539bc95ce959d656a298ac3c3e96794607992026f109b809c29677377b79 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/vercel-cli-with-tokens --commit 1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62 --expect-tree 84be539bc95ce959d656a298ac3c3e96794607992026f109b809c29677377b79 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

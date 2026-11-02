@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) |
 | **License** | Apache-2.0 |
-| **Size** | 490 lines in SKILL.md, 11 file(s) |
+| **Size** | 494 lines in SKILL.md, 11 file(s) |
 
 ## When to use it
 
@@ -69,7 +69,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/playwright-cli:playwright-cli`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path skills/playwright-cli --commit b1a5903c5b633b8c9f843ad7b629c2a78437040c --expect-tree 7aeb3b814f01f5bdedbe91a1ecd6b650430faa8c56e6b8ecf5e4e9351a406ee8 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path skills/playwright-cli --commit c2d8d199459d1480491bebf0a6b3587136b673fa --expect-tree 858e02d5b95887f6e701c7c697179540521e91314848497f47429820f56601e1 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

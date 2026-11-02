@@ -62,7 +62,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:huggingface-spaces`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-spaces --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 96a109f250da2115070c532e9b65a2bebd8b9f3bd2fa3b58850c32f8f442a02f --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-spaces --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 96a109f250da2115070c532e9b65a2bebd8b9f3bd2fa3b58850c32f8f442a02f --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -48,7 +48,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:huggingface-trackio`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-trackio --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 4dc98cc45fe3706ddd03d78db3e89088dc2f728a7e7d45bd0832bc06e0d2b682 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-trackio --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 4dc98cc45fe3706ddd03d78db3e89088dc2f728a7e7d45bd0832bc06e0d2b682 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

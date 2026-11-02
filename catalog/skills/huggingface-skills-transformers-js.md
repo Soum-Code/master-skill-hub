@@ -70,7 +70,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:transformers-js`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/transformers-js --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 86a55d4e08a97843c1e997b1b291e3b18d32fbd27895eade5ed976f1e208e6ce --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/transformers-js --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 86a55d4e08a97843c1e997b1b291e3b18d32fbd27895eade5ed976f1e208e6ce --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

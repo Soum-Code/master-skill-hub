@@ -43,7 +43,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:azure-advisor`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-advisor/skills/azure-advisor --commit 2130750147dee0311215099ddf36647ba1e0f006 --expect-tree 15a2a586941378a94956cbb9de28141556d7ec5c87630e2ddd016576e44d3fc8 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-advisor/skills/azure-advisor --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 15a2a586941378a94956cbb9de28141556d7ec5c87630e2ddd016576e44d3fc8 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

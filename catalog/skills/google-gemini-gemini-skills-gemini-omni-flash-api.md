@@ -59,7 +59,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-skills:gemini-omni-flash-api`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-omni-flash-api --commit ee9da52195752ca83c2fca701d96bcb5a9c08d2d --expect-tree 568c988fdddab7bbe7197aedbd2d6ea9d4b54ae691465ffafd383164072b815d --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-omni-flash-api --commit 39d81f4c7de5e56631d07e4ea766d3fe9752ce5d --expect-tree 3d8ffabd4dcd63467e64307687fe2fcbd3dc44d362983081b0948e2c382c9666 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

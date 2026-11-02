@@ -51,7 +51,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:m5-onboard`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/cwc-makers/skills/m5-onboard --commit 58267944f92187b7d6a1c822165c96c81c864806 --expect-tree e20b0d5e68356823090acd77d57f4e373cc162d05ab78f95ba7a90f75493c7c1 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/cwc-makers/skills/m5-onboard --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree e20b0d5e68356823090acd77d57f4e373cc162d05ab78f95ba7a90f75493c7c1 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

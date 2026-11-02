@@ -38,7 +38,7 @@
 ## Invoke / install
 
 - Invoke: `/vercel-labs/skills:pr-labeling`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path .vc/automations/workflows/pr-labeling/skills/pr-labeling --commit a80e4c9d12d607631249d4d7d059f835d4b2f13a --expect-tree 96b9852c856f0cbc50a62b06d278ff31e68debbbd33d030fc2e40fea85287db1 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path .automations/pr-labeling/skills/pr-labeling --commit 92a9a34ac3bf88e695e468b90c7bf32f163d32c8 --expect-tree 96b9852c856f0cbc50a62b06d278ff31e68debbbd33d030fc2e40fea85287db1 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

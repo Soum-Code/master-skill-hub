@@ -47,7 +47,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:huggingface-datasets`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-datasets --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 46ab85d02e37eb68cdf6eee40b8fcb365f28e73f368184ca07a667fddea42dec --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/huggingface-datasets --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 46ab85d02e37eb68cdf6eee40b8fcb365f28e73f368184ca07a667fddea42dec --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

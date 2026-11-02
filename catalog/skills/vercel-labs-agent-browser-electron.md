@@ -64,7 +64,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:electron`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/electron --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/electron --commit 5868f7c05020e047c00e68e4abf9253cce864f41 --expect-tree 29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

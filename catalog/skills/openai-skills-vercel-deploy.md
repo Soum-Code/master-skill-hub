@@ -40,6 +40,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [vercel-labs/agent-skills:deploy-to-vercel](vercel-labs-agent-skills-deploy-to-vercel.md) - Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app"
 - [openai/skills:netlify-deploy](openai-skills-netlify-deploy.md) - Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, 
 - [openai/skills:yeet](openai-skills-yeet.md) - Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow usin
 - [anthropics/claude-plugins-official:playground](anthropics-claude-plugins-official-playground.md) - Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something

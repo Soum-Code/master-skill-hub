@@ -57,7 +57,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-skills:vercel-react-native-skills`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/react-native-skills --commit 063bee94c3f4df8453406c830b0a7df0f2860278 --expect-tree 9355da0ed6e5382bce5b7f148b212825c83399d01fcde37b6387b05b72e1fb6e --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-skills --path skills/react-native-skills --commit 1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62 --expect-tree 9355da0ed6e5382bce5b7f148b212825c83399d01fcde37b6387b05b72e1fb6e --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -61,7 +61,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:hf-mcp`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path hf-mcp/skills/hf-mcp --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 031a63abe84b82b41fa5fbdc9c9a324974217350752c7e6668f9c79bf4f475b9 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path hf-mcp/skills/hf-mcp --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 031a63abe84b82b41fa5fbdc9c9a324974217350752c7e6668f9c79bf4f475b9 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

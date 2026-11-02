@@ -45,7 +45,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:aks-known-issues`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/aks-skills/skills/aks-known-issues --commit 2130750147dee0311215099ddf36647ba1e0f006 --expect-tree a5238e21d6848d00e2a2427ddef7bd2a1096055800fb5ad32ac7af97307a2ec0 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/aks-skills/skills/aks-known-issues --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree a5238e21d6848d00e2a2427ddef7bd2a1096055800fb5ad32ac7af97307a2ec0 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

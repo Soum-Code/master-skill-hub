@@ -52,9 +52,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [openai/skills:vercel-deploy](openai-skills-vercel-deploy.md) - Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app"
+- [vercel-labs/agent-skills:deploy-to-vercel](vercel-labs-agent-skills-deploy-to-vercel.md) - Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app"
 - [microsoft/playwright-cli:dev](microsoft-playwright-cli-dev.md) - Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, re
 - [huggingface/skills:huggingface-papers](huggingface-skills-huggingface-papers.md) - Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as 
-- [openai/skills:yeet](openai-skills-yeet.md) - Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow usin
 
 ## Invoke / install
 

@@ -46,7 +46,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/skills:academy-guide`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/academy-guide --commit dbd4588f9e1033efb41dad4bef2f7947c8993d44 --expect-tree 009661a468a004f97cead5f38c87a8e148a23295dfeb430856b8b580d023ff61 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/academy-guide --commit ca45fc496a3436251f191354091d557da31c15b5 --expect-tree 009661a468a004f97cead5f38c87a8e148a23295dfeb430856b8b580d023ff61 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

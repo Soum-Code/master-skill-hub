@@ -6,6 +6,7 @@
 - `example-skills:webapp-testing` - Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing
 - `microsoft/playwright-cli:dev` - Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, releasing, or other repo maintenance tasks.
 - `microsoft/playwright-cli:playwright-cli` - Automate browser interactions, test web pages and work with Playwright tests.
+- `microsoft/playwright-cli:playwright-triage` - Triage and fix one microsoft/playwright-cli issue, or do a maintainer's task, unattended inside the Issue triage GitHub Actions workflow (.github/workflows/triage.yml), which a needs-triage,
 - `microsoft/skills:applicationinsights-web-ts` - Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web). Use for Real User Monitoring (RUM) — page views, clicks, AJAX/fetch dependencie
 - `modern-web-guidance:chrome-extensions` - Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create, modify, debug, or understand Chrome browser extensions, add-ons, or any
 - `openai/skills:playwright` - Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bund

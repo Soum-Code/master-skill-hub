@@ -2,7 +2,7 @@
 
 LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research.
 
-37 skill(s). Back to the [catalog](../README.md).
+39 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -40,6 +40,8 @@ LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML rese
 | [`microsoft/skills:copilot-sdk`](../skills/microsoft-skills-copilot-sdk.md) | Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NE | verified |
 | [`microsoft/skills:entra-agent-id`](../skills/microsoft-skills-entra-agent-id.md) | Microsoft Entra Agent ID (preview) for creating OAuth2-capable AI agent identities via Microsoft Graph beta API. Covers Agent Identity Blueprints, BlueprintPrincipals, Ag | verified |
 | [`microsoft/skills:podcast-generation`](../skills/microsoft-skills-podcast-generation.md) | Generate AI-powered podcast-style audio narratives using Azure OpenAI's GPT Realtime Mini model via WebSocket. Use when building text-to-speech features, audio narrative  | verified |
+| [`modelcontextprotocol/specification:draft-sep`](../skills/modelcontextprotocol-specification-draft-sep.md) | Research and draft a Specification Enhancement Proposal following the MCP SEP governance process | verified |
+| [`modelcontextprotocol/specification:search-mcp-github`](../skills/modelcontextprotocol-specification-search-mcp-github.md) | Search MCP PRs, issues, and discussions across the modelcontextprotocol GitHub org | verified |
 | [`openai/skills:jupyter-notebook`](../skills/openai-skills-jupyter-notebook.md) | Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the hel | verified |
 | [`openai/skills:openai-docs`](../skills/openai-skills-openai-docs.md) | Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citatio | verified |
 | [`openai/skills:speech`](../skills/openai-skills-speech.md) | Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled | verified |

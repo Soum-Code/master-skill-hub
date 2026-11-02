@@ -53,7 +53,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:build-mcpb`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/mcp-server-dev/skills/build-mcpb --commit 58267944f92187b7d6a1c822165c96c81c864806 --expect-tree 2e1eda1310f5785464a2acad33cdb575b9be5c23484c35e77b4a98c5c183d034 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/mcp-server-dev/skills/build-mcpb --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree 2e1eda1310f5785464a2acad33cdb575b9be5c23484c35e77b4a98c5c183d034 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

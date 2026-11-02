@@ -65,7 +65,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:writing-hookify-rules`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/hookify/skills/writing-rules --commit 58267944f92187b7d6a1c822165c96c81c864806 --expect-tree cf70e695dcde31d280d63572ac2d7d3221ce1dfb0ca2112abe56b58d2f097ae2 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/hookify/skills/writing-rules --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree cf70e695dcde31d280d63572ac2d7d3221ce1dfb0ca2112abe56b58d2f097ae2 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -53,7 +53,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:hf-cloud-sagemaker-iam-preflight`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/hf-cloud-sagemaker-iam-preflight --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree ead6432fdfb309127912035047c51cbc9dd662000111738716de485c294ea932 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/hf-cloud-sagemaker-iam-preflight --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree ead6432fdfb309127912035047c51cbc9dd662000111738716de485c294ea932 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

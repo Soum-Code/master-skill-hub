@@ -29,12 +29,12 @@
 - [openai/skills:netlify-deploy](openai-skills-netlify-deploy.md) - Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, 
 - [productivity:task-management](productivity-task-management.md) - Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, want
 - [engineering:tech-debt](engineering-tech-debt.md) - Identify, categorize, and prioritize technical debt. Trigger with "tech debt", "technical debt audit", "what s
-- [playwright-cli](playwright-cli.md) - Official Microsoft browser automation CLI (@playwright/cli). Use when the user asks to automate browser intera
+- [microsoft/playwright-cli:playwright-triage](microsoft-playwright-cli-playwright-triage.md) - Triage and fix one microsoft/playwright-cli issue, or do a maintainer's task, unattended inside the Issue tria
 
 ## Invoke / install
 
 - Invoke: `/microsoft/playwright-cli:dev`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path .claude/skills/dev --commit b1a5903c5b633b8c9f843ad7b629c2a78437040c --expect-tree 85de6010a0e1eb5827f856c9caabf92252d3a8f5308bcc72f457435b9cdf20cf --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path .claude/skills/dev --commit c2d8d199459d1480491bebf0a6b3587136b673fa --expect-tree 85de6010a0e1eb5827f856c9caabf92252d3a8f5308bcc72f457435b9cdf20cf --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

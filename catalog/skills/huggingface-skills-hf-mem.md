@@ -47,7 +47,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/huggingface/skills:hf-mem`
-- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/hf-mem --commit fabc634a893f62ad5c2039830397efa35fa62715 --expect-tree 5e74b1ae7d0e15c61532382e881906139d14500650189662e46f0fadf93e05d7 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py huggingface/skills --path skills/hf-mem --commit 25910b3d0ba31a2ba102f901cdc9e008c278a69c --expect-tree 5e74b1ae7d0e15c61532382e881906139d14500650189662e46f0fadf93e05d7 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

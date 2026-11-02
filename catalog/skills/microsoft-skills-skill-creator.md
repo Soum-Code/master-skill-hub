@@ -75,7 +75,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:skill-creator`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/skill-creator --commit 2130750147dee0311215099ddf36647ba1e0f006 --expect-tree e3700edf63750aa55864b37a371ed8283f0efbfc295f7d25b3662c1b0a6b2685 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/skill-creator --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree e3700edf63750aa55864b37a371ed8283f0efbfc295f7d25b3662c1b0a6b2685 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

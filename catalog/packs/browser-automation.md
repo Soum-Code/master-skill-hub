@@ -2,7 +2,7 @@
 
 Driving browsers, scraping, form filling, E2E tests, screenshots, web research.
 
-16 skill(s). Back to the [catalog](../README.md).
+17 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -12,6 +12,7 @@ Driving browsers, scraping, form filling, E2E tests, screenshots, web research.
 | [`example-skills:webapp-testing`](../skills/example-skills-webapp-testing.md) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser scre | installed |
 | [`microsoft/playwright-cli:dev`](../skills/microsoft-playwright-cli-dev.md) | Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, releasing, or other repo maintenance tasks. | verified |
 | [`microsoft/playwright-cli:playwright-cli`](../skills/microsoft-playwright-cli-playwright-cli.md) | Automate browser interactions, test web pages and work with Playwright tests. | verified |
+| [`microsoft/playwright-cli:playwright-triage`](../skills/microsoft-playwright-cli-playwright-triage.md) | Triage and fix one microsoft/playwright-cli issue, or do a maintainer's task, unattended inside the Issue triage GitHub Actions workflow (.github/workflows/triage.yml), w | verified |
 | [`microsoft/skills:applicationinsights-web-ts`](../skills/microsoft-skills-applicationinsights-web-ts.md) | Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web). Use for Real User Monitoring (RUM) — page views, clicks, AJ | verified |
 | [`modern-web-guidance:chrome-extensions`](../skills/modern-web-guidance-chrome-extensions.md) | Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create, modify, debug, or understand Chrome browser extensi | installed |
 | [`openai/skills:playwright`](../skills/openai-skills-playwright.md) | Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwri | verified |

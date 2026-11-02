@@ -37,7 +37,7 @@ The skill's own section headings, in order:
 
 ## Permissions and risk notes
 
-- Pre-approved tools: `Bash(agent-browser:*)`, `Bash(npx`, `agent-browser:*)`
+- Pre-approved tools: `Bash(agent-browser:*)`
 
 ## Related skills
 
@@ -49,7 +49,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:agent-browser`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 04ba5264dade678062c3cdcce0f4f293e748249f --expect-tree 0ff4721e9f83d3f2fc24beb55a978c54929f05e8eab219a58b44befaf90dcaf7 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 5868f7c05020e047c00e68e4abf9253cce864f41 --expect-tree a7e00aabff1b5ca4366ce2a3397ae6cf43f2f1bcca52b280ebf1bc045a76eea3 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._
