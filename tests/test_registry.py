@@ -55,3 +55,10 @@ def test_inventory_records_never_marked_verified_unless_hub_or_vetted():
     for s in R.load_skills():
         if s["status"] == "verified":
             assert s["source"].get("type") in ("hub", "external"), s["id"]
+
+
+def test_sync_local_lists_without_writing(monkeypatch, capsys):
+    from skillhub import synclocal
+    before = R.SKILLS_JSON.read_bytes()
+    synclocal.run(type("N", (), {"add": "", "push": False})())
+    assert R.SKILLS_JSON.read_bytes() == before

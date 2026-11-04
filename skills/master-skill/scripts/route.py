@@ -444,7 +444,8 @@ def route(query: str, reg: dict, *, profile: str = "general", pack: str | None =
         results = results[:2]
     else:
         results = [r for r in results if r["match"] != "weak"]
-    return {"query": query, "profile": profile, "results": results, "gap": gap, "query_packs": sorted(qpacks, key=lambda k: -qpacks[k])[:3],
+    local_new = [s["id"] for s in skills if s.get("local_only")]
+    return {"query": query, "profile": profile, "results": results, "gap": gap, "local_new": local_new, "query_packs": sorted(qpacks, key=lambda k: -qpacks[k])[:3],
             "chains": match_chains(reg.get("chains", []), {t for t, _ in q}), "skills_considered": len(skills)}
 
 
@@ -474,6 +475,9 @@ def render(out: dict, reg: dict, source: str) -> str:
             lines.append(f"   invoke: Skill(\"{r['id']}\")")
         elif r["install"]:
             lines.append(f"   install: {r['install']}   (vet first: python ../../skill-vetter/scripts/vet.py <dir>)")
+    if out.get("local_new"):
+        lines.append("NOTE: skills on this machine that the hub does not list yet: " + ", ".join(out["local_new"][:6])
+                     + ". Ask the user before publishing them (python -m skillhub sync-local --add <ids>).")
     for c in out["chains"]:
         lines.append(f"Chain - {c['title']}: " + " -> ".join(s["skill"] for s in c.get("steps", [])))
     if out["gap"]:

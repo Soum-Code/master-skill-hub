@@ -66,6 +66,11 @@ def cmd_promote(ns) -> int:
     return promote.run(ns)
 
 
+def cmd_sync_local(ns) -> int:
+    from . import synclocal
+    return synclocal.run(ns)
+
+
 def cmd_install(ns) -> int:
     from . import install
     return install.run(ns)
@@ -101,6 +106,10 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--accept-review", action="store_true", help="allow a 'review' verdict (medium findings)")
     p.add_argument("--override-fail", default="", help="comma list of rule ids to accept despite a 'fail' (owner only; recorded)")
     p.set_defaults(fn=cmd_promote)
+    sl = sub.add_parser("sync-local", help="list (and, after a yes, add) skills on this machine that the hub lacks")
+    sl.add_argument("--add", default="", help="comma list of ids, or 'all'")
+    sl.add_argument("--push", action="store_true", help="commit and push after adding")
+    sl.set_defaults(fn=cmd_sync_local)
     i = sub.add_parser("install")
     i.add_argument("id")
     i.add_argument("--apply", action="store_true", help="actually copy files (default: dry run)")

@@ -74703,7 +74703,7 @@
     },
     {
       "allowed_tools": [],
-      "bytes": 3838,
+      "bytes": 4228,
       "desc": "Router for every other skill. Use at the start of any non-trivial request, and whenever it is unclear which skill, plugin or workflow fits - \"which skill should I use\", \"best skill for this\", \"find or recommend a skill\", \"what can you do for my job search / ML project / data / design / legal / finance work\". Picks the best match from a catalog of 200+ skills grouped into industry packs (AI/ML, MLOps, software dev, careers and jobs, data, design, product, finance, legal, security, research), prefers skills already installed, suggests multi-skill chains, and files a skill request when nothing fits. Never installs an unvetted skill. Skip it for trivial one-step questions.",
       "file_count": 25,
       "files": [
@@ -74740,6 +74740,10 @@
         ],
         [
           2,
+          "New skills on this machine"
+        ],
+        [
+          2,
           "Why a router and not one giant skill"
         ],
         [
@@ -74755,7 +74759,7 @@
       "kind": "skill",
       "license": "MIT",
       "license_class": "permissive",
-      "lines": 50,
+      "lines": 54,
       "name": "master-skill",
       "pack": "meta-tooling",
       "packs": [],
@@ -79164,5 +79168,5 @@
       "when": ""
     }
   ],
-  "updated": "2026-11-04T09:05:11Z"
+  "updated": "2026-11-04T09:12:38Z"
 }

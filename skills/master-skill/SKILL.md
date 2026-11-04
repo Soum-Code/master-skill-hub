@@ -33,6 +33,10 @@ metadata:
 
 No Python or code execution? Open `references/index.md`, pick the pack, then read `references/packs/<pack>.md` (one line per skill) and choose by hand. `references/chains.md` lists the multi-skill workflows.
 
+## New skills on this machine
+
+If the router prints a `NOTE: skills on this machine that the hub does not list yet`, tell the user once, name them, and **ask before adding anything**: adding publishes the skill's name and description to a public repo. Only after a clear yes, from a clone of the hub repo run `python -m skillhub sync-local --add <ids> --push`. Without a yes, add nothing.
+
 ## Why a router and not one giant skill
 
 Loading every skill's body into context would drown the task. The registry holds only each skill's name, one-line description, pack and tags. The full skill loads only when you invoke it.

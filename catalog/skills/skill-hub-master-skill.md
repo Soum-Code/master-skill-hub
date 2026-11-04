@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | plugin `skill-hub` - [Soum-Code/master-skill-hub](https://github.com/Soum-Code/master-skill-hub) |
 | **License** | MIT |
-| **Size** | 50 lines in SKILL.md, 25 file(s) |
+| **Size** | 54 lines in SKILL.md, 25 file(s) |
 
 ## When to use it
 
@@ -25,6 +25,7 @@
 The skill's own section headings, in order:
 
 - Run it
+- New skills on this machine
 - Why a router and not one giant skill
 - Safety rules (non-negotiable)
 - Packs
