@@ -2,7 +2,7 @@
 
 UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish.
 
-36 skill(s). Back to the [catalog](../README.md).
+37 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -20,6 +20,7 @@ UI/UX, design systems, typography, layout, accessibility, landing pages, visual 
 | [`example-skills:theme-factory`](../skills/example-skills-theme-factory.md) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that y | installed |
 | [`example-skills:web-artifacts-builder`](../skills/example-skills-web-artifacts-builder.md) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex a | installed |
 | [`frontend-design:frontend-design`](../skills/frontend-design-frontend-design.md) | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that | installed |
+| [`frontend-slides`](../skills/frontend-slides.md) | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to  | installed |
 | [`impeccable:impeccable`](../skills/impeccable-impeccable.md) | Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a | installed |
 | [`openai/skills:figma`](../skills/openai-skills-figma.md) | Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task in | verified |
 | [`openai/skills:figma-code-connect-components`](../skills/openai-skills-figma-code-connect-components.md) | Connects Figma design components to code components using Code Connect mapping tools. Use when user says "code connect", "connect this component to code", "map this compo | verified |

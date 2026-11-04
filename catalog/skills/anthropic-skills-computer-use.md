@@ -10,7 +10,7 @@
 | **Status** | installed (owner's machine) |
 | **Origin** | plugin `anthropic-skills` |
 | **License** | Proprietary. LICENSE.txt has complete terms |
-| **Size** | 68 lines in SKILL.md, 2 file(s) |
+| **Size** | 83 lines in SKILL.md, 2 file(s) |
 
 ## When to use it
 
@@ -27,6 +27,7 @@ The skill's own section headings, in order:
 - Turning computer use on from a chat
 - Separate filesystems
 - Pick the right tool for the app
+- Background tools and full-screen tools
 - Look before asserting
 - Loading via ToolSearch
 - Access flow

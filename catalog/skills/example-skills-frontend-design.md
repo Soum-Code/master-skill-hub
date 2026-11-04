@@ -41,9 +41,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [frontend-design:frontend-design](frontend-design-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
+- [frontend-slides](frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
 - [bm:ui-phase](bm-ui-phase.md) - Generate UI design contract (UI-SPEC.md) for frontend phases
 - [bm:ui-review](bm-ui-review.md) - Retroactive 6-pillar visual audit of implemented frontend code
-- [taste-skill:taste-skill](taste-skill-taste-skill.md) - Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the r
 
 ## Invoke / install
 

@@ -55,9 +55,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [anthropic-skills:pptx](anthropic-skills-pptx.md) - Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This include
+- [academic-pptx](academic-pptx.md) - Use this skill whenever the user wants to create or improve a presentation for an academic context — conferenc
 - [anthropic-skills:docx](anthropic-skills-docx.md) - Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word tem
 - [anthropics/skills:docx](anthropics-skills-docx.md) - Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Wo
-- [anthropic-skills:pdf](anthropic-skills-pdf.md) - Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text
 
 ## Invoke / install
 

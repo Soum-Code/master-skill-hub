@@ -41,10 +41,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [frontend-slides](frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
 - [loop](loop.md) - Run a prompt or slash command on a recurring interval, or let the model self-pace. Use when the user wants to 
 - [example-skills:canvas-design](example-skills-canvas-design.md) - Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when
 - [anthropics/claude-code:Writing Hookify Rules](anthropics-claude-code-writing-hookify-rules.md) - This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hooki
-- [anthropics/claude-plugins-official:writing-hookify-rules](anthropics-claude-plugins-official-writing-hookify-rules.md) - This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hooki
 
 ## Invoke / install
 

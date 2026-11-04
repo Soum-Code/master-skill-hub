@@ -1,5 +1,6 @@
 # Software Development
 
+- `anthropic-skills:vibe-coding` - Guides Claude when a person wants to build an app, tool, or prototype by describing it in plain language and letting AI write the code ("vibe coding"). Use this whenever the user mentions vi
 - `anthropics/knowledge-work-plugins:design-system` - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's variants, states, a
 - `bm:add-tests` - Generate tests for a completed phase based on UAT criteria and implementation
 - `bm:code-review` - Review source files changed during a phase for bugs, security issues, and code quality problems

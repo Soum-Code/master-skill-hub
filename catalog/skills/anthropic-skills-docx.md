@@ -10,7 +10,7 @@
 | **Status** | installed (owner's machine) |
 | **Origin** | plugin `anthropic-skills` |
 | **License** | Proprietary. LICENSE.txt has complete terms |
-| **Size** | 94 lines in SKILL.md, 61 file(s) |
+| **Size** | 95 lines in SKILL.md, 61 file(s) |
 
 ## When to use it
 

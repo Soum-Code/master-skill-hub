@@ -1,6 +1,6 @@
 # Skill catalog
 
-394 skills across 19 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
+397 skills across 19 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
 
 ## Packs (industries and roles)
 
@@ -8,11 +8,11 @@
 |---|---|---|
 | [Spec-driven Dev Workflow](packs/dev-workflow.md) | 59 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
 | [AI / ML Engineering](packs/ai-ml.md) | 39 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
-| [Software Development](packs/software-dev.md) | 38 | Writing, reviewing, debugging, testing and architecting code across languages. |
+| [Software Development](packs/software-dev.md) | 39 | Writing, reviewing, debugging, testing and architecting code across languages. |
+| [Web, Frontend & UI Design](packs/web-frontend-design.md) | 37 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
 | [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 36 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
-| [Web, Frontend & UI Design](packs/web-frontend-design.md) | 36 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
 | [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 34 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
-| [Documents, Writing & Content](packs/docs-content.md) | 20 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
+| [Documents, Writing & Content](packs/docs-content.md) | 21 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
 | [Browser & Web Automation](packs/browser-automation.md) | 17 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | [Data & Analytics](packs/data-analytics.md) | 17 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
 | [Productivity & Automation](packs/productivity-automation.md) | 15 | Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows. |
@@ -56,6 +56,7 @@
 
 | Skill | Pack | Description |
 |---|---|---|
+| [`academic-pptx`](skills/academic-pptx.md) | docs-content | Use this skill whenever the user wants to create or improve a presentation for an academic context — conference papers, seminar talks, thesis defenses |
 | [`agent-browser`](skills/agent-browser.md) | browser-automation | Fast browser automation CLI for AI agents (vercel-labs/agent-browser). Use when the user asks to interact with a website, fill a form, click something |
 | [`anthropic-skills:built-in-browser`](skills/anthropic-skills-built-in-browser.md) | browser-automation | Read this skill before the first step that uses the built-in browser, the browser pane inside the Claude desktop app (also called the in-app browser,  |
 | [`anthropic-skills:chrome-browser`](skills/anthropic-skills-chrome-browser.md) | browser-automation | Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named mcp__claude-in-chrome__* (also called Ch |
@@ -76,6 +77,7 @@
 | [`anthropic-skills:setup-claude`](skills/anthropic-skills-setup-claude.md) | meta-tooling | Guided setup — install role-matched plugins, connect your tools, try a skill. |
 | [`anthropic-skills:setup-cowork`](skills/anthropic-skills-setup-cowork.md) | meta-tooling | Guided setup — install role-matched plugins, connect your tools, try a skill. |
 | [`anthropic-skills:skill-creator`](skills/anthropic-skills-skill-creator.md) | meta-tooling | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or opt |
+| [`anthropic-skills:vibe-coding`](skills/anthropic-skills-vibe-coding.md) | software-dev | Guides Claude when a person wants to build an app, tool, or prototype by describing it in plain language and letting AI write the code ("vibe coding") |
 | [`anthropic-skills:xlsx`](skills/anthropic-skills-xlsx.md) | data-analytics | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an ex |
 | [`anthropics/claude-code:Agent Development`](skills/anthropics-claude-code-agent-development.md) | ai-ml | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontmatter", "when to use description", |
 | [`anthropics/claude-code:Command Development`](skills/anthropics-claude-code-command-development.md) | meta-tooling | This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command", "define command arguments", "use  |
@@ -262,6 +264,7 @@
 | [`finance:sox-testing`](skills/finance-sox-testing.md) | finance-accounting | Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample f |
 | [`finance:variance-analysis`](skills/finance-variance-analysis.md) | data-analytics | Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-perio |
 | [`frontend-design:frontend-design`](skills/frontend-design-frontend-design.md) | web-frontend-design | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and |
+| [`frontend-slides`](skills/frontend-slides.md) | web-frontend-design | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, co |
 | [`google-gemini/gemini-skills:gemini-api-dev`](skills/google-gemini-gemini-skills-gemini-api-dev.md) | software-dev | Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video gen |
 | [`google-gemini/gemini-skills:gemini-live-api-dev`](skills/google-gemini-gemini-skills-gemini-live-api-dev.md) | software-dev | Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) t |
 | [`google-gemini/gemini-skills:gemini-omni-flash-api`](skills/google-gemini-gemini-skills-gemini-omni-flash-api.md) | creative-media | Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, |

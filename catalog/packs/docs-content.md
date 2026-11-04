@@ -2,10 +2,11 @@
 
 Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts.
 
-20 skill(s). Back to the [catalog](../README.md).
+21 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`academic-pptx`](../skills/academic-pptx.md) | Use this skill whenever the user wants to create or improve a presentation for an academic context — conference papers, seminar talks, thesis defenses, grant briefings, l | installed |
 | [`anthropic-skills:clean-user-facing-text`](../skills/anthropic-skills-clean-user-facing-text.md) | Clean and finalize authorized natural-language text intended for readers by auditing suspicious invisible Unicode and rewriting prose while preserving facts, meaning, and | installed |
 | [`anthropic-skills:docs`](../skills/anthropic-skills-docs.md) | docs (editable docs people share and comment on; the default for any document, named as a doc or not: a document, report, proposal, resume, cover letter, letter, contract | installed |
 | [`anthropic-skills:docx`](../skills/anthropic-skills-docx.md) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of Microsoft W | installed |

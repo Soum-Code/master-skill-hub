@@ -2,10 +2,11 @@
 
 Writing, reviewing, debugging, testing and architecting code across languages.
 
-38 skill(s). Back to the [catalog](../README.md).
+39 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`anthropic-skills:vibe-coding`](../skills/anthropic-skills-vibe-coding.md) | Guides Claude when a person wants to build an app, tool, or prototype by describing it in plain language and letting AI write the code ("vibe coding"). Use this whenever  | installed |
 | [`anthropics/knowledge-work-plugins:design-system`](../skills/anthropics-knowledge-work-plugins-design-system.md) | Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's | verified |
 | [`bm:add-tests`](../skills/bm-add-tests.md) | Generate tests for a completed phase based on UAT criteria and implementation | installed |
 | [`bm:code-review`](../skills/bm-code-review.md) | Review source files changed during a phase for bugs, security issues, and code quality problems | installed |

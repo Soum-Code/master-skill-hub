@@ -5,17 +5,17 @@ One skill that picks the right skill. It knows 200+ skills grouped by industry a
 Works in **Claude Code** (global, all projects) and **claude.ai** (upload a zip).
 
 <!-- STATS:START -->
-**394 skills** in 19 packs - 400 candidates awaiting approval - 41 quarantined. Registry updated 2026-11-02.
+**397 skills** in 19 packs - 400 candidates awaiting approval - 41 quarantined. Registry updated 2026-11-04.
 
 | Pack | Skills |
 |---|---|
 | [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 59 |
 | [AI / ML Engineering](catalog/packs/ai-ml.md) | 39 |
-| [Software Development](catalog/packs/software-dev.md) | 38 |
+| [Software Development](catalog/packs/software-dev.md) | 39 |
+| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 37 |
 | [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 36 |
-| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 36 |
 | [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 34 |
-| [Documents, Writing & Content](catalog/packs/docs-content.md) | 20 |
+| [Documents, Writing & Content](catalog/packs/docs-content.md) | 21 |
 | [Browser & Web Automation](catalog/packs/browser-automation.md) | 17 |
 | [Data & Analytics](catalog/packs/data-analytics.md) | 17 |
 | [Productivity & Automation](catalog/packs/productivity-automation.md) | 15 |

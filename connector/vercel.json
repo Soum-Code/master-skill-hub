@@ -1,0 +1,4 @@
+{
+  "functions": { "api/mcp.py": { "includeFiles": "{_bundle/**,mcp_handler.py}" } },
+  "rewrites": [{ "source": "/mcp", "destination": "/api/mcp" }]
+}

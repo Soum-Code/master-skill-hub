@@ -6,11 +6,11 @@ Pick the pack that matches the task, then open `packs/<pack>.md`.
 |---|---|---|
 | `dev-workflow` Spec-driven Dev Workflow | 59 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
 | `ai-ml` AI / ML Engineering | 39 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
-| `software-dev` Software Development | 38 | Writing, reviewing, debugging, testing and architecting code across languages. |
+| `software-dev` Software Development | 39 | Writing, reviewing, debugging, testing and architecting code across languages. |
+| `web-frontend-design` Web, Frontend & UI Design | 37 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
 | `mlops-devops` MLOps / DevOps / Cloud | 36 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
-| `web-frontend-design` Web, Frontend & UI Design | 36 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
 | `meta-tooling` Claude / Skills / Plugin Tooling | 34 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
-| `docs-content` Documents, Writing & Content | 20 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
+| `docs-content` Documents, Writing & Content | 21 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
 | `browser-automation` Browser & Web Automation | 17 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | `data-analytics` Data & Analytics | 17 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
 | `productivity-automation` Productivity & Automation | 15 | Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows. |
