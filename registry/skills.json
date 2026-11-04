@@ -86,7 +86,9 @@
       "lines": 153,
       "name": "academic-pptx",
       "pack": "docs-content",
-      "packs": [],
+      "packs": [
+        "research-learning"
+      ],
       "plugin": null,
       "references": [],
       "scripts": [],
@@ -14289,9 +14291,9 @@
       "license_class": "permissive",
       "lines": 186,
       "name": "frontend-slides",
-      "pack": "web-frontend-design",
+      "pack": "docs-content",
       "packs": [
-        "docs-content"
+        "web-frontend-design"
       ],
       "plugin": null,
       "references": [],
@@ -17583,8 +17585,7 @@
       "name": "investor-materials",
       "pack": "communication-collab",
       "packs": [
-        "docs-content",
-        "meta-tooling"
+        "docs-content"
       ],
       "plugin": null,
       "references": [],
@@ -56763,9 +56764,9 @@
       "license_class": "permissive",
       "lines": 381,
       "name": "frontend-slides",
-      "pack": "web-frontend-design",
+      "pack": "docs-content",
       "packs": [
-        "docs-content"
+        "web-frontend-design"
       ],
       "plugin": null,
       "references": [],
@@ -79168,5 +79169,5 @@
       "when": ""
     }
   ],
-  "updated": "2026-11-04T09:12:38Z"
+  "updated": "2026-11-04T09:16:44Z"
 }

@@ -65,10 +65,28 @@ Multi-skill workflows. Invoke each skill when its step begins.
 2. `anthropic-skills:docx` - Deliver as a Word document
 3. `anthropic-skills:humanizer` - Polish the prose
 
-## Research-backed slide deck
+## Research-backed slide deck (.pptx)
 
 1. `anthropic-skills:deep-research` - Gather the substance
-2. `anthropic-skills:pptx` - Build the deck
+2. `anthropic-skills:pptx` - Build the .pptx file
+3. `example-skills:theme-factory` - Apply a consistent theme
+4. `anthropic-skills:humanizer` - Polish the wording
+
+## Conference talk, thesis defense or lab meeting
+
+1. `academic-pptx` - Structure the argument and evidence for an academic audience
+2. `anthropic-skills:pptx` - Create or edit the .pptx file itself
+
+## Animated web presentation (HTML slides)
+
+1. `frontend-slides` - Pick a visual style and build animation-rich HTML slides, or convert a PPTX
+2. `example-skills:theme-factory` - Optional: reuse a preset theme
+
+## Pitch deck and investor materials
+
+1. `affaan-m/ECC:investor-materials` - Deck, one-pager, memo and financial model, kept consistent
+2. `anthropic-skills:pptx` - Produce the .pptx
+3. `anthropic-skills:google-workspace` - Or build it as Google Slides
 
 ## Spreadsheet to insight
 

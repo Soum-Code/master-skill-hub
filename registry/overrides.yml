@@ -36,3 +36,9 @@ overrides:
   "bm:resume-at": {pack: dev-workflow, packs: [productivity-automation]}
   "skill-hub:job-search-copilot": {pack: careers-jobs, packs: [docs-content]}
   "skill-hub:ml-interview-prep": {pack: careers-jobs, packs: [ai-ml]}
+  "academic-pptx": {pack: docs-content, packs: [research-learning]}
+  "frontend-slides": {pack: docs-content, packs: [web-frontend-design]}
+  "affaan-m/ECC:frontend-slides": {pack: docs-content, packs: [web-frontend-design]}
+  "affaan-m/ECC:investor-materials": {pack: communication-collab, packs: [docs-content]}
+  "anthropic-skills:pptx": {pack: docs-content}
+  "anthropics/skills:pptx": {pack: docs-content}

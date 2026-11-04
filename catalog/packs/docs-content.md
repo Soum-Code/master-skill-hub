@@ -2,7 +2,7 @@
 
 Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts.
 
-32 skill(s). Back to the [catalog](../README.md).
+34 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -12,6 +12,7 @@ Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, soci
 | [`affaan-m/ECC:content-engine`](../skills/affaan-m-ecc-content-engine.md) | Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threa | verified |
 | [`affaan-m/ECC:content-hash-cache-pattern`](../skills/affaan-m-ecc-content-hash-cache-pattern.md) | Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation. Use when repeated file processi | verified |
 | [`affaan-m/ECC:crosspost`](../skills/affaan-m-ecc-crosspost.md) | Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cro | verified |
+| [`affaan-m/ECC:frontend-slides`](../skills/affaan-m-ecc-frontend-slides.md) | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to  | verified |
 | [`affaan-m/ECC:gateguard`](../skills/affaan-m-ecc-gateguard.md) | PreToolUse fact-forcing gate that denies the first Edit/Write/Bash (including MultiEdit and NotebookEdit) attempt until the agent presents concrete facts (importers, data | verified |
 | [`affaan-m/ECC:hookify-rules`](../skills/affaan-m-ecc-hookify-rules.md) | Create and configure hookify rules — markdown files with YAML frontmatter that match bash, file, prompt, or stop events by regex or conditions and show warn/block message | verified |
 | [`affaan-m/ECC:marketing-campaign`](../skills/affaan-m-ecc-marketing-campaign.md) | End-to-end marketing campaign planning and execution. Covers audience research, positioning, campaign angle definition, landing page copy, email sequences, social posts,  | verified |
@@ -35,6 +36,7 @@ Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, soci
 | [`anthropics/skills:docx`](../skills/anthropics-skills-docx.md) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of | verified |
 | [`anthropics/skills:pptx`](../skills/anthropics-skills-pptx.md) | Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; read | verified |
 | [`bm:session-report`](../skills/bm-session-report.md) | Generate a session report with token usage estimates, work summary, and outcomes | installed |
+| [`frontend-slides`](../skills/frontend-slides.md) | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to  | installed |
 | [`microsoft/skills:kql`](../skills/microsoft-skills-kql.md) | KQL language expertise for writing correct, efficient Kusto Query Language queries. Covers syntax gotchas, join patterns, dynamic types, datetime pitfalls, regex patterns | verified |
 | [`openai/skills:pdf`](../skills/openai-skills-pdf.md) | Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools | verified |
 | [`vercel-labs/agent-skills:writing-guidelines`](../skills/vercel-labs-agent-skills-writing-guidelines.md) | Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style", "audit prose", "review docs voice and tone", or "check thi | verified |

@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `affaan-m/ECC:investor-materials` |
-| **Pack** | Communication & Collaboration (also: Documents, Writing & Content, Claude / Skills / Plugin Tooling) |
+| **Pack** | Communication & Collaboration (also: Documents, Writing & Content) |
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [affaan-m/ECC](https://github.com/affaan-m/ECC) |

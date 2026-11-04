@@ -42,8 +42,8 @@ The skill's own section headings, in order:
 
 - [example-skills:frontend-design](example-skills-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
 - [affaan-m/ECC:frontend-design-direction](affaan-m-ecc-frontend-design-direction.md) - Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites,
+- [bm:ui-phase](bm-ui-phase.md) - Generate UI design contract (UI-SPEC.md) for frontend phases
 - [affaan-m/ECC:frontend-slides](affaan-m-ecc-frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
-- [frontend-slides](frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
 
 ## Invoke / install
 

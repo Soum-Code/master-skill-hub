@@ -85,12 +85,36 @@ chains:
       - {skill: "anthropic-skills:docx", purpose: "Deliver as a Word document"}
       - {skill: "anthropic-skills:humanizer", purpose: "Polish the prose"}
   - id: slide-deck
-    title: Research-backed slide deck
+    title: Research-backed slide deck (.pptx)
     pack: docs-content
-    keywords: [slide deck, presentation, pitch deck, powerpoint, pptx]
+    keywords: [slide deck, presentation, pitch deck, powerpoint, pptx, make slides]
     steps:
       - {skill: "anthropic-skills:deep-research", purpose: "Gather the substance"}
-      - {skill: "anthropic-skills:pptx", purpose: "Build the deck"}
+      - {skill: "anthropic-skills:pptx", purpose: "Build the .pptx file"}
+      - {skill: "example-skills:theme-factory", purpose: "Apply a consistent theme"}
+      - {skill: "anthropic-skills:humanizer", purpose: "Polish the wording"}
+  - id: academic-talk
+    title: Conference talk, thesis defense or lab meeting
+    pack: docs-content
+    keywords: [conference talk, thesis defense, seminar slides, research presentation, academic deck, dissertation, lab meeting]
+    steps:
+      - {skill: "academic-pptx", purpose: "Structure the argument and evidence for an academic audience"}
+      - {skill: "anthropic-skills:pptx", purpose: "Create or edit the .pptx file itself"}
+  - id: html-deck
+    title: Animated web presentation (HTML slides)
+    pack: web-frontend-design
+    keywords: [html slides, web presentation, animated slides, convert ppt to web, slides for a talk]
+    steps:
+      - {skill: "frontend-slides", purpose: "Pick a visual style and build animation-rich HTML slides, or convert a PPTX"}
+      - {skill: "example-skills:theme-factory", purpose: "Optional: reuse a preset theme"}
+  - id: investor-pitch
+    title: Pitch deck and investor materials
+    pack: communication-collab
+    keywords: [pitch deck, investor deck, investor memo, fundraising, accelerator application, one pager]
+    steps:
+      - {skill: "affaan-m/ECC:investor-materials", purpose: "Deck, one-pager, memo and financial model, kept consistent"}
+      - {skill: "anthropic-skills:pptx", purpose: "Produce the .pptx"}
+      - {skill: "anthropic-skills:google-workspace", purpose: "Or build it as Google Slides"}
   - id: data-report
     title: Spreadsheet to insight
     pack: data-analytics

@@ -10,9 +10,9 @@
 | [Spec-driven Dev Workflow](packs/dev-workflow.md) | 85 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
 | [AI / ML Engineering](packs/ai-ml.md) | 70 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
 | [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 60 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
-| [Web, Frontend & UI Design](packs/web-frontend-design.md) | 56 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
+| [Web, Frontend & UI Design](packs/web-frontend-design.md) | 54 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
 | [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 49 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
-| [Documents, Writing & Content](packs/docs-content.md) | 32 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
+| [Documents, Writing & Content](packs/docs-content.md) | 34 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
 | [Data & Analytics](packs/data-analytics.md) | 24 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
 | [Browser & Web Automation](packs/browser-automation.md) | 23 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | [Operations & Business](packs/operations-business.md) | 23 | Process design, capacity planning, vendor management, status reports, change management. |
@@ -39,7 +39,10 @@
 - **Pre-merge quality pass**: `simplify` -> `code-review` -> `security-review`
 - **Design and build a polished web UI**: `impeccable:impeccable` -> `frontend-design:frontend-design` -> `example-skills:webapp-testing`
 - **Researched report or briefing**: `anthropic-skills:deep-research` -> `anthropic-skills:docx` -> `anthropic-skills:humanizer`
-- **Research-backed slide deck**: `anthropic-skills:deep-research` -> `anthropic-skills:pptx`
+- **Research-backed slide deck (.pptx)**: `anthropic-skills:deep-research` -> `anthropic-skills:pptx` -> `example-skills:theme-factory` -> `anthropic-skills:humanizer`
+- **Conference talk, thesis defense or lab meeting**: `academic-pptx` -> `anthropic-skills:pptx`
+- **Animated web presentation (HTML slides)**: `frontend-slides` -> `example-skills:theme-factory`
+- **Pitch deck and investor materials**: `affaan-m/ECC:investor-materials` -> `anthropic-skills:pptx` -> `anthropic-skills:google-workspace`
 - **Spreadsheet to insight**: `anthropic-skills:xlsx` -> `dataviz` -> `product-management:metrics-review`
 - **Production incident to postmortem**: `engineering:incident-response` -> `operations:runbook` -> `engineering:documentation`
 - **Research to spec to stakeholder update**: `product-management:synthesize-research` -> `product-management:write-spec` -> `product-management:roadmap-update` -> `product-management:stakeholder-update`
@@ -171,7 +174,7 @@
 | [`affaan-m/ECC:frontend-a11y`](skills/affaan-m-ecc-frontend-a11y.md) | web-frontend-design | Accessibility patterns for React and Next.js — semantic HTML, ARIA attributes, form labeling, keyboard navigation, focus management, and screen reader |
 | [`affaan-m/ECC:frontend-design-direction`](skills/affaan-m-ecc-frontend-design-direction.md) | web-frontend-design | Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites, dashboards, applications, components, l |
 | [`affaan-m/ECC:frontend-patterns`](skills/affaan-m-ecc-frontend-patterns.md) | web-frontend-design | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing Re |
-| [`affaan-m/ECC:frontend-slides`](skills/affaan-m-ecc-frontend-slides.md) | web-frontend-design | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, co |
+| [`affaan-m/ECC:frontend-slides`](skills/affaan-m-ecc-frontend-slides.md) | docs-content | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, co |
 | [`affaan-m/ECC:fsharp-testing`](skills/affaan-m-ecc-fsharp-testing.md) | software-dev | F# testing patterns with xUnit, FsUnit, Unquote, FsCheck property-based testing, integration tests, and test organization best practices. Use when wri |
 | [`affaan-m/ECC:gan-style-harness`](skills/affaan-m-ecc-gan-style-harness.md) | dev-workflow | GAN-inspired Generator-Evaluator agent harness for building high-quality applications autonomously. Based on Anthropic's March 2026 harness design pap |
 | [`affaan-m/ECC:gateguard`](skills/affaan-m-ecc-gateguard.md) | docs-content | PreToolUse fact-forcing gate that denies the first Edit/Write/Bash (including MultiEdit and NotebookEdit) attempt until the agent presents concrete fa |
@@ -565,7 +568,7 @@
 | [`finance:sox-testing`](skills/finance-sox-testing.md) | finance-accounting | Generate SOX sample selections, testing workpapers, and control assessments. Use when planning quarterly or annual SOX 404 testing, pulling a sample f |
 | [`finance:variance-analysis`](skills/finance-variance-analysis.md) | data-analytics | Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-perio |
 | [`frontend-design:frontend-design`](skills/frontend-design-frontend-design.md) | web-frontend-design | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and |
-| [`frontend-slides`](skills/frontend-slides.md) | web-frontend-design | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, co |
+| [`frontend-slides`](skills/frontend-slides.md) | docs-content | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, co |
 | [`google-gemini/gemini-skills:gemini-api-dev`](skills/google-gemini-gemini-skills-gemini-api-dev.md) | software-dev | Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video gen |
 | [`google-gemini/gemini-skills:gemini-live-api-dev`](skills/google-gemini-gemini-skills-gemini-live-api-dev.md) | software-dev | Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) t |
 | [`google-gemini/gemini-skills:gemini-omni-flash-api`](skills/google-gemini-gemini-skills-gemini-omni-flash-api.md) | creative-media | Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, |

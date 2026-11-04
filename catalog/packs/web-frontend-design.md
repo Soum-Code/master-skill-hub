@@ -2,7 +2,7 @@
 
 UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish.
 
-56 skill(s). Back to the [catalog](../README.md).
+54 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -12,7 +12,6 @@ UI/UX, design systems, typography, layout, accessibility, landing pages, visual 
 | [`affaan-m/ECC:frontend-a11y`](../skills/affaan-m-ecc-frontend-a11y.md) | Accessibility patterns for React and Next.js — semantic HTML, ARIA attributes, form labeling, keyboard navigation, focus management, and screen reader support. Use when b | verified |
 | [`affaan-m/ECC:frontend-design-direction`](../skills/affaan-m-ecc-frontend-design-direction.md) | Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites, dashboards, applications, components, landing pages, visual | verified |
 | [`affaan-m/ECC:frontend-patterns`](../skills/affaan-m-ecc-frontend-patterns.md) | Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js compo | verified |
-| [`affaan-m/ECC:frontend-slides`](../skills/affaan-m-ecc-frontend-slides.md) | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to  | verified |
 | [`affaan-m/ECC:make-interfaces-feel-better`](../skills/affaan-m-ecc-make-interfaces-feel-better.md) | Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving UI spacing, typography, borders, shadows, motion, hit areas, | verified |
 | [`affaan-m/ECC:motion-advanced`](../skills/affaan-m-ecc-motion-advanced.md) | Advanced motion patterns for React / Next.js — drag & drop, gestures, text animations, SVG path drawing, custom hooks, imperative sequences (useAnimate), loaders, and the | verified |
 | [`affaan-m/ECC:motion-foundations`](../skills/affaan-m-ecc-motion-foundations.md) | Motion tokens, spring presets, performance rules, device adaptation, accessibility enforcement, and SSR safety for React / Next.js using motion/react. Foundation layer —  | verified |
@@ -39,7 +38,6 @@ UI/UX, design systems, typography, layout, accessibility, landing pages, visual 
 | [`example-skills:theme-factory`](../skills/example-skills-theme-factory.md) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that y | installed |
 | [`example-skills:web-artifacts-builder`](../skills/example-skills-web-artifacts-builder.md) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex a | installed |
 | [`frontend-design:frontend-design`](../skills/frontend-design-frontend-design.md) | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that | installed |
-| [`frontend-slides`](../skills/frontend-slides.md) | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to  | installed |
 | [`impeccable:impeccable`](../skills/impeccable-impeccable.md) | Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a | installed |
 | [`openai/skills:figma`](../skills/openai-skills-figma.md) | Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task in | verified |
 | [`openai/skills:figma-code-connect-components`](../skills/openai-skills-figma-code-connect-components.md) | Connects Figma design components to code components using Code Connect mapping tools. Use when user says "code connect", "connect this component to code", "map this compo | verified |

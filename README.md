@@ -15,9 +15,9 @@ Works in **Claude Code** (global, all projects) and **claude.ai** (upload a zip)
 | [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 85 |
 | [AI / ML Engineering](catalog/packs/ai-ml.md) | 70 |
 | [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 60 |
-| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 56 |
+| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 54 |
 | [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 49 |
-| [Documents, Writing & Content](catalog/packs/docs-content.md) | 32 |
+| [Documents, Writing & Content](catalog/packs/docs-content.md) | 34 |
 | [Data & Analytics](catalog/packs/data-analytics.md) | 24 |
 | [Browser & Web Automation](catalog/packs/browser-automation.md) | 23 |
 | [Operations & Business](catalog/packs/operations-business.md) | 23 |

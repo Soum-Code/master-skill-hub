@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `academic-pptx` |
-| **Pack** | Documents, Writing & Content |
+| **Pack** | Documents, Writing & Content (also: Research & Learning) |
 | **Kind** | skill |
 | **Status** | installed (owner's machine) |
 | **Origin** | user |

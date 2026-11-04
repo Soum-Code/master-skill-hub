@@ -8,9 +8,9 @@ Pick the pack that matches the task, then open `packs/<pack>.md`.
 | `dev-workflow` Spec-driven Dev Workflow | 85 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
 | `ai-ml` AI / ML Engineering | 70 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
 | `meta-tooling` Claude / Skills / Plugin Tooling | 60 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
-| `web-frontend-design` Web, Frontend & UI Design | 56 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
+| `web-frontend-design` Web, Frontend & UI Design | 54 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
 | `mlops-devops` MLOps / DevOps / Cloud | 49 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
-| `docs-content` Documents, Writing & Content | 32 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
+| `docs-content` Documents, Writing & Content | 34 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
 | `data-analytics` Data & Analytics | 24 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
 | `browser-automation` Browser & Web Automation | 23 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | `operations-business` Operations & Business | 23 | Process design, capacity planning, vendor management, status reports, change management. |

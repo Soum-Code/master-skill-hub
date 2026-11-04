@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `affaan-m/ECC:frontend-slides` |
-| **Pack** | Web, Frontend & UI Design (also: Documents, Writing & Content) |
+| **Pack** | Documents, Writing & Content (also: Web, Frontend & UI Design) |
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [affaan-m/ECC](https://github.com/affaan-m/ECC) |
@@ -57,9 +57,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [frontend-slides](frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
+- [academic-pptx](academic-pptx.md) - Use this skill whenever the user wants to create or improve a presentation for an academic context — conferenc
 - [example-skills:frontend-design](example-skills-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
 - [frontend-design:frontend-design](frontend-design-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
-- [anthropics/claude-plugins-official:playground](anthropics-claude-plugins-official-playground.md) - Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something
 
 ## Invoke / install
 
