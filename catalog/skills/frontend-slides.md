@@ -55,10 +55,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:frontend-slides](affaan-m-ecc-frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
 - [example-skills:frontend-design](example-skills-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
 - [frontend-design:frontend-design](frontend-design-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
 - [anthropics/claude-plugins-official:playground](anthropics-claude-plugins-official-playground.md) - Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something
-- [academic-pptx](academic-pptx.md) - Use this skill whenever the user wants to create or improve a presentation for an academic context — conferenc
 
 ## Invoke / install
 

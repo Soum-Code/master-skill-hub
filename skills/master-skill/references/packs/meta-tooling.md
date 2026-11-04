@@ -1,5 +1,29 @@
 # Claude / Skills / Plugin Tooling
 
+- `affaan-m/ECC:agent-sort` - Build an evidence-backed ECC install plan for a specific repo by sorting skills, commands, rules, hooks, and extras into DAILY vs LIBRARY buckets using parallel repo-aware review passes. Use
+- `affaan-m/ECC:config-gc` - Garbage collection for your Claude Code configuration. Periodically scans ~/.claude (skills, memory, hooks, permissions, MCP servers, caches) for redundant, stale, orphaned, or low-value ite
+- `affaan-m/ECC:configure-ecc` - Run the conversational ECC setup wizard inside the current harness: inventory the install, collect scope (user/project/local) and hook mode (off/minimal/standard/strict) in Claude Code, use 
+- `affaan-m/ECC:deepseek-harness-setup` - Install and operate Everything Claude Code (ECC) on the DeepSeek Harness (DSH): native skill roots (~/.dsh/skills, .agents/skills), the @deepseek-ai/dsh-hooks-claude-code bridge for command 
+- `affaan-m/ECC:dmux-workflows` - Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multi
+- `affaan-m/ECC:dynamic-workflow-mode` - Design task-local harnesses, eval gates, and reusable skill extraction for Claude dynamic workflow mode and other adaptive agent harnesses. Use when building a task-local harness, adding eva
+- `affaan-m/ECC:ecc-guide` - Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install profiles, and docs — instead of memory. Use when the user asks what ECC includes
+- `affaan-m/ECC:healthcare-cdss-patterns` - Clinical Decision Support System (CDSS) development patterns. Drug interaction checking, dose validation, clinical scoring (NEWS2, qSOFA), alert severity classification, and integration into
+- `affaan-m/ECC:healthcare-emr-patterns` - EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, prescription generation, clinical decision support integration, and accessibility-first UI for
+- `affaan-m/ECC:hermes-imports` - Convert local Hermes operator workflows into sanitized ECC skills and release-pack artifacts. Use when preparing a Hermes workflow for public ECC reuse without leaking private workspace stat
+- `affaan-m/ECC:kotlin-ktor-patterns` - Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing. Use when building a Ktor server — routing, plugi
+- `affaan-m/ECC:laravel-plugin-discovery` - Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility.
+- `affaan-m/ECC:mcp-dependency-review` - Statically review MCP configuration for mutable package references before approval or CI, without executing discovered MCP servers. Use when reviewing .mcp.json, Cursor, VS Code, Claude, Win
+- `affaan-m/ECC:messages-ops` - Evidence-first live messaging workflow for ECC. Use when the user wants to read texts or DMs, recover a recent one-time code, inspect a thread before replying, or prove which message source 
+- `affaan-m/ECC:nasiko-control-plane` - Manage the experimental Nasiko CLI lifecycle through ECC — read-only status checks, consent-gated install of the pinned qualified version with dry-run preview, and ownership-checked uninstal
+- `affaan-m/ECC:rules-distill` - Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files. Use when the same principle keeps recurring across skills and belongs 
+- `affaan-m/ECC:search-first` - Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build. Launches the researcher agent f
+- `affaan-m/ECC:security-scan` - Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers,
+- `affaan-m/ECC:skill-host-compat` - Lint ECC skills for Codex/Cursor-safe frontmatter and Claude-only substitutions before a skill PR.
+- `affaan-m/ECC:skill-scout` - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the user wants to create, build, fork, or find a skill for a workflow.
+- `affaan-m/ECC:skill-stocktake` - Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation.
+- `affaan-m/ECC:unified-notifications-ops` - Operate notifications as one ECC-native workflow across GitHub, Linear, desktop alerts, hooks, and connected communication surfaces. Use when the real problem is alert routing, deduplication
+- `affaan-m/ECC:vite-patterns` - Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.confi
+- `affaan-m/ECC:workspace-surface-audit` - Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup, then recommend the highest-value ECC-native skills, hooks, agents, and operator workflows. Use when 
 - `anthropic-skills:computer-use` - Read this skill before the first step of any request to do something in an app on the person's own computer (Notes, Finder, System Settings, any desktop app), to look at their screen, or for
 - `anthropic-skills:setup-claude` - Guided setup — install role-matched plugins, connect your tools, try a skill.
 - `anthropic-skills:setup-cowork` - Guided setup — install role-matched plugins, connect your tools, try a skill.
@@ -13,6 +37,7 @@
 - `anthropics/claude-plugins-official:claude-md-improver` - Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix CLAUDE.md files. Scans for all CLAUDE.md files, evaluates quality against templ
 - `anthropics/claude-plugins-official:command-development` - This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command", "define command arguments", "use command frontmatter", "organize commands
 - `anthropics/claude-plugins-official:example-skill` - This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill template", or discusses skill development patterns. Provides a reference template f
+- `anthropics/claude-plugins-official:m5-onboard` - End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, Cardputer-Adv, Core, CoreS3, Stick) — detect on USB, flash UIFlow 2.0 firmware, and install the Claude Buddy M
 - `anthropics/claude-plugins-official:mcp-integration` - This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context Protocol", "connect external service", me
 - `anthropics/claude-plugins-official:plugin-settings` - This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurable plugin", ".local.md files", "plugin state files", "read YAML frontmatte
 - `anthropics/claude-plugins-official:skill-development` - This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organize skill content", or needs guidance on s
@@ -27,6 +52,7 @@
 - `fewer-permission-prompts` - Scan transcripts for common read-only Bash and MCP tool calls and add a prioritized allowlist to project settings to reduce permission prompts.
 - `huggingface/skills:hf-cloud-python-env-setup` - Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMaker deployme
 - `keybindings-help` - Customize keyboard shortcuts, rebind keys, add chord bindings or edit ~/.claude/keybindings.json.
+- `microsoft/skills:copilot-sdk` - Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NET. Covers session ma
 - `microsoft/skills:skill-creator` - Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry services. Use when creating new skills or updating existing skills.
 - `plugin-authoring` - Make a mod - a change to Claude's own interface or behaviour such as a panel, status line, toast, slash command or hook on tool calls.
 - `skill-hub:master-skill` - Router for every other skill. Use at the start of any non-trivial request, and whenever it is unclear which skill, plugin or workflow fits - "which skill should I use", "best skill for this"

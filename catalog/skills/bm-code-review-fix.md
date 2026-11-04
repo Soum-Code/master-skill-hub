@@ -30,10 +30,10 @@
 
 ## Related skills
 
+- [affaan-m/ECC:orch-fix-defect](affaan-m-ecc-orch-fix-defect.md) - Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit —
 - [bm:code-review](bm-code-review.md) - Review source files changed during a phase for bugs, security issues, and code quality problems
 - [bm:audit-fix](bm-audit-fix.md) - Autonomous audit-to-fix pipeline — find issues, classify, fix, test, commit
 - [bm:pr-branch](bm-pr-branch.md) - Create a clean PR branch by filtering out .planning/ commits — ready for code review
-- [bm:eval-review](bm-eval-review.md) - Retroactively audit an executed AI phase's evaluation coverage — scores each eval dimension as COVERED/PARTIAL
 
 ## Invoke / install
 

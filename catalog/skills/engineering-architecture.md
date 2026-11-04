@@ -36,10 +36,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:architecture-decision-records](affaan-m-ecc-architecture-decision-records.md) - Capture architectural decisions as numbered ADR markdown files in docs/adr/ with context, alternatives conside
 - [microsoft/skills:cloud-solution-architect](microsoft-skills-cloud-solution-architect.md) - Transform the agent into a Cloud Solution Architect following Azure Architecture Center best practices. Use wh
 - [operations:change-request](operations-change-request.md) - Create a change management request with impact analysis and rollback plan. Use when proposing a system or proc
 - [anthropics/knowledge-work-plugins:design-system](anthropics-knowledge-work-plugins-design-system.md) - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded value
-- [openai/skills:figma-generate-library](openai-skills-figma-generate-library.md) - Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create
 
 ## Invoke / install
 

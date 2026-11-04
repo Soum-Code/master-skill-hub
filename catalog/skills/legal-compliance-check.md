@@ -56,6 +56,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [affaan-m/ECC:prediction-market-risk-review](affaan-m-ecc-prediction-market-risk-review.md) - Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality, pr
+
 ## Invoke / install
 
 - Invoke: `/legal:compliance-check`  (Skill tool: `legal:compliance-check`)

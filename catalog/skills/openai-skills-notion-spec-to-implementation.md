@@ -43,8 +43,8 @@ The skill's own section headings, in order:
 
 - [finance:close-management](finance-close-management.md) - Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning 
 - [product-management:write-spec](product-management-write-spec.md) - Write a feature spec or PRD from a problem statement or feature idea. Use when turning a vague idea or user re
+- [affaan-m/ECC:claude-devfleet](affaan-m-ecc-claude-devfleet.md) - Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated
 - [bm:research-phase](bm-research-phase.md) - Research how to implement a phase (standalone - usually use /bm:plan-phase instead)
-- [bm:fast](bm-fast.md) - Execute a trivial task inline — no subagents, no planning overhead
 
 ## Invoke / install
 

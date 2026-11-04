@@ -50,10 +50,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:skill-scout](affaan-m-ecc-skill-scout.md) - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the us
 - [anthropics/claude-plugins-official:example-skill](anthropics-claude-plugins-official-example-skill.md) - This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill tem
 - [openai/skills:figma-generate-library](openai-skills-figma-generate-library.md) - Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create
-- [frontend-slides](frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
-- [anthropic-skills:skill-creator](anthropic-skills-skill-creator.md) - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to c
+- [affaan-m/ECC:frontend-slides](affaan-m-ecc-frontend-slides.md) - Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when th
 
 ## Invoke / install
 

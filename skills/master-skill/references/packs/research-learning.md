@@ -1,5 +1,7 @@
 # Research & Learning
 
+- `affaan-m/ECC:scientific-thinking-literature-review` - Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence loggin
+- `affaan-m/ECC:scientific-thinking-scholar-evaluation` - Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback. Use when evaluating acade
 - `anthropic-skills:deep-research` - Use this skill when the user's prompt requires (1) researching a topic across multiple sources, comparing options or alternatives, analyzing trends or history, understanding markets or indus
 - `anthropic-skills:explain-usage` - Explain where this session's tokens went, with one simple chart in plain language. Use when the user says things like "explain my usage", "where did my tokens go", or asks for a usage breakd
 - `anthropics/knowledge-work-plugins:scvi-tools` - Deep learning for single-cell analysis using scvi-tools. This skill should be used when users need (1) data integration and batch correction with scVI/scANVI, (2) ATAC-seq analysis with Peak

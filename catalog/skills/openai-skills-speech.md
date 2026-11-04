@@ -51,8 +51,8 @@ The skill's own section headings, in order:
 
 - [microsoft/skills:podcast-generation](microsoft-skills-podcast-generation.md) - Generate AI-powered podcast-style audio narratives using Azure OpenAI's GPT Realtime Mini model via WebSocket.
 - [openai/skills:jupyter-notebook](openai-skills-jupyter-notebook.md) - Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations
+- [affaan-m/ECC:fal-ai-media](affaan-m-ecc-fal-ai-media.md) - Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/im
 - [openai/skills:transcribe](openai-skills-transcribe.md) - Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to tran
-- [openai/skills:playwright](openai-skills-playwright.md) - Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, s
 
 ## Invoke / install
 

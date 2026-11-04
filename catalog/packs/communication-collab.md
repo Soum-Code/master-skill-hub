@@ -2,11 +2,18 @@
 
 Slack, email, meetings, standups, internal comms, stakeholder updates, briefings.
 
-14 skill(s). Back to the [catalog](../README.md).
+21 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`affaan-m/ECC:dev-team`](../skills/affaan-m-ecc-dev-team.md) | Simulate a collaborative dev team session where multiple role-based personas (PM, Architect, Developer, QA) respond to the same problem together in one session. Use when  | verified |
+| [`affaan-m/ECC:email-ops`](../skills/affaan-m-ecc-email-ops.md) | Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send throug | verified |
+| [`affaan-m/ECC:investor-materials`](../skills/affaan-m-ecc-investor-materials.md) | Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing  | verified |
+| [`affaan-m/ECC:investor-outreach`](../skills/affaan-m-ecc-investor-outreach.md) | Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic i | verified |
+| [`affaan-m/ECC:team-agent-orchestration`](../skills/affaan-m-ecc-team-agent-orchestration.md) | Run team-based orchestration for agent squads: work items with owners and scope, agent Kanban state, branch isolation, control pane visibility, and merge gates. Use when  | verified |
+| [`affaan-m/ECC:team-builder`](../skills/affaan-m-ecc-team-builder.md) | Interactive picker that discovers available agent personas via the claude agents command and agents/ markdown globs, groups them into domains, has the user select up to f | verified |
 | [`anthropics/claude-plugins-official:access`](../skills/anthropics-claude-plugins-official-access.md) | Manage Discord channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's allowed, or change po | verified |
+| [`anthropics/claude-plugins-official:configure`](../skills/anthropics-claude-plugins-official-configure.md) | Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord bot token, asks to configure Discord, asks "how do I set this | verified |
 | [`anthropics/knowledge-work-plugins:ticket-triage`](../skills/anthropics-knowledge-work-plugins-ticket-triage.md) | Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should ha | verified |
 | [`bm:inbox`](../skills/bm-inbox.md) | Triage and review all open GitHub issues and PRs against project templates and contribution guidelines | installed |
 | [`bm:join-discord`](../skills/bm-join-discord.md) | Join the GSD Discord community | installed |

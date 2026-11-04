@@ -32,7 +32,8 @@
 
 - [bm:pr-branch](bm-pr-branch.md) - Create a clean PR branch by filtering out .planning/ commits — ready for code review
 - [bm:plan-phase](bm-plan-phase.md) - Create detailed phase plan (PLAN.md) with verification loop
-- [engineering:code-review](engineering-code-review.md) - Review code changes for security, performance, and correctness. Trigger with a PR URL or diff, "review this be
+- [affaan-m/ECC:production-audit](affaan-m-ecc-production-audit.md) - Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and "what b
+- [affaan-m/ECC:canary-watch](affaan-m-ecc-canary-watch.md) - Use this skill to monitor and verify a deployed URL after releases — checks HTTP endpoints, SSE streams, stati
 
 ## Invoke / install
 

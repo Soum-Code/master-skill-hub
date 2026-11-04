@@ -26,10 +26,10 @@
 
 ## Related skills
 
+- [affaan-m/ECC:cost-tracking](affaan-m-ecc-cost-tracking.md) - Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. U
 - [bm:session-report](bm-session-report.md) - Generate a session report with token usage estimates, work summary, and outcomes
 - [anthropic-skills:schedule](anthropic-skills-schedule.md) - Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "ea
-- [anthropics/claude-plugins-official:configure](anthropics-claude-plugins-official-configure.md) - Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord b
-- [anthropics/claude-plugins-official:session-report](anthropics-claude-plugins-official-session-report.md) - Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive p
+- [affaan-m/ECC:token-card](affaan-m-ecc-token-card.md) - Render a token-usage stat card from local Claude Code, Codex, Gemini CLI, and OpenCode session logs and commit
 
 ## Invoke / install
 

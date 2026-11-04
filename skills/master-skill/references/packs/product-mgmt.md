@@ -1,5 +1,13 @@
 # Product Management
 
+- `affaan-m/ECC:brand-discovery` - Run a structured, resumable multi-session brand identity interview across 8 modules (purpose, positioning, audience, personality, voice, narrative, founder tension) using laddering, 5 Whys, 
+- `affaan-m/ECC:competitive-platform-analysis` - Use when scoping a competitive landscape — identifying, categorising, and score-filtering a competitor set before any benchmarking begins. Decides who counts as a competitor, which tier they
+- `affaan-m/ECC:market-research` - Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizin
+- `affaan-m/ECC:orch-build-mvp` - Orchestrate bootstrapping a working MVP from a design or spec document — ingest the SDD/PRD, plan thin vertical slices, scaffold the first end-to-end slice, then drive a generator-evaluator 
+- `affaan-m/ECC:prediction-market-oracle-research` - Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probab
+- `affaan-m/ECC:product-capability` - Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that exposes constraints, invariants, interfaces, and unresolved decisions before mult
+- `affaan-m/ECC:product-lens` - Validate the why before building through four product diagnostics — a YC-style product diagnostic that produces PRODUCT-BRIEF.md with a go/no-go recommendation, a founder review scoring prod
+- `affaan-m/ECC:research-ops` - Evidence-first current-state research workflow for ECC. Use when the user wants fresh facts, comparisons, enrichment, or a recommendation built from current public evidence and any supplied 
 - `anthropics/knowledge-work-plugins:customer-escalation` - Package an escalation for engineering, product, or leadership with full context. Use when a bug needs engineering attention beyond normal support, multiple customers report the same issue, a
 - `anthropics/knowledge-work-plugins:customer-research` - Multi-source research on a customer question or topic with source attribution. Use when a customer asks something you need to look up, investigating whether a bug has been reported before, c
 - `anthropics/knowledge-work-plugins:research-synthesis` - Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, support tickets, or NPS responses that nee

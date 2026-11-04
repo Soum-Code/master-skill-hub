@@ -59,6 +59,8 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [huggingface/skills:huggingface-spaces](huggingface-skills-huggingface-spaces.md) - Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and d
+- [affaan-m/ECC:laravel-patterns](affaan-m-ecc-laravel-patterns.md) - Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and
+- [affaan-m/ECC:skill-scout](affaan-m-ecc-skill-scout.md) - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the us
 
 ## Invoke / install
 

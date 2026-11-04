@@ -93,7 +93,9 @@ def is_placeholder(path: str, entry: dict) -> bool:
         return True
     meta, _ = vet.parse_frontmatter(entry["files"].get("SKILL.md", b"").decode("utf-8", "replace"))
     desc = str(meta.get("description", "")).strip().lower()
-    return desc.startswith(("replace with", "todo", "describe ", "your skill", "<description", "[description"))
+    name = segs[-1] if segs else ""
+    return (name.startswith("example-") or "demonstrates" in desc[:120]
+            or desc.startswith(("replace with", "todo", "describe ", "your skill", "an example ", "<description", "[description")))
 
 
 def process_repo(slug: str, meta: dict, ctx: dict) -> dict:

@@ -57,9 +57,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [anthropics/claude-plugins-official:build-mcp-app](anthropics-claude-plugins-official-build-mcp-app.md) - This skill should be used when the user wants to build an "MCP app", add "interactive UI" or "widgets" to an M
+- [affaan-m/ECC:search-first](affaan-m-ecc-search-first.md) - Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before wr
 - [openai/skills:openai-docs](openai-skills-openai-docs.md) - Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex su
-- [openai/skills:cli-creator](openai-skills-cli-creator.md) - Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an
-- [anthropics/knowledge-work-plugins:start](anthropics-knowledge-work-plugins-start.md) - Set up your bio-research environment and explore available tools. Use when first getting oriented with the plu
+- [affaan-m/ECC:mcp-server-patterns](affaan-m-ecc-mcp-server-patterns.md) - Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HT
 
 ## Invoke / install
 

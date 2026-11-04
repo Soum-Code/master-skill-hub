@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `anthropics/claude-plugins-official:m5-onboard` |
-| **Pack** | Careers, Jobs & Hiring |
+| **Pack** | Claude / Skills / Plugin Tooling |
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |

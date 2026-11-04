@@ -41,6 +41,7 @@ The skill's own section headings, in order:
 
 - [bm:fast](bm-fast.md) - Execute a trivial task inline — no subagents, no planning overhead
 - [bm:set-profile](bm-set-profile.md) - Switch model profile for GSD agents (quality/balanced/budget/inherit)
+- [affaan-m/ECC:claude-devfleet](affaan-m-ecc-claude-devfleet.md) - Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated
 
 ## Invoke / install
 

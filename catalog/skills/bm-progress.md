@@ -32,8 +32,8 @@
 
 - [openai/skills:gh-fix-ci](openai-skills-gh-fix-ci.md) - Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect 
 - [bm:ingest-docs](bm-ingest-docs.md) - Scan a repo for mixed ADRs, PRDs, SPECs, and DOCs and bootstrap or merge the full .planning/ setup from them. 
+- [affaan-m/ECC:claude-devfleet](affaan-m-ecc-claude-devfleet.md) - Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated
 - [bm:new-project](bm-new-project.md) - Initialize a new project with deep context gathering and PROJECT.md
-- [bm:execute-phase](bm-execute-phase.md) - Execute all plans in a phase with wave-based parallelization
 
 ## Invoke / install
 

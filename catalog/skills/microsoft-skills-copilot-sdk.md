@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `microsoft/skills:copilot-sdk` |
-| **Pack** | AI / ML Engineering |
+| **Pack** | Claude / Skills / Plugin Tooling (also: MLOps / DevOps / Cloud, Productivity & Automation, Software Development) |
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [microsoft/skills](https://github.com/microsoft/skills) |
@@ -65,10 +65,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:search-first](affaan-m-ecc-search-first.md) - Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before wr
 - [example-skills:mcp-builder](example-skills-mcp-builder.md) - Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with externa
+- [affaan-m/ECC:mcp-server-patterns](affaan-m-ecc-mcp-server-patterns.md) - Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HT
 - [google-gemini/gemini-skills:gemini-live-api-dev](google-gemini-gemini-skills-gemini-live-api-dev.md) - Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migr
-- [anthropics/claude-plugins-official:build-mcp-server](anthropics-claude-plugins-official-build-mcp-server.md) - This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integrati
-- [anthropics/claude-plugins-official:build-mcp-app](anthropics-claude-plugins-official-build-mcp-app.md) - This skill should be used when the user wants to build an "MCP app", add "interactive UI" or "widgets" to an M
 
 ## Invoke / install
 

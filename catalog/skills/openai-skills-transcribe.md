@@ -42,6 +42,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:fal-ai-media](affaan-m-ecc-fal-ai-media.md) - Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/im
 - [openai/skills:speech](openai-skills-speech.md) - Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch
 - [anthropic-skills:pdf](anthropic-skills-pdf.md) - Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text
 

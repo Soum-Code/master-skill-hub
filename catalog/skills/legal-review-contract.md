@@ -48,6 +48,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [operations:vendor-review](operations-vendor-review.md) - Evaluate a vendor — cost analysis, risk assessment, and recommendation. Use when reviewing a new vendor propos
+- [affaan-m/ECC:master-agreement-generator](affaan-m-ecc-master-agreement-generator.md) - Generate review drafts of counterparty master agreements from one template plus a JSON spec, with role-selecte
 
 ## Invoke / install
 

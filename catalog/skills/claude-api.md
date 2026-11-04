@@ -26,10 +26,10 @@
 
 ## Related skills
 
+- [affaan-m/ECC:cost-aware-llm-pipeline](affaan-m-ecc-cost-aware-llm-pipeline.md) - Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic,
 - [example-skills:mcp-builder](example-skills-mcp-builder.md) - Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with externa
 - [anthropics/claude-code:claude-opus-4-5-migration](anthropics-claude-code-claude-opus-4-5-migration.md) - Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants 
-- [microsoft/skills:copilot-sdk](microsoft-skills-copilot-sdk.md) - Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integration
-- [openai/skills:openai-docs](openai-skills-openai-docs.md) - Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex su
+- [affaan-m/ECC:mcp-server-patterns](affaan-m-ecc-mcp-server-patterns.md) - Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HT
 
 ## Invoke / install
 

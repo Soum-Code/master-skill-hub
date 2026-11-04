@@ -38,6 +38,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [openai/skills:winui-app](openai-skills-winui-app.md) - Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using offic
+- [affaan-m/ECC:fastapi-patterns](affaan-m-ecc-fastapi-patterns.md) - FastAPI best practices covering project structure, Pydantic v2 schemas, dependency injection, async handlers, 
+- [affaan-m/ECC:laravel-security](affaan-m-ecc-laravel-security.md) - Laravel security best practices — authentication, authorization, Eloquent safety, CSRF, XSS prevention, API se
+- [affaan-m/ECC:django-security](affaan-m-ecc-django-security.md) - Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS 
 
 ## Invoke / install
 

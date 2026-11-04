@@ -1,5 +1,11 @@
 # Browser & Web Automation
 
+- `affaan-m/ECC:automation-audit-ops` - Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, o
+- `affaan-m/ECC:browser-qa` - Run automated post-deploy UI verification with a browser automation MCP (claude-in-chrome, Playwright, or Puppeteer): console-error and Core Web Vitals smoke checks, form and auth-flow inter
+- `affaan-m/ECC:click-path-audit` - Trace every user-facing button/touchpoint through its full state change sequence to find bugs where functions individually work but cancel each other out, produce wrong final state, or leave
+- `affaan-m/ECC:e2e-testing` - Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, structuring page obje
+- `affaan-m/ECC:netmiko-ssh-automation` - Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling. Use when automating networ
+- `affaan-m/ECC:windows-desktop-e2e` - E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation. Use when writing E2E tests for a Windows native desktop app with pywinau
 - `agent-browser` - Fast browser automation CLI for AI agents (vercel-labs/agent-browser). Use when the user asks to interact with a website, fill a form, click something, extract data, take a screenshot, log i
 - `anthropic-skills:built-in-browser` - Read this skill before the first step that uses the built-in browser, the browser pane inside the Claude desktop app (also called the in-app browser, the browser pane, Claude's browser, or "
 - `anthropic-skills:chrome-browser` - Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named mcp__claude-in-chrome__* (also called Chrome, the browser extension, or the exte

@@ -56,6 +56,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [example-skills:canvas-design](example-skills-canvas-design.md) - Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when
+- [affaan-m/ECC:code-tour](affaan-m-ecc-code-tour.md) - Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. U
 
 ## Invoke / install
 

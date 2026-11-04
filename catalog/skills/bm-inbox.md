@@ -33,7 +33,7 @@
 - [modelcontextprotocol/specification:search-mcp-github](modelcontextprotocol-specification-search-mcp-github.md) - Search MCP PRs, issues, and discussions across the modelcontextprotocol GitHub org
 - [openai/skills:gh-address-comments](openai-skills-gh-address-comments.md) - Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth f
 - [vercel-labs/agent-skills:writing-guidelines](vercel-labs-agent-skills-writing-guidelines.md) - Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style"
-- [vercel-labs/agent-skills:web-design-guidelines](vercel-labs-agent-skills-web-design-guidelines.md) - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility
+- [affaan-m/ECC:issue-review](affaan-m-ecc-issue-review.md) - Review a GitHub issue the way /code-review reviews a PR. Fetches the issue with the gh CLI, checks the report 
 
 ## Invoke / install
 

@@ -44,7 +44,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [microsoft/skills:aks-troubleshooting](microsoft-skills-aks-troubleshooting.md) - Debug live Azure Kubernetes Service (AKS) incidents with a read-only, evidence-first investigation. WHEN: pod 
+- [affaan-m/ECC:network-bgp-diagnostics](affaan-m-ecc-network-bgp-diagnostics.md) - Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, AS path inspe
 - [microsoft/skills:aks-gpu-inference](microsoft-skills-aks-gpu-inference.md) - Diagnose Day-2 AKS GPU and KAITO incidents using profile-aware, read-only evidence. WHEN: 'Insufficient nvidia
+- [affaan-m/ECC:netmiko-ssh-automation](affaan-m-ecc-netmiko-ssh-automation.md) - Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config chan
 
 ## Invoke / install
 

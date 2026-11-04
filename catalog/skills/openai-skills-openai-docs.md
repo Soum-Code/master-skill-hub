@@ -46,10 +46,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:mcp-server-patterns](affaan-m-ecc-mcp-server-patterns.md) - Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HT
 - [anthropics/claude-plugins-official:build-mcp-server](anthropics-claude-plugins-official-build-mcp-server.md) - This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integrati
 - [openai/skills:chatgpt-apps](openai-skills-chatgpt-apps.md) - Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widge
-- [anthropics/claude-code:Agent Development](anthropics-claude-code-agent-development.md) - This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent 
-- [anthropics/claude-plugins-official:agent-development](anthropics-claude-plugins-official-agent-development.md) - This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent 
+- [affaan-m/ECC:documentation-lookup](affaan-m-ecc-documentation-lookup.md) - Use up-to-date library and framework docs via Context7 MCP instead of training data. Activates for setup quest
 
 ## Invoke / install
 

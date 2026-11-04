@@ -36,8 +36,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:deployment-patterns](affaan-m-ecc-deployment-patterns.md) - Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, an
 - [operations:change-request](operations-change-request.md) - Create a change management request with impact analysis and rollback plan. Use when proposing a system or proc
-- [legal:signature-request](legal-signature-request.md) - Prepare and route a document for e-signature — run a pre-signature checklist, configure signing order, and sen
+- [affaan-m/ECC:change-impact](affaan-m-ecc-change-impact.md) - Perform evidence-backed impact analysis before changing code, data, interfaces, or governance documents, then 
+- [affaan-m/ECC:laravel-verification](affaan-m-ecc-laravel-verification.md) - Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security sc
 
 ## Invoke / install
 

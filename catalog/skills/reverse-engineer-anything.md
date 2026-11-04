@@ -35,6 +35,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [affaan-m/ECC:code-tour](affaan-m-ecc-code-tour.md) - Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. U
+
 ## Invoke / install
 
 - Invoke: `/reverse-engineer-anything`

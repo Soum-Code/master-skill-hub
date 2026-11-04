@@ -49,6 +49,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [anthropics/knowledge-work-plugins:write-query](anthropics-knowledge-work-plugins-write-query.md) - Write optimized SQL for your dialect with best practices. Use when translating a natural-language data need in
+- [affaan-m/ECC:clickhouse-io](affaan-m-ecc-clickhouse-io.md) - ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-perf
 
 ## Invoke / install
 

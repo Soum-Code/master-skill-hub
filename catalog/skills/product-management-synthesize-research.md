@@ -67,6 +67,7 @@ The skill's own section headings, in order:
 
 - [anthropics/knowledge-work-plugins:research-synthesis](anthropics-knowledge-work-plugins-research-synthesis.md) - Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, 
 - [anthropics/knowledge-work-plugins:user-research](anthropics-knowledge-work-plugins-user-research.md) - Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability 
+- [affaan-m/ECC:scientific-thinking-scholar-evaluation](affaan-m-ecc-scientific-thinking-scholar-evaluation.md) - Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence qua
 - [microsoft/skills:github-issue-creator](microsoft-skills-github-issue-creator.md) - Convert raw notes, error logs, voice dictation, or screenshots into crisp GitHub-flavored markdown issue repor
 
 ## Invoke / install

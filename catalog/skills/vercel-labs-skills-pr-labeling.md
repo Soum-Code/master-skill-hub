@@ -31,9 +31,9 @@
 ## Related skills
 
 - [openai/skills:yeet](openai-skills-yeet.md) - Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow usin
+- [affaan-m/ECC:project-flow-ops](affaan-m-ecc-project-flow-ops.md) - Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking active work, and
 - [bm:review](bm-review.md) - Request cross-AI peer review of phase plans from external AI CLIs
 - [anthropic-skills:skill-creator](anthropic-skills-skill-creator.md) - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to c
-- [example-skills:skill-creator](example-skills-skill-creator.md) - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to c
 
 ## Invoke / install
 

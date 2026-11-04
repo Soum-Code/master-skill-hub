@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `linkedin-profile-optimizer` |
-| **Pack** | Careers, Jobs & Hiring |
+| **Pack** | Careers, Jobs & Hiring (also: Claude / Skills / Plugin Tooling) |
 | **Kind** | skill |
 | **Status** | installed (owner's machine) |
 | **Origin** | user |

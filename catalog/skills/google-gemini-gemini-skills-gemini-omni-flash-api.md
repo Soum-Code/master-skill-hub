@@ -55,6 +55,7 @@ The skill's own section headings, in order:
 
 - [google-gemini/gemini-skills:gemini-api-dev](google-gemini-gemini-skills-gemini-api-dev.md) - Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal un
 - [google-gemini/gemini-skills:gemini-live-api-dev](google-gemini-gemini-skills-gemini-live-api-dev.md) - Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migr
+- [affaan-m/ECC:fal-ai-media](affaan-m-ecc-fal-ai-media.md) - Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/im
 
 ## Invoke / install
 

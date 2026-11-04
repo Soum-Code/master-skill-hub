@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | plugin `skill-hub` - [Soum-Code/master-skill-hub](https://github.com/Soum-Code/master-skill-hub) |
 | **License** | MIT |
-| **Size** | 50 lines in SKILL.md, 24 file(s) |
+| **Size** | 50 lines in SKILL.md, 25 file(s) |
 
 ## When to use it
 
@@ -33,7 +33,7 @@ The skill's own section headings, in order:
 
 - scripts: `scripts/route.py`
 - reference docs: `references/chains.md`, `references/index.md`, `references/packs/ai-ml.md`, `references/packs/browser-automation.md`, `references/packs/careers-jobs.md`, `references/packs/communication-collab.md`, `references/packs/creative-media.md`, `references/packs/data-analytics.md` ...
-- 2 other file(s)
+- 3 other file(s)
 
 ## Permissions and risk notes
 
@@ -43,6 +43,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [anthropics/skills:academy-guide](anthropics-skills-academy-guide.md) - Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product
+- [affaan-m/ECC:search-first](affaan-m-ecc-search-first.md) - Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before wr
 - [skill-hub:ml-interview-prep](skill-hub-ml-interview-prep.md) - Interview preparation for ML engineer, AI engineer, MLOps, data scientist and applied-LLM roles. Use for "prep
 
 ## Invoke / install

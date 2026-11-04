@@ -47,6 +47,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [example-skills:theme-factory](example-skills-theme-factory.md) - Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing page
+- [affaan-m/ECC:make-interfaces-feel-better](affaan-m-ecc-make-interfaces-feel-better.md) - Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving 
 - [taste-skill:soft-skill](taste-skill-soft-skill.md) - Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, a
 - [taste-skill:redesign-skill](taste-skill-redesign-skill.md) - Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns,
 

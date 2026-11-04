@@ -2,11 +2,22 @@
 
 Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts.
 
-21 skill(s). Back to the [catalog](../README.md).
+32 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
 | [`academic-pptx`](../skills/academic-pptx.md) | Use this skill whenever the user wants to create or improve a presentation for an academic context — conference papers, seminar talks, thesis defenses, grant briefings, l | installed |
+| [`affaan-m/ECC:article-writing`](../skills/affaan-m-ecc-article-writing.md) | Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use | verified |
+| [`affaan-m/ECC:brand-voice`](../skills/affaan-m-ecc-brand-voice.md) | Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workf | verified |
+| [`affaan-m/ECC:content-engine`](../skills/affaan-m-ecc-content-engine.md) | Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threa | verified |
+| [`affaan-m/ECC:content-hash-cache-pattern`](../skills/affaan-m-ecc-content-hash-cache-pattern.md) | Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation. Use when repeated file processi | verified |
+| [`affaan-m/ECC:crosspost`](../skills/affaan-m-ecc-crosspost.md) | Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cro | verified |
+| [`affaan-m/ECC:gateguard`](../skills/affaan-m-ecc-gateguard.md) | PreToolUse fact-forcing gate that denies the first Edit/Write/Bash (including MultiEdit and NotebookEdit) attempt until the agent presents concrete facts (importers, data | verified |
+| [`affaan-m/ECC:hookify-rules`](../skills/affaan-m-ecc-hookify-rules.md) | Create and configure hookify rules — markdown files with YAML frontmatter that match bash, file, prompt, or stop events by regex or conditions and show warn/block message | verified |
+| [`affaan-m/ECC:marketing-campaign`](../skills/affaan-m-ecc-marketing-campaign.md) | End-to-end marketing campaign planning and execution. Covers audience research, positioning, campaign angle definition, landing page copy, email sequences, social posts,  | verified |
+| [`affaan-m/ECC:nutrient-document-processing`](../skills/affaan-m-ecc-nutrient-document-processing.md) | Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images. Use when converting, OCR | verified |
+| [`affaan-m/ECC:video-editing`](../skills/affaan-m-ecc-video-editing.md) | AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, | verified |
+| [`affaan-m/ECC:visa-doc-translate`](../skills/affaan-m-ecc-visa-doc-translate.md) | Translate visa document images (bank deposit, employment, income, and retirement certificates; HEIC, PNG, or JPG) into English via OCR and produce a bilingual PDF pairing | verified |
 | [`anthropic-skills:clean-user-facing-text`](../skills/anthropic-skills-clean-user-facing-text.md) | Clean and finalize authorized natural-language text intended for readers by auditing suspicious invisible Unicode and rewriting prose while preserving facts, meaning, and | installed |
 | [`anthropic-skills:docs`](../skills/anthropic-skills-docs.md) | docs (editable docs people share and comment on; the default for any document, named as a doc or not: a document, report, proposal, resume, cover letter, letter, contract | installed |
 | [`anthropic-skills:docx`](../skills/anthropic-skills-docx.md) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of Microsoft W | installed |

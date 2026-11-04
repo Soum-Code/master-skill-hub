@@ -44,8 +44,8 @@ The skill's own section headings, in order:
 
 - [huggingface/skills:huggingface-datasets](huggingface-skills-huggingface-datasets.md) - Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, 
 - [openai/skills:cli-creator](openai-skills-cli-creator.md) - Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an
+- [affaan-m/ECC:skill-scout](affaan-m-ecc-skill-scout.md) - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the us
 - [openai/skills:figma-generate-library](openai-skills-figma-generate-library.md) - Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create
-- [huggingface/skills:huggingface-lora-space-builder](huggingface-skills-huggingface-lora-space-builder.md) - Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks to crea
 
 ## Invoke / install
 

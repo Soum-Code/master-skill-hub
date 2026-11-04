@@ -32,6 +32,7 @@
 
 - [bm:progress](bm-progress.md) - Check project progress, show context, and route to next action (execute or plan). Use --forensic to append a 6
 - [bm:import](bm-import.md) - Ingest external plans with conflict detection against project decisions before writing anything.
+- [affaan-m/ECC:docs-governance](affaan-m-ecc-docs-governance.md) - Route broad documentation-governance requests to existing ECC skills and run an opt-in, read-only audit of map
 
 ## Invoke / install
 

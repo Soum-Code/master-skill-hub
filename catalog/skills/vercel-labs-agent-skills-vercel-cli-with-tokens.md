@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `vercel-labs/agent-skills:vercel-cli-with-tokens` |
-| **Pack** | MLOps / DevOps / Cloud (also: AI / ML Engineering) |
+| **Pack** | MLOps / DevOps / Cloud |
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) |
@@ -56,6 +56,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [openai/skills:netlify-deploy](openai-skills-netlify-deploy.md) - Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, 
+- [affaan-m/ECC:vite-patterns](affaan-m-ecc-vite-patterns.md) - Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, depend
 - [vercel-labs/agent-browser:protected-vercel-deployments](vercel-labs-agent-browser-protected-vercel-deployments.md) - Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection with agen
 
 ## Invoke / install

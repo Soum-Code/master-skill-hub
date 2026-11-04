@@ -43,6 +43,13 @@ The skill's own section headings, in order:
 - Declares no pre-approved tools; Claude asks as usual.
 - Ships executable scripts. Review them before trusting the skill outside its trusted source.
 
+## Related skills
+
+- [affaan-m/ECC:frontend-patterns](affaan-m-ecc-frontend-patterns.md) - Frontend development patterns for React, Next.js, state management, performance optimization, and UI best prac
+- [affaan-m/ECC:angular-developer](affaan-m-ecc-angular-developer.md) - Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or ser
+- [affaan-m/ECC:frontend-design-direction](affaan-m-ecc-frontend-design-direction.md) - Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites,
+- [affaan-m/ECC:agent-security-hardening](affaan-m-ecc-agent-security-hardening.md) - Security hardening guidance for AI agent frameworks that process untrusted content, invoke tools, write worksp
+
 ## Invoke / install
 
 - Invoke: `/example-skills:web-artifacts-builder`  (Skill tool: `example-skills:web-artifacts-builder`)

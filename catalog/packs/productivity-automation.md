@@ -2,10 +2,18 @@
 
 Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows.
 
-15 skill(s). Back to the [catalog](../README.md).
+23 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`affaan-m/ECC:autonomous-agent-harness`](../skills/affaan-m-ecc-autonomous-agent-harness.md) | Transform Claude Code into a fully autonomous agent system with persistent memory, scheduled operations, computer use, and task queuing. Replaces standalone agent framewo | verified |
+| [`affaan-m/ECC:ck`](../skills/affaan-m-ecc-ck.md) | Persistent per-project memory for Claude Code (Context Keeper) driven by deterministic Node.js /ck commands: init, save, resume, info, list, forget, and v1-to-v2 migrate, | verified |
+| [`affaan-m/ECC:operator-approval-loop`](../skills/affaan-m-ecc-operator-approval-loop.md) | Operator approval contract with internal filing notices for agent-drafted outbound messages, hashed drafts, epoch-keyed decisions, durable delivery claims and receipts, a | verified |
+| [`affaan-m/ECC:production-scheduling`](../skills/affaan-m-ecc-production-scheduling.md) | Codified expertise for production scheduling, job sequencing, line balancing, changeover optimization, and bottleneck resolution in discrete and batch manufacturing. Info | verified |
+| [`affaan-m/ECC:social-publisher`](../skills/affaan-m-ecc-social-publisher.md) | Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. Use when the user wants to publish to X, LinkedIn, Instagram, Facebook Pa | verified |
+| [`affaan-m/ECC:strategic-compact`](../skills/affaan-m-ecc-strategic-compact.md) | Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a | verified |
+| [`affaan-m/ECC:token-card`](../skills/affaan-m-ecc-token-card.md) | Render a token-usage stat card from local Claude Code, Codex, Gemini CLI, and OpenCode session logs and commit it into the repository as a file. Use when someone wants a  | verified |
+| [`affaan-m/ECC:unified-memory`](../skills/affaan-m-ecc-unified-memory.md) | Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode, and other agents through the local ECC Memory Vault. Use when an agent mu | verified |
 | [`anthropic-skills:consolidate-memory`](../skills/anthropic-skills-consolidate-memory.md) | Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index. | installed |
 | [`anthropic-skills:import-memory`](../skills/anthropic-skills-import-memory.md) | Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data. | installed |
 | [`anthropic-skills:morning`](../skills/anthropic-skills-morning.md) | Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their m | installed |

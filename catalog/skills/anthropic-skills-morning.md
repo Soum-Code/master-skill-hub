@@ -45,10 +45,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:ecc-guide](affaan-m-ecc-ecc-guide.md) - Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install 
 - [anthropic-skills:schedule](anthropic-skills-schedule.md) - Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "ea
 - [openai/skills:yeet](openai-skills-yeet.md) - Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow usin
 - [productivity:task-management](productivity-task-management.md) - Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, want
-- [anthropics/skills:academy-guide](anthropics-skills-academy-guide.md) - Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product
 
 ## Invoke / install
 

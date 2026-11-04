@@ -70,7 +70,7 @@ The skill's own section headings, in order:
 - [microsoft/skills:continual-learning](microsoft-skills-continual-learning.md) - Guide for implementing continual learning in AI coding agents — hooks, memory scoping, reflection patterns. Us
 - [microsoft/skills:azure-ai-projects-dotnet](microsoft-skills-azure-ai-projects-dotnet.md) - Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections,
 - [microsoft/skills:azure-ai-agents-persistent-dotnet](microsoft-skills-azure-ai-agents-persistent-dotnet.md) - Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messa
-- [microsoft/skills:azure-identity-dotnet](microsoft-skills-azure-identity-dotnet.md) - Azure Identity library for .NET. Authentication library for Azure SDK clients using Microsoft Entra ID. Use fo
+- [affaan-m/ECC:openclaw-persona-forge](affaan-m-ecc-openclaw-persona-forge.md) - 为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生
 
 ## Invoke / install
 

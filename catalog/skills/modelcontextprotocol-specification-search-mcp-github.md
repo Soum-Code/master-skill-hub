@@ -48,6 +48,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [bm:inbox](bm-inbox.md) - Triage and review all open GitHub issues and PRs against project templates and contribution guidelines
+- [affaan-m/ECC:knowledge-ops](affaan-m-ecc-knowledge-ops.md) - Knowledge base management, ingestion, sync, and retrieval across multiple storage layers (local files, MCP mem
 
 ## Invoke / install
 

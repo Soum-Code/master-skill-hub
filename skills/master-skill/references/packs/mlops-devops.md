@@ -1,5 +1,18 @@
 # MLOps / DevOps / Cloud
 
+- `affaan-m/ECC:canary-watch` - Use this skill to monitor and verify a deployed URL after releases — checks HTTP endpoints, SSE streams, static assets, console errors, and performance regressions after deploys, merges, or 
+- `affaan-m/ECC:deployment-patterns` - Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setting up CI/C
+- `affaan-m/ECC:docker-patterns` - Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use when creating or rev
+- `affaan-m/ECC:ecc-recipes` - Map a described workflow to the right ECC command group with run-order and stop condition, or browse all command-group recipe families read live from the commands directory. Advisory only — 
+- `affaan-m/ECC:enterprise-agent-ops` - Operational controls for long-lived or cloud-hosted agent systems — runtime lifecycle (start, pause, stop, restart), observability (logs, metrics, traces), least-privilege safety scopes and 
+- `affaan-m/ECC:git-workflow` - Git workflow patterns including branching strategies, commit conventions, keeping history clean and readable, tidying local commits before merging, merge vs rebase, conflict resolution, and 
+- `affaan-m/ECC:kubernetes-patterns` - Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. Use when writing or reviewing
+- `affaan-m/ECC:nanoclaw-repl` - Operate and extend NanoClaw, ECC's zero-dependency session-aware REPL, with persistent markdown-backed sessions and slash commands for model switching, skill loading, session branching, cros
+- `affaan-m/ECC:opensource-pipeline` - Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open source this', 'make 
+- `affaan-m/ECC:orch-pipeline` - Shared orchestration engine behind the orch-* skill family — the gated Research-Plan-TDD-Review-Commit pipeline, size classifier, agent and command map, and two human gates (plan approval, c
+- `affaan-m/ECC:recsys-pipeline-architect` - Design composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework popularized by xAI's open-sourced For You algori
+- `affaan-m/ECC:terminal-ops` - Evidence-first repo execution workflow for ECC. Use when the user wants a command run, a repo checked, a CI failure debugged, or a narrow fix pushed with exact proof of what was executed and
+- `affaan-m/ECC:uncloud` - Use when managing an Uncloud cluster — deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspecting logs, or manag
 - `bm:pr-branch` - Create a clean PR branch by filtering out .planning/ commits — ready for code review
 - `bm:ship` - Create PR, run review, and prepare for merge after verification passes
 - `engineering:deploy-checklist` - Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migrations or feature flags, verifying CI status and approvals before going to produ

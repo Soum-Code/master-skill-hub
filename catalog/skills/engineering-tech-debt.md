@@ -36,6 +36,8 @@ The skill's own section headings, in order:
 
 - [microsoft/playwright-cli:dev](microsoft-playwright-cli-dev.md) - Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, re
 - [anthropics/claude-plugins-official:claude-md-improver](anthropics-claude-plugins-official-claude-md-improver.md) - Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix
+- [affaan-m/ECC:cost-tracking](affaan-m-ecc-cost-tracking.md) - Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. U
+- [affaan-m/ECC:prompt-caching-strategy](affaan-m-ecc-prompt-caching-strategy.md) - Optimize LLM prompt caching hit rate to reduce API costs and improve latency. Analyzes prompt structure, ident
 
 ## Invoke / install
 

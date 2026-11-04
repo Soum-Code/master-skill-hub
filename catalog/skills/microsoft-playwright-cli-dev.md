@@ -29,7 +29,7 @@
 - [openai/skills:netlify-deploy](openai-skills-netlify-deploy.md) - Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, 
 - [productivity:task-management](productivity-task-management.md) - Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, want
 - [engineering:tech-debt](engineering-tech-debt.md) - Identify, categorize, and prioritize technical debt. Trigger with "tech debt", "technical debt audit", "what s
-- [microsoft/playwright-cli:playwright-triage](microsoft-playwright-cli-playwright-triage.md) - Triage and fix one microsoft/playwright-cli issue, or do a maintainer's task, unattended inside the Issue tria
+- [affaan-m/ECC:ecc-guide](affaan-m-ecc-ecc-guide.md) - Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install 
 
 ## Invoke / install
 

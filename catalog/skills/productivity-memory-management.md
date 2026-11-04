@@ -51,6 +51,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [productivity:start](productivity-start.md) - Initialize the productivity system and open the dashboard. Use when setting up the plugin for the first time, 
+- [affaan-m/ECC:knowledge-ops](affaan-m-ecc-knowledge-ops.md) - Knowledge base management, ingestion, sync, and retrieval across multiple storage layers (local files, MCP mem
 
 ## Invoke / install
 

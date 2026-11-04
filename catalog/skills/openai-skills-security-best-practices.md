@@ -40,9 +40,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [openai/skills:security-threat-model](openai-skills-security-threat-model.md) - Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse pat
+- [affaan-m/ECC:intent-driven-development](affaan-m-ecc-intent-driven-development.md) - Turn ambiguous or high-impact product and engineering changes into scoped, verifiable acceptance criteria befo
 - [openai/skills:security-ownership-map](openai-skills-security-ownership-map.md) - Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensi
 - [vercel-labs/agent-skills:vercel-react-best-practices](vercel-labs-agent-skills-vercel-react-best-practices.md) - React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when 
-- [huggingface/skills:huggingface-zerogpu](huggingface-skills-huggingface-zerogpu.md) - AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing cod
 
 ## Invoke / install
 

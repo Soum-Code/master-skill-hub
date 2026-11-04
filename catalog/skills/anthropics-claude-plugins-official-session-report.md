@@ -40,9 +40,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [bm:session-report](bm-session-report.md) - Generate a session report with token usage estimates, work summary, and outcomes
+- [affaan-m/ECC:cost-tracking](affaan-m-ecc-cost-tracking.md) - Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. U
 - [init](init.md) - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
 - [claude-code-setup:claude-automation-recommender](claude-code-setup-claude-automation-recommender.md) - Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use
-- [anthropics/claude-code:Agent Development](anthropics-claude-code-agent-development.md) - This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent 
 
 ## Invoke / install
 

@@ -28,6 +28,10 @@
 
 - Pre-approved tools: `Read`, `Bash`, `Write`, `AskUserQuestion`
 
+## Related skills
+
+- [affaan-m/ECC:network-interface-health](affaan-m-ecc-network-interface-health.md) - Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter tre
+
 ## Invoke / install
 
 - Invoke: `/bm:health`  (Skill tool: `bm:health`)

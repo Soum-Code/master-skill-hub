@@ -48,10 +48,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:react-performance](affaan-m-ecc-react-performance.md) - React and Next.js performance optimization patterns adapted from Vercel Engineering's React Best Practices (ht
+- [affaan-m/ECC:frontend-patterns](affaan-m-ecc-frontend-patterns.md) - Frontend development patterns for React, Next.js, state management, performance optimization, and UI best prac
 - [vercel-labs/agent-skills:vercel-react-native-skills](vercel-labs-agent-skills-vercel-react-native-skills.md) - React Native and Expo best practices for building performant mobile apps. Use when building React Native compo
-- [vercel-labs/agent-skills:vercel-composition-patterns](vercel-labs-agent-skills-vercel-composition-patterns.md) - React composition patterns that scale. Use when refactoring components with boolean prop proliferation, buildi
-- [openai/skills:security-best-practices](openai-skills-security-best-practices.md) - Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only 
-- [vercel-labs/agent-skills:web-design-guidelines](vercel-labs-agent-skills-web-design-guidelines.md) - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility
+- [affaan-m/ECC:clickhouse-io](affaan-m-ecc-clickhouse-io.md) - ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-perf
 
 ## Invoke / install
 

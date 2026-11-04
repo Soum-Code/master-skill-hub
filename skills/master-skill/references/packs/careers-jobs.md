@@ -1,6 +1,15 @@
 # Careers, Jobs & Hiring
 
-- `anthropics/claude-plugins-official:m5-onboard` - End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, Cardputer-Adv, Core, CoreS3, Stick) — detect on USB, flash UIFlow 2.0 firmware, and install the Claude Buddy M
+- `affaan-m/ECC:carrier-relationship-management` - Manage truckload, LTL, and intermodal carrier portfolios: sourcing and FMCSA vetting, freight rate and fuel-surcharge negotiation, RFPs and routing guides, carrier scorecards, allocation, an
+- `affaan-m/ECC:connections-optimizer` - Reorganize the user's X and LinkedIn network with review-first pruning, add/follow recommendations, and channel-specific warm outreach drafted in the user's real voice. Use when the user wan
+- `affaan-m/ECC:homelab-network-readiness` - Readiness checklist for homelab VLAN segmentation, local DNS filtering (Pi-hole, AdGuard Home), and WireGuard-style remote access. Use when planning or reviewing home network changes — split
+- `affaan-m/ECC:homelab-network-setup` - Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP reservations, DNS, cabling, and common beginner mistakes. Use when planning or fixing a hom
+- `affaan-m/ECC:homelab-vlan-segmentation` - Segmenting home networks into VLANs for IoT, guest, trusted, and server traffic using UniFi, pfSense/OPNsense, and MikroTik — including switch trunk config, firewall rules, and wireless SSID
+- `affaan-m/ECC:network-bgp-diagnostics` - Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, AS path inspection, and safe evidence collection. Use when a BGP neighbor is down, routes are
+- `affaan-m/ECC:network-config-validation` - Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security
+- `affaan-m/ECC:network-interface-health` - Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts. Use when an interface shows errors, d
+- `affaan-m/ECC:rails-patterns` - Ruby on Rails framework patterns for Rails 7.1+ and 8.x apps. Covers the directory contract, skinny controllers with service objects, form objects, query objects, idiomatic ActiveRecord, bac
+- `affaan-m/ECC:social-graph-ranker` - Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking engine itself, not 
 - `linkedin-humanizer` - Remove the AI tells human readers and LinkedIn's AI-slop filter react to in a post or comment: 2026 vocabulary by paragraph density, reveal bridges, staccato fragments, stacked triads, perfo
 - `linkedin-profile-optimizer` - Audit and rewrite a LinkedIn profile end-to-end for 2026: headline, About 7-step, Featured, banner, photo, Experience metrics, Skills, custom URL, recommendations. Triggers on "review my pro
 - `microsoft/skills:aks-network-capture` - Collects bounded packet captures from AKS nodes and Azure network configuration for wire-level evidence. WHEN: "capture packets on an AKS node", "take a pcap", "run tcpdump on AKS", "prove w

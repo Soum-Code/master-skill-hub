@@ -1,33 +1,36 @@
 # master-skill-hub
 
+[![CI](https://github.com/Soum-Code/master-skill-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/Soum-Code/master-skill-hub/actions/workflows/ci.yml) [![Weekly discovery](https://github.com/Soum-Code/master-skill-hub/actions/workflows/weekly-discovery.yml/badge.svg)](https://github.com/Soum-Code/master-skill-hub/actions/workflows/weekly-discovery.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 One skill that picks the right skill. It knows 200+ skills grouped by industry and role (AI/ML, MLOps, careers and jobs, software, data, design, product, finance, legal, security, research), prefers the ones you already have installed, suggests multi-skill chains, and tells you when nothing fits. Every week GitHub Actions goes looking for new skills, **vets each one at an exact commit**, and reports back. It runs on GitHub's servers, so it keeps working while your PC is off.
 
 Works in **Claude Code** (global, all projects) and **claude.ai** (upload a zip).
 
 <!-- STATS:START -->
-**397 skills** in 19 packs - 400 candidates awaiting approval - 41 quarantined. Registry updated 2026-11-04.
+**697 skills** in 20 packs - 411 candidates awaiting approval - 44 quarantined. Registry updated 2026-11-04.
 
 | Pack | Skills |
 |---|---|
-| [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 59 |
-| [AI / ML Engineering](catalog/packs/ai-ml.md) | 39 |
-| [Software Development](catalog/packs/software-dev.md) | 39 |
-| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 37 |
-| [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 36 |
-| [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 34 |
-| [Documents, Writing & Content](catalog/packs/docs-content.md) | 21 |
-| [Browser & Web Automation](catalog/packs/browser-automation.md) | 17 |
-| [Data & Analytics](catalog/packs/data-analytics.md) | 17 |
-| [Productivity & Automation](catalog/packs/productivity-automation.md) | 15 |
-| [Communication & Collaboration](catalog/packs/communication-collab.md) | 14 |
-| [Product Management](catalog/packs/product-mgmt.md) | 12 |
-| [Legal & Compliance](catalog/packs/legal-compliance.md) | 10 |
-| [Operations & Business](catalog/packs/operations-business.md) | 10 |
-| [Research & Learning](catalog/packs/research-learning.md) | 9 |
-| [Creative & Media](catalog/packs/creative-media.md) | 8 |
-| [Finance & Accounting](catalog/packs/finance-accounting.md) | 8 |
-| [Careers, Jobs & Hiring](catalog/packs/careers-jobs.md) | 6 |
-| [Security & Privacy](catalog/packs/security.md) | 6 |
+| [Software Development](catalog/packs/software-dev.md) | 120 |
+| [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 85 |
+| [AI / ML Engineering](catalog/packs/ai-ml.md) | 70 |
+| [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 60 |
+| [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 56 |
+| [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 49 |
+| [Documents, Writing & Content](catalog/packs/docs-content.md) | 32 |
+| [Data & Analytics](catalog/packs/data-analytics.md) | 24 |
+| [Browser & Web Automation](catalog/packs/browser-automation.md) | 23 |
+| [Operations & Business](catalog/packs/operations-business.md) | 23 |
+| [Productivity & Automation](catalog/packs/productivity-automation.md) | 23 |
+| [Communication & Collaboration](catalog/packs/communication-collab.md) | 21 |
+| [Product Management](catalog/packs/product-mgmt.md) | 20 |
+| [Legal & Compliance](catalog/packs/legal-compliance.md) | 17 |
+| [Security & Privacy](catalog/packs/security.md) | 17 |
+| [Careers, Jobs & Hiring](catalog/packs/careers-jobs.md) | 15 |
+| [Creative & Media](catalog/packs/creative-media.md) | 15 |
+| [Finance & Accounting](catalog/packs/finance-accounting.md) | 14 |
+| [Research & Learning](catalog/packs/research-learning.md) | 11 |
+| [general](catalog/packs/general.md) | 2 |
 <!-- STATS:END -->
 
 ## Install
@@ -55,6 +58,10 @@ Read the script before running it; it only copies four folders into `~/.claude/s
 2. Settings, Capabilities, Skills, **Upload skill**.
 
 claude.ai has no API for installing skills, so that upload is a manual step; the release zips are rebuilt every week so there is always a fresh one. See [docs/CLAUDE-AI.md](docs/CLAUDE-AI.md) for the optional always-fresh connector route.
+
+## Sources already indexed
+
+Anthropic (skills, knowledge-work plugins, official plugins), Vercel Labs, Hugging Face, Microsoft, `affaan-m/ECC` (the whole `skills/` folder, vetted at one pinned commit: clean ones verified, REVIEW ones waiting as candidates, failures quarantined) and the plugins on the owner's machine. Indexed does not mean installed: nothing is installed without `install.py`'s pin and hash check.
 
 ## Use it
 

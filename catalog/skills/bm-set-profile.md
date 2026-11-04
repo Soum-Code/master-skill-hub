@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `bm:set-profile` |
-| **Pack** | Spec-driven Dev Workflow (also: Careers, Jobs & Hiring, Claude / Skills / Plugin Tooling) |
+| **Pack** | Spec-driven Dev Workflow (also: Claude / Skills / Plugin Tooling) |
 | **Kind** | skill |
 | **Status** | installed (owner's machine) |
 | **Origin** | plugin `bm` v4.5.5 - [jnuyens/gsd-plugin](https://github.com/jnuyens/gsd-plugin) |

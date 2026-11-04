@@ -46,7 +46,7 @@ The skill's own section headings, in order:
 - [openai/skills:speech](openai-skills-speech.md) - Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch
 - [bm:profile-user](bm-profile-user.md) - Generate developer behavioral profile and create Claude-discoverable artifacts
 - [anthropics/claude-plugins-official:example-skill](anthropics-claude-plugins-official-example-skill.md) - This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill tem
-- [cowork-plugin-management:create-cowork-plugin](cowork-plugin-management-create-cowork-plugin.md) - Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a pl
+- [affaan-m/ECC:ui-demo](affaan-m-ecc-ui-demo.md) - Record polished UI demo videos using Playwright. Use when the user asks to create a demo, walkthrough, screen 
 
 ## Invoke / install
 

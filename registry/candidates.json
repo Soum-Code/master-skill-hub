@@ -9617,7 +9617,238 @@
       "verdict": "pass",
       "vet_score": 94,
       "why": "owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "[DEPRECATED - use continuous-learning-v2] Legacy v1 stop-hook skill extractor. v2 is a strict superset with instinct-based, project-scoped, hook-reliable learning. Do not invoke v1: when continuous learning, session learning, or pattern extraction is requested, route to continuous-learning-v2 instea",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:continuous-learning",
+      "license": "MIT",
+      "name": "continuous-learning",
+      "pack": "ai-ml",
+      "path": "skills/continuous-learning",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "1b3c26bb8c6e4db061ebec4b977d6c31c6e0452ce9b29e267b3ac225898c1545",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/continuous-learning",
+      "verdict": "review",
+      "vet_score": 88,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination. Use when capturing lessons from a session, managing instincts, o",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:continuous-learning-v2",
+      "license": "MIT",
+      "name": "continuous-learning-v2",
+      "pack": "ai-ml",
+      "path": "skills/continuous-learning-v2",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "bbc7cbc7de1b388dc1e9a2e330c1ba86f29094facbb5cb4ae6a6e0f927a28418",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/continuous-learning-v2",
+      "verdict": "review",
+      "vet_score": 76,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "Produce cited research reports from multiple web sources using firecrawl and exa MCP tools — plan sub-questions, search and deep-read sources, then synthesize findings with inline citations and confidence levels. Use when the user asks to research a topic in depth, run a deep dive or investigation, ",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:deep-research",
+      "license": "MIT",
+      "name": "deep-research",
+      "pack": "research-learning",
+      "path": "skills/deep-research",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "ce5fc7d9bffa158be876cb1ed7ade54dd48068842e68138593331859726ca82d",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/deep-research",
+      "verdict": "review",
+      "vet_score": 90,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "Django + Celery async task patterns — configuration, task design, beat scheduling, retries, canvas workflows, monitoring, and testing. Use when adding background jobs, scheduled tasks, or async processing to a Django app.",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:django-celery",
+      "license": "MIT",
+      "name": "django-celery",
+      "pack": "productivity-automation",
+      "path": "skills/django-celery",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "8975821b49f9f9a8b9ca3fdd9048a539a3d9f93b962c79be873b4cdc03c54df1",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/django-celery",
+      "verdict": "review",
+      "vet_score": 70,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "GitHub repository operations, automation, and management. Issue triage, PR management, CI/CD operations, release management, and security monitoring using the gh CLI. Use when the user wants to manage GitHub issues, PRs, CI status, releases, contributors, stale items, or any GitHub operational task ",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:github-ops",
+      "license": "MIT",
+      "name": "github-ops",
+      "pack": "mlops-devops",
+      "path": "skills/github-ops",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "0048a57941c216a34755eb6b8032607065e89479abd702646e4ab87faf39f3f5",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/github-ops",
+      "verdict": "review",
+      "vet_score": 80,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "WireGuard VPN server setup, peer configuration, key generation, split tunneling vs full tunnel routing, and remote access to a home network from mobile and laptop clients. Use when setting up WireGuard for remote access to a home network, or deciding between split and full tunnel routing.",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:homelab-wireguard-vpn",
+      "license": "MIT",
+      "name": "homelab-wireguard-vpn",
+      "pack": "careers-jobs",
+      "path": "skills/homelab-wireguard-vpn",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "64f4a40901b2812fff400035a7996f803f4f9212266ff5b50b44a8f5a503da25",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/homelab-wireguard-vpn",
+      "verdict": "review",
+      "vet_score": 84,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "Use this skill when retrieving Jira tickets, analyzing requirements, updating ticket status, adding comments, or transitioning issues. Provides Jira API patterns via MCP or direct REST calls.",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:jira-integration",
+      "license": "MIT",
+      "name": "jira-integration",
+      "pack": "meta-tooling",
+      "path": "skills/jira-integration",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "b9e188d0c150007bd0917d4c78b1cce1e8aaa04ceccec59b450a9159b2c16832",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/jira-integration",
+      "verdict": "review",
+      "vet_score": 90,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "Comprehensive Perl security covering taint mode, input validation, safe process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and perlcritic security policies. Use when reviewing Perl input handling, process execution, DBI queries, or web-facing code.",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:perl-security",
+      "license": "MIT",
+      "name": "perl-security",
+      "pack": "security",
+      "path": "skills/perl-security",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "81a7f392bbed697f8d7f0c3976113cfeeed1609bc15ff9338c783937531db261",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/perl-security",
+      "verdict": "review",
+      "vet_score": 80,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "Guard against destructive operations with three modes: Careful intercepts dangerous commands (rm -rf, git push --force, DROP TABLE) for confirmation, Freeze locks writes to one directory, and Guard combines both. Advisory: the agent applies these rules itself; no hook ships with it. Use when working",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:safety-guard",
+      "license": "MIT",
+      "name": "safety-guard",
+      "pack": "operations-business",
+      "path": "skills/safety-guard",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "a5753bd00ef0740f9a78852c153b22ec78a31bed4edf7d7217c4a02d6185e21f",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/safety-guard",
+      "verdict": "review",
+      "vet_score": 86,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then refactor with 80%+ coverage across unit, integration, and E2E tests. Use when writing a new feature, fixing a bug, refactoring, or when told to write failing tests first.",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:tdd-workflow",
+      "license": "MIT",
+      "name": "tdd-workflow",
+      "pack": "software-dev",
+      "path": "skills/tdd-workflow",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "9ea43475a9e77505c580a842387c73b98bdccb1108dc4fc0a46a9628246c95c9",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/tdd-workflow",
+      "verdict": "review",
+      "vet_score": 80,
+      "why": "vet verdict REVIEW; owner not on trusted list"
+    },
+    {
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "desc": "X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically.",
+      "first_seen": "2026-11-04",
+      "id": "affaan-m/ECC:x-api",
+      "license": "MIT",
+      "name": "x-api",
+      "pack": "software-dev",
+      "path": "skills/x-api",
+      "rank": 50,
+      "repo": "affaan-m/ECC",
+      "sources": [
+        "user-submission"
+      ],
+      "stars": 296762,
+      "tree_sha256": "a7de4a74c946a6ab3d10ac07cb1a645cec65775e45a41c068809dc83d532e82d",
+      "url": "https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/x-api",
+      "verdict": "review",
+      "vet_score": 90,
+      "why": "vet verdict REVIEW; owner not on trusted list"
     }
   ],
-  "updated": "2026-11-02T11:18:29Z"
+  "updated": "2026-11-04T09:05:10Z"
 }

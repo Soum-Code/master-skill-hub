@@ -66,10 +66,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:motion-patterns](affaan-m-ecc-motion-patterns.md) - Production-ready animation patterns for React / Next.js — button, modal, toast, stagger, page transitions, exi
 - [vercel-labs/agent-skills:vercel-react-native-skills](vercel-labs-agent-skills-vercel-react-native-skills.md) - React Native and Expo best practices for building performant mobile apps. Use when building React Native compo
+- [affaan-m/ECC:react-native-patterns](affaan-m-ecc-react-native-patterns.md) - React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanS
 - [openai/skills:figma-generate-library](openai-skills-figma-generate-library.md) - Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create
-- [modern-web-guidance:chrome-extensions](modern-web-guidance-chrome-extensions.md) - Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to
-- [vercel-labs/agent-skills:vercel-react-best-practices](vercel-labs-agent-skills-vercel-react-best-practices.md) - React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when 
 
 ## Invoke / install
 

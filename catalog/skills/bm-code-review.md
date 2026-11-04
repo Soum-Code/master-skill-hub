@@ -33,7 +33,7 @@
 - [simplify](simplify.md) - Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality
 - [bm:code-review-fix](bm-code-review-fix.md) - Auto-fix issues found by code review in REVIEW.md. Spawns fixer agent, commits each fix atomically, produces R
 - [vercel-labs/agent-browser:dogfood](vercel-labs-agent-browser-dogfood.md) - Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked 
-- [security-review](security-review.md) - Security review of the pending changes on the current branch.
+- [affaan-m/ECC:verification-loop](affaan-m-ecc-verification-loop.md) - Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, s
 
 ## Invoke / install
 

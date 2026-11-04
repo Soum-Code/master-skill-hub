@@ -66,10 +66,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:ecc-guide](affaan-m-ecc-ecc-guide.md) - Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install 
 - [product-management:write-spec](product-management-write-spec.md) - Write a feature spec or PRD from a problem statement or feature idea. Use when turning a vague idea or user re
 - [anthropics/claude-code:Plugin Settings](anthropics-claude-code-plugin-settings.md) - This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-conf
 - [anthropics/claude-plugins-official:plugin-settings](anthropics-claude-plugins-official-plugin-settings.md) - This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-conf
-- [academic-pptx](academic-pptx.md) - Use this skill whenever the user wants to create or improve a presentation for an academic context — conferenc
 
 ## Invoke / install
 

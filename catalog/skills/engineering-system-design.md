@@ -40,8 +40,8 @@ The skill's own section headings, in order:
 
 - [engineering:testing-strategy](engineering-testing-strategy.md) - Design test strategies and test plans. Trigger with "how should we test", "test strategy for", "write tests fo
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
-- [anthropics/knowledge-work-plugins:user-research](anthropics-knowledge-work-plugins-user-research.md) - Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability 
-- [openai/skills:security-threat-model](openai-skills-security-threat-model.md) - Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse pat
+- [affaan-m/ECC:springboot-patterns](affaan-m-ecc-springboot-patterns.md) - Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, 
+- [affaan-m/ECC:quarkus-patterns](affaan-m-ecc-quarkus-patterns.md) - Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services, data access 
 
 ## Invoke / install
 

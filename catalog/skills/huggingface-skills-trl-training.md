@@ -39,6 +39,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:pytorch-patterns](affaan-m-ecc-pytorch-patterns.md) - PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pi
 - [example-skills:mcp-builder](example-skills-mcp-builder.md) - Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with externa
 - [huggingface/skills:huggingface-trackio](huggingface-skills-huggingface-trackio.md) - Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API
 

@@ -39,8 +39,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:skill-scout](affaan-m-ecc-skill-scout.md) - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the us
+- [affaan-m/ECC:frontend-design-direction](affaan-m-ecc-frontend-design-direction.md) - Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites,
+- [affaan-m/ECC:search-first](affaan-m-ecc-search-first.md) - Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before wr
 - [openai/skills:cli-creator](openai-skills-cli-creator.md) - Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an
-- [vercel-labs/agent-skills:web-design-guidelines](vercel-labs-agent-skills-web-design-guidelines.md) - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility
 
 ## Invoke / install
 

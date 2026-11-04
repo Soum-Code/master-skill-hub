@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `vercel-labs/agent-browser:dogfood` |
-| **Pack** | Software Development (also: Browser & Web Automation, Careers, Jobs & Hiring) |
+| **Pack** | Software Development (also: Browser & Web Automation) |
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |

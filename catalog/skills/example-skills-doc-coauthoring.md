@@ -61,7 +61,7 @@ The skill's own section headings, in order:
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
 - [academic-pptx](academic-pptx.md) - Use this skill whenever the user wants to create or improve a presentation for an academic context — conferenc
 - [microsoft/skills:microsoft-docs](microsoft-skills-microsoft-docs.md) - Understand Microsoft technologies by querying official documentation. Use whenever the user asks how something
-- [anthropics/skills:docx](anthropics-skills-docx.md) - Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Wo
+- [affaan-m/ECC:brand-voice](affaan-m-ecc-brand-voice.md) - Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then r
 
 ## Invoke / install
 

@@ -7,6 +7,9 @@ These failed vetting. Findings show rule ids and short excerpts only. Do not ins
 | Egonex-AI/Understand-Anything:understand-domain | persistence (extract-domain-context.py:106) | `4e6d329901` |
 | JimLiu/baoyu-skills:baoyu-post-to-wechat | exfil-sink (scripts/wechat-article.ts:109); cred-paths (scripts/wechat-extend-config.test.ts:163); cred-paths (scripts/wechat-extend-config.test.ts:164) | `0a27d7d40e` |
 | addyosmani/agent-skills:source-driven-development | inj-override (SKILL.md:110) | `301b02b12b` |
+| affaan-m/ECC:homelab-pihole-dns | raw-ip-url (SKILL.md:177); raw-ip-url (SKILL.md:178) | `b38be6a7f6` |
+| affaan-m/ECC:skill-comply | cred-paths (tests/test_runner.py:390) | `b38be6a7f6` |
+| affaan-m/ECC:story-lifecycle | inj-override (SKILL.md:87) | `b38be6a7f6` |
 | anthropics/claude-code:Plugin Structure | exfil-sink (SKILL.md:383) | `2eff7a8d21` |
 | anthropics/claude-plugins-official:plugin-structure | exfil-sink (SKILL.md:383) | `a7ba5b93db` |
 | anthropics/claude-plugins-official:receipts | inj-override (SKILL.md:142); inj-override (scripts/mine-transcripts.mjs:347) | `a7ba5b93db` |

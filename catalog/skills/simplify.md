@@ -28,7 +28,8 @@
 
 - [bm:code-review](bm-code-review.md) - Review source files changed during a phase for bugs, security issues, and code quality problems
 - [code-review](code-review.md) - Review the current diff or a PR number, branch or path for correctness bugs at a chosen effort level; optional
-- [openai/skills:security-best-practices](openai-skills-security-best-practices.md) - Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only 
+- [affaan-m/ECC:coding-standards](affaan-m-ecc-coding-standards.md) - Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use 
+- [affaan-m/ECC:orch-refine-code](affaan-m-ecc-orch-refine-code.md) - Orchestrate a behavior-preserving refactor — confirm tests are green, restructure without changing behavior, k
 
 ## Invoke / install
 

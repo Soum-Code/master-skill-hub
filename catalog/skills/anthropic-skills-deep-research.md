@@ -38,6 +38,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [affaan-m/ECC:scientific-thinking-literature-review](affaan-m-ecc-scientific-thinking-literature-review.md) - Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including se
+
 ## Invoke / install
 
 - Invoke: `/anthropic-skills:deep-research`  (Skill tool: `anthropic-skills:deep-research`)

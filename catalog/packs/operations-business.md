@@ -2,10 +2,23 @@
 
 Process design, capacity planning, vendor management, status reports, change management.
 
-10 skill(s). Back to the [catalog](../README.md).
+23 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`affaan-m/ECC:benchmark-optimization-loop`](../skills/affaan-m-ecc-benchmark-optimization-loop.md) | Convert 'make it faster' requests into a bounded measured optimization loop — baseline first, generate one-hypothesis variants, benchmark each against a correctness gate, | verified |
+| [`affaan-m/ECC:bengali-nlp`](../skills/affaan-m-ecc-bengali-nlp.md) | Bengali (Bangla) text processing patterns including Unicode normalization, script detection, tokenization, conjunct handling, and Bangla-specific NLP best practices for A | verified |
+| [`affaan-m/ECC:change-impact`](../skills/affaan-m-ecc-change-impact.md) | Perform evidence-backed impact analysis before changing code, data, interfaces, or governance documents, then compare the planned impact with the actual diff after implem | verified |
+| [`affaan-m/ECC:cisco-ios-patterns`](../skills/affaan-m-ecc-cisco-ios-patterns.md) | Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. Use when  | verified |
+| [`affaan-m/ECC:cost-tracking`](../skills/affaan-m-ecc-cost-tracking.md) | Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. Use when the user asks about costs, spending, usage, tokens,  | verified |
+| [`affaan-m/ECC:customer-billing-ops`](../skills/affaan-m-ecc-customer-billing-ops.md) | Operate customer billing workflows such as subscriptions, refunds, churn triage, billing-portal recovery, and plan analysis using connected billing tools like Stripe. Use | verified |
+| [`affaan-m/ECC:energy-procurement`](../skills/affaan-m-ecc-energy-procurement.md) | Procure electricity and natural gas for commercial and industrial facilities: tariff and rate-schedule optimization, demand-charge mitigation, supplier RFPs, fixed/index/ | verified |
+| [`affaan-m/ECC:ito-compute`](../skills/affaan-m-ecc-ito-compute.md) | Query live GPU inventory, submit an authenticated Itô fixed-rate RFQ, inspect RFQ or procurement status, revoke device credentials, and run explicitly gated node qualific | verified |
+| [`affaan-m/ECC:jpa-patterns`](../skills/affaan-m-ecc-jpa-patterns.md) | JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot. Use when designing  | verified |
+| [`affaan-m/ECC:module-governance`](../skills/affaan-m-ecc-module-governance.md) | Establish or maintain a business module's local agent instructions, domain-context links, and interface ownership when implementing a new module or changing its responsib | verified |
+| [`affaan-m/ECC:orch-change-feature`](../skills/affaan-m-ecc-orch-change-feature.md) | Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit | verified |
+| [`affaan-m/ECC:returns-reverse-logistics`](../skills/affaan-m-ecc-returns-reverse-logistics.md) | Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Informed  | verified |
+| [`affaan-m/ECC:seo`](../skills/affaan-m-ecc-seo.md) | Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants be | verified |
 | [`anthropics/knowledge-work-plugins:draft-response`](../skills/anthropics-knowledge-work-plugins-draft-response.md) | Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, de | verified |
 | [`finance:close-management`](../skills/finance-close-management.md) | Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blo | installed |
 | [`microsoft/skills:aks-cost-optimization`](../skills/microsoft-skills-aks-cost-optimization.md) | Analyze advanced AKS cost efficiency. WHEN: "AKS NAP readiness", "AKS bin packing", "AKS node scaling bottleneck", "AKS blocked scale-down", "AKS storage cost". DO NOT US | verified |

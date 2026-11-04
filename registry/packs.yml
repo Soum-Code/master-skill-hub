@@ -7,7 +7,7 @@ packs:
   ai-ml:
     title: AI / ML Engineering
     summary: LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research.
-    keywords: [llm, ai, ml, machine, learning, model, prompt, agent, agents, rag, embedding, embeddings, eval, evals, evaluation, mcp, claude, anthropic, openai, huggingface, transformer, finetune, fine-tune, dataset, inference, notebook, pytorch, tensorflow, langchain, vector, token, tokens, benchmark, guardrail, copilot, autonomous]
+    keywords: [llm, ai, ml, machine, learning, model, prompt, agent, agents, rag, embedding, embeddings, eval, evals, evaluation, mcp, claude, anthropic, openai, huggingface, transformer, finetune, fine-tune, dataset, inference, notebook, pytorch, tensorflow, langchain, vector, benchmark, guardrail]
     queries: ["claude skill llm", "agent skill rag evaluation", "SKILL.md machine learning", "mcp server builder skill", "prompt engineering skill claude", "llm eval skill"]
   mlops-devops:
     title: MLOps / DevOps / Cloud
@@ -37,7 +37,7 @@ packs:
   careers-jobs:
     title: Careers, Jobs & Hiring
     summary: Resumes, CVs, cover letters, LinkedIn, interview prep, portfolios, job search, networking.
-    keywords: [resume, cv, curriculum, linkedin, interview, interviews, career, careers, job, jobs, hiring, recruiter, recruiting, cover, letter, portfolio, profile, headline, salary, negotiation, offer, apply, application, applications, networking, candidate, talent, onboarding]
+    keywords: [resume, cv, curriculum, linkedin, interview, interviews, career, careers, job, jobs, hiring, recruiter, recruiting, cover, letter, portfolio, headline, salary, negotiation, networking, candidate]
     queries: ["claude skill resume", "SKILL.md cover letter job application", "claude skill interview preparation", "claude skill linkedin", "agent skill job search", "claude skill portfolio"]
   data-analytics:
     title: Data & Analytics

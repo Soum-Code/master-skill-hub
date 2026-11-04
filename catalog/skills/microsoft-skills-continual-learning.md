@@ -45,6 +45,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [microsoft/skills:skill-creator](microsoft-skills-skill-creator.md) - Guide for creating effective skills for AI coding agents working with Azure SDKs and Microsoft Foundry service
+- [affaan-m/ECC:mailtrap-email-integration](affaan-m-ecc-mailtrap-email-integration.md) - Guides agents through integrating transactional email sending via Mailtrap's Email API, including sandbox test
+- [affaan-m/ECC:ai-first-engineering](affaan-m-ecc-ai-first-engineering.md) - Engineering operating model for teams where AI agents generate a large share of implementation output. Use whe
+- [affaan-m/ECC:ecc-guide](affaan-m-ecc-ecc-guide.md) - Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install 
 
 ## Invoke / install
 

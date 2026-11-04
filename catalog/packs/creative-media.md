@@ -2,10 +2,17 @@
 
 Generative art, GIFs, imagery, themes, branding, video/audio helpers.
 
-8 skill(s). Back to the [catalog](../README.md).
+15 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`affaan-m/ECC:fal-ai-media`](../skills/affaan-m-ecc-fal-ai-media.md) | Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1 | verified |
+| [`affaan-m/ECC:manim-video`](../skills/affaan-m-ecc-manim-video.md) | Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when  | verified |
+| [`affaan-m/ECC:osint-investigation`](../skills/affaan-m-ecc-osint-investigation.md) | Sparse-clue OSINT investigation methodology for extracting overlooked leads, connecting fragmented evidence, and testing explanations across sources. Use for multi-step C | verified |
+| [`affaan-m/ECC:remotion-video-creation`](../skills/affaan-m-ecc-remotion-video-creation.md) | Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building | verified |
+| [`affaan-m/ECC:taste`](../skills/affaan-m-ecc-taste.md) | Creative-direction layer for music videos and short-form edits in the angelcore / cloud-trance / hyperpop family — a named-genre aesthetic vocabulary, mood + color + ligh | verified |
+| [`affaan-m/ECC:tasteforge-video`](../skills/affaan-m-ecc-tasteforge-video.md) | Use for file-driven multimodal image, video, and 3D-asset discovery; taste interviews; distill or apply workflows; style-pack validation; editable EDL/FCPXML export; prov | verified |
+| [`affaan-m/ECC:videodb`](../skills/affaan-m-ecc-videodb.md) | Ingest, index, search, edit, and monitor video and audio with the VideoDB Python SDK — upload from files, URLs, or RTSP feeds, build spoken and scene indexes with timesta | verified |
 | [`example-skills:algorithmic-art`](../skills/example-skills-algorithmic-art.md) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, al | installed |
 | [`example-skills:slack-gif-creator`](../skills/example-skills-slack-gif-creator.md) | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GI | installed |
 | [`google-gemini/gemini-skills:gemini-omni-flash-api`](../skills/google-gemini-gemini-skills-gemini-omni-flash-api.md) | Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extension | verified |

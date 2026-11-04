@@ -41,9 +41,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:change-impact](affaan-m-ecc-change-impact.md) - Perform evidence-backed impact analysis before changing code, data, interfaces, or governance documents, then 
 - [engineering:deploy-checklist](engineering-deploy-checklist.md) - Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migr
 - [engineering:architecture](engineering-architecture.md) - Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka 
-- [operations:runbook](operations-runbook.md) - Create or update an operational runbook for a recurring task or procedure. Use when documenting a task that on
+- [affaan-m/ECC:network-config-validation](affaan-m-ecc-network-config-validation.md) - Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, 
 
 ## Invoke / install
 

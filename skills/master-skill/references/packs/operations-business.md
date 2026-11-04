@@ -1,5 +1,18 @@
 # Operations & Business
 
+- `affaan-m/ECC:benchmark-optimization-loop` - Convert 'make it faster' requests into a bounded measured optimization loop — baseline first, generate one-hypothesis variants, benchmark each against a correctness gate, and promote the fas
+- `affaan-m/ECC:bengali-nlp` - Bengali (Bangla) text processing patterns including Unicode normalization, script detection, tokenization, conjunct handling, and Bangla-specific NLP best practices for AI applications.
+- `affaan-m/ECC:change-impact` - Perform evidence-backed impact analysis before changing code, data, interfaces, or governance documents, then compare the planned impact with the actual diff after implementation. Covers cal
+- `affaan-m/ECC:cisco-ios-patterns` - Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. Use when reading, writing, or
+- `affaan-m/ECC:cost-tracking` - Track and report Claude Code token usage, spending, and budgets from the local ECC cost-tracker metrics log. Use when the user asks about costs, spending, usage, tokens, budgets, or cost bre
+- `affaan-m/ECC:customer-billing-ops` - Operate customer billing workflows such as subscriptions, refunds, churn triage, billing-portal recovery, and plan analysis using connected billing tools like Stripe. Use when the user needs
+- `affaan-m/ECC:energy-procurement` - Procure electricity and natural gas for commercial and industrial facilities: tariff and rate-schedule optimization, demand-charge mitigation, supplier RFPs, fixed/index/block-and-index hedg
+- `affaan-m/ECC:ito-compute` - Query live GPU inventory, submit an authenticated Itô fixed-rate RFQ, inspect RFQ or procurement status, revoke device credentials, and run explicitly gated node qualification through the se
+- `affaan-m/ECC:jpa-patterns` - JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot. Use when designing JPA entities or rela
+- `affaan-m/ECC:module-governance` - Establish or maintain a business module's local agent instructions, domain-context links, and interface ownership when implementing a new module or changing its responsibilities. Reuse proje
+- `affaan-m/ECC:orch-change-feature` - Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit. Use when behavior 
+- `affaan-m/ECC:returns-reverse-logistics` - Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Informed by returns operation
+- `affaan-m/ECC:seo` - Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibili
 - `anthropics/knowledge-work-plugins:draft-response` - Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, delivering bad news li
 - `finance:close-management` - Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blockers, or sequencing
 - `microsoft/skills:aks-cost-optimization` - Analyze advanced AKS cost efficiency. WHEN: "AKS NAP readiness", "AKS bin packing", "AKS node scaling bottleneck", "AKS blocked scale-down", "AKS storage cost". DO NOT USE AS DIRECT ENTRY FO

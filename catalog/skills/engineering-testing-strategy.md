@@ -38,7 +38,7 @@ The skill's own section headings, in order:
 - [engineering:system-design](engineering-system-design.md) - Design systems, services, and architectures. Trigger with "design a system for", "how should we architect", "s
 - [anthropics/knowledge-work-plugins:user-research](anthropics-knowledge-work-plugins-user-research.md) - Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability 
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
-- [openai/skills:figma-create-new-file](openai-skills-figma-create-new-file.md) - Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when yo
+- [affaan-m/ECC:python-testing](affaan-m-ecc-python-testing.md) - Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requ
 
 ## Invoke / install
 

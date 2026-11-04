@@ -63,8 +63,8 @@ The skill's own section headings, in order:
 
 - [openai/skills:figma-code-connect-components](openai-skills-figma-code-connect-components.md) - Connects Figma design components to code components using Code Connect mapping tools. Use when user says "code
 - [openai/skills:figma-generate-design](openai-skills-figma-generate-design.md) - Use this skill alongside figma-use when the task involves translating an application page, view, or multi-sect
+- [affaan-m/ECC:frontend-design-direction](affaan-m-ecc-frontend-design-direction.md) - Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites,
 - [openai/skills:figma](openai-skills-figma.md) - Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to transl
-- [bm:ui-phase](bm-ui-phase.md) - Generate UI design contract (UI-SPEC.md) for frontend phases
 
 ## Invoke / install
 

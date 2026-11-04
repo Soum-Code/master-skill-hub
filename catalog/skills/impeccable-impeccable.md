@@ -43,10 +43,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:make-interfaces-feel-better](affaan-m-ecc-make-interfaces-feel-better.md) - Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving 
 - [anthropics/knowledge-work-plugins:design-handoff](anthropics-knowledge-work-plugins-design-handoff.md) - Generate developer handoff specs from a design. Use when a design is ready for engineering and needs a spec sh
-- [microsoft/skills:frontend-design-review](microsoft-skills-frontend-design-review.md) - Review and create distinctive, production-grade frontend interfaces with high design quality and design system
-- [taste-skill:stitch-skill](taste-skill-stitch-skill.md) - Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium,
-- [taste-skill:taste-skill](taste-skill-taste-skill.md) - Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the r
+- [affaan-m/ECC:design-system](affaan-m-ecc-design-system.md) - Generate a design system from an existing codebase or audit one for visual consistency: extract tokens (colors
+- [affaan-m/ECC:frontend-design-direction](affaan-m-ecc-frontend-design-direction.md) - Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites,
 
 ## Invoke / install
 

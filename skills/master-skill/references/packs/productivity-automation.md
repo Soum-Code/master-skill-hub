@@ -1,5 +1,13 @@
 # Productivity & Automation
 
+- `affaan-m/ECC:autonomous-agent-harness` - Transform Claude Code into a fully autonomous agent system with persistent memory, scheduled operations, computer use, and task queuing. Replaces standalone agent frameworks (Hermes, AutoGPT
+- `affaan-m/ECC:ck` - Persistent per-project memory for Claude Code (Context Keeper) driven by deterministic Node.js /ck commands: init, save, resume, info, list, forget, and v1-to-v2 migrate, plus a SessionStart
+- `affaan-m/ECC:operator-approval-loop` - Operator approval contract with internal filing notices for agent-drafted outbound messages, hashed drafts, epoch-keyed decisions, durable delivery claims and receipts, and a pre-draft basel
+- `affaan-m/ECC:production-scheduling` - Codified expertise for production scheduling, job sequencing, line balancing, changeover optimization, and bottleneck resolution in discrete and batch manufacturing. Informed by production s
+- `affaan-m/ECC:social-publisher` - Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. Use when the user wants to publish to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord
+- `affaan-m/ECC:strategic-compact` - Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction. Use when a session is approaching a context limit and a
+- `affaan-m/ECC:token-card` - Render a token-usage stat card from local Claude Code, Codex, Gemini CLI, and OpenCode session logs and commit it into the repository as a file. Use when someone wants a current usage figure
+- `affaan-m/ECC:unified-memory` - Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode, and other agents through the local ECC Memory Vault. Use when an agent must save work state, 
 - `anthropic-skills:consolidate-memory` - Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index.
 - `anthropic-skills:import-memory` - Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data.
 - `anthropic-skills:morning` - Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if 

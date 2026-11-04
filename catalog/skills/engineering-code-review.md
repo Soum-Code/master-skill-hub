@@ -41,10 +41,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:rust-patterns](affaan-m-ecc-rust-patterns.md) - Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe,
 - [code-review](code-review.md) - Review the current diff or a PR number, branch or path for correctness bugs at a chosen effort level; optional
-- [security-review](security-review.md) - Security review of the pending changes on the current branch.
-- [bm:code-review](bm-code-review.md) - Review source files changed during a phase for bugs, security issues, and code quality problems
-- [bm:ship](bm-ship.md) - Create PR, run review, and prepare for merge after verification passes
+- [affaan-m/ECC:verification-loop](affaan-m-ecc-verification-loop.md) - Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, s
+- [affaan-m/ECC:codehealth-mcp](affaan-m-ecc-codehealth-mcp.md) - Real-time structural Code Health via CodeScene MCP — review before edits, verify score deltas after changes, g
 
 ## Invoke / install
 

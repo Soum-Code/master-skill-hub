@@ -55,9 +55,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [vercel-labs/agent-skills:web-design-guidelines](vercel-labs-agent-skills-web-design-guidelines.md) - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility
+- [affaan-m/ECC:browser-qa](affaan-m-ecc-browser-qa.md) - Run automated post-deploy UI verification with a browser automation MCP (claude-in-chrome, Playwright, or Pupp
+- [affaan-m/ECC:verification-loop](affaan-m-ecc-verification-loop.md) - Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, s
 - [bm:ui-review](bm-ui-review.md) - Retroactive 6-pillar visual audit of implemented frontend code
-- [anthropics/knowledge-work-plugins:design-system](anthropics-knowledge-work-plugins-design-system.md) - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded value
-- [engineering:architecture](engineering-architecture.md) - Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka 
 
 ## Invoke / install
 

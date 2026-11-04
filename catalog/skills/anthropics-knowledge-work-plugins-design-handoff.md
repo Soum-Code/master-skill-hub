@@ -46,6 +46,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:make-interfaces-feel-better](affaan-m-ecc-make-interfaces-feel-better.md) - Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving 
 - [openai/skills:figma-implement-design](openai-skills-figma-implement-design.md) - Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementin
 - [bm:ui-phase](bm-ui-phase.md) - Generate UI design contract (UI-SPEC.md) for frontend phases
 - [impeccable:impeccable](impeccable-impeccable.md) - Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimiz

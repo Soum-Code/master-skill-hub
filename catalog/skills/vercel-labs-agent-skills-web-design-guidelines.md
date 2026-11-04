@@ -37,7 +37,7 @@ The skill's own section headings, in order:
 - [vercel-labs/agent-skills:writing-guidelines](vercel-labs-agent-skills-writing-guidelines.md) - Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style"
 - [microsoft/skills:frontend-design-review](microsoft-skills-frontend-design-review.md) - Review and create distinctive, production-grade frontend interfaces with high design quality and design system
 - [bm:ui-review](bm-ui-review.md) - Retroactive 6-pillar visual audit of implemented frontend code
-- [anthropics/knowledge-work-plugins:accessibility-review](anthropics-knowledge-work-plugins-accessibility-review.md) - Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with "audit accessibility", "check a11y", "
+- [affaan-m/ECC:perl-patterns](affaan-m-ecc-perl-patterns.md) - Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
 
 ## Invoke / install
 

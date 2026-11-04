@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `anthropics/claude-plugins-official:configure` |
-| **Pack** | AI / ML Engineering (also: Communication & Collaboration, Software Development) |
+| **Pack** | Communication & Collaboration (also: Software Development) |
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |

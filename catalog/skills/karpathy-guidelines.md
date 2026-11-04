@@ -39,7 +39,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:cpp-coding-standards](affaan-m-ecc-cpp-coding-standards.md) - C++ coding standards based on the C++ Core Guidelines (isocpp.github.io). Use when writing, reviewing, or refa
+- [affaan-m/ECC:orch-refine-code](affaan-m-ecc-orch-refine-code.md) - Orchestrate a behavior-preserving refactor — confirm tests are green, restructure without changing behavior, k
 - [vercel-labs/agent-skills:vercel-react-best-practices](vercel-labs-agent-skills-vercel-react-best-practices.md) - React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when 
+- [affaan-m/ECC:perl-patterns](affaan-m-ecc-perl-patterns.md) - Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
 
 ## Invoke / install
 

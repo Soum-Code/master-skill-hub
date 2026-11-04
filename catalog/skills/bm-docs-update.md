@@ -33,7 +33,7 @@
 - [init](init.md) - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
 - [bm:new-milestone](bm-new-milestone.md) - Start a new milestone cycle — update PROJECT.md and route to requirements
 - [bm:milestone-summary](bm-milestone-summary.md) - Generate a comprehensive project summary from milestone artifacts for team onboarding and review
-- [openai/skills:figma-create-design-system-rules](openai-skills-figma-create-design-system-rules.md) - Generates custom design system rules for the user's codebase. Use when user says "create design system rules",
+- [affaan-m/ECC:codebase-onboarding](affaan-m-ecc-codebase-onboarding.md) - Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry poi
 
 ## Invoke / install
 

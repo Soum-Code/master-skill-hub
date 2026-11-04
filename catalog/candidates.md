@@ -404,3 +404,14 @@ Vetted at the pinned commit, but the owner is not on the trusted list (or the ve
 | [wanshuiyin/Auto-claude-code-research-in-sleep:experiment-queue](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/c485faa59a68e51c6575dea67ca57abc7a6a2b9c/skills/experiment-queue) | careers-jobs | 18480 | review | 103.88 | `c485faa59a` |
 | [thedotmack/claude-mem:oh-my-issues](https://github.com/thedotmack/claude-mem/tree/26ccf4d8a029d97fb5fb88a9f1ddd73729ad1b1a/plugin/skills/oh-my-issues) | dev-workflow | 110148 | pass | 103.85 | `26ccf4d8a0` |
 | [obra/superpowers:systematic-debugging](https://github.com/obra/superpowers/tree/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/systematic-debugging) | software-dev | 304281 | pass | 103.84 | `2ce8aa15d0` |
+| [affaan-m/ECC:continuous-learning](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/continuous-learning) | ai-ml | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:continuous-learning-v2](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/continuous-learning-v2) | ai-ml | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:deep-research](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/deep-research) | research-learning | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:django-celery](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/django-celery) | productivity-automation | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:github-ops](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/github-ops) | mlops-devops | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:homelab-wireguard-vpn](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/homelab-wireguard-vpn) | careers-jobs | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:jira-integration](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/jira-integration) | meta-tooling | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:perl-security](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/perl-security) | security | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:safety-guard](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/safety-guard) | operations-business | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:tdd-workflow](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/tdd-workflow) | software-dev | 296762 | review | 50 | `b38be6a7f6` |
+| [affaan-m/ECC:x-api](https://github.com/affaan-m/ECC/tree/b38be6a7f6350964d59328b52f0624e1d1d552d1/skills/x-api) | software-dev | 296762 | review | 50 | `b38be6a7f6` |

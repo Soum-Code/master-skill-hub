@@ -41,10 +41,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:skill-scout](affaan-m-ecc-skill-scout.md) - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the us
 - [huggingface/skills:huggingface-tool-builder](huggingface-skills-huggingface-tool-builder.md) - Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging F
 - [bm:new-ddd](bm-new-ddd.md) - Initialize a new project using Documentation-Driven Development. Research, then write user-facing docs (SPEC.m
 - [engineering:documentation](engineering-documentation.md) - Write and maintain technical documentation. Trigger with "write docs for", "document this", "create a README",
-- [anthropics/claude-plugins-official:build-mcp-server](anthropics-claude-plugins-official-build-mcp-server.md) - This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integrati
 
 ## Invoke / install
 

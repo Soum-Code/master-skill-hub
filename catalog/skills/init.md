@@ -27,9 +27,9 @@
 ## Related skills
 
 - [bm:new-project](bm-new-project.md) - Initialize a new project with deep context gathering and PROJECT.md
+- [affaan-m/ECC:codebase-onboarding](affaan-m-ecc-codebase-onboarding.md) - Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry poi
 - [bm:docs-update](bm-docs-update.md) - Generate or update project documentation verified against the codebase
 - [bm:map-codebase](bm-map-codebase.md) - Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents
-- [anthropics/claude-plugins-official:session-report](anthropics-claude-plugins-official-session-report.md) - Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive p
 
 ## Invoke / install
 

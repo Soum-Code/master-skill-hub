@@ -44,6 +44,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [taste-skill:stitch-skill](taste-skill-stitch-skill.md) - Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium,
+- [affaan-m/ECC:make-interfaces-feel-better](affaan-m-ecc-make-interfaces-feel-better.md) - Apply concrete design-engineering details that make interfaces feel polished. Use when reviewing or improving 
 
 ## Invoke / install
 

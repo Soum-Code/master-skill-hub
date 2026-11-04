@@ -67,6 +67,7 @@ The skill's own section headings, in order:
 
 - [taste-skill:imagegen-frontend-mobile](taste-skill-imagegen-frontend-mobile.md) - Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed f
 - [taste-skill:taste-skill](taste-skill-taste-skill.md) - Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the r
+- [affaan-m/ECC:frontend-design-direction](affaan-m-ecc-frontend-design-direction.md) - Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites,
 - [taste-skill:image-to-code-skill](taste-skill-image-to-code-skill.md) - Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the desi
 
 ## Invoke / install

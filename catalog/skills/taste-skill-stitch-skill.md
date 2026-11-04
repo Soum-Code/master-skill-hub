@@ -55,7 +55,7 @@ The skill's own section headings, in order:
 - [taste-skill:taste-skill](taste-skill-taste-skill.md) - Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the r
 - [taste-skill:gpt-tasteskill](taste-skill-gpt-tasteskill.md) - Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, st
 - [bm:ui-phase](bm-ui-phase.md) - Generate UI design contract (UI-SPEC.md) for frontend phases
-- [impeccable:impeccable](impeccable-impeccable.md) - Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimiz
+- [affaan-m/ECC:design-system](affaan-m-ecc-design-system.md) - Generate a design system from an existing codebase or audit one for visual consistency: extract tokens (colors
 
 ## Invoke / install
 

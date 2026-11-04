@@ -2,10 +2,16 @@
 
 Journal entries, reconciliations, close, financial statements, audit support, SOX, variance analysis.
 
-8 skill(s). Back to the [catalog](../README.md).
+14 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`affaan-m/ECC:context-budget`](../skills/affaan-m-ecc-context-budget.md) | Routes live context checks to the native Codex or Claude Code meter without scanning files, and performs a bounded static component audit only when explicitly requested.  | verified |
+| [`affaan-m/ECC:ecc-tools-cost-audit`](../skills/affaan-m-ecc-ecc-tools-cost-audit.md) | Evidence-first ECC Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App c | verified |
+| [`affaan-m/ECC:finance-billing-ops`](../skills/affaan-m-ecc-finance-billing-ops.md) | Evidence-first revenue, pricing, refunds, team-billing, and billing-model truth workflow for ECC. Use when the user wants a sales snapshot, pricing comparison, duplicate- | verified |
+| [`affaan-m/ECC:production-audit`](../skills/affaan-m-ecc-production-audit.md) | Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and "what breaks in prod?" questions without sending repo data to an ex | verified |
+| [`affaan-m/ECC:recursive-decision-ledger`](../skills/affaan-m-ecc-recursive-decision-ledger.md) | Run repeated rollouts ("Prime Gauss" style recursive prompting) while keeping an append-only decision ledger of trials, marks, coherence checks, and promotion gates, so r | verified |
+| [`affaan-m/ECC:token-budget-advisor`](../skills/affaan-m-ecc-token-budget-advisor.md) | Offer a choice of response depth (25%/50%/75%/100%) with token estimates before answering, then answer at that level. Use when the user asks to control response length or | verified |
 | [`bm:audit-fix`](../skills/bm-audit-fix.md) | Autonomous audit-to-fix pipeline — find issues, classify, fix, test, commit | installed |
 | [`finance:audit-support`](../skills/finance-audit-support.md) | Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards. Use when generating testing workpapers, selecting audit sample | installed |
 | [`finance:financial-statements`](../skills/finance-financial-statements.md) | Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis. Use when preparing a monthly or quart | installed |

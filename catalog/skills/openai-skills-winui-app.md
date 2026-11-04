@@ -37,6 +37,8 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [openai/skills:aspnet-core](openai-skills-aspnet-core.md) - Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET w
+- [affaan-m/ECC:deployment-patterns](affaan-m-ecc-deployment-patterns.md) - Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, an
+- [affaan-m/ECC:swiftui-patterns](affaan-m-ecc-swiftui-patterns.md) - SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance op
 - [anthropics/knowledge-work-plugins:design-system](anthropics-knowledge-work-plugins-design-system.md) - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded value
 
 ## Invoke / install

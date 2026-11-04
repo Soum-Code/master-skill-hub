@@ -36,7 +36,9 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:intent-driven-development](affaan-m-ecc-intent-driven-development.md) - Turn ambiguous or high-impact product and engineering changes into scoped, verifiable acceptance criteria befo
 - [product-management:write-spec](product-management-write-spec.md) - Write a feature spec or PRD from a problem statement or feature idea. Use when turning a vague idea or user re
+- [affaan-m/ECC:product-capability](affaan-m-ecc-product-capability.md) - Translate PRD intent, roadmap asks, or product discussions into an implementation-ready capability plan that e
 - [anthropic-skills:chrome-browser](anthropic-skills-chrome-browser.md) - Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named 
 
 ## Invoke / install

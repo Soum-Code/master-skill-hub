@@ -28,6 +28,11 @@
 
 - Pre-approved tools: `Read`, `Bash`, `Glob`, `Grep`, `Edit`, `Write`, `Task`
 
+## Related skills
+
+- [affaan-m/ECC:gan-style-harness](affaan-m-ecc-gan-style-harness.md) - GAN-inspired Generator-Evaluator agent harness for building high-quality applications autonomously. Based on A
+- [affaan-m/ECC:ralphinho-rfc-pipeline](affaan-m-ecc-ralphinho-rfc-pipeline.md) - Split an RFC into a multi-agent execution DAG — decompose into work units with dependencies and acceptance tes
+
 ## Invoke / install
 
 - Invoke: `/bm:verify-work`  (Skill tool: `bm:verify-work`)

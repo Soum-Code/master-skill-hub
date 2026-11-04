@@ -37,7 +37,7 @@ The skill's own section headings, in order:
 - [vercel-labs/agent-skills:web-design-guidelines](vercel-labs-agent-skills-web-design-guidelines.md) - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility
 - [bm:inbox](bm-inbox.md) - Triage and review all open GitHub issues and PRs against project templates and contribution guidelines
 - [anthropics/knowledge-work-plugins:accessibility-review](anthropics-knowledge-work-plugins-accessibility-review.md) - Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with "audit accessibility", "check a11y", "
-- [vercel-labs/agent-skills:vercel-react-best-practices](vercel-labs-agent-skills-vercel-react-best-practices.md) - React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when 
+- [affaan-m/ECC:brand-voice](affaan-m-ecc-brand-voice.md) - Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then r
 
 ## Invoke / install
 

@@ -38,10 +38,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:ecc-guide](affaan-m-ecc-ecc-guide.md) - Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install 
 - [anthropic-skills:google-workspace](anthropic-skills-google-workspace.md) - Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or ch
 - [claude-code-setup:claude-automation-recommender](claude-code-setup-claude-automation-recommender.md) - Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use
 - [anthropic-skills:morning](anthropic-skills-morning.md) - Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only 
-- [skill-hub:master-skill](skill-hub-master-skill.md) - Router for every other skill. Use at the start of any non-trivial request, and whenever it is unclear which sk
 
 ## Invoke / install
 

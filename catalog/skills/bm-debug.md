@@ -45,6 +45,7 @@ The skill's own section headings, in order:
 
 - [bm:thread](bm-thread.md) - Manage persistent context threads for cross-session work
 - [openai/skills:playwright-interactive](openai-skills-playwright-interactive.md) - Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.
+- [affaan-m/ECC:iterative-retrieval](affaan-m-ecc-iterative-retrieval.md) - Pattern for progressively refining context retrieval to solve the subagent context problem. Use when a subagen
 
 ## Invoke / install
 

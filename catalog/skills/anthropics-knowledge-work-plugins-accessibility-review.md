@@ -46,10 +46,10 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:accessibility](affaan-m-ecc-accessibility.md) - Design, implement, and audit accessible UI to WCAG 2.2 Level AA across Web, iOS, and Android — semantic ARIA r
+- [affaan-m/ECC:frontend-a11y](affaan-m-ecc-frontend-a11y.md) - Accessibility patterns for React and Next.js — semantic HTML, ARIA attributes, form labeling, keyboard navigat
 - [vercel-labs/agent-skills:web-design-guidelines](vercel-labs-agent-skills-web-design-guidelines.md) - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility
 - [vercel-labs/agent-skills:writing-guidelines](vercel-labs-agent-skills-writing-guidelines.md) - Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style"
-- [anthropics/knowledge-work-plugins:design-critique](anthropics-knowledge-work-plugins-design-critique.md) - Get structured design feedback on usability, hierarchy, and consistency. Trigger with "review this design", "c
-- [anthropics/knowledge-work-plugins:design-system](anthropics-knowledge-work-plugins-design-system.md) - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded value
 
 ## Invoke / install
 

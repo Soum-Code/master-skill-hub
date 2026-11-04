@@ -66,6 +66,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [anthropics/knowledge-work-plugins:create-viz](anthropics-knowledge-work-plugins-create-viz.md) - Create publication-quality visualizations with Python. Use when turning query results or a DataFrame into a ch
+- [affaan-m/ECC:dashboard-builder](affaan-m-ecc-dashboard-builder.md) - Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Us
 - [anthropics/claude-plugins-official:playground](anthropics-claude-plugins-official-playground.md) - Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something
 
 ## Invoke / install

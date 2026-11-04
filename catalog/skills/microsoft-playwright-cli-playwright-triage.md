@@ -40,6 +40,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [affaan-m/ECC:issue-review](affaan-m-ecc-issue-review.md) - Review a GitHub issue the way /code-review reviews a PR. Fetches the issue with the gh CLI, checks the report 
 - [microsoft/playwright-cli:dev](microsoft-playwright-cli-dev.md) - Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, re
 - [openai/skills:yeet](openai-skills-yeet.md) - Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow usin
 - [openai/skills:gh-address-comments](openai-skills-gh-address-comments.md) - Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth f

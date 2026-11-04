@@ -2,10 +2,16 @@
 
 Driving browsers, scraping, form filling, E2E tests, screenshots, web research.
 
-17 skill(s). Back to the [catalog](../README.md).
+23 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`affaan-m/ECC:automation-audit-ops`](../skills/affaan-m-ecc-automation-audit-ops.md) | Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live,  | verified |
+| [`affaan-m/ECC:browser-qa`](../skills/affaan-m-ecc-browser-qa.md) | Run automated post-deploy UI verification with a browser automation MCP (claude-in-chrome, Playwright, or Puppeteer): console-error and Core Web Vitals smoke checks, form | verified |
+| [`affaan-m/ECC:click-path-audit`](../skills/affaan-m-ecc-click-path-audit.md) | Trace every user-facing button/touchpoint through its full state change sequence to find bugs where functions individually work but cancel each other out, produce wrong f | verified |
+| [`affaan-m/ECC:e2e-testing`](../skills/affaan-m-ecc-e2e-testing.md) | Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, s | verified |
+| [`affaan-m/ECC:netmiko-ssh-automation`](../skills/affaan-m-ecc-netmiko-ssh-automation.md) | Safe Python Netmiko patterns for read-only collection, bounded batch SSH, TextFSM parsing, guarded config changes, timeouts, and network automation error handling. Use wh | verified |
+| [`affaan-m/ECC:windows-desktop-e2e`](../skills/affaan-m-ecc-windows-desktop-e2e.md) | E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation. Use when writing E2E tests for a Windows native desk | verified |
 | [`agent-browser`](../skills/agent-browser.md) | Fast browser automation CLI for AI agents (vercel-labs/agent-browser). Use when the user asks to interact with a website, fill a form, click something, extract data, take | installed |
 | [`anthropic-skills:built-in-browser`](../skills/anthropic-skills-built-in-browser.md) | Read this skill before the first step that uses the built-in browser, the browser pane inside the Claude desktop app (also called the in-app browser, the browser pane, Cl | installed |
 | [`anthropic-skills:chrome-browser`](../skills/anthropic-skills-chrome-browser.md) | Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named mcp__claude-in-chrome__* (also called Chrome, the browser ex | installed |

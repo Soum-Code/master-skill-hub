@@ -47,9 +47,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [vercel-labs/agent-skills:web-design-guidelines](vercel-labs-agent-skills-web-design-guidelines.md) - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility
+- [affaan-m/ECC:design-system](affaan-m-ecc-design-system.md) - Generate a design system from an existing codebase or audit one for visual consistency: extract tokens (colors
+- [affaan-m/ECC:react-patterns](affaan-m-ecc-react-patterns.md) - React 18/19 patterns including hooks discipline, server/client component boundaries, Suspense + error boundari
 - [engineering:architecture](engineering-architecture.md) - Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka 
-- [microsoft/skills:frontend-design-review](microsoft-skills-frontend-design-review.md) - Review and create distinctive, production-grade frontend interfaces with high design quality and design system
-- [legal:vendor-check](legal-vendor-check.md) - Check the status of existing agreements with a vendor across all connected systems — CLM, CRM, email, and docu
 
 ## Invoke / install
 

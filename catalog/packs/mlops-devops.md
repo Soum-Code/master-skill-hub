@@ -2,10 +2,23 @@
 
 CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management.
 
-36 skill(s). Back to the [catalog](../README.md).
+49 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
+| [`affaan-m/ECC:canary-watch`](../skills/affaan-m-ecc-canary-watch.md) | Use this skill to monitor and verify a deployed URL after releases — checks HTTP endpoints, SSE streams, static assets, console errors, and performance regressions after  | verified |
+| [`affaan-m/ECC:deployment-patterns`](../skills/affaan-m-ecc-deployment-patterns.md) | Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use  | verified |
+| [`affaan-m/ECC:docker-patterns`](../skills/affaan-m-ecc-docker-patterns.md) | Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use  | verified |
+| [`affaan-m/ECC:ecc-recipes`](../skills/affaan-m-ecc-ecc-recipes.md) | Map a described workflow to the right ECC command group with run-order and stop condition, or browse all command-group recipe families read live from the commands directo | verified |
+| [`affaan-m/ECC:enterprise-agent-ops`](../skills/affaan-m-ecc-enterprise-agent-ops.md) | Operational controls for long-lived or cloud-hosted agent systems — runtime lifecycle (start, pause, stop, restart), observability (logs, metrics, traces), least-privileg | verified |
+| [`affaan-m/ECC:git-workflow`](../skills/affaan-m-ecc-git-workflow.md) | Git workflow patterns including branching strategies, commit conventions, keeping history clean and readable, tidying local commits before merging, merge vs rebase, confl | verified |
+| [`affaan-m/ECC:kubernetes-patterns`](../skills/affaan-m-ecc-kubernetes-patterns.md) | Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments. Use when  | verified |
+| [`affaan-m/ECC:nanoclaw-repl`](../skills/affaan-m-ecc-nanoclaw-repl.md) | Operate and extend NanoClaw, ECC's zero-dependency session-aware REPL, with persistent markdown-backed sessions and slash commands for model switching, skill loading, ses | verified |
+| [`affaan-m/ECC:opensource-pipeline`](../skills/affaan-m-ecc-opensource-pipeline.md) | Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open  | verified |
+| [`affaan-m/ECC:orch-pipeline`](../skills/affaan-m-ecc-orch-pipeline.md) | Shared orchestration engine behind the orch-* skill family — the gated Research-Plan-TDD-Review-Commit pipeline, size classifier, agent and command map, and two human gat | verified |
+| [`affaan-m/ECC:recsys-pipeline-architect`](../skills/affaan-m-ecc-recsys-pipeline-architect.md) | Design composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator→Filter→Scorer→Selector→SideEffect framework popularized by xAI's open-so | verified |
+| [`affaan-m/ECC:terminal-ops`](../skills/affaan-m-ecc-terminal-ops.md) | Evidence-first repo execution workflow for ECC. Use when the user wants a command run, a repo checked, a CI failure debugged, or a narrow fix pushed with exact proof of w | verified |
+| [`affaan-m/ECC:uncloud`](../skills/affaan-m-ecc-uncloud.md) | Use when managing an Uncloud cluster — deploying services, configuring Caddy ingress, adding static proxy routes for non-cluster devices, publishing ports, scaling, inspe | verified |
 | [`bm:pr-branch`](../skills/bm-pr-branch.md) | Create a clean PR branch by filtering out .planning/ commits — ready for code review | installed |
 | [`bm:ship`](../skills/bm-ship.md) | Create PR, run review, and prepare for merge after verification passes | installed |
 | [`engineering:deploy-checklist`](../skills/engineering-deploy-checklist.md) | Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migrations or feature flags, verifying CI status and approvals b | installed |

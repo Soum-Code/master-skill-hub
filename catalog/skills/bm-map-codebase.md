@@ -33,7 +33,7 @@
 - [bm:scan](bm-scan.md) - Rapid codebase assessment — lightweight alternative to /bm:map-codebase
 - [init](init.md) - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
 - [bm:intel](bm-intel.md) - Query, inspect, or refresh codebase intelligence files in .planning/intel/
-- [bm:code-review-fix](bm-code-review-fix.md) - Auto-fix issues found by code review in REVIEW.md. Spawns fixer agent, commits each fix atomically, produces R
+- [affaan-m/ECC:codebase-onboarding](affaan-m-ecc-codebase-onboarding.md) - Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry poi
 
 ## Invoke / install
 

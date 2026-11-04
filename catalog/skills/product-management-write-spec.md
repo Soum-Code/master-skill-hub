@@ -66,6 +66,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [openai/skills:notion-spec-to-implementation](openai-skills-notion-spec-to-implementation.md) - Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature 
+- [affaan-m/ECC:intent-driven-development](affaan-m-ecc-intent-driven-development.md) - Turn ambiguous or high-impact product and engineering changes into scoped, verifiable acceptance criteria befo
 - [openai/skills:define-goal](openai-skills-define-goal.md) - Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goa
 - [anthropics/knowledge-work-plugins:scientific-problem-selection](anthropics-knowledge-work-plugins-scientific-problem-selection.md) - This skill should be used when scientists need help with research problem selection, project ideation, trouble
 

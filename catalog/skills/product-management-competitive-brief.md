@@ -63,6 +63,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [affaan-m/ECC:market-research](affaan-m-ecc-market-research.md) - Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source a
+
 ## Invoke / install
 
 - Invoke: `/product-management:competitive-brief`  (Skill tool: `product-management:competitive-brief`)

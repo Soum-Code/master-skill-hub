@@ -26,10 +26,10 @@
 
 ## Related skills
 
+- [affaan-m/ECC:security-scan](affaan-m-ecc-security-scan.md) - Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and 
+- [affaan-m/ECC:mcp-dependency-review](affaan-m-ecc-mcp-dependency-review.md) - Statically review MCP configuration for mutable package references before approval or CI, without executing di
 - [cowork-plugin-management:cowork-plugin-customizer](cowork-plugin-management-cowork-plugin-customizer.md) - Customize a Claude Code plugin for a specific organization's tools and workflows. Use when: customize plugin, 
-- [plugin-authoring](plugin-authoring.md) - Make a mod - a change to Claude's own interface or behaviour such as a panel, status line, toast, slash comman
-- [bm:settings](bm-settings.md) - Configure GSD workflow toggles and model profile
-- [anthropics/claude-code:MCP Integration](anthropics-claude-code-mcp-integration.md) - This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", 
+- [affaan-m/ECC:workspace-surface-audit](affaan-m-ecc-workspace-surface-audit.md) - Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup, then recommend the h
 
 ## Invoke / install
 

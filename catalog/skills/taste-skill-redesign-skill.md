@@ -54,8 +54,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [taste-skill:soft-skill](taste-skill-soft-skill.md) - Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, a
-- [run](run.md) - Launch and drive this project's app to see a change working. Use when asked to run, start or screenshot the ap
-- [example-skills:brand-guidelines](example-skills-brand-guidelines.md) - Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having 
+- [affaan-m/ECC:coding-standards](affaan-m-ecc-coding-standards.md) - Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use 
+- [affaan-m/ECC:java-coding-standards](affaan-m-ecc-java-coding-standards.md) - Java coding standards for Spring Boot and Quarkus services: naming, immutability, Optional usage, streams, exc
+- [affaan-m/ECC:design-system](affaan-m-ecc-design-system.md) - Generate a design system from an existing codebase or audit one for visual consistency: extract tokens (colors
 
 ## Invoke / install
 

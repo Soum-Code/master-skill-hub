@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **ID** | `bm:profile-user` |
-| **Pack** | Claude / Skills / Plugin Tooling (also: Careers, Jobs & Hiring) |
+| **Pack** | Claude / Skills / Plugin Tooling |
 | **Kind** | skill |
 | **Status** | installed (owner's machine) |
 | **Origin** | plugin `bm` v4.5.5 - [jnuyens/gsd-plugin](https://github.com/jnuyens/gsd-plugin) |

@@ -68,7 +68,7 @@ The skill's own section headings, in order:
 - [taste-skill:stitch-skill](taste-skill-stitch-skill.md) - Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium,
 - [example-skills:frontend-design](example-skills-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
 - [frontend-design:frontend-design](frontend-design-frontend-design.md) - Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps w
-- [taste-skill:imagegen-frontend-web](taste-skill-imagegen-frontend-web.md) - Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITI
+- [affaan-m/ECC:frontend-design-direction](affaan-m-ecc-frontend-design-direction.md) - Set an ECC-specific frontend design direction for production UI work. Use when building or improving websites,
 
 ## Invoke / install
 

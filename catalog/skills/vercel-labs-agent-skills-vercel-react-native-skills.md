@@ -50,9 +50,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [vercel-labs/agent-skills:vercel-react-best-practices](vercel-labs-agent-skills-vercel-react-best-practices.md) - React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when 
+- [affaan-m/ECC:react-native-patterns](affaan-m-ecc-react-native-patterns.md) - React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanS
 - [vercel-labs/agent-skills:vercel-composition-patterns](vercel-labs-agent-skills-vercel-composition-patterns.md) - React composition patterns that scale. Use when refactoring components with boolean prop proliferation, buildi
-- [vercel-labs/agent-skills:vercel-react-view-transitions](vercel-labs-agent-skills-vercel-react-view-transitions.md) - Guide for implementing smooth, native-feeling animations using React's View Transition API (`` component, `add
-- [openai/skills:figma-generate-design](openai-skills-figma-generate-design.md) - Use this skill alongside figma-use when the task involves translating an application page, view, or multi-sect
+- [affaan-m/ECC:frontend-patterns](affaan-m-ecc-frontend-patterns.md) - Frontend development patterns for React, Next.js, state management, performance optimization, and UI best prac
 
 ## Invoke / install
 

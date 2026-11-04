@@ -1,6 +1,13 @@
 # Communication & Collaboration
 
+- `affaan-m/ECC:dev-team` - Simulate a collaborative dev team session where multiple role-based personas (PM, Architect, Developer, QA) respond to the same problem together in one session. Use when designing a feature,
+- `affaan-m/ECC:email-ops` - Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail surf
+- `affaan-m/ECC:investor-materials` - Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projectio
+- `affaan-m/ECC:investor-outreach` - Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or acceler
+- `affaan-m/ECC:team-agent-orchestration` - Run team-based orchestration for agent squads: work items with owners and scope, agent Kanban state, branch isolation, control pane visibility, and merge gates. Use when coordinating multipl
+- `affaan-m/ECC:team-builder` - Interactive picker that discovers available agent personas via the claude agents command and agents/ markdown globs, groups them into domains, has the user select up to five, dispatches them
 - `anthropics/claude-plugins-official:access` - Manage Discord channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's allowed, or change policy for the Discord
+- `anthropics/claude-plugins-official:configure` - Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord bot token, asks to configure Discord, asks "how do I set this up" or "who can rea
 - `anthropics/knowledge-work-plugins:ticket-triage` - Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking
 - `bm:inbox` - Triage and review all open GitHub issues and PRs against project templates and contribution guidelines
 - `bm:join-discord` - Join the GSD Discord community
