@@ -61,6 +61,7 @@ The skill's own section headings, in order:
 - [affaan-m/ECC:react-patterns](affaan-m-ecc-react-patterns.md) - React 18/19 patterns including hooks discipline, server/client component boundaries, Suspense + error boundari
 - [affaan-m/ECC:e2e-testing](affaan-m-ecc-e2e-testing.md) - Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and
 - [microsoft/playwright-cli:playwright-cli](microsoft-playwright-cli-playwright-cli.md) - Automate browser interactions, test web pages and work with Playwright tests.
+- [google-gemini/gemini-cli:behavioral-evals](google-gemini-gemini-cli-behavioral-evals.md) - Guidance for creating, running, fixing, and promoting behavioral evaluations. Use when verifying agent decisio
 
 ## Invoke / install
 

@@ -48,7 +48,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/playwright-cli:playwright-triage`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path .claude/skills/playwright-triage --commit c2d8d199459d1480491bebf0a6b3587136b673fa --expect-tree b09987e81527dbecd4450f8a3274ee863f0375f962093a33de42c85b61817ac7 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path .claude/skills/playwright-triage --commit 4bc00fb7fa5b4329f2fb53ac4743a066c2c664e8 --expect-tree b09987e81527dbecd4450f8a3274ee863f0375f962093a33de42c85b61817ac7 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

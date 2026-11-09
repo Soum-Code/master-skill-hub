@@ -2,7 +2,7 @@
 
 Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style).
 
-85 skill(s). Back to the [catalog](../README.md).
+86 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -32,6 +32,7 @@ Phase/milestone based project execution - plan, discuss, execute, verify, ship (
 | [`affaan-m/ECC:swift-concurrency-6-2`](../skills/affaan-m-ecc-swift-concurrency-6-2.md) | Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types. Use when adop | verified |
 | [`affaan-m/ECC:terminal-opener`](../skills/affaan-m-ecc-terminal-opener.md) | Open an executable and its argument array in a visible terminal window through a reusable, shell-free launch plan with dry-run, JSON, capability detection, detached fallb | verified |
 | [`affaan-m/ECC:verification-loop`](../skills/affaan-m-ecc-verification-loop.md) | Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, security grep, and diff review — then produce a PASS/FAIL ver | verified |
+| [`anthropics/claude-plugins-official:hackathon`](../skills/anthropics-claude-plugins-official-hackathon.md) | Plan a hackathon, either from a team's real backlog or as open-ended creative play with Claude Code. Use when a champion wants to run a hack day or a shorter hack session | verified |
 | [`anthropics/claude-plugins-official:math-olympiad`](../skills/anthropics-claude-plugins-official-math-olympiad.md) | Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates when asked to 'solve  | verified |
 | [`anthropics/claude-plugins-official:project-artifact`](../skills/anthropics-claude-plugins-official-project-artifact.md) | Generate and publish a project status artifact — an opinionated, tabbed status page for a project too big for one update (overview & success criteria, the workstream sequ | verified |
 | [`bm:add-backlog`](../skills/bm-add-backlog.md) | Add an idea to the backlog parking lot (999.x numbering) | installed |

@@ -38,9 +38,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [schedule](schedule.md) - Create, update, list or run scheduled cloud agents (routines) on a cron schedule. Use for recurring cloud agen
+- [anthropics/claude-plugins-official:routines](anthropics-claude-plugins-official-routines.md) - Set up recurring champion routines as Claude Code scheduled tasks. Use when a champion wants work like a weekl
 - [openai/skills:linear](openai-skills-linear.md) - Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets
 - [anthropic-skills:morning](anthropic-skills-morning.md) - Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only 
-- [anthropic-skills:explain-usage](anthropic-skills-explain-usage.md) - Explain where this session's tokens went, with one simple chart in plain language. Use when the user says thin
 
 ## Invoke / install
 

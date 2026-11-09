@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |
 | **License** | Apache-2.0 |
-| **Size** | 87 lines in SKILL.md, 1 file(s) |
+| **Size** | 89 lines in SKILL.md, 1 file(s) |
 
 ## When to use it
 
@@ -43,7 +43,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:derive-client`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 5868f7c05020e047c00e68e4abf9253cce864f41 --expect-tree b94eece089eea1db18670cb44e4b95db9f89e4e3b6ee6b1a7335cf3d3d545352 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree e273d097f16b703e6a2f9ef2b80b027e9278338733790f891ddd9601b9d12839 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

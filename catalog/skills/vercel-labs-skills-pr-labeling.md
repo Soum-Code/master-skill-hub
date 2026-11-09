@@ -30,15 +30,15 @@
 
 ## Related skills
 
+- [google-gemini/gemini-cli:prs](google-gemini-gemini-cli-prs.md) - Expertise in managing the Git and GitHub Pull Request lifecycle, including staging changes, generating PR desc
+- [google-gemini/gemini-cli:pr-creator](google-gemini-gemini-cli-pr-creator.md) - Use this skill when asked to create a pull request (PR). It ensures all PRs follow the repository's establishe
+- [google-gemini/gemini-cli:pr-address-comments](google-gemini-gemini-cli-pr-address-comments.md) - Use this skill if the user asks you to help them address GitHub PR comments for their current branch of the Ge
 - [openai/skills:yeet](openai-skills-yeet.md) - Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow usin
-- [affaan-m/ECC:project-flow-ops](affaan-m-ecc-project-flow-ops.md) - Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking active work, and
-- [bm:review](bm-review.md) - Request cross-AI peer review of phase plans from external AI CLIs
-- [anthropic-skills:skill-creator](anthropic-skills-skill-creator.md) - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to c
 
 ## Invoke / install
 
 - Invoke: `/vercel-labs/skills:pr-labeling`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path .automations/pr-labeling/skills/pr-labeling --commit 92a9a34ac3bf88e695e468b90c7bf32f163d32c8 --expect-tree 96b9852c856f0cbc50a62b06d278ff31e68debbbd33d030fc2e40fea85287db1 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path .automations/pr-labeling/skills/pr-labeling --commit d3701c11b1101251af14c9d148f026e1a47ebe17 --expect-tree 96b9852c856f0cbc50a62b06d278ff31e68debbbd33d030fc2e40fea85287db1 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

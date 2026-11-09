@@ -47,6 +47,7 @@ The skill's own section headings, in order:
 
 - [affaan-m/ECC:healthcare-emr-patterns](affaan-m-ecc-healthcare-emr-patterns.md) - EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, prescription g
 - [affaan-m/ECC:healthcare-cdss-patterns](affaan-m-ecc-healthcare-cdss-patterns.md) - Clinical Decision Support System (CDSS) development patterns. Drug interaction checking, dose validation, clin
+- [google-gemini/gemini-cli:behavioral-evals](google-gemini-gemini-cli-behavioral-evals.md) - Guidance for creating, running, fixing, and promoting behavioral evaluations. Use when verifying agent decisio
 - [affaan-m/ECC:healthcare-phi-compliance](affaan-m-ecc-healthcare-phi-compliance.md) - Protected Health Information (PHI) and PII compliance patterns for healthcare applications: data classificatio
 
 ## Invoke / install

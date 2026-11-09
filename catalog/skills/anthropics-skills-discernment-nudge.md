@@ -46,7 +46,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/skills:discernment-nudge`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/discernment-nudge --commit ca45fc496a3436251f191354091d557da31c15b5 --expect-tree d6dde11d9c0c72262039295bfa8d576e71c3470bc77bd65a431511bad8d2f57a --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/discernment-nudge --commit 2c5958ecac7cee2b583967a2c4981d0f4a75c579 --expect-tree d6dde11d9c0c72262039295bfa8d576e71c3470bc77bd65a431511bad8d2f57a --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

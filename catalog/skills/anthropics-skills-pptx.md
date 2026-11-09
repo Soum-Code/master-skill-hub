@@ -9,7 +9,7 @@
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [anthropics/skills](https://github.com/anthropics/skills) |
-| **License** | Proprietary. LICENSE.txt has complete terms |
+| **License** | Complete terms in LICENSE.txt |
 | **Size** | 239 lines in SKILL.md, 56 file(s) |
 
 ## When to use it
@@ -62,7 +62,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/skills:pptx`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/pptx --commit ca45fc496a3436251f191354091d557da31c15b5 --expect-tree 8f7defcfc4ff81052f2299f7ae529b49948c1cd10fd0832bb6d8435ba6187b18 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/pptx --commit 2c5958ecac7cee2b583967a2c4981d0f4a75c579 --expect-tree 14e6c438e2f356021ee2d6fe9a31b07d8fffe242e93ded05af88ae5ca555254d --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

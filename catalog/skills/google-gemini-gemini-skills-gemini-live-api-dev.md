@@ -73,7 +73,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-skills:gemini-live-api-dev`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-live-api-dev --commit 39d81f4c7de5e56631d07e4ea766d3fe9752ce5d --expect-tree 4b96b28f0fa7bb3593953c5d84a04860520f71a5a949c377ed45982d05beb04e --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-live-api-dev --commit 7cfc690ba9c8efe36a5316e6d4000e2b6aa25dbf --expect-tree 4b96b28f0fa7bb3593953c5d84a04860520f71a5a949c377ed45982d05beb04e --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -13,6 +13,7 @@
 - `anthropics/knowledge-work-plugins:research-synthesis` - Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, support tickets, or NPS responses that nee
 - `anthropics/knowledge-work-plugins:scientific-problem-selection` - This skill should be used when scientists need help with research problem selection, project ideation, troubleshooting stuck projects, or strategic scientific decisions. Use this skill when 
 - `anthropics/knowledge-work-plugins:user-research` - Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability test", "survey design", "research questions", or when the user needs help with a
+- `google-gemini/gemini-cli:spec_generator` - Generates a structured Workable Spec JSON to guide a Developer Worker.
 - `openai/skills:notion-research-documentation` - Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.
 - `openai/skills:notion-spec-to-implementation` - Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.
 - `product-management:brainstorm` - Brainstorm a product idea, problem space, or strategic question with a sharp thinking partner

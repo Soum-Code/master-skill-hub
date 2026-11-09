@@ -47,7 +47,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:claude-security`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-security/skills/claude-security --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree 5912501c4916daebe0c74aaa66365851e5e71533bd9c4b5bc041733567593278 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-security/skills/claude-security --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 5912501c4916daebe0c74aaa66365851e5e71533bd9c4b5bc041733567593278 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

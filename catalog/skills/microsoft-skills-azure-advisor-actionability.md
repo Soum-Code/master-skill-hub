@@ -38,12 +38,12 @@ The skill's own section headings, in order:
 
 ## Related skills
 
-- [microsoft/skills:azure-advisor](microsoft-skills-azure-advisor.md) - Use Azure Advisor recommendations. WHEN: "show Advisor recommendations", "service retirements", "update recomm
+- [microsoft/skills:azure-advisor](microsoft-skills-azure-advisor.md) - Use Azure Advisor. WHEN: "show recommendations", "top Advisor actions", "prioritize recommendations", "service
 
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:azure-advisor-actionability`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-advisor/skills/azure-advisor-actionability --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 9bffacafd267cc5102ba950aec54ea250ed5d82d3858828f8f3fdbe41487c04b --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-advisor/skills/azure-advisor-actionability --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree 9bffacafd267cc5102ba950aec54ea250ed5d82d3858828f8f3fdbe41487c04b --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

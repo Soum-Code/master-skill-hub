@@ -49,7 +49,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:project-artifact`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/project-artifact/skills/project-artifact --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree 2568201919b501813bc8875d2e848f9aa3a7b20c78b89c1de29ae2ab43e4446f --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/project-artifact/skills/project-artifact --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 2568201919b501813bc8875d2e848f9aa3a7b20c78b89c1de29ae2ab43e4446f --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

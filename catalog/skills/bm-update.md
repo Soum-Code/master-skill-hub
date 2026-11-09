@@ -32,8 +32,8 @@
 
 - [bm:version](bm-version.md) - Print the installed GSD plugin version and check online for updates
 - [bm:reapply-patches](bm-reapply-patches.md) - Reapply local modifications after a GSD update
+- [google-gemini/gemini-cli:docs-changelog](google-gemini-gemini-cli-docs-changelog.md) - Generates and formats changelog files for a new release based on provided version and raw changelog data.
 - [bm:join-discord](bm-join-discord.md) - Join the GSD Discord community
-- [bm:list-workspaces](bm-list-workspaces.md) - List active GSD workspaces and their status
 
 ## Invoke / install
 

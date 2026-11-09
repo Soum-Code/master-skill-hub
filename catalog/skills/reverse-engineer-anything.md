@@ -37,6 +37,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [google-gemini/gemini-cli:code_explorer](google-gemini-gemini-cli-code-explorer.md) - Explores the repository to locate primary source files, coupled UI components, and test files for bug reports 
 - [affaan-m/ECC:code-tour](affaan-m-ecc-code-tour.md) - Create CodeTour `.tour` files — persona-targeted, step-by-step walkthroughs with real file and line anchors. U
 
 ## Invoke / install

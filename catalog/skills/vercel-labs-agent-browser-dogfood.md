@@ -54,7 +54,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:dogfood`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/dogfood --commit 5868f7c05020e047c00e68e4abf9253cce864f41 --expect-tree 24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/dogfood --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree 24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

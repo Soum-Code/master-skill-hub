@@ -2,7 +2,7 @@
 
 LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research.
 
-70 skill(s). Back to the [catalog](../README.md).
+71 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -49,6 +49,7 @@ LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML rese
 | [`bm:eval-review`](../skills/bm-eval-review.md) | Retroactively audit an executed AI phase's evaluation coverage — scores each eval dimension as COVERED/PARTIAL/MISSING and produces an actionable EVAL-REVIEW.md with reme | installed |
 | [`claude-api`](../skills/claude-api.md) | Reference for the Claude API and Anthropic SDKs - model ids, pricing, streaming, tool use, MCP, agents, prompt caching, token counting, model migration. Use whenever the  | installed |
 | [`example-skills:mcp-builder`](../skills/example-skills-mcp-builder.md) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MC | installed |
+| [`google-gemini/gemini-cli:behavioral-evals`](../skills/google-gemini-gemini-cli-behavioral-evals.md) | Guidance for creating, running, fixing, and promoting behavioral evaluations. Use when verifying agent decision logic, debugging failures, debugging prompt steering, or a | verified |
 | [`huggingface/skills:hf-cloud-serving-image-selection`](../skills/huggingface-skills-hf-cloud-serving-image-selection.md) | Pick the right serving container for a SageMaker model deployment and find its current image URI. Use this skill whenever about to deploy a model to a SageMaker endpoint  | verified |
 | [`huggingface/skills:hf-mcp`](../skills/huggingface-skills-hf-mcp.md) | Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI t | verified |
 | [`huggingface/skills:huggingface-community-evals`](../skills/huggingface-skills-huggingface-community-evals.md) | Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Tran | verified |

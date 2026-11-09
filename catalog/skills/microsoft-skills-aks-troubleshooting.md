@@ -54,7 +54,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:aks-troubleshooting`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/aks-skills/skills/aks-troubleshooting --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree d6cf72df51daa6be4a865fc210132c87212a36ae6d95876534e99aed3a7a27d0 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/aks-skills/skills/aks-troubleshooting --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree d6cf72df51daa6be4a865fc210132c87212a36ae6d95876534e99aed3a7a27d0 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

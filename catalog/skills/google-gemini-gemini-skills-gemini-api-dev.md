@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) |
 | **License** | Apache-2.0 |
-| **Size** | 444 lines in SKILL.md, 2 file(s) |
+| **Size** | 445 lines in SKILL.md, 2 file(s) |
 
 ## When to use it
 
@@ -65,13 +65,13 @@ The skill's own section headings, in order:
 
 - [google-gemini/gemini-skills:gemini-live-api-dev](google-gemini-gemini-skills-gemini-live-api-dev.md) - Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migr
 - [microsoft/skills:podcast-generation](microsoft-skills-podcast-generation.md) - Generate AI-powered podcast-style audio narratives using Azure OpenAI's GPT Realtime Mini model via WebSocket.
-- [google-gemini/gemini-skills:gemini-omni-flash-api](google-gemini-gemini-skills-gemini-omni-flash-api.md) - Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-
+- [google-gemini/gemini-skills:gemini-omni-flash-api](google-gemini-gemini-skills-gemini-omni-flash-api.md) - Use this skill for generative video editing, text-to-video, image- and video-referenced video generation, firs
 - [microsoft/skills:azure-ai-agents-persistent-dotnet](microsoft-skills-azure-ai-agents-persistent-dotnet.md) - Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messa
 
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-skills:gemini-api-dev`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-api-dev --commit 39d81f4c7de5e56631d07e4ea766d3fe9752ce5d --expect-tree b5ec13ac27c8418e1cde0298e9ff2b260a650f1e278b1543097c15eb9367ea67 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-api-dev --commit 7cfc690ba9c8efe36a5316e6d4000e2b6aa25dbf --expect-tree 47313b9a43b08d9792120764d2ea77ad07a280676b866f19239de077f17ef76c --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

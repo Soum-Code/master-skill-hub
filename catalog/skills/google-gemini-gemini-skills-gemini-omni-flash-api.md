@@ -1,6 +1,6 @@
 # gemini-omni-flash-api
 
-> Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.1 Flash (gemini-omni-1.1-flash) via the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.
+> Use this skill for generative video editing, text-to-video, image- and video-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.2 Flash (gemini-omni-1.2-flash) via the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.
 
 | | |
 |---|---|
@@ -10,15 +10,15 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [google-gemini/gemini-skills](https://github.com/google-gemini/gemini-skills) |
 | **License** | Apache-2.0 |
-| **Size** | 451 lines in SKILL.md, 5 file(s) |
+| **Size** | 413 lines in SKILL.md, 5 file(s) |
 
 ## When to use it
 
-- Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.1 Flash (gemini-omni-1.1-flash) via the official google-genai SDK.
+- Use this skill for generative video editing, text-to-video, image- and video-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.2 Flash (gemini-omni-1.2-flash) via the official google-g.
 
 ## What it says up front
 
-> This skill uses the Gemini Omni 1.1 Flash model (`gemini-omni-1.1-flash`) to perform text to video generation, image to video generation (first frame and last frame transitions), video extensions (up to 40s), and video editing.
+> This skill uses the Gemini Omni 1.2 Flash model (`gemini-omni-1.2-flash`) to perform text-to-video generation, image-to-video generation (first-frame and two-frame keyframe transitions), reference-to-video (R2V) generation, video extensions (3s–10s per turn, up to 30s total), and video editing.
 
 ## How it is structured
 
@@ -30,7 +30,7 @@ The skill's own section headings, in order:
 - Dependencies and Prerequisites
 - Available scripts
 - Audio handling in video editing
-- Prompting Gemini Omni Flash
+- Prompting Gemini Omni 1.2 Flash
   - Single scene
   - Removing unwanted elements
   - Prompts for editing
@@ -39,8 +39,8 @@ The skill's own section headings, in order:
   - Meta prompting
   - Text in videos
   - Prompts for extending a video
-  - Video extension constraints and guidelines
-  - Using tags in prompts to set image and video roles
+  - Video extension & reference constraints
+  - Binding uploaded images and videos with natural language
 
 ## What it bundles
 
@@ -60,7 +60,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-skills:gemini-omni-flash-api`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-omni-flash-api --commit 39d81f4c7de5e56631d07e4ea766d3fe9752ce5d --expect-tree 3d8ffabd4dcd63467e64307687fe2fcbd3dc44d362983081b0948e2c382c9666 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-skills --path skills/gemini-omni-flash-api --commit 7cfc690ba9c8efe36a5316e6d4000e2b6aa25dbf --expect-tree 40340e0fc146d132faa4622895477960bdddf1ae17686f009eaabff211910b50 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

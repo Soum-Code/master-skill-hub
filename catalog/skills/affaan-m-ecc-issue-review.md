@@ -52,9 +52,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [openai/skills:gh-address-comments](openai-skills-gh-address-comments.md) - Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth f
+- [google-gemini/gemini-cli:pr-address-comments](google-gemini-gemini-cli-pr-address-comments.md) - Use this skill if the user asks you to help them address GitHub PR comments for their current branch of the Ge
 - [code-review](code-review.md) - Review the current diff or a PR number, branch or path for correctness bugs at a chosen effort level; optional
 - [openai/skills:gh-fix-ci](openai-skills-gh-fix-ci.md) - Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect 
-- [microsoft/playwright-cli:playwright-triage](microsoft-playwright-cli-playwright-triage.md) - Triage and fix one microsoft/playwright-cli issue, or do a maintainer's task, unattended inside the Issue tria
 
 ## Invoke / install
 

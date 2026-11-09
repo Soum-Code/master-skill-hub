@@ -41,14 +41,14 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [anthropics/claude-plugins-official:access](anthropics-claude-plugins-official-access.md) - Manage Discord channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks
+- [google-gemini/gemini-cli:async-pr-review](google-gemini-gemini-cli-async-pr-review.md) - Trigger this skill when the user wants to start an asynchronous PR review, run background checks on a PR, or c
 - [anthropics/claude-code:Writing Hookify Rules](anthropics-claude-code-writing-hookify-rules.md) - This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hooki
 - [anthropics/claude-plugins-official:writing-hookify-rules](anthropics-claude-plugins-official-writing-hookify-rules.md) - This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hooki
-- [productivity:task-management](productivity-task-management.md) - Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, want
 
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:configure`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path external_plugins/discord/skills/configure --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree e29afb65a97f98093466071f467dfdac1b3cff36717096b5c42e999be51d7887 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path external_plugins/discord/skills/configure --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree e29afb65a97f98093466071f467dfdac1b3cff36717096b5c42e999be51d7887 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

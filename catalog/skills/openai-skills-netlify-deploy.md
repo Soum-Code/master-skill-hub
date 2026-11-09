@@ -54,7 +54,7 @@ The skill's own section headings, in order:
 - [openai/skills:vercel-deploy](openai-skills-vercel-deploy.md) - Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app"
 - [vercel-labs/agent-skills:deploy-to-vercel](vercel-labs-agent-skills-deploy-to-vercel.md) - Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app"
 - [microsoft/playwright-cli:dev](microsoft-playwright-cli-dev.md) - Development workflows for the playwright-cli repository. Use when the user asks about rolling dependencies, re
-- [huggingface/skills:huggingface-papers](huggingface-skills-huggingface-papers.md) - Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as 
+- [google-gemini/gemini-cli:pr-address-comments](google-gemini-gemini-cli-pr-address-comments.md) - Use this skill if the user asks you to help them address GitHub PR comments for their current branch of the Ge
 
 ## Invoke / install
 

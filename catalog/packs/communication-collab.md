@@ -2,7 +2,7 @@
 
 Slack, email, meetings, standups, internal comms, stakeholder updates, briefings.
 
-21 skill(s). Back to the [catalog](../README.md).
+22 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -14,6 +14,7 @@ Slack, email, meetings, standups, internal comms, stakeholder updates, briefings
 | [`affaan-m/ECC:team-builder`](../skills/affaan-m-ecc-team-builder.md) | Interactive picker that discovers available agent personas via the claude agents command and agents/ markdown globs, groups them into domains, has the user select up to f | verified |
 | [`anthropics/claude-plugins-official:access`](../skills/anthropics-claude-plugins-official-access.md) | Manage Discord channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's allowed, or change po | verified |
 | [`anthropics/claude-plugins-official:configure`](../skills/anthropics-claude-plugins-official-configure.md) | Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord bot token, asks to configure Discord, asks "how do I set this | verified |
+| [`anthropics/claude-plugins-official:office-hours`](../skills/anthropics-claude-plugins-official-office-hours.md) | Set up and run Claude Code office hours, including the calendar event when the champion's own calendar connector allows it. Use when a champion wants a regular time for t | verified |
 | [`anthropics/knowledge-work-plugins:ticket-triage`](../skills/anthropics-knowledge-work-plugins-ticket-triage.md) | Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should ha | verified |
 | [`bm:inbox`](../skills/bm-inbox.md) | Triage and review all open GitHub issues and PRs against project templates and contribution guidelines | installed |
 | [`bm:join-discord`](../skills/bm-join-discord.md) | Join the GSD Discord community | installed |

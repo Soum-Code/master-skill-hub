@@ -7,30 +7,30 @@ One skill that picks the right skill. It knows 200+ skills grouped by industry a
 Works in **Claude Code** (global, all projects) and **claude.ai** (upload a zip).
 
 <!-- STATS:START -->
-**697 skills** in 20 packs - 411 candidates awaiting approval - 44 quarantined. Registry updated 2026-11-04.
+**723 skills** in 20 packs - 400 candidates awaiting approval - 49 quarantined. Registry updated 2026-11-09.
 
 | Pack | Skills |
 |---|---|
-| [Software Development](catalog/packs/software-dev.md) | 120 |
-| [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 85 |
-| [AI / ML Engineering](catalog/packs/ai-ml.md) | 70 |
-| [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 60 |
+| [Software Development](catalog/packs/software-dev.md) | 128 |
+| [Spec-driven Dev Workflow](catalog/packs/dev-workflow.md) | 86 |
+| [AI / ML Engineering](catalog/packs/ai-ml.md) | 71 |
+| [Claude / Skills / Plugin Tooling](catalog/packs/meta-tooling.md) | 64 |
 | [Web, Frontend & UI Design](catalog/packs/web-frontend-design.md) | 54 |
-| [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 49 |
-| [Documents, Writing & Content](catalog/packs/docs-content.md) | 34 |
-| [Data & Analytics](catalog/packs/data-analytics.md) | 24 |
+| [MLOps / DevOps / Cloud](catalog/packs/mlops-devops.md) | 53 |
+| [Documents, Writing & Content](catalog/packs/docs-content.md) | 35 |
+| [Data & Analytics](catalog/packs/data-analytics.md) | 25 |
+| [Productivity & Automation](catalog/packs/productivity-automation.md) | 25 |
 | [Browser & Web Automation](catalog/packs/browser-automation.md) | 23 |
 | [Operations & Business](catalog/packs/operations-business.md) | 23 |
-| [Productivity & Automation](catalog/packs/productivity-automation.md) | 23 |
-| [Communication & Collaboration](catalog/packs/communication-collab.md) | 21 |
-| [Product Management](catalog/packs/product-mgmt.md) | 20 |
+| [Communication & Collaboration](catalog/packs/communication-collab.md) | 22 |
+| [Product Management](catalog/packs/product-mgmt.md) | 21 |
 | [Legal & Compliance](catalog/packs/legal-compliance.md) | 17 |
 | [Security & Privacy](catalog/packs/security.md) | 17 |
 | [Careers, Jobs & Hiring](catalog/packs/careers-jobs.md) | 15 |
 | [Creative & Media](catalog/packs/creative-media.md) | 15 |
 | [Finance & Accounting](catalog/packs/finance-accounting.md) | 14 |
 | [Research & Learning](catalog/packs/research-learning.md) | 11 |
-| [general](catalog/packs/general.md) | 2 |
+| [general](catalog/packs/general.md) | 4 |
 <!-- STATS:END -->
 
 ## Install

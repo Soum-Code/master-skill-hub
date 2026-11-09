@@ -63,6 +63,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [google-gemini/gemini-cli:ci](google-gemini-gemini-cli-ci.md) - A specialized skill for Gemini CLI that provides high-performance, fail-fast monitoring of GitHub Actions work
+
 ## Invoke / install
 
 - Invoke: `/affaan-m/ECC:data-scraper-agent`

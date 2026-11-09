@@ -26,6 +26,7 @@
 - `affaan-m/ECC:swift-concurrency-6-2` - Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types. Use when adopting Swift 6.2 concu
 - `affaan-m/ECC:terminal-opener` - Open an executable and its argument array in a visible terminal window through a reusable, shell-free launch plan with dry-run, JSON, capability detection, detached fallback, and standalone 
 - `affaan-m/ECC:verification-loop` - Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, security grep, and diff review — then produce a PASS/FAIL verification report. Us
+- `anthropics/claude-plugins-official:hackathon` - Plan a hackathon, either from a team's real backlog or as open-ended creative play with Claude Code. Use when a champion wants to run a hack day or a shorter hack session.
 - `anthropics/claude-plugins-official:math-olympiad` - Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates when asked to 'solve this IMO problem', '
 - `anthropics/claude-plugins-official:project-artifact` - Generate and publish a project status artifact — an opinionated, tabbed status page for a project too big for one update (overview & success criteria, the workstream sequence, next steps, pl
 - `bm:add-backlog` - Add an idea to the backlog parking lot (999.x numbering)

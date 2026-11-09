@@ -46,7 +46,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:azure-local`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-local-skills/skills/azure-local --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree fa6e32464267d39a8f47fa58ce46ed0cf80e733a246a674d64b0112d273e7354 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-local-skills/skills/azure-local --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree fa6e32464267d39a8f47fa58ce46ed0cf80e733a246a674d64b0112d273e7354 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

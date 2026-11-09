@@ -33,6 +33,7 @@
 - [bm:code-review-fix](bm-code-review-fix.md) - Auto-fix issues found by code review in REVIEW.md. Spawns fixer agent, commits each fix atomically, produces R
 - [finance:audit-support](finance-audit-support.md) - Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards. Us
 - [affaan-m/ECC:orch-fix-defect](affaan-m-ecc-orch-fix-defect.md) - Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit —
+- [google-gemini/gemini-cli:critique](google-gemini-gemini-cli-critique.md) - Expertise in auditing and fixing repository scripts and GitHub Actions workflows to ensure technical robustnes
 
 ## Invoke / install
 

@@ -65,6 +65,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [google-gemini/gemini-cli:prs](google-gemini-gemini-cli-prs.md) - Expertise in managing the Git and GitHub Pull Request lifecycle, including staging changes, generating PR desc
 - [affaan-m/ECC:perl-patterns](affaan-m-ecc-perl-patterns.md) - Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
 - [affaan-m/ECC:golang-patterns](affaan-m-ecc-golang-patterns.md) - Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go app
 

@@ -49,7 +49,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:microsoft-docs`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/microsoft-docs --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 454409784f47dd05987c16437d820240d0b7b7e6c2dd4f833dcfd31dbf2bcbf9 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/microsoft-docs --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree 454409784f47dd05987c16437d820240d0b7b7e6c2dd4f833dcfd31dbf2bcbf9 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

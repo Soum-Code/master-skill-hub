@@ -2,7 +2,7 @@
 
 Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods.
 
-60 skill(s). Back to the [catalog](../README.md).
+64 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -56,6 +56,10 @@ Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, 
 | [`cowork-plugin-management:create-cowork-plugin`](../skills/cowork-plugin-management-create-cowork-plugin.md) | Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a plugin, build a plugin, make a new plugin, develop a plugin, s | installed |
 | [`example-skills:skill-creator`](../skills/example-skills-skill-creator.md) | Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing sk | installed |
 | [`fewer-permission-prompts`](../skills/fewer-permission-prompts.md) | Scan transcripts for common read-only Bash and MCP tool calls and add a prioritized allowlist to project settings to reduce permission prompts. | installed |
+| [`google-gemini/gemini-cli:github-issue-creator`](../skills/google-gemini-gemini-cli-github-issue-creator.md) | Use this skill when asked to create a GitHub issue. It handles different issue types (bug, feature, etc.) using repository templates and ensures proper labeling. | verified |
+| [`google-gemini/gemini-cli:pirate-skill`](../skills/google-gemini-gemini-cli-pirate-skill.md) | Speak like a pirate. | verified |
+| [`google-gemini/gemini-cli:pr-creator`](../skills/google-gemini-gemini-cli-pr-creator.md) | Use this skill when asked to create a pull request (PR). It ensures all PRs follow the repository's established templates and standards. | verified |
+| [`google-gemini/gemini-cli:skill-creator`](../skills/google-gemini-gemini-cli-skill-creator.md) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Gemini CLI's capabilities  | verified |
 | [`huggingface/skills:hf-cloud-python-env-setup`](../skills/huggingface-skills-hf-cloud-python-env-setup.md) | Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for  | verified |
 | [`keybindings-help`](../skills/keybindings-help.md) | Customize keyboard shortcuts, rebind keys, add chord bindings or edit ~/.claude/keybindings.json. | installed |
 | [`microsoft/skills:copilot-sdk`](../skills/microsoft-skills-copilot-sdk.md) | Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NE | verified |

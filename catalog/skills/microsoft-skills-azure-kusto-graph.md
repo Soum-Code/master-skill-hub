@@ -72,7 +72,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:azure-kusto-graph`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-kusto-graph-skills/skills/azure-kusto-graph --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree c383adaecc4e28172a671e0eca89b96657a5fa49a78e98e4243a4536382bd597 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-kusto-graph-skills/skills/azure-kusto-graph --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree c383adaecc4e28172a671e0eca89b96657a5fa49a78e98e4243a4536382bd597 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

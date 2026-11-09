@@ -40,9 +40,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [affaan-m/ECC:autonomous-loops](affaan-m-ecc-autonomous-loops.md) - Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven m
+- [google-gemini/gemini-cli:behavioral-evals](google-gemini-gemini-cli-behavioral-evals.md) - Guidance for creating, running, fixing, and promoting behavioral evaluations. Use when verifying agent decisio
 - [affaan-m/ECC:loop-design-check](affaan-m-ecc-loop-design-check.md) - Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or 
 - [affaan-m/ECC:agent-introspection-debugging](affaan-m-ecc-agent-introspection-debugging.md) - Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and int
-- [affaan-m/ECC:delivery-gate](affaan-m-ecc-delivery-gate.md) - Stop hook that blocks Claude from finishing until quality checks pass. Detects rationalization patterns (surfa
 
 ## Invoke / install
 

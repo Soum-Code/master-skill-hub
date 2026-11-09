@@ -69,7 +69,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:debugview`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/debugview --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 7e9d8e8f64d8ce9ddea4b3262f82eeab3fc72743cdbf05d454ab5428bcc1c269 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/debugview --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree 7e9d8e8f64d8ce9ddea4b3262f82eeab3fc72743cdbf05d454ab5428bcc1c269 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

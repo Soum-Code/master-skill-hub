@@ -66,9 +66,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [affaan-m/ECC:java-coding-standards](affaan-m-ecc-java-coding-standards.md) - Java coding standards for Spring Boot and Quarkus services: naming, immutability, Optional usage, streams, exc
+- [google-gemini/gemini-cli:code-reviewer](google-gemini-gemini-cli-code-reviewer.md) - Use this skill to review code. It supports both local changes (staged or working tree) and remote Pull Request
 - [affaan-m/ECC:perl-patterns](affaan-m-ecc-perl-patterns.md) - Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
 - [taste-skill:redesign-skill](taste-skill-redesign-skill.md) - Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns,
-- [simplify](simplify.md) - Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality
 
 ## Invoke / install
 

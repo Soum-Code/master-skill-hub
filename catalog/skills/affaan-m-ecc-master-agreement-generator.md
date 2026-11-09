@@ -49,6 +49,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [google-gemini/gemini-cli:spec_generator](google-gemini-gemini-cli-spec-generator.md) - Generates a structured Workable Spec JSON to guide a Developer Worker.
 - [legal:review-contract](legal-review-contract.md) - Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provi
 
 ## Invoke / install

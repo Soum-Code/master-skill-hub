@@ -31,9 +31,9 @@
 ## Related skills
 
 - [simplify](simplify.md) - Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality
+- [google-gemini/gemini-cli:code_explorer](google-gemini-gemini-cli-code-explorer.md) - Explores the repository to locate primary source files, coupled UI components, and test files for bug reports 
 - [bm:code-review-fix](bm-code-review-fix.md) - Auto-fix issues found by code review in REVIEW.md. Spawns fixer agent, commits each fix atomically, produces R
 - [vercel-labs/agent-browser:dogfood](vercel-labs-agent-browser-dogfood.md) - Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked 
-- [affaan-m/ECC:verification-loop](affaan-m-ecc-verification-loop.md) - Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, s
 
 ## Invoke / install
 

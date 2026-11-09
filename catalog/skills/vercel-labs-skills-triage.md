@@ -41,7 +41,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/skills:triage`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path .automations/triage/skills/triage --commit 92a9a34ac3bf88e695e468b90c7bf32f163d32c8 --expect-tree 2dc5c97171c4c43acc342a60a299143ffbcbf3cbb2d361c16801299e4b9fdee9 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path .automations/triage/skills/triage --commit d3701c11b1101251af14c9d148f026e1a47ebe17 --expect-tree 2dc5c97171c4c43acc342a60a299143ffbcbf3cbb2d361c16801299e4b9fdee9 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

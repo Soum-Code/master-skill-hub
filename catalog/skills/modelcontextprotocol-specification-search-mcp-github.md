@@ -53,7 +53,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/modelcontextprotocol/specification:search-mcp-github`
-- Install: `python skills/skill-vetter/scripts/install.py modelcontextprotocol/specification --path plugins/mcp-spec/skills/search-mcp-github --commit d0e246ea3c69eafaa2806bc4cd28025703ba2c2b --expect-tree 603135eb93ed658454d5a8d44a2dc26bae3f59d15809e15e4aa71ebc67a88760 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py modelcontextprotocol/specification --path plugins/mcp-spec/skills/search-mcp-github --commit 222640c8e771dd57f41e655d3c3eef6e5dec8b34 --expect-tree 603135eb93ed658454d5a8d44a2dc26bae3f59d15809e15e4aa71ebc67a88760 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

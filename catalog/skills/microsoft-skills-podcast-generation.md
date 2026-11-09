@@ -54,7 +54,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:podcast-generation`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/podcast-generation --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 8b6f7db7fb5a4b2943390c9beb44175e795b8e5c0ed066f4facbb71117db2e51 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/podcast-generation --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree 8b6f7db7fb5a4b2943390c9beb44175e795b8e5c0ed066f4facbb71117db2e51 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

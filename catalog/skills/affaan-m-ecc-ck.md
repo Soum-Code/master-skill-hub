@@ -49,6 +49,7 @@ The skill's own section headings, in order:
 
 - [affaan-m/ECC:unified-memory](affaan-m-ecc-unified-memory.md) - Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode, and other age
 - [affaan-m/ECC:agentic-os](affaan-m-ecc-agentic-os.md) - Build persistent multi-agent operating systems on Claude Code. Covers kernel architecture, specialist agents, 
+- [google-gemini/gemini-cli:memory](google-gemini-gemini-cli-memory.md) - Expertise in maintaining persistent bot memory, synchronizing with previous sessions via the Task Ledger, and 
 
 ## Invoke / install
 

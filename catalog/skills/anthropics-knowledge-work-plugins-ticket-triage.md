@@ -66,7 +66,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:ticket-triage`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/ticket-triage --commit 2574e29377c7173d0cecffef29a6ecbd7f8ccb5d --expect-tree afe6cac98d23a452de13536b8f745fe3f3464739b2e3844376642f13ac0ec9e0 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/ticket-triage --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree afe6cac98d23a452de13536b8f745fe3f3464739b2e3844376642f13ac0ec9e0 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

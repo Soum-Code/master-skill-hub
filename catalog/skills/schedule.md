@@ -27,6 +27,7 @@
 ## Related skills
 
 - [anthropic-skills:schedule](anthropic-skills-schedule.md) - Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "ea
+- [anthropics/claude-plugins-official:routines](anthropics-claude-plugins-official-routines.md) - Set up recurring champion routines as Claude Code scheduled tasks. Use when a champion wants work like a weekl
 - [bm:check-todos](bm-check-todos.md) - List pending todos and select one to work on
 
 ## Invoke / install

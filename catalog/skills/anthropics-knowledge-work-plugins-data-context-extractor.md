@@ -61,7 +61,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:data-context-extractor`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/data-context-extractor --commit 2574e29377c7173d0cecffef29a6ecbd7f8ccb5d --expect-tree 8f9a1b80d1ed85874e769b790338cf0afbea18ab8207780e5f84e706702dc70f --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/data-context-extractor --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 8f9a1b80d1ed85874e769b790338cf0afbea18ab8207780e5f84e706702dc70f --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -27,6 +27,7 @@
 ## Related skills
 
 - [taste-skill:redesign-skill](taste-skill-redesign-skill.md) - Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns,
+- [google-gemini/gemini-cli:code-reviewer](google-gemini-gemini-cli-code-reviewer.md) - Use this skill to review code. It supports both local changes (staged or working tree) and remote Pull Request
 - [bm:new-milestone](bm-new-milestone.md) - Start a new milestone cycle — update PROJECT.md and route to requirements
 
 ## Invoke / install

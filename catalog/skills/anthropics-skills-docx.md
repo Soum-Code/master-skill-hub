@@ -9,7 +9,7 @@
 | **Kind** | skill |
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [anthropics/skills](https://github.com/anthropics/skills) |
-| **License** | Proprietary. LICENSE.txt has complete terms |
+| **License** | Complete terms in LICENSE.txt |
 | **Size** | 92 lines in SKILL.md, 61 file(s) |
 
 ## When to use it
@@ -52,7 +52,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/skills:docx`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/docx --commit ca45fc496a3436251f191354091d557da31c15b5 --expect-tree 58130031b77f881105b11780d884d4147beae833c09a75531368eba155e5ea71 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/skills --path skills/docx --commit 2c5958ecac7cee2b583967a2c4981d0f4a75c579 --expect-tree 5d4d810e7bba3c6998519ffdcd563e538a92b81b5ed5eba6ef3c188d8c25c118 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -28,8 +28,8 @@
 
 - [anthropics/claude-plugins-official:playground](anthropics-claude-plugins-official-playground.md) - Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something
 - [anthropics/claude-code:claude-opus-4-5-migration](anthropics-claude-code-claude-opus-4-5-migration.md) - Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants 
+- [google-gemini/gemini-cli:async-pr-review](google-gemini-gemini-cli-async-pr-review.md) - Trigger this skill when the user wants to start an asynchronous PR review, run background checks on a PR, or c
 - [affaan-m/ECC:autonomous-agent-harness](affaan-m-ecc-autonomous-agent-harness.md) - Transform Claude Code into a fully autonomous agent system with persistent memory, scheduled operations, compu
-- [anthropics/claude-plugins-official:configure](anthropics-claude-plugins-official-configure.md) - Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord b
 
 ## Invoke / install
 

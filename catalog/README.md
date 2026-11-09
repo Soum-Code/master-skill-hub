@@ -1,31 +1,31 @@
 # Skill catalog
 
-697 skills across 20 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
+723 skills across 20 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
 
 ## Packs (industries and roles)
 
 | Pack | Skills | What it covers |
 |---|---|---|
-| [Software Development](packs/software-dev.md) | 120 | Writing, reviewing, debugging, testing and architecting code across languages. |
-| [Spec-driven Dev Workflow](packs/dev-workflow.md) | 85 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
-| [AI / ML Engineering](packs/ai-ml.md) | 70 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
-| [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 60 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
+| [Software Development](packs/software-dev.md) | 128 | Writing, reviewing, debugging, testing and architecting code across languages. |
+| [Spec-driven Dev Workflow](packs/dev-workflow.md) | 86 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
+| [AI / ML Engineering](packs/ai-ml.md) | 71 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
+| [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 64 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
 | [Web, Frontend & UI Design](packs/web-frontend-design.md) | 54 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
-| [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 49 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
-| [Documents, Writing & Content](packs/docs-content.md) | 34 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
-| [Data & Analytics](packs/data-analytics.md) | 24 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
+| [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 53 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
+| [Documents, Writing & Content](packs/docs-content.md) | 35 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
+| [Data & Analytics](packs/data-analytics.md) | 25 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
+| [Productivity & Automation](packs/productivity-automation.md) | 25 | Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows. |
 | [Browser & Web Automation](packs/browser-automation.md) | 23 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | [Operations & Business](packs/operations-business.md) | 23 | Process design, capacity planning, vendor management, status reports, change management. |
-| [Productivity & Automation](packs/productivity-automation.md) | 23 | Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows. |
-| [Communication & Collaboration](packs/communication-collab.md) | 21 | Slack, email, meetings, standups, internal comms, stakeholder updates, briefings. |
-| [Product Management](packs/product-mgmt.md) | 20 | PRDs, roadmaps, specs, sprint planning, stakeholder updates, user research synthesis. |
+| [Communication & Collaboration](packs/communication-collab.md) | 22 | Slack, email, meetings, standups, internal comms, stakeholder updates, briefings. |
+| [Product Management](packs/product-mgmt.md) | 21 | PRDs, roadmaps, specs, sprint planning, stakeholder updates, user research synthesis. |
 | [Legal & Compliance](packs/legal-compliance.md) | 17 | Contract review, NDAs, compliance checks, risk assessment, e-signature, privacy/DPA. |
 | [Security & Privacy](packs/security.md) | 17 | Security review, vulnerability analysis, secrets hygiene, threat modelling, safe skill vetting. |
 | [Careers, Jobs & Hiring](packs/careers-jobs.md) | 15 | Resumes, CVs, cover letters, LinkedIn, interview prep, portfolios, job search, networking. |
 | [Creative & Media](packs/creative-media.md) | 15 | Generative art, GIFs, imagery, themes, branding, video/audio helpers. |
 | [Finance & Accounting](packs/finance-accounting.md) | 14 | Journal entries, reconciliations, close, financial statements, audit support, SOX, variance analysis. |
 | [Research & Learning](packs/research-learning.md) | 11 | Deep research, literature review, brainstorming, explaining, study and teaching aids. |
-| [general](packs/general.md) | 2 |  |
+| [general](packs/general.md) | 4 |  |
 
 ## Multi-skill chains
 
@@ -53,8 +53,8 @@
 
 ## Pending review
 
-- [411 candidates](candidates.md) vetted and waiting for a human OK
-- [44 quarantined](quarantine.md) repos that failed vetting
+- [400 candidates](candidates.md) vetted and waiting for a human OK
+- [49 quarantined](quarantine.md) repos that failed vetting
 
 ## Everything, A to Z
 
@@ -402,12 +402,18 @@
 | [`anthropics/claude-plugins-official:configure`](skills/anthropics-claude-plugins-official-configure.md) | communication-collab | Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord bot token, asks to configure Discord, ask |
 | [`anthropics/claude-plugins-official:example-command`](skills/anthropics-claude-plugins-official-example-command.md) | web-frontend-design | An example user-invoked skill that demonstrates frontmatter options and the skills//SKILL.md layout |
 | [`anthropics/claude-plugins-official:example-skill`](skills/anthropics-claude-plugins-official-example-skill.md) | meta-tooling | This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill template", or discusses skill development p |
+| [`anthropics/claude-plugins-official:faq`](skills/anthropics-claude-plugins-official-faq.md) | general | Turn repeat questions into a pinned FAQ. Use when a champion keeps answering the same questions. |
+| [`anthropics/claude-plugins-official:hackathon`](skills/anthropics-claude-plugins-official-hackathon.md) | dev-workflow | Plan a hackathon, either from a team's real backlog or as open-ended creative play with Claude Code. Use when a champion wants to run a hack day or a  |
 | [`anthropics/claude-plugins-official:m5-onboard`](skills/anthropics-claude-plugins-official-m5-onboard.md) | meta-tooling | End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, Cardputer-Adv, Core, CoreS3, Stick) — detect on USB, flash UIFlow 2.0  |
 | [`anthropics/claude-plugins-official:math-olympiad`](skills/anthropics-claude-plugins-official-math-olympiad.md) | dev-workflow | Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates w |
+| [`anthropics/claude-plugins-official:maturity`](skills/anthropics-claude-plugins-official-maturity.md) | docs-content | Evaluate an organization's AI maturity on the steps of AI adoption and write a polished, shareable HTML report with evidence for each score. Use when  |
 | [`anthropics/claude-plugins-official:mcp-integration`](skills/anthropics-claude-plugins-official-mcp-integration.md) | meta-tooling | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context P |
+| [`anthropics/claude-plugins-official:office-hours`](skills/anthropics-claude-plugins-official-office-hours.md) | communication-collab | Set up and run Claude Code office hours, including the calendar event when the champion's own calendar connector allows it. Use when a champion wants  |
+| [`anthropics/claude-plugins-official:patterns`](skills/anthropics-claude-plugins-official-patterns.md) | software-dev | Find patterns worth sharing from recent PRs and repo history, both repeats to fix and good practices worth spreading. Use when a champion wants to kno |
 | [`anthropics/claude-plugins-official:playground`](skills/anthropics-claude-plugins-official-playground.md) | web-frontend-design | Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live p |
 | [`anthropics/claude-plugins-official:plugin-settings`](skills/anthropics-claude-plugins-official-plugin-settings.md) | meta-tooling | This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurable plugin", ".local.md files", "pl |
 | [`anthropics/claude-plugins-official:project-artifact`](skills/anthropics-claude-plugins-official-project-artifact.md) | dev-workflow | Generate and publish a project status artifact — an opinionated, tabbed status page for a project too big for one update (overview & success criteria, |
+| [`anthropics/claude-plugins-official:routines`](skills/anthropics-claude-plugins-official-routines.md) | productivity-automation | Set up recurring champion routines as Claude Code scheduled tasks. Use when a champion wants work like a weekly patterns digest, a stale guidance chec |
 | [`anthropics/claude-plugins-official:session-report`](skills/anthropics-claude-plugins-official-session-report.md) | data-analytics | Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcri |
 | [`anthropics/claude-plugins-official:siege`](skills/anthropics-claude-plugins-official-siege.md) | docs-content | Work on one hard mathematics problem in rounds: each round a judge writes a few self-contained questions, independent workers answer them, and the jud |
 | [`anthropics/claude-plugins-official:skill-development`](skills/anthropics-claude-plugins-official-skill-development.md) | meta-tooling | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organiz |
@@ -569,9 +575,29 @@
 | [`finance:variance-analysis`](skills/finance-variance-analysis.md) | data-analytics | Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-perio |
 | [`frontend-design:frontend-design`](skills/frontend-design-frontend-design.md) | web-frontend-design | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and |
 | [`frontend-slides`](skills/frontend-slides.md) | docs-content | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, co |
+| [`google-gemini/gemini-cli:async-pr-review`](skills/google-gemini-gemini-cli-async-pr-review.md) | software-dev | Trigger this skill when the user wants to start an asynchronous PR review, run background checks on a PR, or check the status of a previously started  |
+| [`google-gemini/gemini-cli:behavioral-evals`](skills/google-gemini-gemini-cli-behavioral-evals.md) | ai-ml | Guidance for creating, running, fixing, and promoting behavioral evaluations. Use when verifying agent decision logic, debugging failures, debugging p |
+| [`google-gemini/gemini-cli:ci`](skills/google-gemini-gemini-cli-ci.md) | mlops-devops | A specialized skill for Gemini CLI that provides high-performance, fail-fast monitoring of GitHub Actions workflows and automated local verification o |
+| [`google-gemini/gemini-cli:code-reviewer`](skills/google-gemini-gemini-cli-code-reviewer.md) | software-dev | Use this skill to review code. It supports both local changes (staged or working tree) and remote Pull Requests (by ID or URL). It focuses on correctn |
+| [`google-gemini/gemini-cli:code_explorer`](skills/google-gemini-gemini-cli-code-explorer.md) | software-dev | Explores the repository to locate primary source files, coupled UI components, and test files for bug reports or feature requests. |
+| [`google-gemini/gemini-cli:critique`](skills/google-gemini-gemini-cli-critique.md) | mlops-devops | Expertise in auditing and fixing repository scripts and GitHub Actions workflows to ensure technical robustness and security. |
+| [`google-gemini/gemini-cli:docs-changelog`](skills/google-gemini-gemini-cli-docs-changelog.md) | software-dev | Generates and formats changelog files for a new release based on provided version and raw changelog data. |
+| [`google-gemini/gemini-cli:effort`](skills/google-gemini-gemini-cli-effort.md) | general | Estimates the implementation effort required to address the given issue. |
+| [`google-gemini/gemini-cli:github-issue-creator`](skills/google-gemini-gemini-cli-github-issue-creator.md) | meta-tooling | Use this skill when asked to create a GitHub issue. It handles different issue types (bug, feature, etc.) using repository templates and ensures prope |
+| [`google-gemini/gemini-cli:memory`](skills/google-gemini-gemini-cli-memory.md) | productivity-automation | Expertise in maintaining persistent bot memory, synchronizing with previous sessions via the Task Ledger, and preserving decision logs. |
+| [`google-gemini/gemini-cli:metrics`](skills/google-gemini-gemini-cli-metrics.md) | data-analytics | Expertise in analyzing time-series repository health metrics, investigating root causes, and proposing proactive workflow improvements. |
+| [`google-gemini/gemini-cli:pirate-skill`](skills/google-gemini-gemini-cli-pirate-skill.md) | meta-tooling | Speak like a pirate. |
+| [`google-gemini/gemini-cli:pr-address-comments`](skills/google-gemini-gemini-cli-pr-address-comments.md) | mlops-devops | Use this skill if the user asks you to help them address GitHub PR comments for their current branch of the Gemini CLI. Requires `gh` CLI tool. |
+| [`google-gemini/gemini-cli:pr-creator`](skills/google-gemini-gemini-cli-pr-creator.md) | meta-tooling | Use this skill when asked to create a pull request (PR). It ensures all PRs follow the repository's established templates and standards. |
+| [`google-gemini/gemini-cli:prs`](skills/google-gemini-gemini-cli-prs.md) | mlops-devops | Expertise in managing the Git and GitHub Pull Request lifecycle, including staging changes, generating PR descriptions, and branch management. |
+| [`google-gemini/gemini-cli:review-duplication`](skills/google-gemini-gemini-cli-review-duplication.md) | software-dev | Use this skill during code reviews to proactively investigate the codebase for duplicated functionality, reinvented wheels, or failure to reuse existi |
+| [`google-gemini/gemini-cli:skill-creator`](skills/google-gemini-gemini-cli-skill-creator.md) | meta-tooling | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Gemini |
+| [`google-gemini/gemini-cli:spec_generator`](skills/google-gemini-gemini-cli-spec-generator.md) | product-mgmt | Generates a structured Workable Spec JSON to guide a Developer Worker. |
+| [`google-gemini/gemini-cli:string-reviewer`](skills/google-gemini-gemini-cli-string-reviewer.md) | software-dev | Use this skill when asked to review text and user-facing strings within the codebase. It ensures that these strings follow rules on clarity, usefulnes |
+| [`google-gemini/gemini-cli:tui-tester`](skills/google-gemini-gemini-cli-tui-tester.md) | software-dev | Expert guidance for testing Gemini CLI behavior and visual output using terminal automation. |
 | [`google-gemini/gemini-skills:gemini-api-dev`](skills/google-gemini-gemini-skills-gemini-api-dev.md) | software-dev | Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video gen |
 | [`google-gemini/gemini-skills:gemini-live-api-dev`](skills/google-gemini-gemini-skills-gemini-live-api-dev.md) | software-dev | Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) t |
-| [`google-gemini/gemini-skills:gemini-omni-flash-api`](skills/google-gemini-gemini-skills-gemini-omni-flash-api.md) | creative-media | Use this skill for generative video editing, text-to-video, image-referenced video generation, first-frame-to-video, first-and-last-frame transitions, |
+| [`google-gemini/gemini-skills:gemini-omni-flash-api`](skills/google-gemini-gemini-skills-gemini-omni-flash-api.md) | creative-media | Use this skill for generative video editing, text-to-video, image- and video-referenced video generation, first-frame-to-video, first-and-last-frame t |
 | [`huggingface/skills:hf-cloud-python-env-setup`](skills/huggingface-skills-hf-cloud-python-env-setup.md) | meta-tooling | Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code w |
 | [`huggingface/skills:hf-cloud-sagemaker-deployment-planner`](skills/huggingface-skills-hf-cloud-sagemaker-deployment-planner.md) | mlops-devops | Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model |
 | [`huggingface/skills:hf-cloud-sagemaker-iam-preflight`](skills/huggingface-skills-hf-cloud-sagemaker-iam-preflight.md) | mlops-devops | Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, tra |
@@ -617,7 +643,7 @@
 | [`microsoft/skills:aks-network-capture`](skills/microsoft-skills-aks-network-capture.md) | careers-jobs | Collects bounded packet captures from AKS nodes and Azure network configuration for wire-level evidence. WHEN: "capture packets on an AKS node", "take |
 | [`microsoft/skills:aks-troubleshooting`](skills/microsoft-skills-aks-troubleshooting.md) | mlops-devops | Debug live Azure Kubernetes Service (AKS) incidents with a read-only, evidence-first investigation. WHEN: pod crashes or Pending, CrashLoopBackOff, OO |
 | [`microsoft/skills:applicationinsights-web-ts`](skills/microsoft-skills-applicationinsights-web-ts.md) | browser-automation | Instrument browser/web apps with the Application Insights JavaScript SDK (@microsoft/applicationinsights-web). Use for Real User Monitoring (RUM) — pa |
-| [`microsoft/skills:azure-advisor`](skills/microsoft-skills-azure-advisor.md) | mlops-devops | Use Azure Advisor recommendations. WHEN: "show Advisor recommendations", "service retirements", "update recommendation status". DO NOT USE FOR: fixes  |
+| [`microsoft/skills:azure-advisor`](skills/microsoft-skills-azure-advisor.md) | mlops-devops | Use Azure Advisor. WHEN: "show recommendations", "top Advisor actions", "prioritize recommendations", "service retirements", "update status". DO NOT U |
 | [`microsoft/skills:azure-advisor-actionability`](skills/microsoft-skills-azure-advisor-actionability.md) | mlops-devops | Remediate Azure Advisor recommendations. WHEN: "fix Advisor recommendation". |
 | [`microsoft/skills:azure-ai-agents-persistent-dotnet`](skills/microsoft-skills-azure-ai-agents-persistent-dotnet.md) | ai-ml | Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messages, runs, and tools. Use for agent CRUD |
 | [`microsoft/skills:azure-ai-document-intelligence-dotnet`](skills/microsoft-skills-azure-ai-document-intelligence-dotnet.md) | ai-ml | Azure AI Document Intelligence SDK for .NET. Extract text, tables, and structured data from documents using prebuilt and custom models. Use for invoic |

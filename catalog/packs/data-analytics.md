@@ -2,7 +2,7 @@
 
 SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning.
 
-24 skill(s). Back to the [catalog](../README.md).
+25 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -28,5 +28,6 @@ SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning.
 | [`anthropics/knowledge-work-plugins:validate-data`](../skills/anthropics-knowledge-work-plugins-validate-data.md) | QA an analysis before sharing -- methodology, accuracy, and bias checks. Use when reviewing an analysis before a stakeholder presentation, spot-checking calculations and  | verified |
 | [`dataviz`](../skills/dataviz.md) | Create any chart, graph, plot, dashboard or data visualization in any medium (HTML/SVG artifact, matplotlib, plotly, d3). Read before choosing chart colors, stat tiles, K | installed |
 | [`finance:variance-analysis`](../skills/finance-variance-analysis.md) | Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue o | installed |
+| [`google-gemini/gemini-cli:metrics`](../skills/google-gemini-gemini-cli-metrics.md) | Expertise in analyzing time-series repository health metrics, investigating root causes, and proposing proactive workflow improvements. | verified |
 | [`microsoft/skills:cost-analysis`](../skills/microsoft-skills-cost-analysis.md) | Analyze actual Azure spend, bill changes, and AKS or AI costs. WHEN: "Azure cost breakdown", "most expensive resources", "why did my bill increase", "cost spike", "unexpe | verified |
 | [`product-management:metrics-review`](../skills/product-management-metrics-review.md) | Review and analyze product metrics with trend analysis and actionable insights. Use when running a weekly, monthly, or quarterly metrics review, investigating a sudden sp | installed |

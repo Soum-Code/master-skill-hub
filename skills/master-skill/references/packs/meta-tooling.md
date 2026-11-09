@@ -50,6 +50,10 @@
 - `cowork-plugin-management:create-cowork-plugin` - Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a plugin, build a plugin, make a new plugin, develop a plugin, scaffold a plugin, st
 - `example-skills:skill-creator` - Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to te
 - `fewer-permission-prompts` - Scan transcripts for common read-only Bash and MCP tool calls and add a prioritized allowlist to project settings to reduce permission prompts.
+- `google-gemini/gemini-cli:github-issue-creator` - Use this skill when asked to create a GitHub issue. It handles different issue types (bug, feature, etc.) using repository templates and ensures proper labeling.
+- `google-gemini/gemini-cli:pirate-skill` - Speak like a pirate.
+- `google-gemini/gemini-cli:pr-creator` - Use this skill when asked to create a pull request (PR). It ensures all PRs follow the repository's established templates and standards.
+- `google-gemini/gemini-cli:skill-creator` - Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Gemini CLI's capabilities with specialized kno
 - `huggingface/skills:hf-cloud-python-env-setup` - Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMaker deployme
 - `keybindings-help` - Customize keyboard shortcuts, rebind keys, add chord bindings or edit ~/.claude/keybindings.json.
 - `microsoft/skills:copilot-sdk` - Build applications powered by GitHub Copilot using the Copilot SDK. Use when creating programmatic integrations with Copilot across Node.js/TypeScript, Python, Go, or .NET. Covers session ma

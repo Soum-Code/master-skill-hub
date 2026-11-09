@@ -49,7 +49,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/claude-plugins-official:playground`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/playground/skills/playground --commit a7ba5b93db0c7c8d17f3f1d25853adca79598a1a --expect-tree 49962d281bbaf2a2cb3cfcd3355e3fe7f3cd2dbaeb89c9c17257d45a4eb39956 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/playground/skills/playground --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 49962d281bbaf2a2cb3cfcd3355e3fe7f3cd2dbaeb89c9c17257d45a4eb39956 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

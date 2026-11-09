@@ -71,7 +71,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:kql`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/kql --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 1b93389afd040464a7f92dd9b3bf215e3ed29ec935d54089a89f79a1c16387e3 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/kql --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree 1b93389afd040464a7f92dd9b3bf215e3ed29ec935d54089a89f79a1c16387e3 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

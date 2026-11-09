@@ -51,7 +51,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:write-query`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/write-query --commit 2574e29377c7173d0cecffef29a6ecbd7f8ccb5d --expect-tree 0ddd724589426802f63e224357d7360c2ff231bef7de6ce76baaff22800fa100 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/write-query --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 0ddd724589426802f63e224357d7360c2ff231bef7de6ce76baaff22800fa100 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -67,15 +67,15 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [google-gemini/gemini-cli:skill-creator](google-gemini-gemini-cli-skill-creator.md) - Guide for creating effective skills. This skill should be used when users want to create a new skill (or updat
 - [microsoft/skills:continual-learning](microsoft-skills-continual-learning.md) - Guide for implementing continual learning in AI coding agents — hooks, memory scoping, reflection patterns. Us
 - [microsoft/skills:azure-ai-projects-dotnet](microsoft-skills-azure-ai-projects-dotnet.md) - Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections,
 - [microsoft/skills:azure-ai-agents-persistent-dotnet](microsoft-skills-azure-ai-agents-persistent-dotnet.md) - Azure AI Agents Persistent SDK for .NET. Low-level SDK for creating and managing AI agents with threads, messa
-- [affaan-m/ECC:openclaw-persona-forge](affaan-m-ecc-openclaw-persona-forge.md) - 为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生
 
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:skill-creator`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/skill-creator --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree e3700edf63750aa55864b37a371ed8283f0efbfc295f7d25b3662c1b0a6b2685 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/skills/skill-creator --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree e3700edf63750aa55864b37a371ed8283f0efbfc295f7d25b3662c1b0a6b2685 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

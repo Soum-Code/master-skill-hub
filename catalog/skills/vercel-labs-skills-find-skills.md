@@ -47,15 +47,15 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [google-gemini/gemini-cli:skill-creator](google-gemini-gemini-cli-skill-creator.md) - Guide for creating effective skills. This skill should be used when users want to create a new skill (or updat
 - [affaan-m/ECC:ecc-guide](affaan-m-ecc-ecc-guide.md) - Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install 
 - [affaan-m/ECC:skill-scout](affaan-m-ecc-skill-scout.md) - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the us
 - [anthropics/claude-plugins-official:example-skill](anthropics-claude-plugins-official-example-skill.md) - This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill tem
-- [anthropics/claude-code:Writing Hookify Rules](anthropics-claude-code-writing-hookify-rules.md) - This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hooki
 
 ## Invoke / install
 
 - Invoke: `/vercel-labs/skills:find-skills`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path skills/find-skills --commit 92a9a34ac3bf88e695e468b90c7bf32f163d32c8 --expect-tree 3345a412fa273126511a93c88265e62d62e2a21e808b99e83333cac20a96df79 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/skills --path skills/find-skills --commit d3701c11b1101251af14c9d148f026e1a47ebe17 --expect-tree 3345a412fa273126511a93c88265e62d62e2a21e808b99e83333cac20a96df79 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

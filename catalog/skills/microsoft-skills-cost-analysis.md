@@ -48,7 +48,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:cost-analysis`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-cost/skills/cost-analysis --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree a56f94887450703c90be65b31603c63330dba08eceec09b08aaac96ce4a87ff7 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-cost/skills/cost-analysis --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree a56f94887450703c90be65b31603c63330dba08eceec09b08aaac96ce4a87ff7 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

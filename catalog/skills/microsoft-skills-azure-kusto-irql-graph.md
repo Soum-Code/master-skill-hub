@@ -67,7 +67,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:azure-kusto-irql-graph`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql-graph --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 13231492aa34644a15c7e5e4c96235b476c99078179df26da23992c59b9222bf --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-kusto-graph-skills/skills/azure-kusto-irql-graph --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree 13231492aa34644a15c7e5e4c96235b476c99078179df26da23992c59b9222bf --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

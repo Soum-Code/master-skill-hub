@@ -71,7 +71,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/skills:azure-ai-openai-dotnet`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-sdk-dotnet/skills/azure-ai-openai-dotnet --commit 3f5b461b2314e01c400564051e92469114c5b68f --expect-tree 2032bca0c465bb8d3e27cdb2977158df0834bc04889fbeb5a43c87d337058ca0 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/skills --path .github/plugins/azure-sdk-dotnet/skills/azure-ai-openai-dotnet --commit 0696600436a9669184ce47e8d8b2ceac62e4bfac --expect-tree 2032bca0c465bb8d3e27cdb2977158df0834bc04889fbeb5a43c87d337058ca0 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

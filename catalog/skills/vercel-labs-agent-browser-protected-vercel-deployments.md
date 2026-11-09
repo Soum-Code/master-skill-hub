@@ -47,7 +47,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:protected-vercel-deployments`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/protected-vercel-deployments --commit 5868f7c05020e047c00e68e4abf9253cce864f41 --expect-tree 9e7e144a11eaf0fb4829bb18387ddeb7b1103a2933419d21ec172eb84b29920a --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/protected-vercel-deployments --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree 92495dd7f10b3c40a4a40f8b9c8329af61a47fd8144edf481912a9f2b041ab34 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

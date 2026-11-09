@@ -32,8 +32,8 @@
 
 - [init](init.md) - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.
 - [bm:new-milestone](bm-new-milestone.md) - Start a new milestone cycle — update PROJECT.md and route to requirements
+- [google-gemini/gemini-cli:docs-changelog](google-gemini-gemini-cli-docs-changelog.md) - Generates and formats changelog files for a new release based on provided version and raw changelog data.
 - [bm:milestone-summary](bm-milestone-summary.md) - Generate a comprehensive project summary from milestone artifacts for team onboarding and review
-- [affaan-m/ECC:codebase-onboarding](affaan-m-ecc-codebase-onboarding.md) - Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry poi
 
 ## Invoke / install
 

@@ -8,6 +8,7 @@
 - `affaan-m/ECC:team-builder` - Interactive picker that discovers available agent personas via the claude agents command and agents/ markdown globs, groups them into domains, has the user select up to five, dispatches them
 - `anthropics/claude-plugins-official:access` - Manage Discord channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's allowed, or change policy for the Discord
 - `anthropics/claude-plugins-official:configure` - Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord bot token, asks to configure Discord, asks "how do I set this up" or "who can rea
+- `anthropics/claude-plugins-official:office-hours` - Set up and run Claude Code office hours, including the calendar event when the champion's own calendar connector allows it. Use when a champion wants a regular time for teammates to bring pr
 - `anthropics/knowledge-work-plugins:ticket-triage` - Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking
 - `bm:inbox` - Triage and review all open GitHub issues and PRs against project templates and contribution guidelines
 - `bm:join-discord` - Join the GSD Discord community

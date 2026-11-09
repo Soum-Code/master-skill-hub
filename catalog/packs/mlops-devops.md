@@ -2,7 +2,7 @@
 
 CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management.
 
-49 skill(s). Back to the [catalog](../README.md).
+53 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -23,10 +23,14 @@ CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release m
 | [`bm:ship`](../skills/bm-ship.md) | Create PR, run review, and prepare for merge after verification passes | installed |
 | [`engineering:deploy-checklist`](../skills/engineering-deploy-checklist.md) | Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migrations or feature flags, verifying CI status and approvals b | installed |
 | [`engineering:incident-response`](../skills/engineering-incident-response.md) | Run an incident response workflow — triage, communicate, and write postmortem. Trigger with "we have an incident", "production is down", an alert that needs severity asse | installed |
+| [`google-gemini/gemini-cli:ci`](../skills/google-gemini-gemini-cli-ci.md) | A specialized skill for Gemini CLI that provides high-performance, fail-fast monitoring of GitHub Actions workflows and automated local verification of CI failures. It ha | verified |
+| [`google-gemini/gemini-cli:critique`](../skills/google-gemini-gemini-cli-critique.md) | Expertise in auditing and fixing repository scripts and GitHub Actions workflows to ensure technical robustness and security. | verified |
+| [`google-gemini/gemini-cli:pr-address-comments`](../skills/google-gemini-gemini-cli-pr-address-comments.md) | Use this skill if the user asks you to help them address GitHub PR comments for their current branch of the Gemini CLI. Requires `gh` CLI tool. | verified |
+| [`google-gemini/gemini-cli:prs`](../skills/google-gemini-gemini-cli-prs.md) | Expertise in managing the Git and GitHub Pull Request lifecycle, including staging changes, generating PR descriptions, and branch management. | verified |
 | [`huggingface/skills:hf-cloud-sagemaker-deployment-planner`](../skills/huggingface-skills-hf-cloud-sagemaker-deployment-planner.md) | Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS | verified |
 | [`huggingface/skills:hf-cloud-sagemaker-iam-preflight`](../skills/huggingface-skills-hf-cloud-sagemaker-iam-preflight.md) | Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any re | verified |
 | [`microsoft/skills:aks-troubleshooting`](../skills/microsoft-skills-aks-troubleshooting.md) | Debug live Azure Kubernetes Service (AKS) incidents with a read-only, evidence-first investigation. WHEN: pod crashes or Pending, CrashLoopBackOff, OOMKilled, ImagePullBa | verified |
-| [`microsoft/skills:azure-advisor`](../skills/microsoft-skills-azure-advisor.md) | Use Azure Advisor recommendations. WHEN: "show Advisor recommendations", "service retirements", "update recommendation status". DO NOT USE FOR: fixes or remediation (use  | verified |
+| [`microsoft/skills:azure-advisor`](../skills/microsoft-skills-azure-advisor.md) | Use Azure Advisor. WHEN: "show recommendations", "top Advisor actions", "prioritize recommendations", "service retirements", "update status". DO NOT USE FOR: fixes (use a | verified |
 | [`microsoft/skills:azure-advisor-actionability`](../skills/microsoft-skills-azure-advisor-actionability.md) | Remediate Azure Advisor recommendations. WHEN: "fix Advisor recommendation". | verified |
 | [`microsoft/skills:azure-ai-voicelive-dotnet`](../skills/microsoft-skills-azure-ai-voicelive-dotnet.md) | Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time | verified |
 | [`microsoft/skills:azure-eventgrid-dotnet`](../skills/microsoft-skills-azure-eventgrid-dotnet.md) | Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvent | verified |

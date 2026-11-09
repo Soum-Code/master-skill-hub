@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [modelcontextprotocol/specification](https://github.com/modelcontextprotocol/specification) |
 | **License** | not declared |
-| **Size** | 165 lines in SKILL.md, 1 file(s) |
+| **Size** | 175 lines in SKILL.md, 1 file(s) |
 
 ## When to use it
 
@@ -44,7 +44,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/modelcontextprotocol/specification:draft-sep`
-- Install: `python skills/skill-vetter/scripts/install.py modelcontextprotocol/specification --path plugins/mcp-spec/skills/draft-sep --commit d0e246ea3c69eafaa2806bc4cd28025703ba2c2b --expect-tree 04d3efa4c47f9ca5474bd3c625f6ccffe313bbbef82e9dce28a31c6e5cdf0580 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py modelcontextprotocol/specification --path plugins/mcp-spec/skills/draft-sep --commit 222640c8e771dd57f41e655d3c3eef6e5dec8b34 --expect-tree fc880e60485f020cbc5e3f74ab3b1c0036abf337aee97009313f33720bc00d99 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

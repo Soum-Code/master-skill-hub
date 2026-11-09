@@ -42,7 +42,7 @@ The skill's own section headings, in order:
 - [anthropics/claude-plugins-official:claude-security](anthropics-claude-plugins-official-claude-security.md) - Claude Security: scan the codebase (the whole repository or a scoped part of it), scan changes (this branch's 
 - [affaan-m/ECC:security-scan](affaan-m-ecc-security-scan.md) - Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and 
 - [affaan-m/ECC:repo-scan](affaan-m-ecc-repo-scan.md) - Bootstrap pointer that installs the external repo-scan skill from a pinned, reviewable commit. Use when repo-s
-- [affaan-m/ECC:skill-stocktake](affaan-m-ecc-skill-stocktake.md) - Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full S
+- [google-gemini/gemini-cli:code_explorer](google-gemini-gemini-cli-code-explorer.md) - Explores the repository to locate primary source files, coupled UI components, and test files for bug reports 
 
 ## Invoke / install
 

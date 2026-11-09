@@ -58,6 +58,10 @@ The skill's own section headings, in order:
 - Declares no pre-approved tools; Claude asks as usual.
 - Ships executable scripts. Review them before trusting the skill outside its trusted source.
 
+## Related skills
+
+- [google-gemini/gemini-cli:skill-creator](google-gemini-gemini-cli-skill-creator.md) - Guide for creating effective skills. This skill should be used when users want to create a new skill (or updat
+
 ## Invoke / install
 
 - Invoke: `/example-skills:slack-gif-creator`  (Skill tool: `example-skills:slack-gif-creator`)

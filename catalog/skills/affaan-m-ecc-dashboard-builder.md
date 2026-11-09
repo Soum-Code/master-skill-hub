@@ -48,6 +48,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [anthropics/claude-plugins-official:faq](anthropics-claude-plugins-official-faq.md) - Turn repeat questions into a pinned FAQ. Use when a champion keeps answering the same questions.
 - [anthropics/knowledge-work-plugins:build-dashboard](anthropics-knowledge-work-plugins-build-dashboard.md) - Build an interactive HTML dashboard with charts, filters, and tables. Use when creating an executive overview 
 
 ## Invoke / install

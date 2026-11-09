@@ -82,6 +82,7 @@
 - `affaan-m/ECC:typescript-patterns` - TypeScript patterns for strict, type-safe, maintainable code in modern TypeScript and JavaScript applications. Covers strict compiler configuration, type design, narrowing, discriminated uni
 - `affaan-m/ECC:vue-patterns` - Vue.js 3 Composition API patterns, component architecture, reactivity best practices, Pinia state management, Vue Router navigation, and Nuxt SSR patterns. Activates for Vue, Nuxt, Vite, or 
 - `anthropic-skills:vibe-coding` - Guides Claude when a person wants to build an app, tool, or prototype by describing it in plain language and letting AI write the code ("vibe coding"). Use this whenever the user mentions vi
+- `anthropics/claude-plugins-official:patterns` - Find patterns worth sharing from recent PRs and repo history, both repeats to fix and good practices worth spreading. Use when a champion wants to know what the team should reuse or learn fr
 - `anthropics/knowledge-work-plugins:design-system` - Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's variants, states, a
 - `bm:add-tests` - Generate tests for a completed phase based on UAT criteria and implementation
 - `bm:code-review` - Review source files changed during a phase for bugs, security issues, and code quality problems
@@ -101,6 +102,13 @@
 - `engineering:tech-debt` - Identify, categorize, and prioritize technical debt. Trigger with "tech debt", "technical debt audit", "what should we refactor", "code health", or when the user asks about code quality, ref
 - `engineering:testing-strategy` - Design test strategies and test plans. Trigger with "how should we test", "test strategy for", "write tests for", "test plan", "what tests do we need", or when the user needs help with testi
 - `example-skills:doc-coauthoring` - Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content
+- `google-gemini/gemini-cli:async-pr-review` - Trigger this skill when the user wants to start an asynchronous PR review, run background checks on a PR, or check the status of a previously started async PR review.
+- `google-gemini/gemini-cli:code-reviewer` - Use this skill to review code. It supports both local changes (staged or working tree) and remote Pull Requests (by ID or URL). It focuses on correctness, maintainability, and adherence to p
+- `google-gemini/gemini-cli:code_explorer` - Explores the repository to locate primary source files, coupled UI components, and test files for bug reports or feature requests.
+- `google-gemini/gemini-cli:docs-changelog` - Generates and formats changelog files for a new release based on provided version and raw changelog data.
+- `google-gemini/gemini-cli:review-duplication` - Use this skill during code reviews to proactively investigate the codebase for duplicated functionality, reinvented wheels, or failure to reuse existing project best practices and shared uti
+- `google-gemini/gemini-cli:string-reviewer` - Use this skill when asked to review text and user-facing strings within the codebase. It ensures that these strings follow rules on clarity, usefulness, brevity and style.
+- `google-gemini/gemini-cli:tui-tester` - Expert guidance for testing Gemini CLI behavior and visual output using terminal automation.
 - `google-gemini/gemini-skills:gemini-api-dev` - Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech generation (TTS), voice 
 - `google-gemini/gemini-skills:gemini-live-api-dev` - Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) to Gemini 3.8 Live. Covers WebSocket-base
 - `init` - Initialize a project with a CLAUDE.md that documents the codebase for future sessions.

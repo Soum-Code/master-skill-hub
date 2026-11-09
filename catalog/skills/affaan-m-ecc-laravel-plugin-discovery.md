@@ -60,9 +60,9 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [claude-code-setup:claude-automation-recommender](claude-code-setup-claude-automation-recommender.md) - Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use
+- [google-gemini/gemini-cli:async-pr-review](google-gemini-gemini-cli-async-pr-review.md) - Trigger this skill when the user wants to start an asynchronous PR review, run background checks on a PR, or c
 - [affaan-m/ECC:fal-ai-media](affaan-m-ecc-fal-ai-media.md) - Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/im
 - [anthropics/knowledge-work-plugins:start](anthropics-knowledge-work-plugins-start.md) - Set up your bio-research environment and explore available tools. Use when first getting oriented with the plu
-- [affaan-m/ECC:skill-scout](affaan-m-ecc-skill-scout.md) - Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. Use when the us
 
 ## Invoke / install
 

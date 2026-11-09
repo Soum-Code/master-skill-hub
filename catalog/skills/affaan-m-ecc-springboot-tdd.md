@@ -49,7 +49,7 @@ The skill's own section headings, in order:
 - [affaan-m/ECC:quarkus-tdd](affaan-m-ecc-quarkus-tdd.md) - Test-driven development for Quarkus 3.x LTS using JUnit 5, Mockito, REST Assured, Camel testing, and JaCoCo. U
 - [affaan-m/ECC:springboot-verification](affaan-m-ecc-springboot-verification.md) - Run the full Spring Boot verification loop — Maven or Gradle build, SpotBugs, PMD, and Checkstyle static analy
 - [affaan-m/ECC:cpp-testing](affaan-m-ecc-cpp-testing.md) - Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tes
-- [affaan-m/ECC:laravel-tdd](affaan-m-ecc-laravel-tdd.md) - Laravel testing strategies with PHPUnit, Pest, model factories, HTTP tests, Sanctum authentication testing, mo
+- [google-gemini/gemini-cli:code_explorer](google-gemini-gemini-cli-code-explorer.md) - Explores the repository to locate primary source files, coupled UI components, and test files for bug reports 
 
 ## Invoke / install
 

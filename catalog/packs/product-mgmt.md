@@ -2,7 +2,7 @@
 
 PRDs, roadmaps, specs, sprint planning, stakeholder updates, user research synthesis.
 
-20 skill(s). Back to the [catalog](../README.md).
+21 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -19,6 +19,7 @@ PRDs, roadmaps, specs, sprint planning, stakeholder updates, user research synth
 | [`anthropics/knowledge-work-plugins:research-synthesis`](../skills/anthropics-knowledge-work-plugins-research-synthesis.md) | Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, support tickets, or NP | verified |
 | [`anthropics/knowledge-work-plugins:scientific-problem-selection`](../skills/anthropics-knowledge-work-plugins-scientific-problem-selection.md) | This skill should be used when scientists need help with research problem selection, project ideation, troubleshooting stuck projects, or strategic scientific decisions.  | verified |
 | [`anthropics/knowledge-work-plugins:user-research`](../skills/anthropics-knowledge-work-plugins-user-research.md) | Plan, conduct, and synthesize user research. Trigger with "user research plan", "interview guide", "usability test", "survey design", "research questions", or when the us | verified |
+| [`google-gemini/gemini-cli:spec_generator`](../skills/google-gemini-gemini-cli-spec-generator.md) | Generates a structured Workable Spec JSON to guide a Developer Worker. | verified |
 | [`openai/skills:notion-research-documentation`](../skills/openai-skills-notion-research-documentation.md) | Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with  | verified |
 | [`openai/skills:notion-spec-to-implementation`](../skills/openai-skills-notion-spec-to-implementation.md) | Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them. | verified |
 | [`product-management:brainstorm`](../skills/product-management-brainstorm.md) | Brainstorm a product idea, problem space, or strategic question with a sharp thinking partner | installed |

@@ -2,7 +2,7 @@
 
 Writing, reviewing, debugging, testing and architecting code across languages.
 
-120 skill(s). Back to the [catalog](../README.md).
+128 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -88,6 +88,7 @@ Writing, reviewing, debugging, testing and architecting code across languages.
 | [`affaan-m/ECC:typescript-patterns`](../skills/affaan-m-ecc-typescript-patterns.md) | TypeScript patterns for strict, type-safe, maintainable code in modern TypeScript and JavaScript applications. Covers strict compiler configuration, type design, narrowin | verified |
 | [`affaan-m/ECC:vue-patterns`](../skills/affaan-m-ecc-vue-patterns.md) | Vue.js 3 Composition API patterns, component architecture, reactivity best practices, Pinia state management, Vue Router navigation, and Nuxt SSR patterns. Activates for  | verified |
 | [`anthropic-skills:vibe-coding`](../skills/anthropic-skills-vibe-coding.md) | Guides Claude when a person wants to build an app, tool, or prototype by describing it in plain language and letting AI write the code ("vibe coding"). Use this whenever  | installed |
+| [`anthropics/claude-plugins-official:patterns`](../skills/anthropics-claude-plugins-official-patterns.md) | Find patterns worth sharing from recent PRs and repo history, both repeats to fix and good practices worth spreading. Use when a champion wants to know what the team shou | verified |
 | [`anthropics/knowledge-work-plugins:design-system`](../skills/anthropics-knowledge-work-plugins-design-system.md) | Audit, document, or extend your design system. Use when checking for naming inconsistencies or hardcoded values across components, writing documentation for a component's | verified |
 | [`bm:add-tests`](../skills/bm-add-tests.md) | Generate tests for a completed phase based on UAT criteria and implementation | installed |
 | [`bm:code-review`](../skills/bm-code-review.md) | Review source files changed during a phase for bugs, security issues, and code quality problems | installed |
@@ -107,6 +108,13 @@ Writing, reviewing, debugging, testing and architecting code across languages.
 | [`engineering:tech-debt`](../skills/engineering-tech-debt.md) | Identify, categorize, and prioritize technical debt. Trigger with "tech debt", "technical debt audit", "what should we refactor", "code health", or when the user asks abo | installed |
 | [`engineering:testing-strategy`](../skills/engineering-testing-strategy.md) | Design test strategies and test plans. Trigger with "how should we test", "test strategy for", "write tests for", "test plan", "what tests do we need", or when the user n | installed |
 | [`example-skills:doc-coauthoring`](../skills/example-skills-doc-coauthoring.md) | Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or simila | installed |
+| [`google-gemini/gemini-cli:async-pr-review`](../skills/google-gemini-gemini-cli-async-pr-review.md) | Trigger this skill when the user wants to start an asynchronous PR review, run background checks on a PR, or check the status of a previously started async PR review. | verified |
+| [`google-gemini/gemini-cli:code-reviewer`](../skills/google-gemini-gemini-cli-code-reviewer.md) | Use this skill to review code. It supports both local changes (staged or working tree) and remote Pull Requests (by ID or URL). It focuses on correctness, maintainability | verified |
+| [`google-gemini/gemini-cli:code_explorer`](../skills/google-gemini-gemini-cli-code-explorer.md) | Explores the repository to locate primary source files, coupled UI components, and test files for bug reports or feature requests. | verified |
+| [`google-gemini/gemini-cli:docs-changelog`](../skills/google-gemini-gemini-cli-docs-changelog.md) | Generates and formats changelog files for a new release based on provided version and raw changelog data. | verified |
+| [`google-gemini/gemini-cli:review-duplication`](../skills/google-gemini-gemini-cli-review-duplication.md) | Use this skill during code reviews to proactively investigate the codebase for duplicated functionality, reinvented wheels, or failure to reuse existing project best prac | verified |
+| [`google-gemini/gemini-cli:string-reviewer`](../skills/google-gemini-gemini-cli-string-reviewer.md) | Use this skill when asked to review text and user-facing strings within the codebase. It ensures that these strings follow rules on clarity, usefulness, brevity and style | verified |
+| [`google-gemini/gemini-cli:tui-tester`](../skills/google-gemini-gemini-cli-tui-tester.md) | Expert guidance for testing Gemini CLI behavior and visual output using terminal automation. | verified |
 | [`google-gemini/gemini-skills:gemini-api-dev`](../skills/google-gemini-gemini-skills-gemini-api-dev.md) | Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, video generation, speech gene | verified |
 | [`google-gemini/gemini-skills:gemini-live-api-dev`](../skills/google-gemini-gemini-skills-gemini-live-api-dev.md) | Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API, or migrating legacy Live models (2.0/2.5/3.1) to Gemini 3.8 Live. C | verified |
 | [`init`](../skills/init.md) | Initialize a project with a CLAUDE.md that documents the codebase for future sessions. | installed |

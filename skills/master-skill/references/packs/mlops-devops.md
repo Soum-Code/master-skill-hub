@@ -17,10 +17,14 @@
 - `bm:ship` - Create PR, run review, and prepare for merge after verification passes
 - `engineering:deploy-checklist` - Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migrations or feature flags, verifying CI status and approvals before going to produ
 - `engineering:incident-response` - Run an incident response workflow — triage, communicate, and write postmortem. Trigger with "we have an incident", "production is down", an alert that needs severity assessment, a status upd
+- `google-gemini/gemini-cli:ci` - A specialized skill for Gemini CLI that provides high-performance, fail-fast monitoring of GitHub Actions workflows and automated local verification of CI failures. It handles run discovery 
+- `google-gemini/gemini-cli:critique` - Expertise in auditing and fixing repository scripts and GitHub Actions workflows to ensure technical robustness and security.
+- `google-gemini/gemini-cli:pr-address-comments` - Use this skill if the user asks you to help them address GitHub PR comments for their current branch of the Gemini CLI. Requires `gh` CLI tool.
+- `google-gemini/gemini-cli:prs` - Expertise in managing the Git and GitHub Pull Request lifecycle, including staging changes, generating PR descriptions, and branch management.
 - `huggingface/skills:hf-cloud-sagemaker-deployment-planner` - Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS — including phrases
 - `huggingface/skills:hf-cloud-sagemaker-iam-preflight` - Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any resource that requires
 - `microsoft/skills:aks-troubleshooting` - Debug live Azure Kubernetes Service (AKS) incidents with a read-only, evidence-first investigation. WHEN: pod crashes or Pending, CrashLoopBackOff, OOMKilled, ImagePullBackOff, node NotReady
-- `microsoft/skills:azure-advisor` - Use Azure Advisor recommendations. WHEN: "show Advisor recommendations", "service retirements", "update recommendation status". DO NOT USE FOR: fixes or remediation (use azure-advisor-action
+- `microsoft/skills:azure-advisor` - Use Azure Advisor. WHEN: "show recommendations", "top Advisor actions", "prioritize recommendations", "service retirements", "update status". DO NOT USE FOR: fixes (use azure-advisor-actiona
 - `microsoft/skills:azure-advisor-actionability` - Remediate Azure Advisor recommendations. WHEN: "fix Advisor recommendation".
 - `microsoft/skills:azure-ai-voicelive-dotnet` - Azure AI Voice Live SDK for .NET. Build real-time voice AI applications with bidirectional WebSocket communication. Use for voice assistants, conversational AI, real-time speech-to-speech, a
 - `microsoft/skills:azure-eventgrid-dotnet` - Azure Event Grid SDK for .NET. Client library for publishing and consuming events with Azure Event Grid. Use for event-driven architectures, pub/sub messaging, CloudEvents, and EventGridEven

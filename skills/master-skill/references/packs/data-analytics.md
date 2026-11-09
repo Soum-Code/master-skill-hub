@@ -22,5 +22,6 @@
 - `anthropics/knowledge-work-plugins:validate-data` - QA an analysis before sharing -- methodology, accuracy, and bias checks. Use when reviewing an analysis before a stakeholder presentation, spot-checking calculations and aggregation logic, v
 - `dataviz` - Create any chart, graph, plot, dashboard or data visualization in any medium (HTML/SVG artifact, matplotlib, plotly, d3). Read before choosing chart colors, stat tiles, KPI rows or dashboard
 - `finance:variance-analysis` - Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances,
+- `google-gemini/gemini-cli:metrics` - Expertise in analyzing time-series repository health metrics, investigating root causes, and proposing proactive workflow improvements.
 - `microsoft/skills:cost-analysis` - Analyze actual Azure spend, bill changes, and AKS or AI costs. WHEN: "Azure cost breakdown", "most expensive resources", "why did my bill increase", "cost spike", "unexpected charge", "Cosmo
 - `product-management:metrics-review` - Review and analyze product metrics with trend analysis and actionable insights. Use when running a weekly, monthly, or quarterly metrics review, investigating a sudden spike or drop, compari

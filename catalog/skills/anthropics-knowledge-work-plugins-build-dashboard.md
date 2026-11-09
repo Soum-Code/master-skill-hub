@@ -72,7 +72,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:build-dashboard`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/build-dashboard --commit 2574e29377c7173d0cecffef29a6ecbd7f8ccb5d --expect-tree fd4aaecbe9d07d89f1f91530a11e23c3a00afe921eff2b5a3a1702d0e0135487 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/build-dashboard --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree fd4aaecbe9d07d89f1f91530a11e23c3a00afe921eff2b5a3a1702d0e0135487 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -69,7 +69,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/microsoft/playwright-cli:playwright-cli`
-- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path skills/playwright-cli --commit c2d8d199459d1480491bebf0a6b3587136b673fa --expect-tree 858e02d5b95887f6e701c7c697179540521e91314848497f47429820f56601e1 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py microsoft/playwright-cli --path skills/playwright-cli --commit 4bc00fb7fa5b4329f2fb53ac4743a066c2c664e8 --expect-tree 2f47a4156909b8d734978b77cdc5998a68a02c801df5ae0e9a1d172d1e32957f --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._
