@@ -38,6 +38,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [obra/superpowers:systematic-debugging](obra-superpowers-systematic-debugging.md) - Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+
 ## Invoke / install
 
 - Invoke: `/vercel-labs/skills:triage`

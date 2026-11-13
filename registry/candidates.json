@@ -345,30 +345,6 @@
       "why": "owner not on trusted list; vet verdict REVIEW"
     },
     {
-      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
-      "desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
-      "first_seen": "2026-10-24",
-      "id": "obra/superpowers:systematic-debugging",
-      "license": "MIT",
-      "llm": null,
-      "name": "systematic-debugging",
-      "novelty": 0.893,
-      "pack": "software-dev",
-      "path": "skills/systematic-debugging",
-      "rank": 121.9,
-      "repo": "obra/superpowers",
-      "sources": [
-        "watchlist"
-      ],
-      "stars": 314810,
-      "tree_sha256": "9e1fdd5b6a5591d964a1ded4e69511cdd6925f1746647b0da82d825defb087ad",
-      "url": "https://github.com/obra/superpowers/tree/22f0b463e7a5e579904dd6211a520321035526f7/skills/systematic-debugging",
-      "velocity": 10529,
-      "verdict": "pass",
-      "vet_score": 96,
-      "why": "owner not on trusted list"
-    },
-    {
       "commit": "a6ea4024767df85ce4f99140d4f12ecfc5a81eb6",
       "desc": "Analyze a Karpathy-pattern LLM wiki knowledge base and generate an interactive knowledge graph with entity extraction, implicit relationships, and topic clustering.",
       "first_seen": "2026-11-09",
@@ -607,31 +583,6 @@
       "velocity": 2308,
       "verdict": "pass",
       "vet_score": 98,
-      "why": "owner not on trusted list"
-    },
-    {
-      "commit": "11b0d6031853bdae89eed57e7979aabbf0034097",
-      "desc": "Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of dead code, duplicate state, redundant APIs or layers, ownerless abstractions, obsolete compatibility or design records, and over-",
-      "first_seen": "2026-10-24",
-      "id": "tt-a1i/archify:simplify-codebase",
-      "license": "Apache-2.0",
-      "llm": null,
-      "name": "simplify-codebase",
-      "novelty": 0.897,
-      "pack": "software-dev",
-      "path": ".agents/skills/simplify-codebase",
-      "rank": 120.67,
-      "repo": "tt-a1i/archify",
-      "sources": [
-        "dev.to",
-        "github-search"
-      ],
-      "stars": 94912,
-      "tree_sha256": "6d885603c692ffc70533adb505fc2426158f8a9dd8c3f70980fc47b48de73e3b",
-      "url": "https://github.com/tt-a1i/archify/tree/11b0d6031853bdae89eed57e7979aabbf0034097/.agents/skills/simplify-codebase",
-      "velocity": 6584,
-      "verdict": "pass",
-      "vet_score": 100,
       "why": "owner not on trusted list"
     },
     {
@@ -9631,5 +9582,5 @@
       "why": "owner not on trusted list"
     }
   ],
-  "updated": "2026-11-09T11:43:17Z"
+  "updated": "2026-11-13T08:52:38Z"
 }

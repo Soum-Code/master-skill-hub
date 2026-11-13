@@ -2,7 +2,7 @@
 
 Writing, reviewing, debugging, testing and architecting code across languages.
 
-128 skill(s). Back to the [catalog](../README.md).
+130 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -122,6 +122,7 @@ Writing, reviewing, debugging, testing and architecting code across languages.
 | [`microsoft/skills:frontend-design-review`](../skills/microsoft-skills-frontend-design-review.md) | Review and create distinctive, production-grade frontend interfaces with high design quality and design system compliance. Evaluates using three pillars: frictionless ins | verified |
 | [`microsoft/skills:microsoft-docs`](../skills/microsoft-skills-microsoft-docs.md) | Understand Microsoft technologies by querying official documentation. Use whenever the user asks how something works, wants tutorials, needs configuration options, limits | verified |
 | [`modern-web-guidance:modern-web-guidance`](../skills/modern-web-guidance-modern-web-guidance.md) | Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolve rapidly and traini | installed |
+| [`obra/superpowers:systematic-debugging`](../skills/obra-superpowers-systematic-debugging.md) | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | verified |
 | [`openai/skills:aspnet-core`](../skills/openai-skills-aspnet-core.md) | Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor P | verified |
 | [`openai/skills:chatgpt-apps`](../skills/openai-skills-chatgpt-apps.md) | Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI reso | verified |
 | [`openai/skills:cli-creator`](../skills/openai-skills-cli-creator.md) | Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Code | verified |
@@ -131,6 +132,7 @@ Writing, reviewing, debugging, testing and architecting code across languages.
 | [`run`](../skills/run.md) | Launch and drive this project's app to see a change working. Use when asked to run, start or screenshot the app or to confirm a change works end to end. | installed |
 | [`simplify`](../skills/simplify.md) | Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality only, not bug hunting. | installed |
 | [`taste-skill:output-skill`](../skills/taste-skill-output-skill.md) | Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiri | installed |
+| [`tt-a1i/archify:simplify-codebase`](../skills/tt-a1i-archify-simplify-codebase.md) | Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of | verified |
 | [`vercel-labs/agent-browser:dogfood`](../skills/vercel-labs-agent-browser-dogfood.md) | Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to "dogfood", "QA", "exploratory test", "find issues", "bug  | verified |
 | [`vercel-labs/agent-skills:web-design-guidelines`](../skills/vercel-labs-agent-skills-web-design-guidelines.md) | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against be | verified |
 | [`vercel-labs/skills:triage`](../skills/vercel-labs-skills-triage.md) | Identify focused, evidence-backed skills CLI bug fixes worth quuu's attention. | verified |

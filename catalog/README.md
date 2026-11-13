@@ -1,12 +1,12 @@
 # Skill catalog
 
-723 skills across 20 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
+725 skills across 20 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
 
 ## Packs (industries and roles)
 
 | Pack | Skills | What it covers |
 |---|---|---|
-| [Software Development](packs/software-dev.md) | 128 | Writing, reviewing, debugging, testing and architecting code across languages. |
+| [Software Development](packs/software-dev.md) | 130 | Writing, reviewing, debugging, testing and architecting code across languages. |
 | [Spec-driven Dev Workflow](packs/dev-workflow.md) | 86 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
 | [AI / ML Engineering](packs/ai-ml.md) | 71 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
 | [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 64 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
@@ -53,7 +53,7 @@
 
 ## Pending review
 
-- [400 candidates](candidates.md) vetted and waiting for a human OK
+- [398 candidates](candidates.md) vetted and waiting for a human OK
 - [49 quarantined](quarantine.md) repos that failed vetting
 
 ## Everything, A to Z
@@ -681,6 +681,7 @@
 | [`modelcontextprotocol/specification:search-mcp-github`](skills/modelcontextprotocol-specification-search-mcp-github.md) | ai-ml | Search MCP PRs, issues, and discussions across the modelcontextprotocol GitHub org |
 | [`modern-web-guidance:chrome-extensions`](skills/modern-web-guidance-chrome-extensions.md) | browser-automation | Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create, modify, debug, or understand Ch |
 | [`modern-web-guidance:modern-web-guidance`](skills/modern-web-guidance-modern-web-guidance.md) | software-dev | Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolv |
+| [`obra/superpowers:systematic-debugging`](skills/obra-superpowers-systematic-debugging.md) | software-dev | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [`openai/skills:aspnet-core`](skills/openai-skills-aspnet-core.md) | software-dev | Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blaz |
 | [`openai/skills:chatgpt-apps`](skills/openai-skills-chatgpt-apps.md) | software-dev | Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design too |
 | [`openai/skills:cli-creator`](skills/openai-skills-cli-creator.md) | software-dev | Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when |
@@ -761,6 +762,7 @@
 | [`taste-skill:stitch-skill`](skills/taste-skill-stitch-skill.md) | web-frontend-design | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typo |
 | [`taste-skill:taste-skill`](skills/taste-skill-taste-skill.md) | web-frontend-design | Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfa |
 | [`taste-skill:taste-skill-v1`](skills/taste-skill-taste-skill-v1.md) | web-frontend-design | The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), |
+| [`tt-a1i/archify:simplify-codebase`](skills/tt-a1i-archify-simplify-codebase.md) | software-dev | Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion |
 | [`update-config`](skills/update-config.md) | meta-tooling | Configure the Claude Code harness via settings.json - hooks, permissions, environment variables and other automated behaviours. |
 | [`vercel-labs/agent-browser:agent-browser`](skills/vercel-labs-agent-browser-agent-browser.md) | browser-automation | Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons,  |
 | [`vercel-labs/agent-browser:agentcore`](skills/vercel-labs-agent-browser-agentcore.md) | mlops-devops | Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wants to use AgentCore, run browser automation on AWS, use a cloud browse |

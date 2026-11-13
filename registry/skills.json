@@ -70058,6 +70058,130 @@
     },
     {
       "allowed_tools": [],
+      "bytes": 9530,
+      "desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "file_count": 6,
+      "files": [
+        "SKILL.md",
+        "condition-based-waiting-example.ts",
+        "condition-based-waiting.md",
+        "defense-in-depth.md",
+        "find-polluter.sh",
+        "root-cause-tracing.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Overview"
+        ],
+        [
+          2,
+          "The Iron Law"
+        ],
+        [
+          2,
+          "When to Use"
+        ],
+        [
+          2,
+          "The Four Phases"
+        ],
+        [
+          3,
+          "Phase 1: Root Cause Investigation"
+        ],
+        [
+          3,
+          "Phase 2: Pattern Analysis"
+        ],
+        [
+          3,
+          "Phase 3: Hypothesis and Testing"
+        ],
+        [
+          3,
+          "Phase 4: Implementation"
+        ],
+        [
+          2,
+          "Red Flags - STOP and Follow Process"
+        ],
+        [
+          2,
+          "your human partner's Signals You're Doing It Wrong"
+        ],
+        [
+          2,
+          "Common Rationalizations"
+        ],
+        [
+          2,
+          "Quick Reference"
+        ],
+        [
+          2,
+          "When Process Reveals \"No Root Cause\""
+        ],
+        [
+          2,
+          "Supporting Techniques"
+        ]
+      ],
+      "id": "obra/superpowers:systematic-debugging",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "MIT",
+      "license_class": "permissive",
+      "lines": 284,
+      "name": "systematic-debugging",
+      "pack": "software-dev",
+      "packs": [],
+      "plugin": null,
+      "references": [],
+      "scripts": [
+        "condition-based-waiting-example.ts",
+        "find-polluter.sh"
+      ],
+      "source": {
+        "approved": "2026-11-13",
+        "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+        "install": "python skills/skill-vetter/scripts/install.py obra/superpowers --path skills/systematic-debugging --commit 22f0b463e7a5e579904dd6211a520321035526f7 --expect-tree 9e1fdd5b6a5591d964a1ded4e69511cdd6925f1746647b0da82d825defb087ad --apply",
+        "path": "skills/systematic-debugging",
+        "repo": "obra/superpowers",
+        "stars": 314810,
+        "tree_sha256": "9e1fdd5b6a5591d964a1ded4e69511cdd6925f1746647b0da82d825defb087ad",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "If you haven't completed Phase 1, you cannot propose fixes.",
+      "tags": [
+        "systematic",
+        "debugging",
+        "encountering",
+        "bug",
+        "test",
+        "failure",
+        "unexpected",
+        "behavior"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 2,
+          "medium": 0
+        },
+        "override": [],
+        "score": 96,
+        "verdict": "pass"
+      },
+      "when": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+    },
+    {
+      "allowed_tools": [],
       "bytes": 5544,
       "copies": 1,
       "desc": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.",
@@ -79113,6 +79237,103 @@
     },
     {
       "allowed_tools": [],
+      "bytes": 6935,
+      "desc": "Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of dead code, duplicate state, redundant APIs or layers, ownerless abstractions, obsolete compatibility or design records, and over-engineering in any language; also use for 代码简化 or 熵回收. Do not use for general code review, onboarding, style-only refactoring, or performance tuning.",
+      "file_count": 8,
+      "files": [
+        "LICENSE",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/boundaries-and-lifecycle.md",
+        "references/decision-records.md",
+        "references/execution-and-recovery.md",
+        "references/integrating-findings.md",
+        "references/investigation.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Select mode and scope"
+        ],
+        [
+          2,
+          "Establish the contract"
+        ],
+        [
+          2,
+          "Cover the relevant surface"
+        ],
+        [
+          2,
+          "Build a proof record"
+        ],
+        [
+          2,
+          "Decide and act"
+        ],
+        [
+          2,
+          "Deliver the result"
+        ]
+      ],
+      "id": "tt-a1i/archify:simplify-codebase",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 84,
+      "name": "simplify-codebase",
+      "pack": "software-dev",
+      "packs": [],
+      "plugin": null,
+      "references": [
+        "references/boundaries-and-lifecycle.md",
+        "references/decision-records.md",
+        "references/execution-and-recovery.md",
+        "references/integrating-findings.md",
+        "references/investigation.md"
+      ],
+      "scripts": [],
+      "source": {
+        "approved": "2026-11-13",
+        "commit": "11b0d6031853bdae89eed57e7979aabbf0034097",
+        "install": "python skills/skill-vetter/scripts/install.py tt-a1i/archify --path .agents/skills/simplify-codebase --commit 11b0d6031853bdae89eed57e7979aabbf0034097 --expect-tree 6d885603c692ffc70533adb505fc2426158f8a9dd8c3f70980fc47b48de73e3b --apply",
+        "path": ".agents/skills/simplify-codebase",
+        "repo": "tt-a1i/archify",
+        "stars": 94912,
+        "tree_sha256": "6d885603c692ffc70533adb505fc2426158f8a9dd8c3f70980fc47b48de73e3b",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Reduce the number of concepts and obligations a codebase must keep coherent. Line-count reduction is supporting evidence, not the objective. A successful run may conclude that the inspected surface is already justified.",
+      "tags": [
+        "simplify",
+        "codebase",
+        "simplification",
+        "audit",
+        "authorized",
+        "whose",
+        "stated",
+        "objective"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "override": [],
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use for evidence-backed deletion or consolidation of dead code, duplicate state, redundant APIs or layers, ownerless abstractions, obsolete compatibility or design records, and over-engineering in any language; also use for 代码简化 or 熵回收. Do not use for general code review, onboarding, style-only refactoring, or performance tuning."
+    },
+    {
+      "allowed_tools": [],
       "bytes": 169,
       "desc": "Configure the Claude Code harness via settings.json - hooks, permissions, environment variables and other automated behaviours.",
       "file_count": 0,
@@ -81521,5 +81742,5 @@
       "when": ""
     }
   ],
-  "updated": "2026-11-13T08:43:30Z"
+  "updated": "2026-11-13T08:52:38Z"
 }

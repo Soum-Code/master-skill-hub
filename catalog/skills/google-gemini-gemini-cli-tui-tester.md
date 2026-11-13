@@ -44,6 +44,7 @@ The skill's own section headings, in order:
 ## Related skills
 
 - [microsoft/playwright-cli:playwright-cli](microsoft-playwright-cli-playwright-cli.md) - Automate browser interactions, test web pages and work with Playwright tests.
+- [obra/superpowers:systematic-debugging](obra-superpowers-systematic-debugging.md) - Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
 
 ## Invoke / install
 

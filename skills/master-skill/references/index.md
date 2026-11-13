@@ -4,7 +4,7 @@ Pick the pack that matches the task, then open `packs/<pack>.md`.
 
 | Pack | Skills | Covers |
 |---|---|---|
-| `software-dev` Software Development | 128 | Writing, reviewing, debugging, testing and architecting code across languages. |
+| `software-dev` Software Development | 130 | Writing, reviewing, debugging, testing and architecting code across languages. |
 | `dev-workflow` Spec-driven Dev Workflow | 86 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
 | `ai-ml` AI / ML Engineering | 71 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
 | `meta-tooling` Claude / Skills / Plugin Tooling | 64 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |

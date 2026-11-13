@@ -116,6 +116,7 @@
 - `microsoft/skills:frontend-design-review` - Review and create distinctive, production-grade frontend interfaces with high design quality and design system compliance. Evaluates using three pillars: frictionless insight-to-action, qual
 - `microsoft/skills:microsoft-docs` - Understand Microsoft technologies by querying official documentation. Use whenever the user asks how something works, wants tutorials, needs configuration options, limits, quotas, or best pr
 - `modern-web-guidance:modern-web-guidance` - Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolve rapidly and training weights contain o
+- `obra/superpowers:systematic-debugging` - Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
 - `openai/skills:aspnet-core` - Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal A
 - `openai/skills:chatgpt-apps` - Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP 
 - `openai/skills:cli-creator` - Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a comman
@@ -125,6 +126,7 @@
 - `run` - Launch and drive this project's app to see a change working. Use when asked to run, start or screenshot the app or to confirm a change works end to end.
 - `simplify` - Review changed code for reuse, simplification, efficiency and altitude cleanups, then apply the fixes. Quality only, not bug hunting.
 - `taste-skill:output-skill` - Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabr
+- `tt-a1i/archify:simplify-codebase` - Simplification audit or authorized codebase simplification whose stated objective is to remove accidental complexity. Use for evidence-backed deletion or consolidation of dead code, duplicat
 - `vercel-labs/agent-browser:dogfood` - Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to "dogfood", "QA", "exploratory test", "find issues", "bug hunt", "test this ap
 - `vercel-labs/agent-skills:web-design-guidelines` - Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
 - `vercel-labs/skills:triage` - Identify focused, evidence-backed skills CLI bug fixes worth quuu's attention.
