@@ -51,7 +51,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:behavioral-evals`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/behavioral-evals --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree beea01ff2c143cf815692f6672d0a9505f57df9f2c5b2008df691f5c7a0c1bf5 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/behavioral-evals --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree beea01ff2c143cf815692f6672d0a9505f57df9f2c5b2008df691f5c7a0c1bf5 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

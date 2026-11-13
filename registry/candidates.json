@@ -1404,32 +1404,6 @@
       "why": "owner not on trusted list"
     },
     {
-      "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-      "desc": "Write, review, and edit developer documentation for SDKs, libraries, and frameworks, including sites such as agent-browser.dev and portless.sh. Use for getting-started guides, tutorials, API references, conceptual explanations, integration guides, migration guides, troubleshooting, and code examples",
-      "first_seen": "2026-11-02",
-      "id": "vercel-labs/agent-browser:technical-writer",
-      "license": "Apache-2.0",
-      "llm": null,
-      "name": "technical-writer",
-      "novelty": 0.87,
-      "pack": "docs-content",
-      "path": ".agents/skills/technical-writer",
-      "rank": 118.18,
-      "repo": "vercel-labs/agent-browser",
-      "sources": [
-        "mastodon",
-        "pinned-recheck",
-        "watchlist"
-      ],
-      "stars": 48100,
-      "tree_sha256": "4f9bd7c1bd3f5ed1f33f1d5cd809bc66922375006e1c30281fa746c21372693f",
-      "url": "https://github.com/vercel-labs/agent-browser/tree/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/.agents/skills/technical-writer",
-      "velocity": 3606,
-      "verdict": "review",
-      "vet_score": 90,
-      "why": "vet verdict REVIEW"
-    },
-    {
       "commit": "07a86b1041531bfa0bec1006d9c0993985fee560",
       "desc": "GitHub repository analytics dashboard — stars, forks, contributors, issues, pull requests, recent activity, and top contributors. Use when the brief asks for a GitHub repo dashboard, open-source growth report, repository health page, or GitHub analytics view.",
       "first_seen": "2026-10-24",
@@ -4652,6 +4626,30 @@
       "why": "owner not on trusted list"
     },
     {
+      "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+      "desc": "Sets the plugin up for one plant on first run. Asks which ERP, CAD, CMMS and document system the plant uses and tests the four supported connectors (Microsoft 365, Oracle NetSuite, Infor M3, Autodesk Fusion), takes a bulk drop of the plant's own documents so it asks only what they don't answer, prof",
+      "first_seen": "2026-11-13",
+      "id": "anthropics/claude-plugins-official:onboarding",
+      "license": "Apache-2.0",
+      "llm": null,
+      "name": "onboarding",
+      "novelty": 0.91,
+      "pack": "meta-tooling",
+      "path": "plugins/claude-for-manufacturing/skills/onboarding",
+      "rank": 113.24,
+      "repo": "anthropics/claude-plugins-official",
+      "sources": [
+        "pinned-recheck"
+      ],
+      "stars": 47090,
+      "tree_sha256": "5792bd2321a38cdc4a15ec1e3bc6e75b8420fda65481b7f64347d0282a16b854",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/f75f5b25ae94f4332be4ff5f18435741d2589bdb/plugins/claude-for-manufacturing/skills/onboarding",
+      "velocity": 2940,
+      "verdict": "review",
+      "vet_score": 86,
+      "why": "vet verdict REVIEW"
+    },
+    {
       "commit": "301b02b12bff98e4688e6984af6556802322bbde",
       "desc": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even when t",
       "first_seen": "2026-10-24",
@@ -5347,6 +5345,30 @@
       "verdict": "pass",
       "vet_score": 100,
       "why": "owner not on trusted list"
+    },
+    {
+      "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+      "desc": "Write, review, and edit developer documentation for SDKs, libraries, and frameworks, including sites such as agent-browser.dev and portless.sh. Use for getting-started guides, tutorials, API references, conceptual explanations, integration guides, migration guides, troubleshooting, and code examples",
+      "first_seen": "2026-11-02",
+      "id": "vercel-labs/agent-browser:technical-writer",
+      "license": "Apache-2.0",
+      "llm": null,
+      "name": "technical-writer",
+      "novelty": 0.87,
+      "pack": "docs-content",
+      "path": ".agents/skills/technical-writer",
+      "rank": 112.39,
+      "repo": "vercel-labs/agent-browser",
+      "sources": [
+        "pinned-recheck"
+      ],
+      "stars": 50466,
+      "tree_sha256": "4f9bd7c1bd3f5ed1f33f1d5cd809bc66922375006e1c30281fa746c21372693f",
+      "url": "https://github.com/vercel-labs/agent-browser/tree/4720bc3dd73f2c8f7c84f415adfa560330b924c4/.agents/skills/technical-writer",
+      "velocity": 5972,
+      "verdict": "review",
+      "vet_score": 90,
+      "why": "vet verdict REVIEW"
     },
     {
       "commit": "1a045f7607f72b36d77f8859724085c3811cd336",
@@ -7245,32 +7267,6 @@
       "verdict": "pass",
       "vet_score": 100,
       "why": "owner not on trusted list"
-    },
-    {
-      "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-      "desc": "Core agent-browser usage guide. Read this before running any agent-browser commands. Covers the snapshot-and-ref workflow, navigating pages, interacting with elements (click, fill, type, select), extracting text and data, taking screenshots, managing tabs, handling forms and auth, waiting for conten",
-      "first_seen": "2026-11-02",
-      "id": "vercel-labs/agent-browser:core",
-      "license": "Apache-2.0",
-      "llm": null,
-      "name": "core",
-      "novelty": 0.635,
-      "pack": "browser-automation",
-      "path": "skill-data/core",
-      "rank": 109.18,
-      "repo": "vercel-labs/agent-browser",
-      "sources": [
-        "mastodon",
-        "pinned-recheck",
-        "watchlist"
-      ],
-      "stars": 48100,
-      "tree_sha256": "4f5a21c056de1fe4192744a12eb60c6e9d92002bc992ab269da049be10073e98",
-      "url": "https://github.com/vercel-labs/agent-browser/tree/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/core",
-      "velocity": 3606,
-      "verdict": "review",
-      "vet_score": 88,
-      "why": "vet verdict REVIEW"
     },
     {
       "commit": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
@@ -9580,7 +9576,55 @@
       "verdict": "pass",
       "vet_score": 96,
       "why": "owner not on trusted list"
+    },
+    {
+      "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+      "desc": "Core agent-browser usage guide. Read this before running any agent-browser commands. Covers the snapshot-and-ref workflow, navigating pages, interacting with elements (click, fill, type, select), extracting text and data, taking screenshots, managing tabs, handling forms and auth, waiting for conten",
+      "first_seen": "2026-11-02",
+      "id": "vercel-labs/agent-browser:core",
+      "license": "Apache-2.0",
+      "llm": null,
+      "name": "core",
+      "novelty": 0.635,
+      "pack": "browser-automation",
+      "path": "skill-data/core",
+      "rank": 103.39,
+      "repo": "vercel-labs/agent-browser",
+      "sources": [
+        "pinned-recheck"
+      ],
+      "stars": 50466,
+      "tree_sha256": "00c1c99f915c3c709a51d19255237ebff9afd6819b66694eb05c26059900c2cc",
+      "url": "https://github.com/vercel-labs/agent-browser/tree/4720bc3dd73f2c8f7c84f415adfa560330b924c4/skill-data/core",
+      "velocity": 5972,
+      "verdict": "review",
+      "vet_score": 88,
+      "why": "vet verdict REVIEW"
+    },
+    {
+      "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+      "desc": "Work out where a teammate, the champion, or a team is on the steps of AI adoption, and what to try next. Use when a champion wants to help someone move up a step.",
+      "first_seen": "2026-11-13",
+      "id": "anthropics/claude-plugins-official:climb",
+      "license": "Apache-2.0",
+      "llm": null,
+      "name": "climb",
+      "novelty": 0.793,
+      "pack": "communication-collab",
+      "path": "plugins/champion-kit/skills/climb",
+      "rank": 97.2,
+      "repo": "anthropics/claude-plugins-official",
+      "sources": [
+        "pinned-recheck"
+      ],
+      "stars": 47090,
+      "tree_sha256": "5a2d056366bd5334b0dbcdc8698138f5d2d2055efcf574e0e202eeca2eb2a898",
+      "url": "https://github.com/anthropics/claude-plugins-official/tree/f75f5b25ae94f4332be4ff5f18435741d2589bdb/plugins/champion-kit/skills/climb",
+      "velocity": 2940,
+      "verdict": "review",
+      "vet_score": 90,
+      "why": "vet verdict REVIEW"
     }
   ],
-  "updated": "2026-11-13T08:52:38Z"
+  "updated": "2026-11-13T09:08:55Z"
 }

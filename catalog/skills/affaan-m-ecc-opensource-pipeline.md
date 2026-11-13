@@ -45,6 +45,10 @@ The skill's own section headings, in order:
 
 - Declares no pre-approved tools; Claude asks as usual.
 
+## Related skills
+
+- [vercel-labs/agent-browser:vercel](vercel-labs-agent-browser-vercel.md) - Access and test Vercel deployments with agent-browser, behind Deployment Protection or at a different feature 
+
 ## Invoke / install
 
 - Invoke: `/affaan-m/ECC:opensource-pipeline`

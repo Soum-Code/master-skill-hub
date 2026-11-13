@@ -49,7 +49,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:critique`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/critique --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree e4b84ffb18337ba81025b38d05d87acf8a318902e297b021394b460a1b4e2229 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/critique --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree e4b84ffb18337ba81025b38d05d87acf8a318902e297b021394b460a1b4e2229 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

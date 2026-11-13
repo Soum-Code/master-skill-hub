@@ -50,6 +50,7 @@
 - `operations:runbook` - Create or update an operational runbook for a recurring task or procedure. Use when documenting a task that on-call or ops needs to run repeatably, turning tribal knowledge into exact step-b
 - `vercel-labs/agent-browser:agentcore` - Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wants to use AgentCore, run browser automation on AWS, use a cloud browser with AWS credentials, or needs a manag
 - `vercel-labs/agent-browser:protected-vercel-deployments` - Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection with agent-browser. Use when a preview or production URL redirects to a Vercel login page
+- `vercel-labs/agent-browser:vercel` - Access and test Vercel deployments with agent-browser, behind Deployment Protection or at a different feature flag variant. Use when a preview or production URL redirects to a Vercel login p
 - `vercel-labs/agent-skills:deploy-to-vercel` - Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployme
 - `vercel-labs/agent-skills:vercel-cli-with-tokens` - Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy to vercel", "set up v
 - `vercel-labs/skills:pr-labeling` - Classify a skills CLI pull request from its description and patch, while respecting existing labels.

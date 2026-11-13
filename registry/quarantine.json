@@ -215,7 +215,7 @@
       ]
     },
     {
-      "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
+      "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
       "first_seen": "2026-10-24",
       "id": "anthropics/knowledge-work-plugins:nextflow-development",
       "repo": "anthropics/knowledge-work-plugins",
@@ -1029,5 +1029,5 @@
       ]
     }
   ],
-  "updated": "2026-11-09T11:43:17Z"
+  "updated": "2026-11-13T09:08:55Z"
 }

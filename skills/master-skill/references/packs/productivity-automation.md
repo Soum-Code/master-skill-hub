@@ -12,6 +12,7 @@
 - `anthropic-skills:import-memory` - Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data.
 - `anthropic-skills:morning` - Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if 
 - `anthropic-skills:schedule` - Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "each morning", "remind me in an hour", "run this at noon", or wants to reschedule 
+- `anthropics/claude-plugins-official:morning-plant-pulse` - Runs the overnight chain that has the morning production report waiting before anyone asks for it: joins last night's planning, production and maintenance exports, flags the mismatched keys,
 - `anthropics/claude-plugins-official:routines` - Set up recurring champion routines as Claude Code scheduled tasks. Use when a champion wants work like a weekly patterns digest, a stale guidance check, or a monthly lead update to happen wi
 - `anthropics/claude-plugins-official:solo` - Work on one hard mathematics problem in this session yourself, with no sub-agents: reason in stages, record each settled step in a notes file so that nothing written is lost if a response is
 - `bm:add-todo` - Capture idea or task as todo from current conversation context

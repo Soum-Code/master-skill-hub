@@ -2,7 +2,7 @@
 
 Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts.
 
-35 skill(s). Back to the [catalog](../README.md).
+36 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -28,6 +28,7 @@ Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, soci
 | [`anthropic-skills:pptx`](../skills/anthropic-skills-pptx.md) | Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as Po | installed |
 | [`anthropics/claude-code:Writing Hookify Rules`](../skills/anthropics-claude-code-writing-hookify-rules.md) | This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule | verified |
 | [`anthropics/claude-plugins-official:maturity`](../skills/anthropics-claude-plugins-official-maturity.md) | Evaluate an organization's AI maturity on the steps of AI adoption and write a polished, shareable HTML report with evidence for each score. Use when a champion wants to  | verified |
+| [`anthropics/claude-plugins-official:ncr-writeup`](../skills/anthropics-claude-plugins-official-ncr-writeup.md) | Writes the nonconformance report: what was found and measured, the specific requirement it violates cited to its document and locator, how many parts are actually suspect | verified |
 | [`anthropics/claude-plugins-official:siege`](../skills/anthropics-claude-plugins-official-siege.md) | Work on one hard mathematics problem in rounds: each round a judge writes a few self-contained questions, independent workers answer them, and the judge keeps a ledger of | verified |
 | [`anthropics/claude-plugins-official:writing-hookify-rules`](../skills/anthropics-claude-plugins-official-writing-hookify-rules.md) | This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule | verified |
 | [`anthropics/knowledge-work-plugins:kb-article`](../skills/anthropics-knowledge-work-plugins-kb-article.md) | Draft a knowledge base article from a resolved issue or common question. Use when a ticket resolution is worth documenting for self-service, the same question keeps comin | verified |

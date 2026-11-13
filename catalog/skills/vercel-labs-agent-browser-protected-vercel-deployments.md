@@ -42,6 +42,7 @@ The skill's own section headings, in order:
 
 ## Related skills
 
+- [vercel-labs/agent-browser:vercel](vercel-labs-agent-browser-vercel.md) - Access and test Vercel deployments with agent-browser, behind Deployment Protection or at a different feature 
 - [vercel-labs/agent-skills:vercel-cli-with-tokens](vercel-labs-agent-skills-vercel-cli-with-tokens.md) - Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using 
 
 ## Invoke / install

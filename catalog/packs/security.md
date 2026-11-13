@@ -2,7 +2,7 @@
 
 Security review, vulnerability analysis, secrets hygiene, threat modelling, safe skill vetting.
 
-17 skill(s). Back to the [catalog](../README.md).
+20 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -18,6 +18,9 @@ Security review, vulnerability analysis, secrets hygiene, threat modelling, safe
 | [`affaan-m/ECC:security-review`](../skills/affaan-m-ecc-security-review.md) | Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides compreh | verified |
 | [`affaan-m/ECC:springboot-security`](../skills/affaan-m-ecc-springboot-security.md) | Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services. Use when reviewin | verified |
 | [`anthropics/claude-plugins-official:claude-security`](../skills/anthropics-claude-plugins-official-claude-security.md) | Claude Security: scan the codebase (the whole repository or a scoped part of it), scan changes (this branch's or a pull request's diff, or one commit), or suggest patches | verified |
+| [`anthropics/claude-plugins-official:inspection-to-capa`](../skills/anthropics-claude-plugins-official-inspection-to-capa.md) | Runs the quality chain end to end: writes the nonconformance against the requirement it violates, searches history at the moment of writing to say whether this has happen | verified |
+| [`anthropics/claude-plugins-official:rfq-to-quote`](../skills/anthropics-claude-plugins-official-rfq-to-quote.md) | Runs the whole RFQ-to-quote chain end to end: reads the inquiry and its drawings, checks it against what the plant can build, drafts the questions back, returns a provisi | verified |
+| [`anthropics/claude-plugins-official:supplier-escape-to-alternate-source`](../skills/anthropics-claude-plugins-official-supplier-escape-to-alternate-source.md) | Runs the cross-area chain from a nonconformance traced to purchased material through to an alternate-source RFQ: writes the NCR and its containment, establishes root caus | verified |
 | [`bm:secure-phase`](../skills/bm-secure-phase.md) | Retroactively verify threat mitigations for a completed phase | installed |
 | [`openai/skills:security-ownership-map`](../skills/openai-skills-security-ownership-map.md) | Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases | verified |
 | [`openai/skills:security-threat-model`](../skills/openai-skills-security-threat-model.md) | Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat mo | verified |

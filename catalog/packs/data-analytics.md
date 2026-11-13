@@ -2,7 +2,7 @@
 
 SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning.
 
-25 skill(s). Back to the [catalog](../README.md).
+28 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -14,6 +14,9 @@ SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning.
 | [`affaan-m/ECC:quality-nonconformance`](../skills/affaan-m-ecc-quality-nonconformance.md) | Quality control and non-conformance management for regulated manufacturing (FDA 21 CFR 820, IATF 16949, AS9100): NCR lifecycle and disposition, 5-Why/Ishikawa/fault-tree/ | verified |
 | [`affaan-m/ECC:swift-actor-persistence`](../skills/affaan-m-ecc-swift-actor-persistence.md) | Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design. Use when persisting data in Swift and a d | verified |
 | [`anthropic-skills:xlsx`](../skills/anthropic-skills-xlsx.md) | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, | installed |
+| [`anthropics/claude-plugins-official:breakdown-to-next-report`](../skills/anthropics-claude-plugins-official-breakdown-to-next-report.md) | Runs the chain from a machine going down to the diagnosis landing in tomorrow's production report: reads the sensor window, the maintenance history and its free-text clos | verified |
+| [`anthropics/claude-plugins-official:daily-production-report`](../skills/anthropics-claude-plugins-official-daily-production-report.md) | Produces the morning production report: output against plan by line, cell and product; OEE with availability, performance and quality shown separately; the downtime log r | verified |
+| [`anthropics/claude-plugins-official:data-consolidate`](../skills/anthropics-claude-plugins-official-data-consolidate.md) | Joins the plant's scheduled exports and connector data into one working dataset — ERP items (NetSuite or Infor M3), sales orders, production work orders, purchase orders, | verified |
 | [`anthropics/claude-plugins-official:session-report`](../skills/anthropics-claude-plugins-official-session-report.md) | Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcripts. | verified |
 | [`anthropics/knowledge-work-plugins:analyze`](../skills/anthropics-knowledge-work-plugins-analyze.md) | Answer data questions -- from quick lookups to full analyses. Use when looking up a single metric, investigating what's driving a trend or drop, comparing segments over t | verified |
 | [`anthropics/knowledge-work-plugins:build-dashboard`](../skills/anthropics-knowledge-work-plugins-build-dashboard.md) | Build an interactive HTML dashboard with charts, filters, and tables. Use when creating an executive overview with KPI cards, turning query results into a shareable self- | verified |

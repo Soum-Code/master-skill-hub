@@ -2,7 +2,7 @@
 
 Driving browsers, scraping, form filling, E2E tests, screenshots, web research.
 
-23 skill(s). Back to the [catalog](../README.md).
+24 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -27,5 +27,6 @@ Driving browsers, scraping, form filling, E2E tests, screenshots, web research.
 | [`vercel-labs/agent-browser:agent-browser`](../skills/vercel-labs-agent-browser-agent-browser.md) | Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots,  | verified |
 | [`vercel-labs/agent-browser:derive-client`](../skills/vercel-labs-agent-browser-derive-client.md) | Reverse-engineer a website's internal API by recording browser traffic into a HAR file, then generate a standalone client or CLI that calls the endpoints directly, with n | verified |
 | [`vercel-labs/agent-browser:electron`](../skills/vercel-labs-agent-browser-electron.md) | Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the user needs to intera | verified |
+| [`vercel-labs/agent-browser:modern-web-guidance`](../skills/vercel-labs-agent-browser-modern-web-guidance.md) | Apply Chrome's Modern Web Guidance to frontend code, then verify the built page in a real browser with agent-browser. Use when asked to build or modernize UI with web pla | verified |
 | [`vercel-labs/agent-browser:vercel-sandbox`](../skills/vercel-labs-agent-browser-vercel-sandbox.md) | Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a Vercel app  | verified |
 | [`vercel-labs/agent-browser:webmcp-gen`](../skills/vercel-labs-agent-browser-webmcp-gen.md) | Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create webmcp.init.js, def | verified |

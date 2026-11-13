@@ -52,7 +52,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:metrics`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/metrics --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 767601ca34e900d8c0bcb18e60f8fef3028c321975c05f698679f913edf3f58c --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/metrics --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 767601ca34e900d8c0bcb18e60f8fef3028c321975c05f698679f913edf3f58c --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

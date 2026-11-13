@@ -2,7 +2,7 @@
 
 CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management.
 
-53 skill(s). Back to the [catalog](../README.md).
+54 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -56,6 +56,7 @@ CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release m
 | [`operations:runbook`](../skills/operations-runbook.md) | Create or update an operational runbook for a recurring task or procedure. Use when documenting a task that on-call or ops needs to run repeatably, turning tribal knowled | installed |
 | [`vercel-labs/agent-browser:agentcore`](../skills/vercel-labs-agent-browser-agentcore.md) | Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wants to use AgentCore, run browser automation on AWS, use a cloud browser with AWS credentia | verified |
 | [`vercel-labs/agent-browser:protected-vercel-deployments`](../skills/vercel-labs-agent-browser-protected-vercel-deployments.md) | Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection with agent-browser. Use when a preview or production URL redirects to | verified |
+| [`vercel-labs/agent-browser:vercel`](../skills/vercel-labs-agent-browser-vercel.md) | Access and test Vercel deployments with agent-browser, behind Deployment Protection or at a different feature flag variant. Use when a preview or production URL redirects | verified |
 | [`vercel-labs/agent-skills:deploy-to-vercel`](../skills/vercel-labs-agent-skills-deploy-to-vercel.md) | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "creat | verified |
 | [`vercel-labs/agent-skills:vercel-cli-with-tokens`](../skills/vercel-labs-agent-skills-vercel-cli-with-tokens.md) | Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy t | verified |
 | [`vercel-labs/skills:pr-labeling`](../skills/vercel-labs-skills-pr-labeling.md) | Classify a skills CLI pull request from its description and patch, while respecting existing labels. | verified |

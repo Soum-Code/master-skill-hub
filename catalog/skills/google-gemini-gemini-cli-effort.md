@@ -42,7 +42,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:effort`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree bc220c379f1594bf99e9985d75f74835340e71fccb248e0b7b1be976299bd8ce --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree bc220c379f1594bf99e9985d75f74835340e71fccb248e0b7b1be976299bd8ce --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

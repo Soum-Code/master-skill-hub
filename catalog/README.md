@@ -1,6 +1,6 @@
 # Skill catalog
 
-725 skills across 20 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
+743 skills across 20 packs. Every page is generated from the skill's own SKILL.md, so the descriptions are the authors' words, not a summary I made up.
 
 ## Packs (industries and roles)
 
@@ -8,23 +8,23 @@
 |---|---|---|
 | [Software Development](packs/software-dev.md) | 130 | Writing, reviewing, debugging, testing and architecting code across languages. |
 | [Spec-driven Dev Workflow](packs/dev-workflow.md) | 86 | Phase/milestone based project execution - plan, discuss, execute, verify, ship (GSD / Buildomator style). |
-| [AI / ML Engineering](packs/ai-ml.md) | 71 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
-| [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 64 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
+| [AI / ML Engineering](packs/ai-ml.md) | 72 | LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research. |
+| [Claude / Skills / Plugin Tooling](packs/meta-tooling.md) | 65 | Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods. |
+| [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 54 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
 | [Web, Frontend & UI Design](packs/web-frontend-design.md) | 54 | UI/UX, design systems, typography, layout, accessibility, landing pages, visual polish. |
-| [MLOps / DevOps / Cloud](packs/mlops-devops.md) | 53 | CI/CD, deployment, containers, infra, monitoring, incidents, runbooks, release management. |
-| [Documents, Writing & Content](packs/docs-content.md) | 35 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
-| [Data & Analytics](packs/data-analytics.md) | 25 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
-| [Productivity & Automation](packs/productivity-automation.md) | 25 | Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows. |
-| [Browser & Web Automation](packs/browser-automation.md) | 23 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
-| [Operations & Business](packs/operations-business.md) | 23 | Process design, capacity planning, vendor management, status reports, change management. |
+| [Documents, Writing & Content](packs/docs-content.md) | 36 | Word/PDF/slides, technical writing, editing, humanizing text, comms, blogs, social posts. |
+| [Data & Analytics](packs/data-analytics.md) | 28 | SQL, spreadsheets, dashboards, charts, statistics, metrics, BI, data cleaning. |
+| [Productivity & Automation](packs/productivity-automation.md) | 26 | Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows. |
+| [Operations & Business](packs/operations-business.md) | 25 | Process design, capacity planning, vendor management, status reports, change management. |
+| [Browser & Web Automation](packs/browser-automation.md) | 24 | Driving browsers, scraping, form filling, E2E tests, screenshots, web research. |
 | [Communication & Collaboration](packs/communication-collab.md) | 22 | Slack, email, meetings, standups, internal comms, stakeholder updates, briefings. |
 | [Product Management](packs/product-mgmt.md) | 21 | PRDs, roadmaps, specs, sprint planning, stakeholder updates, user research synthesis. |
+| [Security & Privacy](packs/security.md) | 20 | Security review, vulnerability analysis, secrets hygiene, threat modelling, safe skill vetting. |
+| [Careers, Jobs & Hiring](packs/careers-jobs.md) | 17 | Resumes, CVs, cover letters, LinkedIn, interview prep, portfolios, job search, networking. |
 | [Legal & Compliance](packs/legal-compliance.md) | 17 | Contract review, NDAs, compliance checks, risk assessment, e-signature, privacy/DPA. |
-| [Security & Privacy](packs/security.md) | 17 | Security review, vulnerability analysis, secrets hygiene, threat modelling, safe skill vetting. |
-| [Careers, Jobs & Hiring](packs/careers-jobs.md) | 15 | Resumes, CVs, cover letters, LinkedIn, interview prep, portfolios, job search, networking. |
 | [Creative & Media](packs/creative-media.md) | 15 | Generative art, GIFs, imagery, themes, branding, video/audio helpers. |
 | [Finance & Accounting](packs/finance-accounting.md) | 14 | Journal entries, reconciliations, close, financial statements, audit support, SOX, variance analysis. |
-| [Research & Learning](packs/research-learning.md) | 11 | Deep research, literature review, brainstorming, explaining, study and teaching aids. |
+| [Research & Learning](packs/research-learning.md) | 13 | Deep research, literature review, brainstorming, explaining, study and teaching aids. |
 | [general](packs/general.md) | 4 |  |
 
 ## Multi-skill chains
@@ -53,7 +53,7 @@
 
 ## Pending review
 
-- [398 candidates](candidates.md) vetted and waiting for a human OK
+- [400 candidates](candidates.md) vetted and waiting for a human OK
 - [49 quarantined](quarantine.md) repos that failed vetting
 
 ## Everything, A to Z
@@ -392,6 +392,8 @@
 | [`anthropics/claude-code:claude-opus-4-5-migration`](skills/anthropics-claude-code-claude-opus-4-5-migration.md) | ai-ml | Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or AP |
 | [`anthropics/claude-plugins-official:access`](skills/anthropics-claude-plugins-official-access.md) | communication-collab | Manage Discord channel access — approve pairings, edit allowlists, set DM/group policy. Use when the user asks to pair, approve someone, check who's a |
 | [`anthropics/claude-plugins-official:agent-development`](skills/anthropics-claude-plugins-official-agent-development.md) | ai-ml | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontmatter", "when to use description", |
+| [`anthropics/claude-plugins-official:breakdown-diagnosis`](skills/anthropics-claude-plugins-official-breakdown-diagnosis.md) | ai-ml | When a machine goes down, reads the sensor window before the failure, the asset's maintenance history including the free-text close-out notes technici |
+| [`anthropics/claude-plugins-official:breakdown-to-next-report`](skills/anthropics-claude-plugins-official-breakdown-to-next-report.md) | data-analytics | Runs the chain from a machine going down to the diagnosis landing in tomorrow's production report: reads the sensor window, the maintenance history an |
 | [`anthropics/claude-plugins-official:build-mcp-app`](skills/anthropics-claude-plugins-official-build-mcp-app.md) | ai-ml | This skill should be used when the user wants to build an "MCP app", add "interactive UI" or "widgets" to an MCP server, "render components in chat",  |
 | [`anthropics/claude-plugins-official:build-mcp-server`](skills/anthropics-claude-plugins-official-build-mcp-server.md) | ai-ml | This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integration", "wrap an API for Claude", "expose t |
 | [`anthropics/claude-plugins-official:build-mcpb`](skills/anthropics-claude-plugins-official-build-mcpb.md) | meta-tooling | This skill should be used when the user wants to "package an MCP server", "bundle an MCP", "make an MCPB", "ship a local MCP server", "distribute a lo |
@@ -400,24 +402,38 @@
 | [`anthropics/claude-plugins-official:claude-security`](skills/anthropics-claude-plugins-official-claude-security.md) | security | Claude Security: scan the codebase (the whole repository or a scoped part of it), scan changes (this branch's or a pull request's diff, or one commit) |
 | [`anthropics/claude-plugins-official:command-development`](skills/anthropics-claude-plugins-official-command-development.md) | meta-tooling | This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command", "define command arguments", "use  |
 | [`anthropics/claude-plugins-official:configure`](skills/anthropics-claude-plugins-official-configure.md) | communication-collab | Set up the Discord channel — save the bot token and review access policy. Use when the user pastes a Discord bot token, asks to configure Discord, ask |
+| [`anthropics/claude-plugins-official:custom-connector`](skills/anthropics-claude-plugins-official-custom-connector.md) | meta-tooling | Gets the plugin talking to a manufacturing system that has no vendor MCP, working down a seven-tier access ladder in order — vendor MCP, community MCP |
+| [`anthropics/claude-plugins-official:customer-inquiry-intake`](skills/anthropics-claude-plugins-official-customer-inquiry-intake.md) | operations-business | Reads a customer RFQ in whatever shape it arrived — a PDF drawing package, a 40-line spreadsheet, a portal export, a phone photo of a marked-up print, |
+| [`anthropics/claude-plugins-official:daily-production-report`](skills/anthropics-claude-plugins-official-daily-production-report.md) | data-analytics | Produces the morning production report: output against plan by line, cell and product; OEE with availability, performance and quality shown separately |
+| [`anthropics/claude-plugins-official:data-consolidate`](skills/anthropics-claude-plugins-official-data-consolidate.md) | data-analytics | Joins the plant's scheduled exports and connector data into one working dataset — ERP items (NetSuite or Infor M3), sales orders, production work orde |
+| [`anthropics/claude-plugins-official:design-space-explore`](skills/anthropics-claude-plugins-official-design-space-explore.md) | research-learning | Generates a batch of CAD variants directly in Autodesk Fusion by applying changed parameters to an engineer's existing model, never designing from scr |
 | [`anthropics/claude-plugins-official:example-command`](skills/anthropics-claude-plugins-official-example-command.md) | web-frontend-design | An example user-invoked skill that demonstrates frontmatter options and the skills//SKILL.md layout |
 | [`anthropics/claude-plugins-official:example-skill`](skills/anthropics-claude-plugins-official-example-skill.md) | meta-tooling | This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill template", or discusses skill development p |
 | [`anthropics/claude-plugins-official:faq`](skills/anthropics-claude-plugins-official-faq.md) | general | Turn repeat questions into a pinned FAQ. Use when a champion keeps answering the same questions. |
 | [`anthropics/claude-plugins-official:hackathon`](skills/anthropics-claude-plugins-official-hackathon.md) | dev-workflow | Plan a hackathon, either from a team's real backlog or as open-ended creative play with Claude Code. Use when a champion wants to run a hack day or a  |
+| [`anthropics/claude-plugins-official:inspection-to-capa`](skills/anthropics-claude-plugins-official-inspection-to-capa.md) | security | Runs the quality chain end to end: writes the nonconformance against the requirement it violates, searches history at the moment of writing to say whe |
 | [`anthropics/claude-plugins-official:m5-onboard`](skills/anthropics-claude-plugins-official-m5-onboard.md) | meta-tooling | End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, Cardputer-Adv, Core, CoreS3, Stick) — detect on USB, flash UIFlow 2.0  |
 | [`anthropics/claude-plugins-official:math-olympiad`](skills/anthropics-claude-plugins-official-math-olympiad.md) | dev-workflow | Solve competition math problems (IMO, Putnam, USAMO, AIME) with adversarial verification that catches the errors self-verification misses. Activates w |
 | [`anthropics/claude-plugins-official:maturity`](skills/anthropics-claude-plugins-official-maturity.md) | docs-content | Evaluate an organization's AI maturity on the steps of AI adoption and write a polished, shareable HTML report with evidence for each score. Use when  |
 | [`anthropics/claude-plugins-official:mcp-integration`](skills/anthropics-claude-plugins-official-mcp-integration.md) | meta-tooling | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context P |
+| [`anthropics/claude-plugins-official:morning-plant-pulse`](skills/anthropics-claude-plugins-official-morning-plant-pulse.md) | productivity-automation | Runs the overnight chain that has the morning production report waiting before anyone asks for it: joins last night's planning, production and mainten |
+| [`anthropics/claude-plugins-official:ncr-writeup`](skills/anthropics-claude-plugins-official-ncr-writeup.md) | docs-content | Writes the nonconformance report: what was found and measured, the specific requirement it violates cited to its document and locator, how many parts  |
 | [`anthropics/claude-plugins-official:office-hours`](skills/anthropics-claude-plugins-official-office-hours.md) | communication-collab | Set up and run Claude Code office hours, including the calendar event when the champion's own calendar connector allows it. Use when a champion wants  |
 | [`anthropics/claude-plugins-official:patterns`](skills/anthropics-claude-plugins-official-patterns.md) | software-dev | Find patterns worth sharing from recent PRs and repo history, both repeats to fix and good practices worth spreading. Use when a champion wants to kno |
 | [`anthropics/claude-plugins-official:playground`](skills/anthropics-claude-plugins-official-playground.md) | web-frontend-design | Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live p |
 | [`anthropics/claude-plugins-official:plugin-settings`](skills/anthropics-claude-plugins-official-plugin-settings.md) | meta-tooling | This skill should be used when the user asks about "plugin settings", "store plugin configuration", "user-configurable plugin", ".local.md files", "pl |
 | [`anthropics/claude-plugins-official:project-artifact`](skills/anthropics-claude-plugins-official-project-artifact.md) | dev-workflow | Generate and publish a project status artifact — an opinionated, tabbed status page for a project too big for one update (overview & success criteria, |
+| [`anthropics/claude-plugins-official:quote-build`](skills/anthropics-claude-plugins-official-quote-build.md) | careers-jobs | Produces the make-to-order quote from the intake form, comparable prior jobs and cost history, with every number traced to where it came from — materi |
+| [`anthropics/claude-plugins-official:rfq-to-quote`](skills/anthropics-claude-plugins-official-rfq-to-quote.md) | security | Runs the whole RFQ-to-quote chain end to end: reads the inquiry and its drawings, checks it against what the plant can build, drafts the questions bac |
+| [`anthropics/claude-plugins-official:root-cause-capa`](skills/anthropics-claude-plugins-official-root-cause-capa.md) | careers-jobs | Reads sensor history, inspection measurements, maintenance records and prior tickets onto one verified timeline, runs the pattern checks in code rathe |
 | [`anthropics/claude-plugins-official:routines`](skills/anthropics-claude-plugins-official-routines.md) | productivity-automation | Set up recurring champion routines as Claude Code scheduled tasks. Use when a champion wants work like a weekly patterns digest, a stale guidance chec |
 | [`anthropics/claude-plugins-official:session-report`](skills/anthropics-claude-plugins-official-session-report.md) | data-analytics | Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcri |
 | [`anthropics/claude-plugins-official:siege`](skills/anthropics-claude-plugins-official-siege.md) | docs-content | Work on one hard mathematics problem in rounds: each round a judge writes a few self-contained questions, independent workers answer them, and the jud |
 | [`anthropics/claude-plugins-official:skill-development`](skills/anthropics-claude-plugins-official-skill-development.md) | meta-tooling | This skill should be used when the user wants to "create a skill", "add a skill to plugin", "write a new skill", "improve skill description", "organiz |
 | [`anthropics/claude-plugins-official:solo`](skills/anthropics-claude-plugins-official-solo.md) | productivity-automation | Work on one hard mathematics problem in this session yourself, with no sub-agents: reason in stages, record each settled step in a notes file so that  |
+| [`anthropics/claude-plugins-official:supplier-escape-to-alternate-source`](skills/anthropics-claude-plugins-official-supplier-escape-to-alternate-source.md) | security | Runs the cross-area chain from a nonconformance traced to purchased material through to an alternate-source RFQ: writes the NCR and its containment, e |
+| [`anthropics/claude-plugins-official:supplier-quote-request`](skills/anthropics-claude-plugins-official-supplier-quote-request.md) | operations-business | Builds the RFQ package that goes out to suppliers — drawing and specification at the verified current revision, the demand picture, the quality clause |
+| [`anthropics/claude-plugins-official:trade-study-report`](skills/anthropics-claude-plugins-official-trade-study-report.md) | research-learning | Turns a filled-in trade study matrix and its analysis results into a scored comparison and a decision memo, with every score cited to its source. Runs |
 | [`anthropics/claude-plugins-official:writing-hookify-rules`](skills/anthropics-claude-plugins-official-writing-hookify-rules.md) | docs-content | This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guid |
 | [`anthropics/knowledge-work-plugins:accessibility-review`](skills/anthropics-knowledge-work-plugins-accessibility-review.md) | web-frontend-design | Run a WCAG 2.1 AA accessibility audit on a design or page. Trigger with "audit accessibility", "check a11y", "is this accessible?", or when reviewing  |
 | [`anthropics/knowledge-work-plugins:analyze`](skills/anthropics-knowledge-work-plugins-analyze.md) | data-analytics | Answer data questions -- from quick lookups to full analyses. Use when looking up a single metric, investigating what's driving a trend or drop, compa |
@@ -769,8 +785,10 @@
 | [`vercel-labs/agent-browser:derive-client`](skills/vercel-labs-agent-browser-derive-client.md) | browser-automation | Reverse-engineer a website's internal API by recording browser traffic into a HAR file, then generate a standalone client or CLI that calls the endpoi |
 | [`vercel-labs/agent-browser:dogfood`](skills/vercel-labs-agent-browser-dogfood.md) | software-dev | Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to "dogfood", "QA", "exploratory test",  |
 | [`vercel-labs/agent-browser:electron`](skills/vercel-labs-agent-browser-electron.md) | browser-automation | Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the  |
+| [`vercel-labs/agent-browser:modern-web-guidance`](skills/vercel-labs-agent-browser-modern-web-guidance.md) | browser-automation | Apply Chrome's Modern Web Guidance to frontend code, then verify the built page in a real browser with agent-browser. Use when asked to build or moder |
 | [`vercel-labs/agent-browser:protected-vercel-deployments`](skills/vercel-labs-agent-browser-protected-vercel-deployments.md) | mlops-devops | Access and test Vercel deployments protected by Vercel Authentication, SSO, or Deployment Protection with agent-browser. Use when a preview or product |
 | [`vercel-labs/agent-browser:slack`](skills/vercel-labs-agent-browser-slack.md) | communication-collab | Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data |
+| [`vercel-labs/agent-browser:vercel`](skills/vercel-labs-agent-browser-vercel.md) | mlops-devops | Access and test Vercel deployments with agent-browser, behind Deployment Protection or at a different feature flag variant. Use when a preview or prod |
 | [`vercel-labs/agent-browser:vercel-sandbox`](skills/vercel-labs-agent-browser-vercel-sandbox.md) | browser-automation | Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automat |
 | [`vercel-labs/agent-browser:webmcp-gen`](skills/vercel-labs-agent-browser-webmcp-gen.md) | browser-automation | Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create |
 | [`vercel-labs/agent-skills:deploy-to-vercel`](skills/vercel-labs-agent-skills-deploy-to-vercel.md) | mlops-devops | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push t |

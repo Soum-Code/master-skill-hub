@@ -47,7 +47,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:webmcp-gen`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/webmcp-gen --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/webmcp-gen --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

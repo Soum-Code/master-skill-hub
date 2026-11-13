@@ -41403,7 +41403,7 @@
       ],
       "id": "anthropics/claude-plugins-official:access",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 138,
@@ -41416,15 +41416,15 @@
         "legal-compliance"
       ],
       "plugin": null,
-      "rank": 88.89,
+      "rank": 85.94,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path external_plugins/discord/skills/access --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 86896415663871718a40898be44a76813e25b3db4017306753b1d7ae2e2dcd1d --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path external_plugins/discord/skills/access --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 86896415663871718a40898be44a76813e25b3db4017306753b1d7ae2e2dcd1d --apply",
         "path": "external_plugins/discord/skills/access",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "86896415663871718a40898be44a76813e25b3db4017306753b1d7ae2e2dcd1d",
         "type": "external"
       },
@@ -41441,7 +41441,7 @@
         "edit"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -41663,6 +41663,249 @@
         "verdict": "pass"
       },
       "when": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, sy"
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 17835,
+      "copies": 1,
+      "desc": "When a machine goes down, reads the sensor window before the failure, the asset's maintenance history including the free-text close-out notes technicians actually wrote, photos of what they can see, and the manufacturer's troubleshooting tree — then ranks likely causes, each with its supporting evidence, the specific prior work orders behind it, and the cheapest test that would tell them apart. Surfaces any safety implication before any diagnosis. Drafts the PM interval change that would stop it recurring, and emits a downtime record for the next production report. Batch mode ranks bad actors across every asset. Use when someone says \"the machine is down,\" \"what's wrong with this machine,\" \"why does this keep failing,\" \"diagnose this,\" or \"which machines are hurting us most.\"",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "reference/bad-actor-mode.md",
+        "reference/evidence-sources.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Safety leads. Always."
+        ],
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Capture the event"
+        ],
+        [
+          3,
+          "Step 2 — Pull the sensor window"
+        ],
+        [
+          3,
+          "Step 3 — Mine the maintenance history and close-out notes"
+        ],
+        [
+          3,
+          "Step 4 — Read the photos"
+        ],
+        [
+          3,
+          "Step 5 — Consult the manual"
+        ],
+        [
+          3,
+          "Step 6 — Rank candidate causes"
+        ],
+        [
+          3,
+          "Step 7 — Cite the specific prior work orders"
+        ],
+        [
+          3,
+          "Step 8 — Propose the PM plan adjustment"
+        ],
+        [
+          3,
+          "Step 9 — Batch mode: the bad actor ranking"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:breakdown-diagnosis",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 362,
+      "llm": null,
+      "name": "breakdown-diagnosis",
+      "novelty": 0.921,
+      "pack": "ai-ml",
+      "packs": [
+        "operations-business",
+        "productivity-automation"
+      ],
+      "plugin": null,
+      "rank": 116.26,
+      "references": [
+        "reference/bad-actor-mode.md",
+        "reference/evidence-sources.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/breakdown-diagnosis --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree ac57c4d9f0f97f7ddb607e6dafde7ee60115755411177059b7404934da7df9d9 --apply",
+        "path": "plugins/claude-for-manufacturing/skills/breakdown-diagnosis",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "ac57c4d9f0f97f7ddb607e6dafde7ee60115755411177059b7404934da7df9d9",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "A machine is down. Every minute it stays down, the plant is not producing — and **the largest component of MTTR is usually not the repair, it is working out what is wrong.**",
+      "tags": [
+        "breakdown",
+        "diagnosis",
+        "machine",
+        "down",
+        "asset",
+        "ranks",
+        "goes",
+        "reads"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"the machine is down,\" \"what's wrong with this machine,\" \"why does this keep failing,\" \"diagnose this,\" or \"which machines are hurting us most.\""
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 10308,
+      "copies": 1,
+      "desc": "Runs the chain from a machine going down to the diagnosis landing in tomorrow's production report: reads the sensor window, the maintenance history and its free-text close-out notes, technician photographs and the manufacturer's manual together, ranks likely causes with the cheapest test that tells them apart, then folds the diagnosis and its downtime into the next morning's downtime log and exceptions. Use when someone says \"run the breakdown chain,\" \"a machine went down,\" \"diagnose this and get it into the report,\" or \"breakdown to next report.\"",
+      "file_count": 1,
+      "files": [
+        "SKILL.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "The five steps"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "The handoff is the chain's whole risk"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:breakdown-to-next-report",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 211,
+      "llm": null,
+      "name": "breakdown-to-next-report",
+      "novelty": 0.944,
+      "pack": "data-analytics",
+      "packs": [
+        "docs-content",
+        "operations-business"
+      ],
+      "plugin": null,
+      "rank": 107.22,
+      "references": [],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/breakdown-to-next-report --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 8dfaf4466e5d10fbf50405a75f422242783c24d954a4e0fb0e1351d0fbb7d773 --apply",
+        "path": "plugins/claude-for-manufacturing/skills/breakdown-to-next-report",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "8dfaf4466e5d10fbf50405a75f422242783c24d954a4e0fb0e1351d0fbb7d773",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Chain 4. `breakdown-diagnosis` → `daily-production-report`.",
+      "tags": [
+        "breakdown",
+        "next",
+        "report",
+        "chain",
+        "machine",
+        "down",
+        "diagnosis",
+        "downtime"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"run the breakdown chain,\" \"a machine went down,\" \"diagnose this and get it into the report,\" or \"breakdown to next report.\""
     },
     {
       "allowed_tools": [],
@@ -42090,7 +42333,7 @@
       ],
       "id": "anthropics/claude-plugins-official:cardputer-buddy",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 47,
@@ -42100,15 +42343,15 @@
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 90.09,
+      "rank": 87.14,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/cwc-makers/skills/cardputer-buddy --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree ba428c13a526a56f8cbf59dfedbd93bb6fa88c9b216480d2ee29bb1295fcef33 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/cwc-makers/skills/cardputer-buddy --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree ba428c13a526a56f8cbf59dfedbd93bb6fa88c9b216480d2ee29bb1295fcef33 --apply",
         "path": "plugins/cwc-makers/skills/cardputer-buddy",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "ba428c13a526a56f8cbf59dfedbd93bb6fa88c9b216480d2ee29bb1295fcef33",
         "type": "external"
       },
@@ -42125,7 +42368,7 @@
         "adv"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -42195,7 +42438,7 @@
       ],
       "id": "anthropics/claude-plugins-official:claude-md-improver",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 180,
@@ -42205,7 +42448,7 @@
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 93.24,
+      "rank": 90.29,
       "references": [
         "references/quality-criteria.md",
         "references/templates.md",
@@ -42213,11 +42456,11 @@
       ],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-md-management/skills/claude-md-improver --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 17bb2eacc2e8d636b056a8fff8ccc2d0ac22f7e118b95bad89b8f1ef5a8d2362 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-md-management/skills/claude-md-improver --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 17bb2eacc2e8d636b056a8fff8ccc2d0ac22f7e118b95bad89b8f1ef5a8d2362 --apply",
         "path": "plugins/claude-md-management/skills/claude-md-improver",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "17bb2eacc2e8d636b056a8fff8ccc2d0ac22f7e118b95bad89b8f1ef5a8d2362",
         "type": "external"
       },
@@ -42234,7 +42477,7 @@
         "update"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -42307,7 +42550,7 @@
       ],
       "id": "anthropics/claude-plugins-official:claude-security",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 70,
@@ -42319,15 +42562,15 @@
         "ai-ml"
       ],
       "plugin": null,
-      "rank": 98.59,
+      "rank": 95.64,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-security/skills/claude-security --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 5912501c4916daebe0c74aaa66365851e5e71533bd9c4b5bc041733567593278 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-security/skills/claude-security --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 5912501c4916daebe0c74aaa66365851e5e71533bd9c4b5bc041733567593278 --apply",
         "path": "plugins/claude-security/skills/claude-security",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "5912501c4916daebe0c74aaa66365851e5e71533bd9c4b5bc041733567593278",
         "type": "external"
       },
@@ -42344,7 +42587,7 @@
         "repository"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -42636,7 +42879,7 @@
       ],
       "id": "anthropics/claude-plugins-official:configure",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 100,
@@ -42648,15 +42891,15 @@
         "software-dev"
       ],
       "plugin": null,
-      "rank": 94.89,
+      "rank": 91.94,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path external_plugins/discord/skills/configure --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree e29afb65a97f98093466071f467dfdac1b3cff36717096b5c42e999be51d7887 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path external_plugins/discord/skills/configure --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree e29afb65a97f98093466071f467dfdac1b3cff36717096b5c42e999be51d7887 --apply",
         "path": "external_plugins/discord/skills/configure",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "e29afb65a97f98093466071f467dfdac1b3cff36717096b5c42e999be51d7887",
         "type": "external"
       },
@@ -42673,7 +42916,7 @@
         "review"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -42685,6 +42928,698 @@
         "verdict": "pass"
       },
       "when": "Use when the user pastes a Discord bot token, asks to configure Discord, asks \"how do I set this up\" or \"who can reach me,\" or wants to check channel status."
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 23142,
+      "copies": 1,
+      "desc": "Gets the plugin talking to a manufacturing system that has no vendor MCP, working down a seven-tier access ladder in order — vendor MCP, community MCP, a scoped API wrapper, a read-only database view, a Zapier bridge, screen automation as a last resort, or a scheduled export contract — and stopping at the highest rung that actually works. States plainly at every rung what the customer gets, what it costs, and how it will eventually break. Most often the answer is that a vendor MCP already exists and nothing needs building — just an admin turning it on. Maps whatever it reaches onto the consolidated dataset schema, so no downstream skill changes. Credentials never enter the conversation. Use when someone says \"connect our ERP,\" \"we use SAP,\" \"can you reach our MES,\" \"set up a connector for this system,\" or \"our system isn't supported.\"",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "reference/access-ladder.md",
+        "reference/credentials-and-failure-modes.md",
+        "reference/known-systems.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Identify the system precisely"
+        ],
+        [
+          3,
+          "Step 2 — Scope the need before looking at access"
+        ],
+        [
+          3,
+          "Step 3 — Work the ladder, in order"
+        ],
+        [
+          3,
+          "Step 4 — Report the finding before building anything"
+        ],
+        [
+          3,
+          "Step 5 — Pick the tier, and record why"
+        ],
+        [
+          3,
+          "Step 6 — Handle credentials properly"
+        ],
+        [
+          3,
+          "Step 7 — Build scoped"
+        ],
+        [
+          3,
+          "Step 8 — Gate every write path"
+        ],
+        [
+          3,
+          "Step 9 — Map onto the consolidated dataset schema"
+        ],
+        [
+          3,
+          "Step 10 — Test against real data, and show it back"
+        ],
+        [
+          3,
+          "Step 11 — Register it"
+        ],
+        [
+          3,
+          "Step 12 — Say how it will break"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:custom-connector",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 419,
+      "llm": null,
+      "name": "custom-connector",
+      "novelty": 0.914,
+      "pack": "meta-tooling",
+      "packs": [
+        "software-dev"
+      ],
+      "plugin": null,
+      "rank": 113.97,
+      "references": [
+        "reference/access-ladder.md",
+        "reference/credentials-and-failure-modes.md",
+        "reference/known-systems.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/custom-connector --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 3920f2f951b1c4e64590d60e5de79761b9a9113cdd69cad1f2001030be35b45d --apply",
+        "path": "plugins/claude-for-manufacturing/skills/custom-connector",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "3920f2f951b1c4e64590d60e5de79761b9a9113cdd69cad1f2001030be35b45d",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "SAP and Infor have the largest installed base in manufacturing, and neither has an official MCP for business data. Neither does most of what actually runs a mid-market plant — a large share of it is on-prem, a decade old, and has a SQL database but no API at all. **That is not a failure case. It is ",
+      "tags": [
+        "custom",
+        "connector",
+        "mcp",
+        "system",
+        "vendor",
+        "gets",
+        "rung",
+        "plugin"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"connect our ERP,\" \"we use SAP,\" \"can you reach our MES,\" \"set up a connector for this system,\" or \"our system isn't supported.\""
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 21236,
+      "copies": 1,
+      "desc": "Reads a customer RFQ in whatever shape it arrived — a PDF drawing package, a 40-line spreadsheet, a portal export, a phone photo of a marked-up print, or a forwarded thread where the real requirement is four messages down — and pulls specifications, quantities and dates into one consistent intake form with every field traceable to the file and page it came from. Records how each tolerance was read and which geometry path each line takes. Reports what was never stated separately from what was stated two different ways. Checks the request against what the plant can actually build before asking the customer anything, drafts the questions back as sendable text, and returns a provisional bid/no-bid that names which unanswered question would change it. Use when someone says \"an RFQ came in,\" \"can we quote this,\" \"should we bid this job,\" \"read this inquiry,\" or \"what's missing from this RFQ?\"",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "reference/arrival-formats.md",
+        "reference/bid-no-bid.md",
+        "reference/registers.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Ingest"
+        ],
+        [
+          3,
+          "Step 2 — Extract into the intake form"
+        ],
+        [
+          3,
+          "Step 3 — Flag missing and ambiguous, separately"
+        ],
+        [
+          3,
+          "Step 4 — Check manufacturability, before anything goes to the customer"
+        ],
+        [
+          3,
+          "Step 5 — Draft the questions back"
+        ],
+        [
+          3,
+          "Step 6 — Score the provisional bid/no-bid recommendation"
+        ],
+        [
+          3,
+          "Step 7 — Fold in the answers, and handle the ones that never come"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:customer-inquiry-intake",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 394,
+      "llm": null,
+      "name": "customer-inquiry-intake",
+      "novelty": 0.912,
+      "pack": "operations-business",
+      "packs": [
+        "data-analytics",
+        "docs-content"
+      ],
+      "plugin": null,
+      "rank": 110.33,
+      "references": [
+        "reference/arrival-formats.md",
+        "reference/bid-no-bid.md",
+        "reference/registers.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/customer-inquiry-intake --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree cfb2ab9aeb5e24651b01ef82e9f49ee94088876b8d837ca0226d2de058f2d866 --apply",
+        "path": "plugins/claude-for-manufacturing/skills/customer-inquiry-intake",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "cfb2ab9aeb5e24651b01ef82e9f49ee94088876b8d837ca0226d2de058f2d866",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "An RFQ is a customer asking *what would this cost, and when could I have it?*",
+      "tags": [
+        "customer",
+        "inquiry",
+        "intake",
+        "rfq",
+        "bid",
+        "line",
+        "came",
+        "each"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"an RFQ came in,\" \"can we quote this,\" \"should we bid this job,\" \"read this inquiry,\" or \"what's missing from this RFQ?\""
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 27653,
+      "copies": 1,
+      "desc": "Produces the morning production report: output against plan by line, cell and product; OEE with availability, performance and quality shown separately; the downtime log ranked both by minutes and by frequency; scrap and downtime priced in dollars; week-over-week movers; and the exceptions needing a decision today. For each significant exception it drafts a specific reschedule or changeover move with its consequences traced, never a re-optimised day. Reads the consolidated dataset and leads with data freshness. When the plant has a floor plan on file, or attaches one, it also draws each machine's OEE, availability and downtime on a schematic of the floor. Use when someone says \"morning report,\" \"production report,\" \"how did we do yesterday,\" \"what's our OEE,\" \"downtime report,\" \"what's late,\" or \"what do I take into the production meeting.\"",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "reference/floor-schematic.md",
+        "reference/oee.md",
+        "reference/reschedule-scope.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Confirm freshness"
+        ],
+        [
+          3,
+          "Step 2 — Output against plan"
+        ],
+        [
+          3,
+          "Step 3 — Compute OEE"
+        ],
+        [
+          3,
+          "Step 4 — Build the downtime log"
+        ],
+        [
+          3,
+          "Step 5 — Price the losses"
+        ],
+        [
+          3,
+          "Step 6 — Week-over-week movers"
+        ],
+        [
+          3,
+          "Step 7 — Fold in breakdown diagnoses"
+        ],
+        [
+          3,
+          "Step 8 — Identify exceptions"
+        ],
+        [
+          3,
+          "Step 9 — Propose the reschedule or changeover move"
+        ],
+        [
+          3,
+          "Step 9a — Floor view"
+        ],
+        [
+          3,
+          "Step 10 — Emit"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:daily-production-report",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 487,
+      "llm": null,
+      "name": "daily-production-report",
+      "novelty": 0.93,
+      "pack": "data-analytics",
+      "packs": [
+        "docs-content",
+        "operations-business"
+      ],
+      "plugin": null,
+      "rank": 110.69,
+      "references": [
+        "reference/floor-schematic.md",
+        "reference/oee.md",
+        "reference/reschedule-scope.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/daily-production-report --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 921266236f01666eac82028c04d9f79cd74f30a403791ac5f83bee25a1ddffeb --apply",
+        "path": "plugins/claude-for-manufacturing/skills/daily-production-report",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "921266236f01666eac82028c04d9f79cd74f30a403791ac5f83bee25a1ddffeb",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Every plant runs a morning production meeting, and somebody spends 60 to 90 minutes before it assembling the same report by hand out of the same four or five exports. This is that report.",
+      "tags": [
+        "daily",
+        "production",
+        "report",
+        "downtime",
+        "oee",
+        "morning",
+        "plan",
+        "availability"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"morning report,\" \"production report,\" \"how did we do yesterday,\" \"what's our OEE,\" \"downtime report,\" \"what's late,\" or \"what do I take into the production meeting.\""
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 27373,
+      "copies": 1,
+      "desc": "Joins the plant's scheduled exports and connector data into one working dataset — ERP items (NetSuite or Infor M3), sales orders, production work orders, purchase orders, inventory, routings and closed-job operation actuals; CMMS assets and maintenance work orders; and the MES, historian, quality and planning files landing in the Microsoft 365 export folder. Keys on part number, production work order, sales order, lot, asset and supplier, classifies every key that fails to match into one of eight mismatch classes, and proposes the correction rather than reporting a count, applying nothing without a yes. Runs file-only with no connector, or connector-only with no files. Use when someone says \"pull the data together,\" \"consolidate the exports,\" \"build the dataset,\" \"join production to the ERP,\" or \"why don't these numbers match,\" and before any reporting or quoting skill runs.",
+      "file_count": 3,
+      "files": [
+        "SKILL.md",
+        "reference/join-keys.md",
+        "reference/mismatch-classes.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Discover"
+        ],
+        [
+          3,
+          "Step 2 — Freshness check"
+        ],
+        [
+          3,
+          "Step 3 — Pull connector data"
+        ],
+        [
+          3,
+          "Step 4 — Normalize keys"
+        ],
+        [
+          3,
+          "Step 5 — Join"
+        ],
+        [
+          3,
+          "Step 6 — Classify mismatches"
+        ],
+        [
+          3,
+          "Step 7 — Count in code, and reconcile before writing"
+        ],
+        [
+          3,
+          "Step 8 — Emit"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:data-consolidate",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 487,
+      "llm": null,
+      "name": "data-consolidate",
+      "novelty": 0.914,
+      "pack": "data-analytics",
+      "packs": [],
+      "plugin": null,
+      "rank": 110.12,
+      "references": [
+        "reference/join-keys.md",
+        "reference/mismatch-classes.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/data-consolidate --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 773aa3effe633e44f6497efa83d1928fdb6788c1b312a5b67c0f101cb9912a1a --apply",
+        "path": "plugins/claude-for-manufacturing/skills/data-consolidate",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "773aa3effe633e44f6497efa83d1928fdb6788c1b312a5b67c0f101cb9912a1a",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "The foundation layer. The dataset this skill produces is where every data-dependent skill reads from by default, rather than going back to the raw sources — and it is the only place the sources are joined and their key mismatches classified.",
+      "tags": [
+        "data",
+        "consolidate",
+        "orders",
+        "connector",
+        "production",
+        "exports",
+        "one",
+        "dataset"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"pull the data together,\" \"consolidate the exports,\" \"build the dataset,\" \"join production to the ERP,\" or \"why don't these numbers match,\" and before any reporting or quoting skill runs."
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 11214,
+      "copies": 1,
+      "desc": "Generates a batch of CAD variants directly in Autodesk Fusion by applying changed parameters to an engineer's existing model, never designing from scratch and never overwriting the base. Checks first whether the parameters the engineer wants to vary actually drive the model's geometry, and stops rather than generating garbage if they don't. Confirms the variant count with the engineer before generating anything. Captures mass, volume, bounding box and every other model-computed property per variant, and hands the batch off in the shape trade-study-report consumes — it does not run analysis itself. Use when someone says \"explore the design space,\" \"generate variants,\" \"try different wall thicknesses,\" \"run a parameter sweep,\" or \"vary this and see what happens.\"",
+      "file_count": 5,
+      "files": [
+        "SKILL.md",
+        "reference/adapt-prior-model.md",
+        "reference/cad-adapter.md",
+        "reference/parametric-check.md",
+        "reference/variant-generation.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Connect to the CAD environment"
+        ],
+        [
+          3,
+          "Step 2 — Read the parameter set, and check what actually drives it"
+        ],
+        [
+          3,
+          "Step 3 — Confirm the variant plan"
+        ],
+        [
+          3,
+          "Step 4 — Generate, and verify each one"
+        ],
+        [
+          3,
+          "Step 5 — Capture per-variant properties"
+        ],
+        [
+          3,
+          "Step 6 — Produce the handoff manifest"
+        ],
+        [
+          3,
+          "Step 7 — Never touch the base model"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:design-space-explore",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 235,
+      "llm": null,
+      "name": "design-space-explore",
+      "novelty": 0.926,
+      "pack": "research-learning",
+      "packs": [
+        "software-dev",
+        "web-frontend-design"
+      ],
+      "plugin": null,
+      "rank": 114.46,
+      "references": [
+        "reference/adapt-prior-model.md",
+        "reference/cad-adapter.md",
+        "reference/parametric-check.md",
+        "reference/variant-generation.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/design-space-explore --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree e17e977049fa34c2032dce3e98b5c6e5b43c9acfd24815b69c3ceacc26ef52f2 --apply",
+        "path": "plugins/claude-for-manufacturing/skills/design-space-explore",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "e17e977049fa34c2032dce3e98b5c6e5b43c9acfd24815b69c3ceacc26ef52f2",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "An engineering team designing a part rarely has one answer. They have a **design space** — a range of possible designs bounded by what they're allowed to vary (wall thickness, rib count, hole pattern, material) and what the part must satisfy (envelope, mass, load, cost, manufacturability). Modeling ",
+      "tags": [
+        "design",
+        "space",
+        "explore",
+        "engineer",
+        "model",
+        "batch",
+        "variants",
+        "parameters"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"explore the design space,\" \"generate variants,\" \"try different wall thicknesses,\" \"run a parameter sweep,\" or \"vary this and see what happens.\""
     },
     {
       "allowed_tools": [
@@ -42888,25 +43823,25 @@
       ],
       "id": "anthropics/claude-plugins-official:faq",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 41,
       "llm": null,
       "name": "faq",
-      "novelty": 0.864,
+      "novelty": 0.0,
       "pack": "general",
       "packs": [],
       "plugin": null,
-      "rank": 102.57,
+      "rank": 82.34,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/faq --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 5bd5c22eb4d26667739d75ad6e39e866057136e18c2e41dd1d8a55e94d9ff945 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/faq --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 5bd5c22eb4d26667739d75ad6e39e866057136e18c2e41dd1d8a55e94d9ff945 --apply",
         "path": "plugins/champion-kit/skills/faq",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "5bd5c22eb4d26667739d75ad6e39e866057136e18c2e41dd1d8a55e94d9ff945",
         "type": "external"
       },
@@ -42923,7 +43858,7 @@
         "same"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -42958,25 +43893,25 @@
       ],
       "id": "anthropics/claude-plugins-official:hackathon",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 84,
       "llm": null,
       "name": "hackathon",
-      "novelty": 0.902,
+      "novelty": 0.0,
       "pack": "dev-workflow",
       "packs": [],
       "plugin": null,
-      "rank": 103.33,
+      "rank": 82.34,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/hackathon --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 79b088388f962676f39bcafda22af795037e8d59a4ade6291093a6778b107493 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/hackathon --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 79b088388f962676f39bcafda22af795037e8d59a4ade6291093a6778b107493 --apply",
         "path": "plugins/champion-kit/skills/hackathon",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "79b088388f962676f39bcafda22af795037e8d59a4ade6291093a6778b107493",
         "type": "external"
       },
@@ -42993,7 +43928,7 @@
         "open"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -43005,6 +43940,103 @@
         "verdict": "pass"
       },
       "when": "Use when a champion wants to run a hack day or a shorter hack session."
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 9768,
+      "copies": 1,
+      "desc": "Runs the quality chain end to end: writes the nonconformance against the requirement it violates, searches history at the moment of writing to say whether this has happened before and whether the last fix held, reads sensor and inspection data on one verified timeline, proposes ranked candidate causes with evidence for and against, drafts the 8D, and produces the customer pack behind a redaction diff. Use when someone says \"run the CAPA chain,\" \"take this nonconformance through to an 8D,\" \"inspection to CAPA,\" or asks for the full corrective-action workflow.",
+      "file_count": 1,
+      "files": [
+        "SKILL.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "The seven steps"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:inspection-to-capa",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 194,
+      "llm": null,
+      "name": "inspection-to-capa",
+      "novelty": 0.914,
+      "pack": "security",
+      "packs": [
+        "docs-content",
+        "mlops-devops"
+      ],
+      "plugin": null,
+      "rank": 111.42,
+      "references": [],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/inspection-to-capa --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree f7abf06c3b1cb2110e5f1fdeab1538b3f79d5486be04c558660e246464abe36e --apply",
+        "path": "plugins/claude-for-manufacturing/skills/inspection-to-capa",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "f7abf06c3b1cb2110e5f1fdeab1538b3f79d5486be04c558660e246464abe36e",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Chain 2. `ncr-writeup` → `root-cause-capa`.",
+      "tags": [
+        "inspection",
+        "capa",
+        "chain",
+        "end",
+        "nonconformance",
+        "against",
+        "whether",
+        "runs"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"run the CAPA chain,\" \"take this nonconformance through to an 8D,\" \"inspection to CAPA,\" or asks for the full corrective-action workflow."
     },
     {
       "allowed_tools": [],
@@ -43064,7 +44096,7 @@
       ],
       "id": "anthropics/claude-plugins-official:m5-onboard",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 186,
@@ -43074,15 +44106,15 @@
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 89.49,
+      "rank": 86.54,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/cwc-makers/skills/m5-onboard --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree e20b0d5e68356823090acd77d57f4e373cc162d05ab78f95ba7a90f75493c7c1 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/cwc-makers/skills/m5-onboard --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree e20b0d5e68356823090acd77d57f4e373cc162d05ab78f95ba7a90f75493c7c1 --apply",
         "path": "plugins/cwc-makers/skills/m5-onboard",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "e20b0d5e68356823090acd77d57f4e373cc162d05ab78f95ba7a90f75493c7c1",
         "type": "external"
       },
@@ -43099,7 +44131,7 @@
         "freshly"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -43253,6 +44285,11 @@
         "solve",
         "putnam"
       ],
+      "update_available": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -43290,27 +44327,27 @@
       ],
       "id": "anthropics/claude-plugins-official:maturity",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 77,
       "llm": null,
       "name": "maturity",
-      "novelty": 0.913,
+      "novelty": 0.0,
       "pack": "docs-content",
       "packs": [
         "web-frontend-design"
       ],
       "plugin": null,
-      "rank": 107.4,
+      "rank": 86.19,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/maturity --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree eb1db7acd3c48599ae7e7e1b9128f30b4cba03ea1a266b9dc5e1ea09db20476c --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/maturity --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree eb1db7acd3c48599ae7e7e1b9128f30b4cba03ea1a266b9dc5e1ea09db20476c --apply",
         "path": "plugins/champion-kit/skills/maturity",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "eb1db7acd3c48599ae7e7e1b9128f30b4cba03ea1a266b9dc5e1ea09db20476c",
         "type": "external"
       },
@@ -43327,7 +44364,7 @@
         "polished"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -43576,6 +44613,259 @@
     },
     {
       "allowed_tools": [],
+      "bytes": 21480,
+      "copies": 1,
+      "desc": "Runs the overnight chain that has the morning production report waiting before anyone asks for it: joins last night's planning, production and maintenance exports, flags the mismatched keys, then computes output against plan, OEE with its three components, downtime ranked two ways, priced losses and the exceptions needing a decision. Stores a record per production day and keeps one Operations Command Center dashboard per site up to date, with a 14 and 30 day trend. Safe to run unattended. Use when someone says \"run the morning pulse,\" \"do the overnight report,\" \"morning plant pulse,\" \"update the operations dashboard,\" or schedules the daily production run.",
+      "file_count": 6,
+      "files": [
+        "SKILL.md",
+        "reference/compute-engine.md",
+        "reference/operations-dashboard.md",
+        "reference/short-page.md",
+        "scripts/pulse_compute.py",
+        "scripts/render_short.py"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "The three steps"
+        ],
+        [
+          2,
+          "What \"safe to run unattended\" actually requires"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Scheduling"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:morning-plant-pulse",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 372,
+      "llm": null,
+      "name": "morning-plant-pulse",
+      "novelty": 0.924,
+      "pack": "productivity-automation",
+      "packs": [
+        "operations-business"
+      ],
+      "plugin": null,
+      "rank": 108.07,
+      "references": [
+        "reference/compute-engine.md",
+        "reference/operations-dashboard.md",
+        "reference/short-page.md"
+      ],
+      "scripts": [
+        "scripts/pulse_compute.py",
+        "scripts/render_short.py"
+      ],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/morning-plant-pulse --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 8aa71f5b84844be059bd5b9ed2b772b35a71075c05ff8f60d83fbe7e00b88c09 --apply",
+        "path": "plugins/claude-for-manufacturing/skills/morning-plant-pulse",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "8aa71f5b84844be059bd5b9ed2b772b35a71075c05ff8f60d83fbe7e00b88c09",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Chain 3. `data-consolidate` → `daily-production-report` → publish.",
+      "tags": [
+        "morning",
+        "plant",
+        "pulse",
+        "production",
+        "overnight",
+        "report",
+        "day",
+        "operations"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"run the morning pulse,\" \"do the overnight report,\" \"morning plant pulse,\" \"update the operations dashboard,\" or schedules the daily production run."
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 21122,
+      "copies": 1,
+      "desc": "Writes the nonconformance report: what was found and measured, the specific requirement it violates cited to its document and locator, how many parts are actually suspect and why that scope rather than a narrower one, and where every one of them physically is across all five locations. Searches prior NCRs and CAPAs at the moment of writing and reports whether the earlier fix held. Where containment places parts at a customer, drafts the escape notification automatically against its contractual clock. Never asserts a requirement it cannot locate. Keeps the site's Quality Register of open NCRs up to date, and closes an NCR there when told to. Use when someone says \"write up this nonconformance,\" \"we found bad parts,\" \"raise an NCR,\" \"the inspector rejected this lot,\" \"a customer is complaining about a part,\" or \"close NCR-2026-0141.\"",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "reference/recurrence-and-escape.md",
+        "reference/requirement-citation.md",
+        "reference/scope-and-containment.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Capture the finding, structured"
+        ],
+        [
+          3,
+          "Step 2 — Cite the requirement"
+        ],
+        [
+          3,
+          "Step 3 — Scope the affected quantity"
+        ],
+        [
+          3,
+          "Step 4 — Locate the parts"
+        ],
+        [
+          3,
+          "Step 5 — Recommend containment per location"
+        ],
+        [
+          3,
+          "Step 6 — Search history, now"
+        ],
+        [
+          3,
+          "Step 7 — Draft the escape notification"
+        ],
+        [
+          3,
+          "Step 8 — Write the register row, and update the Quality Register"
+        ],
+        [
+          3,
+          "Closing an NCR"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:ncr-writeup",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 384,
+      "llm": null,
+      "name": "ncr-writeup",
+      "novelty": 0.931,
+      "pack": "docs-content",
+      "packs": [],
+      "plugin": null,
+      "rank": 108.31,
+      "references": [
+        "reference/recurrence-and-escape.md",
+        "reference/requirement-citation.md",
+        "reference/scope-and-containment.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/ncr-writeup --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 005b119964dcf6c78b9bbb1eb9ab333fb24c5f5430442af72d7acd9d1e56e7fe --apply",
+        "path": "plugins/claude-for-manufacturing/skills/ncr-writeup",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "005b119964dcf6c78b9bbb1eb9ab333fb24c5f5430442af72d7acd9d1e56e7fe",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "The formal record that something did not meet its requirement, written by whoever found it — an inspector, an operator, a customer complaint landing in somebody's inbox.",
+      "tags": [
+        "ncr",
+        "writeup",
+        "parts",
+        "nonconformance",
+        "found",
+        "requirement",
+        "one",
+        "ncrs"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"write up this nonconformance,\" \"we found bad parts,\" \"raise an NCR,\" \"the inspector rejected this lot,\" \"a customer is complaining about a part,\" or \"close NCR-2026-0141.\""
+    },
+    {
+      "allowed_tools": [],
       "bytes": 5280,
       "copies": 1,
       "desc": "Set up and run Claude Code office hours, including the calendar event when the champion's own calendar connector allows it. Use when a champion wants a regular time for teammates to bring problems.",
@@ -43596,27 +44886,27 @@
       ],
       "id": "anthropics/claude-plugins-official:office-hours",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 49,
       "llm": null,
       "name": "office-hours",
-      "novelty": 0.903,
+      "novelty": 0.0,
       "pack": "communication-collab",
       "packs": [
         "productivity-automation"
       ],
       "plugin": null,
-      "rank": 103.35,
+      "rank": 82.34,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/office-hours --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 6705327c04a08464bbcd0e8c6120f63c67d606e040978dab6446d5a5bf40ec44 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/office-hours --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 6705327c04a08464bbcd0e8c6120f63c67d606e040978dab6446d5a5bf40ec44 --apply",
         "path": "plugins/champion-kit/skills/office-hours",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "6705327c04a08464bbcd0e8c6120f63c67d606e040978dab6446d5a5bf40ec44",
         "type": "external"
       },
@@ -43633,7 +44923,7 @@
         "allows"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -43668,25 +44958,25 @@
       ],
       "id": "anthropics/claude-plugins-official:patterns",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 70,
       "llm": null,
       "name": "patterns",
-      "novelty": 0.919,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [],
       "plugin": null,
-      "rank": 113.27,
+      "rank": 91.94,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/patterns --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 17a5cb06e1297b3fc370484e4088cded72ffb150386c25603e4d711c5a314a44 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/patterns --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 17a5cb06e1297b3fc370484e4088cded72ffb150386c25603e4d711c5a314a44 --apply",
         "path": "plugins/champion-kit/skills/patterns",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "17a5cb06e1297b3fc370484e4088cded72ffb150386c25603e4d711c5a314a44",
         "type": "external"
       },
@@ -43703,7 +44993,7 @@
         "history"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -44148,6 +45438,406 @@
     },
     {
       "allowed_tools": [],
+      "bytes": 28688,
+      "copies": 1,
+      "desc": "Produces the make-to-order quote from the intake form, comparable prior jobs and cost history, with every number traced to where it came from — material at the price actually paid on a named purchase order, machine hours per operation from a labelled ladder (current routing, closed-job actuals, the confirmed design, first principles) with setup and run kept apart, setup re-amortized at each quantity break, and margin on its own line. Checks the promised date against real shop load before committing to it. Revises in place when a customer counters, preserving what changed and why. Use when someone says \"build the quote,\" \"price this job,\" \"what should we charge,\" \"quote this RFQ,\" or \"the customer came back on price.\"",
+      "file_count": 5,
+      "files": [
+        "SKILL.md",
+        "reference/cost-buildup.md",
+        "reference/date-and-load.md",
+        "reference/hours-ladder.md",
+        "reference/revisions.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Load the intake form"
+        ],
+        [
+          3,
+          "Step 2 — Find comparables"
+        ],
+        [
+          3,
+          "Step 3 — Flag capability, then derive the hours"
+        ],
+        [
+          3,
+          "Step 4 — Build up the cost"
+        ],
+        [
+          3,
+          "Step 5 — Apply quantity breaks"
+        ],
+        [
+          3,
+          "Step 6 — Apply margin"
+        ],
+        [
+          3,
+          "Step 7 — Check the promised date against shop load"
+        ],
+        [
+          3,
+          "Step 8 — Assemble both documents"
+        ],
+        [
+          3,
+          "Step 9 — Handle the negotiation loop"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:quote-build",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 491,
+      "llm": null,
+      "name": "quote-build",
+      "novelty": 0.937,
+      "pack": "careers-jobs",
+      "packs": [
+        "meta-tooling"
+      ],
+      "plugin": null,
+      "rank": 112.28,
+      "references": [
+        "reference/cost-buildup.md",
+        "reference/date-and-load.md",
+        "reference/hours-ladder.md",
+        "reference/revisions.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/quote-build --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 30e7f7815f76cdb823a373f38ab351aed24f83ef5fa5b7489370ed3f8fe8901e --apply",
+        "path": "plugins/claude-for-manufacturing/skills/quote-build",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "30e7f7815f76cdb823a373f38ab351aed24f83ef5fa5b7489370ed3f8fe8901e",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Pricing a make-to-order job means building up a cost and then applying commercial judgment. Every job is priced fresh, which is why quoting is skilled, slow, expert work — and why the estimator is usually the bottleneck.",
+      "tags": [
+        "quote",
+        "price",
+        "order",
+        "came",
+        "job",
+        "setup",
+        "customer",
+        "produces"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"build the quote,\" \"price this job,\" \"what should we charge,\" \"quote this RFQ,\" or \"the customer came back on price.\""
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 19518,
+      "copies": 1,
+      "desc": "Runs the whole RFQ-to-quote chain end to end: reads the inquiry and its drawings, checks it against what the plant can build, drafts the questions back, returns a provisional bid/no-bid, pulls cost history, routings and closed-job actuals, builds an internal estimating model in Fusion where connected (from the drawing, a prior part's model saved as new, text specs as a ROM only, or a STEP file), derives machine hours per operation with each hour's basis labelled, and drafts the quote with its cost basis shown. Four approval gates, and the chain pauses for days while the customer answers. Use when someone says \"run the RFQ chain,\" \"take this RFQ all the way to a quote,\" \"quote this end to end,\" \"quote this from the drawing,\" or names an inquiry and asks for the full workflow.",
+      "file_count": 2,
+      "files": [
+        "SKILL.md",
+        "reference/design-step.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "The twelve steps"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Resuming"
+        ],
+        [
+          3,
+          "When the answers come back"
+        ],
+        [
+          3,
+          "When a revised drawing arrives"
+        ],
+        [
+          3,
+          "When the customer counters on price"
+        ],
+        [
+          3,
+          "When they never come back"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:rfq-to-quote",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 331,
+      "llm": null,
+      "name": "rfq-to-quote",
+      "novelty": 0.918,
+      "pack": "security",
+      "packs": [
+        "ai-ml",
+        "operations-business"
+      ],
+      "plugin": null,
+      "rank": 115.95,
+      "references": [
+        "reference/design-step.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/rfq-to-quote --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 5e3696d68a931b2882b5d7a79af4c47f8763c515a07653a0c67dadf9b31e878f --apply",
+        "path": "plugins/claude-for-manufacturing/skills/rfq-to-quote",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "5e3696d68a931b2882b5d7a79af4c47f8763c515a07653a0c67dadf9b31e878f",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Chain 1. `customer-inquiry-intake` → `data-consolidate` → design step → `quote-build`.",
+      "tags": [
+        "rfq",
+        "quote",
+        "end",
+        "chain",
+        "inquiry",
+        "drafts",
+        "bid",
+        "cost"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"run the RFQ chain,\" \"take this RFQ all the way to a quote,\" \"quote this end to end,\" \"quote this from the drawing,\" or names an inquiry and asks for the full workflow."
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 22705,
+      "copies": 1,
+      "desc": "Reads sensor history, inspection measurements, maintenance records and prior tickets onto one verified timeline, runs the pattern checks in code rather than by eye — SPC drift, clustering by lot, shift, operator, machine and tool change, correlation with a maintenance event — then proposes ranked candidate causal chains, each with the evidence for it, the evidence against it, and the test that would confirm or kill it. Drafts the 8D. Where the leading candidate points at purchased material, raises the supplier-caused flag that starts a sourcing action. Use when someone says \"why did this happen,\" \"root cause,\" \"write the 8D,\" \"investigate this nonconformance,\" \"CAPA,\" or \"the customer wants a corrective action report.\"",
+      "file_count": 5,
+      "files": [
+        "SKILL.md",
+        "reference/8d-and-candidates.md",
+        "reference/pattern-checks.md",
+        "reference/redaction.md",
+        "reference/time-alignment.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Assemble the evidence window, and verify the clocks"
+        ],
+        [
+          3,
+          "Step 2 — Run the pattern checks, computed"
+        ],
+        [
+          3,
+          "Step 3 — Build candidate causal chains"
+        ],
+        [
+          3,
+          "Step 4 — Rank, and name the discriminating tests"
+        ],
+        [
+          3,
+          "Step 5 — Draft the 8D"
+        ],
+        [
+          3,
+          "Step 6 — Route the signal"
+        ],
+        [
+          3,
+          "Step 7 — Produce the customer-facing pack"
+        ],
+        [
+          3,
+          "Step 8 — Update the register row, and the Quality Register"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:root-cause-capa",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 406,
+      "llm": null,
+      "name": "root-cause-capa",
+      "novelty": 0.926,
+      "pack": "careers-jobs",
+      "packs": [
+        "mlops-devops",
+        "docs-content",
+        "operations-business"
+      ],
+      "plugin": null,
+      "rank": 115.66,
+      "references": [
+        "reference/8d-and-candidates.md",
+        "reference/pattern-checks.md",
+        "reference/redaction.md",
+        "reference/time-alignment.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/root-cause-capa --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 73cc288c68a7e423b1719e68a2148781a245abcffd58ee9d305d694ea19c8738 --apply",
+        "path": "plugins/claude-for-manufacturing/skills/root-cause-capa",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "73cc288c68a7e423b1719e68a2148781a245abcffd58ee9d305d694ea19c8738",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "The step between \"we found a bad part\" and \"we fixed the reason.\" It is slow, expert work, and the reason it is slow is that the evidence sits in four systems that nobody looks at together.",
+      "tags": [
+        "root",
+        "cause",
+        "capa",
+        "maintenance",
+        "candidate",
+        "evidence",
+        "action",
+        "reads"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"why did this happen,\" \"root cause,\" \"write the 8D,\" \"investigate this nonconformance,\" \"CAPA,\" or \"the customer wants a corrective action report.\""
+    },
+    {
+      "allowed_tools": [],
       "bytes": 8501,
       "copies": 1,
       "desc": "Set up recurring champion routines as Claude Code scheduled tasks. Use when a champion wants work like a weekly patterns digest, a stale guidance check, or a monthly lead update to happen without kicking it off by hand.",
@@ -44168,25 +45858,25 @@
       ],
       "id": "anthropics/claude-plugins-official:routines",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 57,
       "llm": null,
       "name": "routines",
-      "novelty": 0.872,
+      "novelty": 0.0,
       "pack": "productivity-automation",
       "packs": [],
       "plugin": null,
-      "rank": 102.73,
+      "rank": 82.34,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/routines --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 0298f1b1a5cbd268dfbeaf6410c01f573ed7909a7b4abad89ca7feae103b6c64 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/champion-kit/skills/routines --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 0298f1b1a5cbd268dfbeaf6410c01f573ed7909a7b4abad89ca7feae103b6c64 --apply",
         "path": "plugins/champion-kit/skills/routines",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "0298f1b1a5cbd268dfbeaf6410c01f573ed7909a7b4abad89ca7feae103b6c64",
         "type": "external"
       },
@@ -44203,7 +45893,7 @@
         "digest"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -44416,6 +46106,11 @@
         "hard",
         "mathematics"
       ],
+      "update_available": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -44680,7 +46375,7 @@
       "headings": [],
       "id": "anthropics/claude-plugins-official:solo",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 70,
@@ -44690,15 +46385,15 @@
       "pack": "productivity-automation",
       "packs": [],
       "plugin": null,
-      "rank": 85.09,
+      "rank": 82.14,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/math-proof/skills/solo --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree 3eecbb23f82abab4f715610ff1441d9957718d37d75dded7f48c6798beb9f4fa --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/math-proof/skills/solo --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 3eecbb23f82abab4f715610ff1441d9957718d37d75dded7f48c6798beb9f4fa --apply",
         "path": "plugins/math-proof/skills/solo",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "3eecbb23f82abab4f715610ff1441d9957718d37d75dded7f48c6798beb9f4fa",
         "type": "external"
       },
@@ -44715,7 +46410,7 @@
         "yourself"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -44727,6 +46422,393 @@
         "verdict": "pass"
       },
       "when": ""
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 9962,
+      "copies": 1,
+      "desc": "Runs the cross-area chain from a nonconformance traced to purchased material through to an alternate-source RFQ: writes the NCR and its containment, establishes root cause against the supplier rather than the process, records the corrective action, then builds the sourcing package with a response format that makes the returned bids comparable. Use when someone says \"run the supplier escape chain,\" \"a supplier caused this, find us an alternate,\" \"supplier escape to alternate source,\" or asks to source around a supplier who caused a defect.",
+      "file_count": 1,
+      "files": [
+        "SKILL.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "The four steps"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Three timestamps, not two"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:supplier-escape-to-alternate-source",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 206,
+      "llm": null,
+      "name": "supplier-escape-to-alternate-source",
+      "novelty": 0.939,
+      "pack": "security",
+      "packs": [],
+      "plugin": null,
+      "rank": 105.92,
+      "references": [],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/supplier-escape-to-alternate-source --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 432f938012c929557c8464f14e7593140973006089de0b803a569ba9f2c940ef --apply",
+        "path": "plugins/claude-for-manufacturing/skills/supplier-escape-to-alternate-source",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "432f938012c929557c8464f14e7593140973006089de0b803a569ba9f2c940ef",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Chain 5. `ncr-writeup` → `root-cause-capa` → `supplier-quote-request`.",
+      "tags": [
+        "supplier",
+        "escape",
+        "alternate",
+        "source",
+        "chain",
+        "caused",
+        "runs",
+        "cross"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"run the supplier escape chain,\" \"a supplier caused this, find us an alternate,\" \"supplier escape to alternate source,\" or asks to source around a supplier who caused a defect."
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 23056,
+      "copies": 1,
+      "desc": "Builds the RFQ package that goes out to suppliers — drawing and specification at the verified current revision, the demand picture, the quality clause list, commercial terms, and a mandated response format that makes the returned bids comparable by construction. Lists everything missing. Hard stops on a revision mismatch or restricted technical data. Then runs the supplier loop: candidates from the approved supplier list with unapproved and single-source flagged, one email draft per supplier for the buyer to send, response tracking with chase drafts, returned bids read into one shape with every missing field listed, a comparison per quantity break computed in code, and a recommendation. The buyer decides; the skill records who and when. Use when someone says \"source this part,\" \"send an RFQ to suppliers,\" \"we need an alternate supplier,\" \"get quotes on this,\" \"who else can make this?\", \"chase the suppliers,\" \"compare these bids,\" or \"we're going with this supplier.\"",
+      "file_count": 6,
+      "files": [
+        "SKILL.md",
+        "reference/bid-comparability.md",
+        "reference/bid-comparison.md",
+        "reference/hard-stops.md",
+        "reference/quality-clauses.md",
+        "reference/supplier-loop.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Take the trigger"
+        ],
+        [
+          3,
+          "Step 2 — Assemble the technical package, and verify the revision"
+        ],
+        [
+          3,
+          "Step 3 — Build the demand picture, and state the delivery requirements"
+        ],
+        [
+          3,
+          "Step 4 — Attach the quality clause list at current revision"
+        ],
+        [
+          3,
+          "Step 5 — Attach commercial terms"
+        ],
+        [
+          3,
+          "Step 6 — Specify the response schedule and format"
+        ],
+        [
+          3,
+          "Step 7 — List what is missing"
+        ],
+        [
+          3,
+          "Step 8 — Identify candidate suppliers"
+        ],
+        [
+          3,
+          "Step 9 — Draft one email per supplier"
+        ],
+        [
+          3,
+          "Step 10 — Track responses, and chase"
+        ],
+        [
+          3,
+          "Step 11 — Read each returned bid into one shape"
+        ],
+        [
+          3,
+          "Step 12 — Compare, in code"
+        ],
+        [
+          3,
+          "Step 13 — Recommend; the buyer decides"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:supplier-quote-request",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 413,
+      "llm": null,
+      "name": "supplier-quote-request",
+      "novelty": 0.934,
+      "pack": "operations-business",
+      "packs": [],
+      "plugin": null,
+      "rank": 105.27,
+      "references": [
+        "reference/bid-comparability.md",
+        "reference/bid-comparison.md",
+        "reference/hard-stops.md",
+        "reference/quality-clauses.md",
+        "reference/supplier-loop.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/supplier-quote-request --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree 16fd900ef402294ad32f59a53848ddffac9f683e7e343f248c0f6c04978babe3 --apply",
+        "path": "plugins/claude-for-manufacturing/skills/supplier-quote-request",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "16fd900ef402294ad32f59a53848ddffac9f683e7e343f248c0f6c04978babe3",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "The RFQ pointed the other way: instead of a customer asking us to quote, we are asking suppliers to quote us.",
+      "tags": [
+        "supplier",
+        "quote",
+        "request",
+        "suppliers",
+        "bids",
+        "rfq",
+        "revision",
+        "list"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"source this part,\" \"send an RFQ to suppliers,\" \"we need an alternate supplier,\" \"get quotes on this,\" \"who else can make this?\", \"chase the suppliers,\" \"compare these bids,\" or \"we're going with this supplier.\""
+    },
+    {
+      "allowed_tools": [],
+      "bytes": 11964,
+      "copies": 1,
+      "desc": "Turns a filled-in trade study matrix and its analysis results into a scored comparison and a decision memo, with every score cited to its source. Runs the sensitivity analysis every time — where the winner flips, which criterion the decision actually rests on, whether an option never wins under any plausible weighting — because a recommendation with no sensitivity check is a spreadsheet, not a decision. Disqualifies options that violate a hard constraint rather than scoring them low. Consumes design-space-explore's variant manifest when one exists, or a matrix filled in by hand when it doesn't. Use when someone says \"compare these options,\" \"write the trade study,\" \"which design should we pick,\" \"score these against the requirements,\" or \"how sensitive is this decision to the weighting.\"",
+      "file_count": 4,
+      "files": [
+        "SKILL.md",
+        "reference/decision-memo.md",
+        "reference/matrix-and-scoring.md",
+        "reference/sensitivity-analysis.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Inputs"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          3,
+          "Step 1 — Load the matrix"
+        ],
+        [
+          3,
+          "Step 2 — Ingest analysis results"
+        ],
+        [
+          3,
+          "Step 3 — Compute weighted totals and rank"
+        ],
+        [
+          3,
+          "Step 4 — Run the sensitivity analysis"
+        ],
+        [
+          3,
+          "Step 5 — Check constraint compliance, separately from scoring"
+        ],
+        [
+          3,
+          "Step 6 — Write the decision memo"
+        ],
+        [
+          3,
+          "Step 7 — Produce the scored comparison table"
+        ],
+        [
+          2,
+          "Approval gates"
+        ],
+        [
+          2,
+          "Output"
+        ],
+        [
+          2,
+          "Edge cases and failure modes"
+        ],
+        [
+          2,
+          "Degradation"
+        ],
+        [
+          2,
+          "Chain position"
+        ],
+        [
+          2,
+          "Reference files"
+        ]
+      ],
+      "id": "anthropics/claude-plugins-official:trade-study-report",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 237,
+      "llm": null,
+      "name": "trade-study-report",
+      "novelty": 0.908,
+      "pack": "research-learning",
+      "packs": [
+        "data-analytics",
+        "docs-content"
+      ],
+      "plugin": null,
+      "rank": 112.65,
+      "references": [
+        "reference/decision-memo.md",
+        "reference/matrix-and-scoring.md",
+        "reference/sensitivity-analysis.md"
+      ],
+      "scripts": [],
+      "source": {
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/claude-for-manufacturing/skills/trade-study-report --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree c972c49479dbb1c7cf47efac365e5516ad89737eb3ef45563e181773436c65fc --apply",
+        "path": "plugins/claude-for-manufacturing/skills/trade-study-report",
+        "repo": "anthropics/claude-plugins-official",
+        "stars": 47090,
+        "tree_sha256": "c972c49479dbb1c7cf47efac365e5516ad89737eb3ef45563e181773436c65fc",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "A trade study is the formal way an engineering team chooses between design options: criteria that matter, weights on how much, options scored against each one, a weighted total that ranks them, and a memo that defends the pick in review.",
+      "tags": [
+        "trade",
+        "study",
+        "report",
+        "decision",
+        "filled",
+        "matrix",
+        "analysis",
+        "every"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when someone says \"compare these options,\" \"write the trade study,\" \"which design should we pick,\" \"score these against the requirements,\" or \"how sensitive is this decision to the weighting.\""
     },
     {
       "allowed_tools": [],
@@ -44830,7 +46912,7 @@
       ],
       "id": "anthropics/claude-plugins-official:writing-hookify-rules",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 375,
@@ -44840,15 +46922,15 @@
       "pack": "docs-content",
       "packs": [],
       "plugin": null,
-      "rank": 88.49,
+      "rank": 85.54,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/hookify/skills/writing-rules --commit 0412be76f50ab4f4f8abff3753efa9269fbbca5b --expect-tree cf70e695dcde31d280d63572ac2d7d3221ce1dfb0ca2112abe56b58d2f097ae2 --apply",
+        "commit": "f75f5b25ae94f4332be4ff5f18435741d2589bdb",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/claude-plugins-official --path plugins/hookify/skills/writing-rules --commit f75f5b25ae94f4332be4ff5f18435741d2589bdb --expect-tree cf70e695dcde31d280d63572ac2d7d3221ce1dfb0ca2112abe56b58d2f097ae2 --apply",
         "path": "plugins/hookify/skills/writing-rules",
         "repo": "anthropics/claude-plugins-official",
-        "stars": 46531,
+        "stars": 47090,
         "tree_sha256": "cf70e695dcde31d280d63572ac2d7d3221ce1dfb0ca2112abe56b58d2f097ae2",
         "type": "external"
       },
@@ -44865,7 +46947,7 @@
         "configure"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -44936,7 +47018,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:accessibility-review",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 129,
@@ -44948,15 +47030,15 @@
         "software-dev"
       ],
       "plugin": null,
-      "rank": 93.68,
+      "rank": 90.73,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/accessibility-review --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree ca1845c4991a886854f150a772007be2dd1756ef561d2aa5f6706e9b42cc9e0d --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/accessibility-review --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree ca1845c4991a886854f150a772007be2dd1756ef561d2aa5f6706e9b42cc9e0d --apply",
         "path": "design/skills/accessibility-review",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "ca1845c4991a886854f150a772007be2dd1756ef561d2aa5f6706e9b42cc9e0d",
         "type": "external"
       },
@@ -44973,7 +47055,7 @@
         "check"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -45040,7 +47122,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:analyze",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 120,
@@ -45052,15 +47134,15 @@
         "dev-workflow"
       ],
       "plugin": null,
-      "rank": 90.08,
+      "rank": 87.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/analyze --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree ff2102bc4de1f2c1a9fab50cb530f8487860f0b0060bb9ef2d752725f5c1b987 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/analyze --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree ff2102bc4de1f2c1a9fab50cb530f8487860f0b0060bb9ef2d752725f5c1b987 --apply",
         "path": "data/skills/analyze",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "ff2102bc4de1f2c1a9fab50cb530f8487860f0b0060bb9ef2d752725f5c1b987",
         "type": "external"
       },
@@ -45077,7 +47159,7 @@
         "analyses"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -45252,7 +47334,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:build-dashboard",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 925,
@@ -45262,15 +47344,15 @@
       "pack": "data-analytics",
       "packs": [],
       "plugin": null,
-      "rank": 90.08,
+      "rank": 87.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/build-dashboard --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree fd4aaecbe9d07d89f1f91530a11e23c3a00afe921eff2b5a3a1702d0e0135487 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/build-dashboard --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree fd4aaecbe9d07d89f1f91530a11e23c3a00afe921eff2b5a3a1702d0e0135487 --apply",
         "path": "data/skills/build-dashboard",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "fd4aaecbe9d07d89f1f91530a11e23c3a00afe921eff2b5a3a1702d0e0135487",
         "type": "external"
       },
@@ -45287,7 +47369,7 @@
         "overview"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -45354,7 +47436,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:create-viz",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 155,
@@ -45364,15 +47446,15 @@
       "pack": "data-analytics",
       "packs": [],
       "plugin": null,
-      "rank": 90.08,
+      "rank": 87.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/create-viz --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 2e1712470a1b7f1fe8c02244acad9cffec1c76d0b2faeafeaab99a91b1a5652c --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/create-viz --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 2e1712470a1b7f1fe8c02244acad9cffec1c76d0b2faeafeaab99a91b1a5652c --apply",
         "path": "data/skills/create-viz",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "2e1712470a1b7f1fe8c02244acad9cffec1c76d0b2faeafeaab99a91b1a5652c",
         "type": "external"
       },
@@ -45389,7 +47471,7 @@
         "query"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -45520,7 +47602,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:customer-escalation",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 249,
@@ -45530,15 +47612,15 @@
       "pack": "product-mgmt",
       "packs": [],
       "plugin": null,
-      "rank": 84.08,
+      "rank": 81.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/customer-escalation --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 76cbe08aa4f6d796589d8981d8cc351966357dedc24cd6077d03e5aa58e71c86 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/customer-escalation --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 76cbe08aa4f6d796589d8981d8cc351966357dedc24cd6077d03e5aa58e71c86 --apply",
         "path": "customer-support/skills/customer-escalation",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "76cbe08aa4f6d796589d8981d8cc351966357dedc24cd6077d03e5aa58e71c86",
         "type": "external"
       },
@@ -45555,7 +47637,7 @@
         "full"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -45662,7 +47744,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:customer-research",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 253,
@@ -45674,15 +47756,15 @@
         "research-learning"
       ],
       "plugin": null,
-      "rank": 92.48,
+      "rank": 89.53,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/customer-research --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 235eb88d75ff71105bbbf1a2a2b6723acf1c53d58fc95328bcf6e06a64b75d61 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/customer-research --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 235eb88d75ff71105bbbf1a2a2b6723acf1c53d58fc95328bcf6e06a64b75d61 --apply",
         "path": "customer-support/skills/customer-research",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "235eb88d75ff71105bbbf1a2a2b6723acf1c53d58fc95328bcf6e06a64b75d61",
         "type": "external"
       },
@@ -45699,7 +47781,7 @@
         "asks"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -45836,6 +47918,11 @@
         "improve",
         "specific"
       ],
+      "update_available": {
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -45952,7 +48039,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:data-visualization",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 306,
@@ -45962,15 +48049,15 @@
       "pack": "data-analytics",
       "packs": [],
       "plugin": null,
-      "rank": 90.08,
+      "rank": 87.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/data-visualization --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 746b420550cef2f1ade2462d6dc1df1b387f60557e727a2998fd4140ed20884a --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/data-visualization --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 746b420550cef2f1ade2462d6dc1df1b387f60557e727a2998fd4140ed20884a --apply",
         "path": "data/skills/data-visualization",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "746b420550cef2f1ade2462d6dc1df1b387f60557e727a2998fd4140ed20884a",
         "type": "external"
       },
@@ -45987,7 +48074,7 @@
         "plotly"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -46062,7 +48149,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:design-critique",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 119,
@@ -46074,15 +48161,15 @@
         "software-dev"
       ],
       "plugin": null,
-      "rank": 93.68,
+      "rank": 90.73,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-critique --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 6a3d37dd498998eede1e30e29da3e37b8d9f320b0f2517518e1c3257d81541c5 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-critique --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 6a3d37dd498998eede1e30e29da3e37b8d9f320b0f2517518e1c3257d81541c5 --apply",
         "path": "design/skills/design-critique",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "6a3d37dd498998eede1e30e29da3e37b8d9f320b0f2517518e1c3257d81541c5",
         "type": "external"
       },
@@ -46099,7 +48186,7 @@
         "trigger"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -46170,7 +48257,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:design-handoff",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 132,
@@ -46182,15 +48269,15 @@
         "software-dev"
       ],
       "plugin": null,
-      "rank": 93.68,
+      "rank": 90.73,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-handoff --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 1e45edd1daa04faf14f9230c93f5c513032066b5747197b1fc6012fc88e62e32 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-handoff --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 1e45edd1daa04faf14f9230c93f5c513032066b5747197b1fc6012fc88e62e32 --apply",
         "path": "design/skills/design-handoff",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "1e45edd1daa04faf14f9230c93f5c513032066b5747197b1fc6012fc88e62e32",
         "type": "external"
       },
@@ -46207,7 +48294,7 @@
         "spec"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -46278,7 +48365,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:design-system",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 191,
@@ -46290,15 +48377,15 @@
         "web-frontend-design"
       ],
       "plugin": null,
-      "rank": 93.68,
+      "rank": 90.73,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-system --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree c8ca8dcb903113e96d457dc22e6b1146d555ff49065dd7ff003ab04235c2ac1c --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/design-system --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree c8ca8dcb903113e96d457dc22e6b1146d555ff49065dd7ff003ab04235c2ac1c --apply",
         "path": "design/skills/design-system",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "c8ca8dcb903113e96d457dc22e6b1146d555ff49065dd7ff003ab04235c2ac1c",
         "type": "external"
       },
@@ -46315,7 +48402,7 @@
         "inconsistencies"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -46442,7 +48529,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:draft-response",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 419,
@@ -46452,15 +48539,15 @@
       "pack": "operations-business",
       "packs": [],
       "plugin": null,
-      "rank": 84.08,
+      "rank": 81.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/draft-response --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree fb9606a6dd895f31d8a83eaa0fd2d3a23681d9a8d87fcc542fdbb9cfc76abba2 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/draft-response --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree fb9606a6dd895f31d8a83eaa0fd2d3a23681d9a8d87fcc542fdbb9cfc76abba2 --apply",
         "path": "customer-support/skills/draft-response",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "fb9606a6dd895f31d8a83eaa0fd2d3a23681d9a8d87fcc542fdbb9cfc76abba2",
         "type": "external"
       },
@@ -46477,7 +48564,7 @@
         "relationship"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -46604,7 +48691,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:explore-data",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 326,
@@ -46616,15 +48703,15 @@
         "research-learning"
       ],
       "plugin": null,
-      "rank": 92.48,
+      "rank": 89.53,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/explore-data --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 9649b241a0b2341307ea4268631f874005299390a00d864e88dfce298ad6d48d --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/explore-data --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 9649b241a0b2341307ea4268631f874005299390a00d864e88dfce298ad6d48d --apply",
         "path": "data/skills/explore-data",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "9649b241a0b2341307ea4268631f874005299390a00d864e88dfce298ad6d48d",
         "type": "external"
       },
@@ -46641,7 +48728,7 @@
         "patterns"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -46810,6 +48897,11 @@
         "flattened",
         "lims"
       ],
+      "update_available": {
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -46938,7 +49030,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:kb-article",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 352,
@@ -46948,15 +49040,15 @@
       "pack": "docs-content",
       "packs": [],
       "plugin": null,
-      "rank": 87.68,
+      "rank": 84.73,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/kb-article --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 75ff7b8b860c94675d86e6210b3669bf277584dde9a2d99eee52a2ecd984ec76 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/kb-article --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 75ff7b8b860c94675d86e6210b3669bf277584dde9a2d99eee52a2ecd984ec76 --apply",
         "path": "customer-support/skills/kb-article",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "75ff7b8b860c94675d86e6210b3669bf277584dde9a2d99eee52a2ecd984ec76",
         "type": "external"
       },
@@ -46973,7 +49065,7 @@
         "common"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -47020,7 +49112,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:research-synthesis",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 93,
@@ -47032,15 +49124,15 @@
         "research-learning"
       ],
       "plugin": null,
-      "rank": 92.48,
+      "rank": 89.53,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/research-synthesis --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree d287f9a5f46cf4a74cf9441d2272929a51e7a639c66a32e811e43f6f50ef241f --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/research-synthesis --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree d287f9a5f46cf4a74cf9441d2272929a51e7a639c66a32e811e43f6f50ef241f --apply",
         "path": "design/skills/research-synthesis",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "d287f9a5f46cf4a74cf9441d2272929a51e7a639c66a32e811e43f6f50ef241f",
         "type": "external"
       },
@@ -47057,7 +49149,7 @@
         "interview"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -47242,7 +49334,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:scientific-problem-selection",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 270,
@@ -47255,7 +49347,7 @@
         "research-learning"
       ],
       "plugin": null,
-      "rank": 97.98,
+      "rank": 95.03,
       "references": [
         "references/01-intuition-pumps.md",
         "references/02-risk-assessment.md",
@@ -47269,11 +49361,11 @@
       ],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path bio-research/skills/scientific-problem-selection --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 18b25f7e7641e816ad62f4ea2293469794d3367a20345a2d5c349cd6a8512676 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path bio-research/skills/scientific-problem-selection --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 18b25f7e7641e816ad62f4ea2293469794d3367a20345a2d5c349cd6a8512676 --apply",
         "path": "bio-research/skills/scientific-problem-selection",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "18b25f7e7641e816ad62f4ea2293469794d3367a20345a2d5c349cd6a8512676",
         "type": "external"
       },
@@ -47290,7 +49382,7 @@
         "idea"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -47438,6 +49530,11 @@
         "learning",
         "single"
       ],
+      "update_available": {
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -47539,6 +49636,11 @@
         "best",
         "practices"
       ],
+      "update_available": {
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -47619,7 +49721,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:sql-queries",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 429,
@@ -47631,15 +49733,15 @@
         "software-dev"
       ],
       "plugin": null,
-      "rank": 93.68,
+      "rank": 90.73,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/sql-queries --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree c30fd7ee92029ad0151eb60b0bab429afaa288d09110fdde8579195ecfb4f960 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/sql-queries --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree c30fd7ee92029ad0151eb60b0bab429afaa288d09110fdde8579195ecfb4f960 --apply",
         "path": "data/skills/sql-queries",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "c30fd7ee92029ad0151eb60b0bab429afaa288d09110fdde8579195ecfb4f960",
         "type": "external"
       },
@@ -47656,7 +49758,7 @@
         "data"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -47703,7 +49805,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:start",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 80,
@@ -47713,15 +49815,15 @@
       "pack": "research-learning",
       "packs": [],
       "plugin": null,
-      "rank": 92.48,
+      "rank": 89.53,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path bio-research/skills/start --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 5d6d3c8a75ffcf653df39c8b17bc802a6cd2321939b08b19fbfe55d5356c1582 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path bio-research/skills/start --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 5d6d3c8a75ffcf653df39c8b17bc802a6cd2321939b08b19fbfe55d5356c1582 --apply",
         "path": "bio-research/skills/start",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "5d6d3c8a75ffcf653df39c8b17bc802a6cd2321939b08b19fbfe55d5356c1582",
         "type": "external"
       },
@@ -47738,7 +49840,7 @@
         "first"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -47869,7 +49971,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:statistical-analysis",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 246,
@@ -47881,15 +49983,15 @@
         "research-learning"
       ],
       "plugin": null,
-      "rank": 92.48,
+      "rank": 89.53,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/statistical-analysis --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 4fdaaae621171b97ac3347a61cd53ef13e88bf8ce3b5ec4ff4d712ceb7b515db --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/statistical-analysis --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 4fdaaae621171b97ac3347a61cd53ef13e88bf8ce3b5ec4ff4d712ceb7b515db --apply",
         "path": "data/skills/statistical-analysis",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "4fdaaae621171b97ac3347a61cd53ef13e88bf8ce3b5ec4ff4d712ceb7b515db",
         "type": "external"
       },
@@ -47906,7 +50008,7 @@
         "trend"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -48033,7 +50135,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:ticket-triage",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 276,
@@ -48043,15 +50145,15 @@
       "pack": "communication-collab",
       "packs": [],
       "plugin": null,
-      "rank": 84.08,
+      "rank": 81.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/ticket-triage --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree afe6cac98d23a452de13536b8f745fe3f3464739b2e3844376642f13ac0ec9e0 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path customer-support/skills/ticket-triage --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree afe6cac98d23a452de13536b8f745fe3f3464739b2e3844376642f13ac0ec9e0 --apply",
         "path": "customer-support/skills/ticket-triage",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "afe6cac98d23a452de13536b8f745fe3f3464739b2e3844376642f13ac0ec9e0",
         "type": "external"
       },
@@ -48068,7 +50170,7 @@
         "assigning"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -48111,7 +50213,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:user-research",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 42,
@@ -48123,15 +50225,15 @@
         "research-learning"
       ],
       "plugin": null,
-      "rank": 92.48,
+      "rank": 89.53,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/user-research --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 045dd55e55bde1cd6e4787d08217bc9b2b138422f68a5309ef09c0fc1ca41c0c --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/user-research --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 045dd55e55bde1cd6e4787d08217bc9b2b138422f68a5309ef09c0fc1ca41c0c --apply",
         "path": "design/skills/user-research",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "045dd55e55bde1cd6e4787d08217bc9b2b138422f68a5309ef09c0fc1ca41c0c",
         "type": "external"
       },
@@ -48148,7 +50250,7 @@
         "usability"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -48235,7 +50337,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:ux-copy",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 108,
@@ -48245,15 +50347,15 @@
       "pack": "docs-content",
       "packs": [],
       "plugin": null,
-      "rank": 87.68,
+      "rank": 84.73,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/ux-copy --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 2c9a2f9433ae0508d6dbf645de1812f016e9a32b35e035cfd257c5860fa8663f --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/ux-copy --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 2c9a2f9433ae0508d6dbf645de1812f016e9a32b35e035cfd257c5860fa8663f --apply",
         "path": "design/skills/ux-copy",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "2c9a2f9433ae0508d6dbf645de1812f016e9a32b35e035cfd257c5860fa8663f",
         "type": "external"
       },
@@ -48270,7 +50372,7 @@
         "states"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -48437,7 +50539,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:validate-data",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 384,
@@ -48447,15 +50549,15 @@
       "pack": "data-analytics",
       "packs": [],
       "plugin": null,
-      "rank": 90.08,
+      "rank": 87.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/validate-data --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree f51b13d3a8309f6fe143116fbdbc7785a9413df717acf64c5bea912fa6329486 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/validate-data --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree f51b13d3a8309f6fe143116fbdbc7785a9413df717acf64c5bea912fa6329486 --apply",
         "path": "data/skills/validate-data",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "f51b13d3a8309f6fe143116fbdbc7785a9413df717acf64c5bea912fa6329486",
         "type": "external"
       },
@@ -48472,7 +50574,7 @@
         "checks"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -48539,7 +50641,7 @@
       ],
       "id": "anthropics/knowledge-work-plugins:write-query",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 123,
@@ -48551,15 +50653,15 @@
         "data-analytics"
       ],
       "plugin": null,
-      "rank": 90.08,
+      "rank": 87.13,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
-        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/write-query --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree 0ddd724589426802f63e224357d7360c2ff231bef7de6ce76baaff22800fa100 --apply",
+        "commit": "02717ef04446b6ef5aa4b8af15bb536d79f42ed0",
+        "install": "python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/write-query --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree 0ddd724589426802f63e224357d7360c2ff231bef7de6ce76baaff22800fa100 --apply",
         "path": "data/skills/write-query",
         "repo": "anthropics/knowledge-work-plugins",
-        "stars": 35250,
+        "stars": 35611,
         "tree_sha256": "0ddd724589426802f63e224357d7360c2ff231bef7de6ce76baaff22800fa100",
         "type": "external"
       },
@@ -48576,7 +50678,7 @@
         "translating"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -57491,6 +59593,11 @@
         "background",
         "checks"
       ],
+      "update_available": {
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -57553,17 +59660,17 @@
       ],
       "id": "google-gemini/gemini-cli:behavioral-evals",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 57,
       "llm": null,
       "name": "behavioral-evals",
-      "novelty": 0.889,
+      "novelty": 0.0,
       "pack": "ai-ml",
       "packs": [],
       "plugin": null,
-      "rank": 97.9,
+      "rank": 80.12,
       "references": [
         "references/creating.md",
         "references/fixing.md",
@@ -57572,11 +59679,11 @@
       ],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/behavioral-evals --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree beea01ff2c143cf815692f6672d0a9505f57df9f2c5b2008df691f5c7a0c1bf5 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/behavioral-evals --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree beea01ff2c143cf815692f6672d0a9505f57df9f2c5b2008df691f5c7a0c1bf5 --apply",
         "path": ".gemini/skills/behavioral-evals",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "beea01ff2c143cf815692f6672d0a9505f57df9f2c5b2008df691f5c7a0c1bf5",
         "type": "external"
       },
@@ -57593,7 +59700,7 @@
         "evaluations"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -57681,6 +59788,11 @@
         "fast",
         "monitoring"
       ],
+      "update_available": {
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -57733,25 +59845,25 @@
       ],
       "id": "google-gemini/gemini-cli:code-reviewer",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 66,
       "llm": null,
       "name": "code-reviewer",
-      "novelty": 0.875,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [],
       "plugin": null,
-      "rank": 90.72,
+      "rank": 73.22,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/code-reviewer --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 994cf34027b7fd45b2c231e4132ab6e44fda251877fe261f19125037f8588a0d --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/code-reviewer --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 994cf34027b7fd45b2c231e4132ab6e44fda251877fe261f19125037f8588a0d --apply",
         "path": ".gemini/skills/code-reviewer",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "994cf34027b7fd45b2c231e4132ab6e44fda251877fe261f19125037f8588a0d",
         "type": "external"
       },
@@ -57768,7 +59880,7 @@
         "remote"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -57811,28 +59923,28 @@
       ],
       "id": "google-gemini/gemini-cli:code_explorer",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 34,
       "llm": null,
       "name": "code_explorer",
-      "novelty": 0.87,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [
         "web-frontend-design",
         "research-learning"
       ],
       "plugin": null,
-      "rank": 90.42,
+      "rank": 73.02,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/code_explorer --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 25707ef84500db2c8231ae345d3676eb61dddebfd474bf5e635f3866f8d89f34 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/code_explorer --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 25707ef84500db2c8231ae345d3676eb61dddebfd474bf5e635f3866f8d89f34 --apply",
         "path": "tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/code_explorer",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "25707ef84500db2c8231ae345d3676eb61dddebfd474bf5e635f3866f8d89f34",
         "type": "external"
       },
@@ -57849,7 +59961,7 @@
         "components"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -57900,25 +60012,25 @@
       ],
       "id": "google-gemini/gemini-cli:critique",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 146,
       "llm": null,
       "name": "critique",
-      "novelty": 0.895,
+      "novelty": 0.0,
       "pack": "mlops-devops",
       "packs": [],
       "plugin": null,
-      "rank": 91.92,
+      "rank": 74.02,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/critique --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree e4b84ffb18337ba81025b38d05d87acf8a318902e297b021394b460a1b4e2229 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/critique --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree e4b84ffb18337ba81025b38d05d87acf8a318902e297b021394b460a1b4e2229 --apply",
         "path": "tools/gemini-cli-bot/.gemini/skills/critique",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "e4b84ffb18337ba81025b38d05d87acf8a318902e297b021394b460a1b4e2229",
         "type": "external"
       },
@@ -57935,7 +60047,7 @@
         "actions"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58010,20 +60122,20 @@
       ],
       "id": "google-gemini/gemini-cli:docs-changelog",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 169,
       "llm": null,
       "name": "docs-changelog",
-      "novelty": 0.857,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [
         "meta-tooling",
         "mlops-devops"
       ],
       "plugin": null,
-      "rank": 95.56,
+      "rank": 78.42,
       "references": [
         "references/highlights_examples.md",
         "references/index_template.md",
@@ -58032,11 +60144,11 @@
       ],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/docs-changelog --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 5c895bc92b6a34d778d486f5d7d40f1799ba85b35b4cde7972a44ff56762ec85 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/docs-changelog --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 5c895bc92b6a34d778d486f5d7d40f1799ba85b35b4cde7972a44ff56762ec85 --apply",
         "path": ".gemini/skills/docs-changelog",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "5c895bc92b6a34d778d486f5d7d40f1799ba85b35b4cde7972a44ff56762ec85",
         "type": "external"
       },
@@ -58053,7 +60165,7 @@
         "raw"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58088,25 +60200,25 @@
       ],
       "id": "google-gemini/gemini-cli:effort",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 35,
       "llm": null,
       "name": "effort",
-      "novelty": 0.889,
+      "novelty": 0.0,
       "pack": "general",
       "packs": [],
       "plugin": null,
-      "rank": 81.4,
+      "rank": 63.62,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree bc220c379f1594bf99e9985d75f74835340e71fccb248e0b7b1be976299bd8ce --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree bc220c379f1594bf99e9985d75f74835340e71fccb248e0b7b1be976299bd8ce --apply",
         "path": "tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "bc220c379f1594bf99e9985d75f74835340e71fccb248e0b7b1be976299bd8ce",
         "type": "external"
       },
@@ -58122,7 +60234,7 @@
         "issue"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58157,27 +60269,27 @@
       ],
       "id": "google-gemini/gemini-cli:github-issue-creator",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 77,
       "llm": null,
       "name": "github-issue-creator",
-      "novelty": 0.88,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [
         "mlops-devops"
       ],
       "plugin": null,
-      "rank": 92.02,
+      "rank": 74.42,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/github-issue-creator --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 49c83cec4ef8b96bd4ab4921012ab59f3055d4f9637ae7b63be2f573bdc30cd3 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/github-issue-creator --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 49c83cec4ef8b96bd4ab4921012ab59f3055d4f9637ae7b63be2f573bdc30cd3 --apply",
         "path": ".gemini/skills/github-issue-creator",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "49c83cec4ef8b96bd4ab4921012ab59f3055d4f9637ae7b63be2f573bdc30cd3",
         "type": "external"
       },
@@ -58194,7 +60306,7 @@
         "bug"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58245,25 +60357,25 @@
       ],
       "id": "google-gemini/gemini-cli:memory",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 88,
       "llm": null,
       "name": "memory",
-      "novelty": 0.895,
+      "novelty": 0.0,
       "pack": "productivity-automation",
       "packs": [],
       "plugin": null,
-      "rank": 81.52,
+      "rank": 63.62,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/memory --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 5e85adaa580b157c298b47854545ac4fed5b2c11eaacb9ac8242f7c7d5460e75 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/memory --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 5e85adaa580b157c298b47854545ac4fed5b2c11eaacb9ac8242f7c7d5460e75 --apply",
         "path": "tools/gemini-cli-bot/.gemini/skills/memory",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "5e85adaa580b157c298b47854545ac4fed5b2c11eaacb9ac8242f7c7d5460e75",
         "type": "external"
       },
@@ -58280,7 +60392,7 @@
         "sessions"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58351,27 +60463,27 @@
       ],
       "id": "google-gemini/gemini-cli:metrics",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 113,
       "llm": null,
       "name": "metrics",
-      "novelty": 0.909,
+      "novelty": 0.0,
       "pack": "data-analytics",
       "packs": [
         "product-mgmt"
       ],
       "plugin": null,
-      "rank": 87.8,
+      "rank": 69.62,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/metrics --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 767601ca34e900d8c0bcb18e60f8fef3028c321975c05f698679f913edf3f58c --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/metrics --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 767601ca34e900d8c0bcb18e60f8fef3028c321975c05f698679f913edf3f58c --apply",
         "path": "tools/gemini-cli-bot/.gemini/skills/metrics",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "767601ca34e900d8c0bcb18e60f8fef3028c321975c05f698679f913edf3f58c",
         "type": "external"
       },
@@ -58388,7 +60500,7 @@
         "investigating"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58414,25 +60526,25 @@
       "headings": [],
       "id": "google-gemini/gemini-cli:pirate-skill",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 5,
       "llm": null,
       "name": "pirate-skill",
-      "novelty": 0.944,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 87.3,
+      "rank": 68.42,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path packages/sdk/test-data/skills/pirate-skill --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 38089d7351b1552b18fde19f917aeba97746ebfcec4a10f728f25dd2282f4c88 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path packages/sdk/test-data/skills/pirate-skill --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 38089d7351b1552b18fde19f917aeba97746ebfcec4a10f728f25dd2282f4c88 --apply",
         "path": "packages/sdk/test-data/skills/pirate-skill",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "38089d7351b1552b18fde19f917aeba97746ebfcec4a10f728f25dd2282f4c88",
         "type": "external"
       },
@@ -58443,7 +60555,7 @@
         "speak"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58506,6 +60618,11 @@
         "branch",
         "gemini"
       ],
+      "update_available": {
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "reason": "ships scripts: re-approve with promote",
+        "verdict": "pass"
+      },
       "vet": {
         "date": "2026-11-09",
         "findings": {
@@ -58542,27 +60659,27 @@
       ],
       "id": "google-gemini/gemini-cli:pr-creator",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 94,
       "llm": null,
       "name": "pr-creator",
-      "novelty": 0.864,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [
         "mlops-devops"
       ],
       "plugin": null,
-      "rank": 91.7,
+      "rank": 74.42,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/pr-creator --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 8127a16bc3f8e2b1b68d9f8efaea6141888ff156552705ecefb06887864e79db --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/pr-creator --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 8127a16bc3f8e2b1b68d9f8efaea6141888ff156552705ecefb06887864e79db --apply",
         "path": ".gemini/skills/pr-creator",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "8127a16bc3f8e2b1b68d9f8efaea6141888ff156552705ecefb06887864e79db",
         "type": "external"
       },
@@ -58579,7 +60696,7 @@
         "repository"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58618,25 +60735,25 @@
       ],
       "id": "google-gemini/gemini-cli:prs",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 52,
       "llm": null,
       "name": "prs",
-      "novelty": 0.87,
+      "novelty": 0.0,
       "pack": "mlops-devops",
       "packs": [],
       "plugin": null,
-      "rank": 91.82,
+      "rank": 74.42,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/prs --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree ededf5f2a73bfa1d90adc8b41112ee3442d158274458fa7bcc07a58766cbf342 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/prs --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree ededf5f2a73bfa1d90adc8b41112ee3442d158274458fa7bcc07a58766cbf342 --apply",
         "path": "tools/gemini-cli-bot/.gemini/skills/prs",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "ededf5f2a73bfa1d90adc8b41112ee3442d158274458fa7bcc07a58766cbf342",
         "type": "external"
       },
@@ -58653,7 +60770,7 @@
         "lifecycle"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58708,25 +60825,25 @@
       ],
       "id": "google-gemini/gemini-cli:review-duplication",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 70,
       "llm": null,
       "name": "review-duplication",
-      "novelty": 0.862,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [],
       "plugin": null,
-      "rank": 90.46,
+      "rank": 73.22,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/review-duplication --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 50fae3137e910b9bcf1ae589a7f63a7f94fc140ab7991be7d3530199d8b5b229 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/review-duplication --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 50fae3137e910b9bcf1ae589a7f63a7f94fc140ab7991be7d3530199d8b5b229 --apply",
         "path": ".gemini/skills/review-duplication",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "50fae3137e910b9bcf1ae589a7f63a7f94fc140ab7991be7d3530199d8b5b229",
         "type": "external"
       },
@@ -58743,7 +60860,7 @@
         "duplicated"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58837,25 +60954,25 @@
       ],
       "id": "google-gemini/gemini-cli:skill-creator",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 520,
       "llm": null,
       "name": "skill-creator",
-      "novelty": 0.793,
+      "novelty": 0.0,
       "pack": "meta-tooling",
       "packs": [],
       "plugin": null,
-      "rank": 85.03,
+      "rank": 69.17,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path packages/core/src/skills/builtin/skill-creator --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree b196c180b23f9d706b05bf8f98447fb15fdbe2add6b3c05fe0464aaaa5d4cd33 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path packages/core/src/skills/builtin/skill-creator --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree b196c180b23f9d706b05bf8f98447fb15fdbe2add6b3c05fe0464aaaa5d4cd33 --apply",
         "path": "packages/core/src/skills/builtin/skill-creator",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "b196c180b23f9d706b05bf8f98447fb15fdbe2add6b3c05fe0464aaaa5d4cd33",
         "type": "external"
       },
@@ -58872,7 +60989,7 @@
         "cli"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -58903,25 +61020,25 @@
       ],
       "id": "google-gemini/gemini-cli:spec_generator",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 99,
       "llm": null,
       "name": "spec_generator",
-      "novelty": 0.857,
+      "novelty": 0.0,
       "pack": "product-mgmt",
       "packs": [],
       "plugin": null,
-      "rank": 80.56,
+      "rank": 63.42,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/spec_generator --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree e1d530982852ec27d42bc79577258bf012640050ae93bea8ba33635f16de03ed --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/spec_generator --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree e1d530982852ec27d42bc79577258bf012640050ae93bea8ba33635f16de03ed --apply",
         "path": "tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/spec_generator",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "e1d530982852ec27d42bc79577258bf012640050ae93bea8ba33635f16de03ed",
         "type": "external"
       },
@@ -58938,7 +61055,7 @@
         "developer"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -59007,28 +61124,28 @@
       ],
       "id": "google-gemini/gemini-cli:string-reviewer",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 99,
       "llm": null,
       "name": "string-reviewer",
-      "novelty": 0.893,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [],
       "plugin": null,
-      "rank": 94.58,
+      "rank": 76.72,
       "references": [
         "references/settings.md",
         "references/word-list.md"
       ],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/string-reviewer --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 26cc912ee4ee9a5974e777b5a2172242f8a4e2c13eb93910eedc7ec611dd02f3 --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/string-reviewer --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 26cc912ee4ee9a5974e777b5a2172242f8a4e2c13eb93910eedc7ec611dd02f3 --apply",
         "path": ".gemini/skills/string-reviewer",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "26cc912ee4ee9a5974e777b5a2172242f8a4e2c13eb93910eedc7ec611dd02f3",
         "type": "external"
       },
@@ -59045,7 +61162,7 @@
         "codebase"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -59104,25 +61221,25 @@
       ],
       "id": "google-gemini/gemini-cli:tui-tester",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 66,
       "llm": null,
       "name": "tui-tester",
-      "novelty": 0.912,
+      "novelty": 0.0,
       "pack": "software-dev",
       "packs": [],
       "plugin": null,
-      "rank": 91.46,
+      "rank": 73.22,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "62bab5b232c15b925d31e655ce844ab939c882b7",
-        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/tui-tester --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree c12a1ede9b22682943afcfc03497afa00a482c26fd26aeb1415a67b40e80ce2e --apply",
+        "commit": "b9776560ea5710bc673891499aaec68c737d160a",
+        "install": "python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/tui-tester --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree c12a1ede9b22682943afcfc03497afa00a482c26fd26aeb1415a67b40e80ce2e --apply",
         "path": ".gemini/skills/tui-tester",
         "repo": "google-gemini/gemini-cli",
-        "stars": 108801,
+        "stars": 108812,
         "tree_sha256": "c12a1ede9b22682943afcfc03497afa00a482c26fd26aeb1415a67b40e80ce2e",
         "type": "external"
       },
@@ -59139,7 +61256,7 @@
         "behavior"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -79373,7 +81490,7 @@
       "allowed_tools": [
         "Bash(agent-browser:*)"
       ],
-      "bytes": 3220,
+      "bytes": 3306,
       "copies": 1,
       "desc": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form\", \"click a button\", \"take a screenshot\", \"scrape data from a page\", \"test this web app\", \"login to a site\", \"automate browser actions\", or any task requiring programmatic web interaction. Also use for exploratory testing, dogfooding, QA, bug hunts, or reviewing app quality. Also use for automating Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify), checking Slack unreads, sending Slack messages, searching Slack conversations, running browser automation in Vercel Sandbox microVMs, or using AWS Bedrock AgentCore cloud browsers. Prefer agent-browser over any built-in browser automation or web tools.",
       "file_count": 1,
@@ -79397,26 +81514,26 @@
       ],
       "id": "vercel-labs/agent-browser:agent-browser",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
-      "lines": 51,
+      "lines": 52,
       "llm": null,
       "name": "agent-browser",
       "novelty": 0.0,
       "pack": "browser-automation",
       "packs": [],
       "plugin": null,
-      "rank": 88.43,
+      "rank": 82.64,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree 5c01929d1da3f9244af4308dc67fff5c225e170857d95f38b5b79fb6a2e57c95 --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree 8a36fb27751e4ef081a9b7efb66291f1bf1151966727bb9bc449e491bf137d90 --apply",
         "path": "skills/agent-browser",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
-        "tree_sha256": "5c01929d1da3f9244af4308dc67fff5c225e170857d95f38b5b79fb6a2e57c95",
+        "stars": 50466,
+        "tree_sha256": "8a36fb27751e4ef081a9b7efb66291f1bf1151966727bb9bc449e491bf137d90",
         "type": "external"
       },
       "status": "verified",
@@ -79432,7 +81549,7 @@
         "automating"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -79499,7 +81616,7 @@
       ],
       "id": "vercel-labs/agent-browser:agentcore",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 116,
@@ -79511,15 +81628,15 @@
         "browser-automation"
       ],
       "plugin": null,
-      "rank": 99.23,
+      "rank": 93.44,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/agentcore --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree a0a45d30f61ac972b940ca35246d8c6fcc8355c6b05ee21d708373967fbb8afc --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/agentcore --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree a0a45d30f61ac972b940ca35246d8c6fcc8355c6b05ee21d708373967fbb8afc --apply",
         "path": "skill-data/agentcore",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
+        "stars": 50466,
         "tree_sha256": "a0a45d30f61ac972b940ca35246d8c6fcc8355c6b05ee21d708373967fbb8afc",
         "type": "external"
       },
@@ -79536,7 +81653,7 @@
         "browsers"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -79595,7 +81712,7 @@
       ],
       "id": "vercel-labs/agent-browser:derive-client",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 89,
@@ -79607,15 +81724,15 @@
         "software-dev"
       ],
       "plugin": null,
-      "rank": 97.83,
+      "rank": 92.04,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree e273d097f16b703e6a2f9ef2b80b027e9278338733790f891ddd9601b9d12839 --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/derive-client --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree e273d097f16b703e6a2f9ef2b80b027e9278338733790f891ddd9601b9d12839 --apply",
         "path": "skill-data/derive-client",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
+        "stars": 50466,
         "tree_sha256": "e273d097f16b703e6a2f9ef2b80b027e9278338733790f891ddd9601b9d12839",
         "type": "external"
       },
@@ -79632,7 +81749,7 @@
         "recording"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -79709,7 +81826,7 @@
       ],
       "id": "vercel-labs/agent-browser:dogfood",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 225,
@@ -79721,17 +81838,17 @@
         "browser-automation"
       ],
       "plugin": null,
-      "rank": 101.53,
+      "rank": 95.74,
       "references": [
         "references/issue-taxonomy.md"
       ],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/dogfood --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree 24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9 --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/dogfood --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree 24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9 --apply",
         "path": "skill-data/dogfood",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
+        "stars": 50466,
         "tree_sha256": "24b3db742edc8a27d02baa61b2b4493209844bad176514f2fbe4f2e8b00bd3a9",
         "type": "external"
       },
@@ -79748,7 +81865,7 @@
         "repro"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -79863,7 +81980,7 @@
       ],
       "id": "vercel-labs/agent-browser:electron",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 237,
@@ -79875,15 +81992,15 @@
         "communication-collab"
       ],
       "plugin": null,
-      "rank": 88.43,
+      "rank": 82.64,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/electron --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree 29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/electron --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree 29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed --apply",
         "path": "skill-data/electron",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
+        "stars": 50466,
         "tree_sha256": "29cde98bbd2eab466c23e6c7c9b357904658487e5ba70f464c9a8fd0943126ed",
         "type": "external"
       },
@@ -79900,7 +82017,7 @@
         "connect"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -79912,6 +82029,106 @@
         "verdict": "pass"
       },
       "when": "Use when the user needs to interact with an Electron app, automate a desktop app, connect to a running app, control a native app, or test an Electron application."
+    },
+    {
+      "allowed_tools": [
+        "Bash(agent-browser:*)",
+        "Bash(npx",
+        "modern-web-guidance@latest:*)"
+      ],
+      "bytes": 9977,
+      "copies": 1,
+      "desc": "Apply Chrome's Modern Web Guidance to frontend code, then verify the built page in a real browser with agent-browser. Use when asked to build or modernize UI with web platform best practices, follow Modern Web Guidance or Baseline guidance, or check that a change fixed layout shift, respects reduced motion or the color scheme, or gives a dialog correct focus and inert behavior. Triggers include \"use modern web guidance\", \"modern web best practices\", \"fix layout shift\", \"respect reduced motion\", \"add dark mode\", \"build an accessible dialog\", and \"verify this against the guide\".",
+      "file_count": 1,
+      "files": [
+        "SKILL.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Get the guidance"
+        ],
+        [
+          2,
+          "Workflow"
+        ],
+        [
+          2,
+          "Layout shift"
+        ],
+        [
+          2,
+          "Reduced motion"
+        ],
+        [
+          2,
+          "Color scheme"
+        ],
+        [
+          2,
+          "Dialog focus and inertness"
+        ],
+        [
+          2,
+          "Report"
+        ],
+        [
+          2,
+          "Cleanup"
+        ]
+      ],
+      "id": "vercel-labs/agent-browser:modern-web-guidance",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 166,
+      "llm": null,
+      "name": "modern-web-guidance",
+      "novelty": 0.857,
+      "pack": "browser-automation",
+      "packs": [
+        "web-frontend-design"
+      ],
+      "plugin": null,
+      "rank": 99.78,
+      "references": [],
+      "scripts": [],
+      "source": {
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/modern-web-guidance --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree d0d165350f283304c6a13173619ee19d8a109eb069acbbe5b9993e64dba16918 --apply",
+        "path": "skill-data/modern-web-guidance",
+        "repo": "vercel-labs/agent-browser",
+        "stars": 50466,
+        "tree_sha256": "d0d165350f283304c6a13173619ee19d8a109eb069acbbe5b9993e64dba16918",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Use Modern Web Guidance to decide what to write and agent-browser to check the built page in Chrome. Finish only after every rule you applied has a browser check with recorded evidence.",
+      "tags": [
+        "modern",
+        "web",
+        "guidance",
+        "verify",
+        "browser",
+        "best",
+        "practices",
+        "layout"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when asked to build or modernize UI with web platform best practices, follow Modern Web Guidance or Baseline guidance, or check that a change fixed layout shift, respects reduced motion or the color scheme, or gives a dialog correct focus and inert behavio"
     },
     {
       "allowed_tools": [
@@ -80117,7 +82334,7 @@
       ],
       "id": "vercel-labs/agent-browser:slack",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 289,
@@ -80129,17 +82346,17 @@
         "browser-automation"
       ],
       "plugin": null,
-      "rank": 91.93,
+      "rank": 86.14,
       "references": [
         "references/slack-tasks.md"
       ],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/slack --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0 --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/slack --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0 --apply",
         "path": "skill-data/slack",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
+        "stars": 50466,
         "tree_sha256": "c0326012821de932a827a916121d9045c83e2b97df5fff911e70ecb21ec9b3e0",
         "type": "external"
       },
@@ -80156,7 +82373,7 @@
         "interact"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -80168,6 +82385,110 @@
         "verdict": "pass"
       },
       "when": "Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find information, search conversations, or automate any Slack task."
+    },
+    {
+      "allowed_tools": [
+        "Bash(agent-browser:*)",
+        "Bash(npx",
+        "agent-browser:*)",
+        "Bash(vc:*)",
+        "Bash(vercel:*)"
+      ],
+      "bytes": 11408,
+      "copies": 1,
+      "desc": "Access and test Vercel deployments with agent-browser, behind Deployment Protection or at a different feature flag variant. Use when a preview or production URL redirects to a Vercel login page, returns a protection 401 or 403, needs short-lived Trusted Sources OIDC authentication instead of a static bypass secret or public exception, or must be viewed with a Vercel feature flag set to another variant.",
+      "file_count": 1,
+      "files": [
+        "SKILL.md"
+      ],
+      "first_seen": "2026-11-13",
+      "headings": [
+        [
+          2,
+          "Deployment Protection"
+        ],
+        [
+          3,
+          "Same-project preview"
+        ],
+        [
+          3,
+          "Other environments and callers"
+        ],
+        [
+          3,
+          "Human intervention boundaries"
+        ],
+        [
+          3,
+          "Use the correct header"
+        ],
+        [
+          3,
+          "Diagnose failures"
+        ],
+        [
+          3,
+          "Static-secret fallback"
+        ],
+        [
+          2,
+          "Feature flags"
+        ],
+        [
+          2,
+          "Avoid dead ends"
+        ]
+      ],
+      "id": "vercel-labs/agent-browser:vercel",
+      "kind": "skill",
+      "last_seen": "2026-11-13",
+      "license": "Apache-2.0",
+      "license_class": "permissive",
+      "lines": 161,
+      "llm": null,
+      "name": "vercel",
+      "novelty": 0.256,
+      "pack": "mlops-devops",
+      "packs": [],
+      "plugin": null,
+      "rank": 98.56,
+      "references": [],
+      "scripts": [],
+      "source": {
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree a9fe07c23848ea1726bd4d49f309526006bdc32df0fc551bae160f1abcf12113 --apply",
+        "path": "skill-data/vercel",
+        "repo": "vercel-labs/agent-browser",
+        "stars": 50466,
+        "tree_sha256": "a9fe07c23848ea1726bd4d49f309526006bdc32df0fc551bae160f1abcf12113",
+        "type": "external"
+      },
+      "status": "verified",
+      "summary": "Reach a Vercel deployment as the user asked to see it without changing what anyone else sees. Pass protection and flag overrides on this browser's requests; changing project settings or a flag's served variant needs explicit approval.",
+      "tags": [
+        "vercel",
+        "protection",
+        "feature",
+        "flag",
+        "variant",
+        "access",
+        "test",
+        "deployments"
+      ],
+      "vet": {
+        "date": "2026-11-13",
+        "findings": {
+          "critical": 0,
+          "high": 0,
+          "info": 0,
+          "low": 0,
+          "medium": 0
+        },
+        "score": 100,
+        "verdict": "pass"
+      },
+      "when": "Use when a preview or production URL redirects to a Vercel login page, returns a protection 401 or 403, needs short-lived Trusted Sources OIDC authentication instead of a static bypass secret or public exception, or must be viewed with a Vercel feature flag se"
     },
     {
       "allowed_tools": [],
@@ -80235,7 +82556,7 @@
       ],
       "id": "vercel-labs/agent-browser:vercel-sandbox",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 238,
@@ -80248,15 +82569,15 @@
         "security"
       ],
       "plugin": null,
-      "rank": 99.23,
+      "rank": 93.44,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree e1f2cdcbc9ad05b18da061c35d8a530d16b4e9ed437f449a7e1f79d81dc788b6 --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/vercel-sandbox --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree e1f2cdcbc9ad05b18da061c35d8a530d16b4e9ed437f449a7e1f79d81dc788b6 --apply",
         "path": "skill-data/vercel-sandbox",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
+        "stars": 50466,
         "tree_sha256": "e1f2cdcbc9ad05b18da061c35d8a530d16b4e9ed437f449a7e1f79d81dc788b6",
         "type": "external"
       },
@@ -80273,7 +82594,7 @@
         "inside"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -80318,7 +82639,7 @@
       ],
       "id": "vercel-labs/agent-browser:webmcp-gen",
       "kind": "skill",
-      "last_seen": "2026-11-09",
+      "last_seen": "2026-11-13",
       "license": "Apache-2.0",
       "license_class": "permissive",
       "lines": 53,
@@ -80330,15 +82651,15 @@
         "web-frontend-design"
       ],
       "plugin": null,
-      "rank": 88.43,
+      "rank": 82.64,
       "references": [],
       "scripts": [],
       "source": {
-        "commit": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
-        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/webmcp-gen --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b --apply",
+        "commit": "4720bc3dd73f2c8f7c84f415adfa560330b924c4",
+        "install": "python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skill-data/webmcp-gen --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b --apply",
         "path": "skill-data/webmcp-gen",
         "repo": "vercel-labs/agent-browser",
-        "stars": 48100,
+        "stars": 50466,
         "tree_sha256": "c97e93bc35148d0700b2e921dfdbbbf21b5da1b7f099fb9c891f48a053e57a7b",
         "type": "external"
       },
@@ -80355,7 +82676,7 @@
         "web"
       ],
       "vet": {
-        "date": "2026-11-09",
+        "date": "2026-11-13",
         "findings": {
           "critical": 0,
           "high": 0,
@@ -81742,5 +84063,5 @@
       "when": ""
     }
   ],
-  "updated": "2026-11-13T08:52:38Z"
+  "updated": "2026-11-13T09:08:55Z"
 }

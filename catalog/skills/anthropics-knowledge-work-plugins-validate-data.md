@@ -66,7 +66,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:validate-data`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/validate-data --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree f51b13d3a8309f6fe143116fbdbc7785a9413df717acf64c5bea912fa6329486 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/validate-data --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree f51b13d3a8309f6fe143116fbdbc7785a9413df717acf64c5bea912fa6329486 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

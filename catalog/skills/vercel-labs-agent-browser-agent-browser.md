@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) |
 | **License** | Apache-2.0 |
-| **Size** | 51 lines in SKILL.md, 1 file(s) |
+| **Size** | 52 lines in SKILL.md, 1 file(s) |
 
 ## When to use it
 
@@ -48,7 +48,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/vercel-labs/agent-browser:agent-browser`
-- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 4b0e9f01fa8d214d39bbfe5391257640634fb9a0 --expect-tree 5c01929d1da3f9244af4308dc67fff5c225e170857d95f38b5b79fb6a2e57c95 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py vercel-labs/agent-browser --path skills/agent-browser --commit 4720bc3dd73f2c8f7c84f415adfa560330b924c4 --expect-tree 8a36fb27751e4ef081a9b7efb66291f1bf1151966727bb9bc449e491bf137d90 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

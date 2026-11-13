@@ -59,7 +59,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:skill-creator`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path packages/core/src/skills/builtin/skill-creator --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree b196c180b23f9d706b05bf8f98447fb15fdbe2add6b3c05fe0464aaaa5d4cd33 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path packages/core/src/skills/builtin/skill-creator --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree b196c180b23f9d706b05bf8f98447fb15fdbe2add6b3c05fe0464aaaa5d4cd33 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

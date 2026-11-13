@@ -2,7 +2,7 @@
 
 Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, mods.
 
-64 skill(s). Back to the [catalog](../README.md).
+65 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -42,6 +42,7 @@ Building and tuning skills, plugins, MCP servers, hooks, settings, keybindings, 
 | [`anthropics/claude-plugins-official:cardputer-buddy`](../skills/anthropics-claude-plugins-official-cardputer-buddy.md) | Iterate on the Cardputer-Adv MicroPython app bundle (Claude Buddy, Snake, Hello) after the device is already provisioned via m5-onboard. Use when the user wants to add a  | verified |
 | [`anthropics/claude-plugins-official:claude-md-improver`](../skills/anthropics-claude-plugins-official-claude-md-improver.md) | Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix CLAUDE.md files. Scans for all CLAUDE.md files, evaluates q | verified |
 | [`anthropics/claude-plugins-official:command-development`](../skills/anthropics-claude-plugins-official-command-development.md) | This skill should be used when the user asks to "create a slash command", "add a command", "write a custom command", "define command arguments", "use command frontmatter" | verified |
+| [`anthropics/claude-plugins-official:custom-connector`](../skills/anthropics-claude-plugins-official-custom-connector.md) | Gets the plugin talking to a manufacturing system that has no vendor MCP, working down a seven-tier access ladder in order — vendor MCP, community MCP, a scoped API wrapp | verified |
 | [`anthropics/claude-plugins-official:example-skill`](../skills/anthropics-claude-plugins-official-example-skill.md) | This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill template", or discusses skill development patterns. Provides a  | verified |
 | [`anthropics/claude-plugins-official:m5-onboard`](../skills/anthropics-claude-plugins-official-m5-onboard.md) | End-to-end onboarding for a freshly-plugged-in M5Stack ESP32 device (Cardputer, Cardputer-Adv, Core, CoreS3, Stick) — detect on USB, flash UIFlow 2.0 firmware, and instal | verified |
 | [`anthropics/claude-plugins-official:mcp-integration`](../skills/anthropics-claude-plugins-official-mcp-integration.md) | This skill should be used when the user asks to "add MCP server", "integrate MCP", "configure MCP in plugin", "use .mcp.json", "set up Model Context Protocol", "connect e | verified |

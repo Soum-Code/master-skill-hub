@@ -49,7 +49,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:tui-tester`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/tui-tester --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree c12a1ede9b22682943afcfc03497afa00a482c26fd26aeb1415a67b40e80ce2e --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/tui-tester --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree c12a1ede9b22682943afcfc03497afa00a482c26fd26aeb1415a67b40e80ce2e --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

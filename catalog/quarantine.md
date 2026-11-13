@@ -15,7 +15,7 @@ These failed vetting. Findings show rule ids and short excerpts only. Do not ins
 | anthropics/claude-code:Plugin Structure | exfil-sink (SKILL.md:383) | `2eff7a8d21` |
 | anthropics/claude-plugins-official:plugin-structure | exfil-sink (SKILL.md:383) | `0412be76f5` |
 | anthropics/claude-plugins-official:receipts | inj-override (SKILL.md:142); inj-override (scripts/mine-transcripts.mjs:347) | `0412be76f5` |
-| anthropics/knowledge-work-plugins:nextflow-development | exec-remote (scripts/check_environment.py:120) | `e050c2ec85` |
+| anthropics/knowledge-work-plugins:nextflow-development | exec-remote (scripts/check_environment.py:120) | `02717ef044` |
 | anthropics/skills:claude-api | cred-paths (shared/evals/report/build-report-lite.mjs:28); cred-paths (shared/evals/report/runner-scaffold.mjs:112); inj-override (shared/model-migration.md:863) | `2c5958ecac` |
 | career-ops-hq/career-ops:career-ops | no-skill-md (:0); symlink (SKILL.md:0) | `e83160c170` |
 | code-yeongyu/oh-my-openagent:data-scientist | exec-remote (scripts/setup-uv.ps1:28); exec-remote (scripts/setup-uv.sh:39); exec-remote (scripts/setup-uv.sh:41) | `2faeda01ea` |

@@ -2,7 +2,7 @@
 
 Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal workflows.
 
-25 skill(s). Back to the [catalog](../README.md).
+26 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -18,6 +18,7 @@ Tasks, memory, scheduling, recurring jobs, inbox, notes, daily briefs, personal 
 | [`anthropic-skills:import-memory`](../skills/anthropic-skills-import-memory.md) | Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data. | installed |
 | [`anthropic-skills:morning`](../skills/anthropic-skills-morning.md) | Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their m | installed |
 | [`anthropic-skills:schedule`](../skills/anthropic-skills-schedule.md) | Create or update a scheduled task that runs automatically. Use when the user says things like "every day", "each morning", "remind me in an hour", "run this at noon", or  | installed |
+| [`anthropics/claude-plugins-official:morning-plant-pulse`](../skills/anthropics-claude-plugins-official-morning-plant-pulse.md) | Runs the overnight chain that has the morning production report waiting before anyone asks for it: joins last night's planning, production and maintenance exports, flags  | verified |
 | [`anthropics/claude-plugins-official:routines`](../skills/anthropics-claude-plugins-official-routines.md) | Set up recurring champion routines as Claude Code scheduled tasks. Use when a champion wants work like a weekly patterns digest, a stale guidance check, or a monthly lead | verified |
 | [`anthropics/claude-plugins-official:solo`](../skills/anthropics-claude-plugins-official-solo.md) | Work on one hard mathematics problem in this session yourself, with no sub-agents: reason in stages, record each settled step in a notes file so that nothing written is l | verified |
 | [`bm:add-todo`](../skills/bm-add-todo.md) | Capture idea or task as todo from current conversation context | installed |

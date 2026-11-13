@@ -53,7 +53,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:docs-changelog`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/docs-changelog --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 5c895bc92b6a34d778d486f5d7d40f1799ba85b35b4cde7972a44ff56762ec85 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path .gemini/skills/docs-changelog --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 5c895bc92b6a34d778d486f5d7d40f1799ba85b35b4cde7972a44ff56762ec85 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

@@ -54,7 +54,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:accessibility-review`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/accessibility-review --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree ca1845c4991a886854f150a772007be2dd1756ef561d2aa5f6706e9b42cc9e0d --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path design/skills/accessibility-review --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree ca1845c4991a886854f150a772007be2dd1756ef561d2aa5f6706e9b42cc9e0d --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

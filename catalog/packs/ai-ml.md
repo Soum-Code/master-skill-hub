@@ -2,7 +2,7 @@
 
 LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML research.
 
-71 skill(s). Back to the [catalog](../README.md).
+72 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -42,6 +42,7 @@ LLM apps, agents, RAG, prompt and eval work, model APIs, MCP, notebooks, ML rese
 | [`anthropics/claude-code:Agent Development`](../skills/anthropics-claude-code-agent-development.md) | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontmatter", "when to use description", "agent examples", " | verified |
 | [`anthropics/claude-code:claude-opus-4-5-migration`](../skills/anthropics-claude-code-claude-opus-4-5-migration.md) | Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus  | verified |
 | [`anthropics/claude-plugins-official:agent-development`](../skills/anthropics-claude-plugins-official-agent-development.md) | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontmatter", "when to use description", "agent examples", " | verified |
+| [`anthropics/claude-plugins-official:breakdown-diagnosis`](../skills/anthropics-claude-plugins-official-breakdown-diagnosis.md) | When a machine goes down, reads the sensor window before the failure, the asset's maintenance history including the free-text close-out notes technicians actually wrote,  | verified |
 | [`anthropics/claude-plugins-official:build-mcp-app`](../skills/anthropics-claude-plugins-official-build-mcp-app.md) | This skill should be used when the user wants to build an "MCP app", add "interactive UI" or "widgets" to an MCP server, "render components in chat", build "MCP UI resour | verified |
 | [`anthropics/claude-plugins-official:build-mcp-server`](../skills/anthropics-claude-plugins-official-build-mcp-server.md) | This skill should be used when the user asks to "build an MCP server", "create an MCP", "make an MCP integration", "wrap an API for Claude", "expose tools to Claude", "ma | verified |
 | [`anthropics/skills:academy-guide`](../skills/anthropics-skills-academy-guide.md) | Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases  | verified |

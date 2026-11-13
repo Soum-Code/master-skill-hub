@@ -2,7 +2,7 @@
 
 Process design, capacity planning, vendor management, status reports, change management.
 
-23 skill(s). Back to the [catalog](../README.md).
+25 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -19,6 +19,8 @@ Process design, capacity planning, vendor management, status reports, change man
 | [`affaan-m/ECC:orch-change-feature`](../skills/affaan-m-ecc-orch-change-feature.md) | Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit | verified |
 | [`affaan-m/ECC:returns-reverse-logistics`](../skills/affaan-m-ecc-returns-reverse-logistics.md) | Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Informed  | verified |
 | [`affaan-m/ECC:seo`](../skills/affaan-m-ecc-seo.md) | Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants be | verified |
+| [`anthropics/claude-plugins-official:customer-inquiry-intake`](../skills/anthropics-claude-plugins-official-customer-inquiry-intake.md) | Reads a customer RFQ in whatever shape it arrived — a PDF drawing package, a 40-line spreadsheet, a portal export, a phone photo of a marked-up print, or a forwarded thre | verified |
+| [`anthropics/claude-plugins-official:supplier-quote-request`](../skills/anthropics-claude-plugins-official-supplier-quote-request.md) | Builds the RFQ package that goes out to suppliers — drawing and specification at the verified current revision, the demand picture, the quality clause list, commercial te | verified |
 | [`anthropics/knowledge-work-plugins:draft-response`](../skills/anthropics-knowledge-work-plugins-draft-response.md) | Draft a professional customer-facing response tailored to the situation and relationship. Use when answering a product question, responding to an escalation or outage, de | verified |
 | [`finance:close-management`](../skills/finance-close-management.md) | Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blo | installed |
 | [`microsoft/skills:aks-cost-optimization`](../skills/microsoft-skills-aks-cost-optimization.md) | Analyze advanced AKS cost efficiency. WHEN: "AKS NAP readiness", "AKS bin packing", "AKS node scaling bottleneck", "AKS blocked scale-down", "AKS storage cost". DO NOT US | verified |

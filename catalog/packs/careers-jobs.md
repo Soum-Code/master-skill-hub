@@ -2,7 +2,7 @@
 
 Resumes, CVs, cover letters, LinkedIn, interview prep, portfolios, job search, networking.
 
-15 skill(s). Back to the [catalog](../README.md).
+17 skill(s). Back to the [catalog](../README.md).
 
 | Skill | What it does | Status |
 |---|---|---|
@@ -16,6 +16,8 @@ Resumes, CVs, cover letters, LinkedIn, interview prep, portfolios, job search, n
 | [`affaan-m/ECC:network-interface-health`](../skills/affaan-m-ecc-network-interface-health.md) | Diagnose interface errors, drops, CRCs, duplex mismatches, flapping, speed negotiation issues, and counter trends on routers, switches, and Linux hosts. Use when an inter | verified |
 | [`affaan-m/ECC:rails-patterns`](../skills/affaan-m-ecc-rails-patterns.md) | Ruby on Rails framework patterns for Rails 7.1+ and 8.x apps. Covers the directory contract, skinny controllers with service objects, form objects, query objects, idiomat | verified |
 | [`affaan-m/ECC:social-graph-ranker`](../skills/affaan-m-ecc-social-graph-ranker.md) | Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking | verified |
+| [`anthropics/claude-plugins-official:quote-build`](../skills/anthropics-claude-plugins-official-quote-build.md) | Produces the make-to-order quote from the intake form, comparable prior jobs and cost history, with every number traced to where it came from — material at the price actu | verified |
+| [`anthropics/claude-plugins-official:root-cause-capa`](../skills/anthropics-claude-plugins-official-root-cause-capa.md) | Reads sensor history, inspection measurements, maintenance records and prior tickets onto one verified timeline, runs the pattern checks in code rather than by eye — SPC  | verified |
 | [`linkedin-humanizer`](../skills/linkedin-humanizer.md) | Remove the AI tells human readers and LinkedIn's AI-slop filter react to in a post or comment: 2026 vocabulary by paragraph density, reveal bridges, staccato fragments, s | installed |
 | [`linkedin-profile-optimizer`](../skills/linkedin-profile-optimizer.md) | Audit and rewrite a LinkedIn profile end-to-end for 2026: headline, About 7-step, Featured, banner, photo, Experience metrics, Skills, custom URL, recommendations. Trigge | installed |
 | [`microsoft/skills:aks-network-capture`](../skills/microsoft-skills-aks-network-capture.md) | Collects bounded packet captures from AKS nodes and Azure network configuration for wire-level evidence. WHEN: "capture packets on an AKS node", "take a pcap", "run tcpdu | verified |

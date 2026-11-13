@@ -48,7 +48,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/google-gemini/gemini-cli:memory`
-- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/memory --commit 62bab5b232c15b925d31e655ce844ab939c882b7 --expect-tree 5e85adaa580b157c298b47854545ac4fed5b2c11eaacb9ac8242f7c7d5460e75 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py google-gemini/gemini-cli --path tools/gemini-cli-bot/.gemini/skills/memory --commit b9776560ea5710bc673891499aaec68c737d160a --expect-tree 5e85adaa580b157c298b47854545ac4fed5b2c11eaacb9ac8242f7c7d5460e75 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._

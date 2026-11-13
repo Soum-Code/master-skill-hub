@@ -51,7 +51,7 @@ The skill's own section headings, in order:
 ## Invoke / install
 
 - Invoke: `/anthropics/knowledge-work-plugins:analyze`
-- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/analyze --commit e050c2ec856373787143d7057663a6ebd1277df3 --expect-tree ff2102bc4de1f2c1a9fab50cb530f8487860f0b0060bb9ef2d752725f5c1b987 --apply`
+- Install: `python skills/skill-vetter/scripts/install.py anthropics/knowledge-work-plugins --path data/skills/analyze --commit 02717ef04446b6ef5aa4b8af15bb536d79f42ed0 --expect-tree ff2102bc4de1f2c1a9fab50cb530f8487860f0b0060bb9ef2d752725f5c1b987 --apply`
 
 ---
 _Generated from the skill's own metadata by [master-skill-hub](https://github.com/Soum-Code/master-skill-hub). Nothing here is hand-written opinion._
