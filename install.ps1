@@ -21,6 +21,10 @@ foreach ($s in "master-skill", "skill-vetter", "job-search-copilot", "ml-intervi
   Get-ChildItem $target -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force
   Write-Host "installed $s -> $target"
 }
+$agents = Join-Path (Split-Path $Dest -Parent) "agents"
+New-Item -ItemType Directory -Force -Path $agents | Out-Null
+Copy-Item (Join-Path $here "agents\skill-architect.md") (Join-Path $agents "skill-architect.md") -Force
+Write-Host "installed agent skill-architect"
 $pf = Join-Path $Hub "profile.txt"
 if (-not (Test-Path $pf)) {
   Set-Content -Path $pf -Value $Profile

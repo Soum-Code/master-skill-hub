@@ -71,6 +71,11 @@ def cmd_sync_local(ns) -> int:
     return synclocal.run(ns)
 
 
+def cmd_revoke(ns) -> int:
+    from . import revoke
+    return revoke.run(ns)
+
+
 def cmd_install(ns) -> int:
     from . import install
     return install.run(ns)
@@ -113,6 +118,11 @@ def main(argv: list[str] | None = None) -> int:
     i = sub.add_parser("install")
     i.add_argument("id")
     i.add_argument("--apply", action="store_true", help="actually copy files (default: dry run)")
+    i.add_argument("--allow-scripts", action="store_true", help="allow skills that ship executable scripts")
+    rv = sub.add_parser("revoke", help="pull a skill from the router and warn everyone who has it installed")
+    rv.add_argument("id")
+    rv.add_argument("--reason", required=True)
+    rv.set_defaults(fn=cmd_revoke)
     i.add_argument("--dest", default="", help="override destination (default ~/.claude/skills)")
     i.set_defaults(fn=cmd_install)
     ns = ap.parse_args(argv)

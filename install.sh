@@ -17,6 +17,7 @@ for s in master-skill skill-vetter job-search-copilot ml-interview-prep; do
   find "$dest/$s" -name __pycache__ -type d -prune -exec rm -rf {} +
   echo "installed $s -> $dest/$s"
 done
+mkdir -p "$(dirname "$dest")/agents" && cp "$here/agents/skill-architect.md" "$(dirname "$dest")/agents/skill-architect.md" && echo "installed agent skill-architect"
 if [ ! -f "$hub/profile.txt" ]; then
   echo "${SKILL_HUB_PROFILE:-general}" > "$hub/profile.txt"
   echo "profile set to $(cat "$hub/profile.txt"). Options: ai-engineer software-developer data-scientist job-seeker designer product-manager founder-operator finance-legal general"

@@ -71,7 +71,7 @@ def build_slim(skills: list[dict], packs: dict, profiles: dict, chains: list[dic
             "id": s["id"], "name": s["name"], "kind": s.get("kind", "skill"),
             "desc": clean(s.get("desc", ""), 400), "when": clean(s.get("when", ""), 260),
             "pack": s.get("pack", "general"), "packs": s.get("packs", []), "tags": s.get("tags", []),
-            "status": s["status"],
+            "status": s["status"], "risk": "scripts" if s.get("scripts") else "instructions",
             "source": {k: src[k] for k in ("type", "plugin", "repo", "install") if src.get(k)},
         })
     return {
@@ -82,5 +82,7 @@ def build_slim(skills: list[dict], packs: dict, profiles: dict, chains: list[dic
                   for k, v in packs.items()},
         "profiles": profiles,
         "chains": chains,
+        "revoked": [{"id": s["id"], "name": s["name"], "reason": clean(s.get("revoked_reason", ""), 200)}
+                    for s in skills if s.get("status") == "revoked"],
         "skills": out,
     }

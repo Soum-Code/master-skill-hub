@@ -277,8 +277,14 @@ def run(ns) -> int:
                         "vet": {"verdict": rep["verdict"], "score": rep["score"], "date": today(), "findings": rep["counts"]},
                         "llm": llm_out, "novelty": nov, "rank": rk, "copies": item["copies"]})
             old = by_id.get(sid)
+            if old and old.get("status") == "revoked":
+                continue  # a revocation is permanent until the owner reverses it by hand
             if status == "verified":
                 if old and old.get("status") == "verified" and (old.get("source") or {}).get("commit") == sha:
+                    continue
+                if old and old.get("status") == "verified" and rec.get("scripts"):
+                    old["update_available"] = {"commit": sha, "verdict": rep["verdict"], "reason": "ships scripts: re-approve with promote"}
+                    updates.append(f"{sid}: upstream moved to {sha[:8]}, clean, but ships scripts; pinned version kept until you re-approve")
                     continue
                 if old and old.get("status") == "verified":
                     updates.append(f"{sid}: {old['source']['commit'][:8]} -> {sha[:8]} (clean, trusted; re-pinned)")

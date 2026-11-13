@@ -19,6 +19,9 @@
         "./skills/skill-vetter",
         "./skills/job-search-copilot",
         "./skills/ml-interview-prep"
+      ],
+      "agents": [
+        "./agents/skill-architect.md"
       ]
     }
   ]

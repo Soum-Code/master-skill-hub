@@ -436,7 +436,7 @@ def route(query: str, reg: dict, *, profile: str = "general", pack: str | None =
         results.append({
             "id": s.get("id"), "name": s.get("name"), "pack": s.get("pack"), "score": round(sc, 2),
             "coverage": round(cov, 2), "match": strength, "installed": bool(s.get("installed")),
-            "status": s.get("status"), "desc": clean(s.get("desc", ""), 220),
+            "status": s.get("status"), "risk": s.get("risk", "instructions"), "desc": clean(s.get("desc", ""), 220),
             "install": (s.get("source") or {}).get("install", ""),
         })
     gap = not results or results[0]["match"] == "weak"
@@ -445,7 +445,10 @@ def route(query: str, reg: dict, *, profile: str = "general", pack: str | None =
     else:
         results = [r for r in results if r["match"] != "weak"]
     local_new = [s["id"] for s in skills if s.get("local_only")]
-    return {"query": query, "profile": profile, "results": results, "gap": gap, "local_new": local_new, "query_packs": sorted(qpacks, key=lambda k: -qpacks[k])[:3],
+    revoked_by_name = {x["name"]: x["reason"] for x in reg.get("revoked", [])}
+    revoked_here = sorted({f"{s['name']} ({revoked_by_name[s['name']]})" for s in skills
+                           if s.get("installed") and s["name"] in revoked_by_name})
+    return {"query": query, "profile": profile, "results": results, "gap": gap, "local_new": local_new, "revoked_here": revoked_here, "query_packs": sorted(qpacks, key=lambda k: -qpacks[k])[:3],
             "chains": match_chains(reg.get("chains", []), {t for t, _ in q}), "skills_considered": len(skills)}
 
 
@@ -469,12 +472,15 @@ def render(out: dict, reg: dict, source: str) -> str:
         lines.append("Closest matches (all weak):")
     for n, r in enumerate(out["results"], 1):
         tag = "installed here" if r["installed"] else ("not installed here; verified in hub" if r["status"] == "verified" else "not installed here")
-        lines.append(f"{n}. {r['id']}  [{tag}]  pack={r['pack']}  match={r['match']}  score={r['score']}")
+        warn = "  [RUNS SCRIPTS]" if r.get("risk") == "scripts" and not r["installed"] else ""
+        lines.append(f"{n}. {r['id']}  [{tag}]{warn}  pack={r['pack']}  match={r['match']}  score={r['score']}")
         lines.append(f"   {r['desc']}")
         if r["installed"]:
             lines.append(f"   invoke: Skill(\"{r['id']}\")")
         elif r["install"]:
             lines.append(f"   install: {r['install']}   (vet first: python ../../skill-vetter/scripts/vet.py <dir>)")
+    for rv in out.get("revoked_here", []):
+        lines.append("SECURITY WARNING: installed skill was REVOKED by the hub: " + rv + ". Remove it and tell the user.")
     if out.get("local_new"):
         lines.append("NOTE: skills on this machine that the hub does not list yet: " + ", ".join(out["local_new"][:6])
                      + ". Ask the user before publishing them (python -m skillhub sync-local --add <ids>).")
@@ -503,6 +509,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--no-local", action="store_true", help="ignore skills installed on this machine")
     ap.add_argument("--installed-only", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="download the latest registry")
+    ap.add_argument("--list-installed", action="store_true", help="print every skill installed on this machine, by pack")
     ap.add_argument("--list-packs", action="store_true")
     ap.add_argument("--list-profiles", action="store_true")
     ns = ap.parse_args(argv)
@@ -517,6 +524,14 @@ def main(argv: list[str] | None = None) -> int:
             print(msg, file=sys.stderr)
 
     reg, source = pick_registry(ns.registry)
+    if ns.list_installed:
+        merged = [x for x in merge_local(reg.get("skills", []), local_skills(), reg.get("packs", {})) if x.get("installed")]
+        by = {}
+        for x in merged:
+            by.setdefault(x.get("pack", "general"), []).append(x["id"])
+        for pid in sorted(by):
+            print(f"{pid} ({len(by[pid])}): " + ", ".join(sorted(by[pid])))
+        return 0
     if ns.list_packs:
         counts: dict[str, int] = {}
         for s in reg.get("skills", []):

@@ -62,3 +62,17 @@ def test_sync_local_lists_without_writing(monkeypatch, capsys):
     before = R.SKILLS_JSON.read_bytes()
     synclocal.run(type("N", (), {"add": "", "push": False})())
     assert R.SKILLS_JSON.read_bytes() == before
+
+
+def test_revoked_skill_leaves_router_and_warns_installed_copy(tmp_path):
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("r", ROOT / "skills" / "master-skill" / "scripts" / "route.py")
+    route = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(route)
+    reg = {"packs": {}, "profiles": {}, "chains": [], "revoked": [{"id": "o/r:evil", "name": "evil", "reason": "stole tokens"}],
+           "skills": [{"id": "good", "name": "good", "desc": "does good things", "pack": "g", "packs": [], "tags": [], "status": "verified"}]}
+    local = [{"id": "evil", "name": "evil", "desc": "x", "plugin": None, "source": {"type": "local"}, "status": "installed", "kind": "skill"}]
+    route.local_skills = lambda: local
+    out = route.route("does good things", reg, use_local=True)
+    assert out["revoked_here"] == ["evil (stole tokens)"]
+    assert "SECURITY WARNING" in route.render(out, reg, "t")

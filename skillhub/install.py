@@ -17,6 +17,6 @@ def run(ns) -> int:
         print(f"'{ns.id}' is {src.get('type')}: {src.get('install') or 'install it with its own plugin/marketplace'}")
         return 0
     res = installer.install(src["repo"], src["path"], src["commit"], src["tree_sha256"],
-                            Path(ns.dest) if ns.dest else None, ns.apply, accept_review=(rec.get("vet") or {}).get("verdict") == "review")
+                            Path(ns.dest) if ns.dest else None, ns.apply, accept_review=(rec.get("vet") or {}).get("verdict") == "review", allow_scripts=ns.allow_scripts)
     print({k: v for k, v in res.items() if k != "findings"})
     return 0

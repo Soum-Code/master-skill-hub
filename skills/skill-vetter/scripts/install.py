@@ -196,7 +196,7 @@ def default_dest() -> Path:
 
 
 def install(repo: str, path: str, sha: str, expect_tree: str | None = None, dest: Path | None = None,
-            apply: bool = False, accept_review: bool = False) -> dict:
+            apply: bool = False, accept_review: bool = False, allow_scripts: bool = False) -> dict:
     dest = (dest or default_dest()).resolve()
     dirs = fetch_skill_dirs(repo, sha)
     entry = dirs.get(path or ".")
@@ -211,6 +211,12 @@ def install(repo: str, path: str, sha: str, expect_tree: str | None = None, dest
                          "The upstream content differs from what was vetted.")
     if rep["verdict"] == "fail":
         raise SystemExit("ABORT: vetting FAILED; refusing to install. Run vet.py for details.")
+    scripts = sorted(p for p in entry["files"] if os.path.splitext(p.lower())[1] in vet.CODE_EXT)
+    result["scripts"] = scripts
+    if scripts and not allow_scripts:
+        result["note"] = (f"this skill ships {len(scripts)} executable script(s) {scripts[:5]}; they run with your permissions. "
+                          "Read them, then re-run with --allow-scripts")
+        return result
     if rep["verdict"] == "review" and not accept_review:
         result["note"] = "verdict REVIEW: read the findings, then re-run with --accept-review to proceed"
         return result
@@ -256,6 +262,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--dest", default="", help="skills directory (default ~/.claude/skills)")
     ap.add_argument("--apply", action="store_true", help="write files (default is a dry run)")
     ap.add_argument("--accept-review", action="store_true", help="allow a REVIEW verdict")
+    ap.add_argument("--allow-scripts", action="store_true", help="allow skills that ship executable scripts (read them first)")
     ap.add_argument("--list", action="store_true", help="list skill folders at the commit")
     ns = ap.parse_args(argv)
     sha = ns.commit or commit_sha(ns.repo)
@@ -268,7 +275,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if not ns.path:
         ap.error("--path is required (use --list to see choices)")
-    res = install(ns.repo, ns.path, sha, ns.expect_tree or None, Path(ns.dest) if ns.dest else None, ns.apply, ns.accept_review)
+    res = install(ns.repo, ns.path, sha, ns.expect_tree or None, Path(ns.dest) if ns.dest else None, ns.apply, ns.accept_review, ns.allow_scripts)
     print(json.dumps({k: v for k, v in res.items() if k != "findings"}, indent=2))
     for f in res["findings"]:
         if f["severity"] in ("medium", "high", "critical"):

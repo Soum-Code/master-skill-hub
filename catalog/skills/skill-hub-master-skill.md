@@ -10,7 +10,7 @@
 | **Status** | verified (vetted at pinned commit) |
 | **Origin** | plugin `skill-hub` - [Soum-Code/master-skill-hub](https://github.com/Soum-Code/master-skill-hub) |
 | **License** | MIT |
-| **Size** | 54 lines in SKILL.md, 25 file(s) |
+| **Size** | 54 lines in SKILL.md, 26 file(s) |
 
 ## When to use it
 
@@ -32,7 +32,7 @@ The skill's own section headings, in order:
 
 ## What it bundles
 
-- scripts: `scripts/route.py`
+- scripts: `scripts/project_scan.py`, `scripts/route.py`
 - reference docs: `references/chains.md`, `references/index.md`, `references/packs/ai-ml.md`, `references/packs/browser-automation.md`, `references/packs/careers-jobs.md`, `references/packs/communication-collab.md`, `references/packs/creative-media.md`, `references/packs/data-analytics.md` ...
 - 3 other file(s)
 

@@ -7,7 +7,7 @@ One skill that picks the right skill. It knows 200+ skills grouped by industry a
 Works in **Claude Code** (global, all projects) and **claude.ai** (upload a zip).
 
 <!-- STATS:START -->
-**723 skills** in 20 packs - 400 candidates awaiting approval - 49 quarantined. Registry updated 2026-11-09.
+**723 skills** in 20 packs - 400 candidates awaiting approval - 49 quarantined. Registry updated 2026-11-13.
 
 | Pack | Skills |
 |---|---|
@@ -99,6 +99,14 @@ Monday 03:17 UTC (GitHub Actions cron, PC can be off)
 ```
 
 Anything you see anywhere (a reel, a post, a newsletter): open a **Submit a skill** issue with the link. Missing something? Open a **Request a skill** issue and the next run searches for it.
+
+## Safety in one minute
+
+Skills can run code with your permissions, so the hub is built defensively: it stores **no third-party code**, scans every skill at an exact commit, installs only pinned and hash-checked versions, **refuses skills that ship scripts unless you add `--allow-scripts`**, never silently updates script-bearing skills, and has a **revoke** kill switch that warns people who already installed something bad. Full list: [SECURITY.md](SECURITY.md). It is still your machine: read what you install.
+
+## The master agent
+
+`skill-architect` is a Claude Code agent that scans your project read-only, lists the skills you already have, and returns a plan: use now, install (with your OK), or no skill needed. Install it with the plugin or `./install.sh`, then ask Claude: *"use skill-architect for this project"*.
 
 ## Trust model, in plain words
 

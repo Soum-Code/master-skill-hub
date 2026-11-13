@@ -177,3 +177,15 @@ def test_real_obfuscated_execs_fail():
                  'echo aGk= | base64 -d | sh\n'):
         rep = vet.vet_blobs(skill(scripts__a_dot_js=code), dirname="demo-skill")
         assert rep["verdict"] == "fail" and "exec-obfuscated" in rules(rep), code
+
+
+def test_installer_refuses_scripts_without_flag(monkeypatch, tmp_path):
+    spec = importlib.util.spec_from_file_location("inst", ROOT / "skills" / "skill-vetter" / "scripts" / "install.py")
+    inst = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(inst)
+    entry = {"files": skill(scripts__a_dot_py="print(1)\n"), "symlinks": []}
+    monkeypatch.setattr(inst, "fetch_skill_dirs", lambda r, s: {"x": entry})
+    res = inst.install("o/r", "x", "a" * 40, dest=tmp_path, apply=True)
+    assert res["installed_to"] is None and "--allow-scripts" in res["note"]
+    res = inst.install("o/r", "x", "a" * 40, dest=tmp_path, apply=True, allow_scripts=True)
+    assert res["installed_to"] and (tmp_path / "demo-skill" / "scripts" / "a.py").exists()
